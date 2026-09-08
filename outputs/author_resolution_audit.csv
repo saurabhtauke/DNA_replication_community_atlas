@@ -1,0 +1,104 @@
+confidence_score,expected_institution,matched,matched_institutions,openalex_id,person
+15.99,Crick,John F.X. Diffley,The Francis Crick Institute,A5029333589,John F. X. Diffley
+20.0,Rockefeller,Mike O’Donnell,Howard Hughes Medical Institute; Rockefeller University,A5051770888,Michael O'Donnell
+16.13,Cold Spring Harbor,Bruce Stillman,Cold Spring Harbor Laboratory,A5071437258,Bruce Stillman
+9.98,MIT,Stephen P. Bell,Howard Hughes Medical Institute; Massachusetts Institute of Technology,A5023161002,Stephen P. Bell
+15.95,Harvard,Johannes C. Walter,Howard Hughes Medical Institute; Harvard University; Boston VA Research Institute,A5080203458,Johannes C. Walter
+15.82,Dundee,Karim Labib,University of Dundee,A5073735040,Karim Labib
+15.71,Crick,Alessandro Costa,The Francis Crick Institute,A5082896494,Alessandro Costa
+16.01,Vanderbilt,David Cortez,Vanderbilt University,A5100675679,David Cortez
+15.98,Johns Hopkins,James M. Berger,Johns Hopkins University; Johns Hopkins Medicine; Sidney Kimmel Comprehensive Cancer Center,A5039868655,James M. Berger
+16.04,San Diego Biomedical,David M. Gilbert,San Diego Biomedical Research Institute,A5020541064,David M. Gilbert
+7.96,Dundee,J. Julian Blow,University of East Anglia; University of Dundee; Norwich Research Park,A5017566265,Julian J. Blow
+9.82,Copenhagen,Anja Groth,,A5076432360,Anja Groth
+16.02,Geneva,Thanos D. Halazonetis,University of Geneva; University of Bern; University Hospital of Bern,A5019478811,Thanos D. Halazonetis
+16.07,Lunenfeld,Daniel Durocher,Mount Sinai Hospital; University of Toronto; Lunenfeld-Tanenbaum Research Institute; Sinai Health System,A5064296240,Daniel Durocher
+1.99,CNIO,Óscar Fernández-Capetillo,Science for Life Laboratory; Instituto de Salud Carlos III; Karolinska Institutet; Biomedical Research Networking Center on Neurodegenerative Diseases; Spanish National Cancer Research Centre,A5010644833,Oscar Fernandez-Capetillo
+15.9,Zurich,Massimo Lopes,University of Zurich,A5019206750,Massimo Lopes
+15.79,IFOM,Dana Branzei,Ruhrlandklinik; IFOM; University of Duisburg-Essen,A5040416077,Dana Branzei
+15.9,Sloan Kettering,Xiaolan Zhao,South China Agricultural University; Jiangxi University of Traditional Chinese Medicine; Memorial Sloan Kettering Cancer Center; Army Medical University; Kettering University; First Affiliated Hospital of Jiangxi Medical College; Zhangzhou Municipal Hospital of Fujian Province; Southwest Hospital,A5033457775,Xiaolan Zhao
+16.02,Massachusetts General,Lee Zou,Harvard University; Duke University; Massachusetts General Hospital; Duke Medical Center; Global Cancer Institute; Center for Cancer Research,A5026961383,Lee Zou
+15.52,Max Planck,Karl E. Duderstadt,Max Planck Institute of Psychiatry; Max Planck Institute of Biochemistry; Technical University of Munich,A5036678986,Karl E. Duderstadt
+15.85,Delft,Nynke H. Dekker,Science Oxford; Delft University of Technology,A5066937642,Nynke H. Dekker
+15.65,Rockefeller,Shixin Liu,Trinity College; Trinity College Dublin; Advanced Materials and BioEngineering Research; Rockefeller University,A5017517029,Shixin Liu
+15.51,Crick,Hasan Yardimci,Dokuz Eylül University; The Francis Crick Institute,A5044275356,Hasan Yardimci
+15.93,Wollongong,Antoine M. van Oijen,The University of Sydney; University of Wollongong,A5075591359,Antoine M. van Oijen
+15.86,Columbia,Eric C. Greene,Columbia University Irving Medical Center,A5041677019,Eric C. Greene
+15.68,Iowa,Maria Spies,University of Iowa,A5048385334,Maria Spies
+20.0,Sloan Kettering,Kenneth J. Marians,Memorial Sloan Kettering Cancer Center,A5068066930,Kenneth J. Marians
+2.06,UMass,Nick Rhind,University of Massachusetts Chan Medical School; NHS Grampian,A5004708181,Nicholas Rhind
+9.66,Earlham,Conrad A. Nieduszynski,,A5034889937,Conrad A. Nieduszynski
+15.85,Montpellier,Philippe Pasero,Centre National de la Recherche Scientifique; Université de Montpellier; Institut de Génétique Moléculaire de Montpellier; Institut de Génétique Humaine,A5020478312,Philippe Pasero
+6.76,Montpellier,Étienne Schwob,,A5057900408,Etienne Schwob
+15.6,Montpellier,Domenico Maiorano,Centre National de la Recherche Scientifique; Université de Montpellier; Institut de Génétique Moléculaire de Montpellier; Institut de Génétique Humaine,A5017346800,Domenico Maiorano
+1.8,CNIO,Juan Méndez,Spanish National Cancer Research Centre; Institute for Social Security and Services for State Workers,A5046187780,Juan Mendez
+15.67,Imperial,Christian Speck,Hammersmith Hospital; NIHR Imperial Biomedical Research Centre; MRC London Institute of Medical Sciences; Imperial College London,A5026134956,Christian Speck
+15.79,Cambridge,Luca Pellegrini,University of Cambridge,A5069207835,Luca Pellegrini
+15.59,Birmingham,Agnieszka Gambus,Cancer Research UK; Cancer Research UK Manchester Institute; University of Birmingham,A5063537122,Agnieszka Gambus
+15.82,Oxford,Madalena Tarsounas,University of Oxford,A5089197662,Madalena Tarsounas
+15.91,Toronto,Grant W. Brown,University of Toronto; East Carolina University; Canada Research Chairs,A5069152548,Grant W. Brown
+16.05,Columbia,Rodney Rothstein,Columbia University Irving Medical Center,A5028622476,Rodney Rothstein
+16.08,Lausanne,Susan M. Gasser,University of Lausanne,A5082924650,Susan M. Gasser
+15.41,National Institute of Genetics,Hiroyuki Araki,National Institute of Genetics,A5003596342,Hiroyuki Araki
+20.0,Tokyo Metropolitan,Hisao Masai,Tokyo Metropolitan Institute of Medical Science,A5082081122,Hideo Masai
+16.02,Tokyo,Katsuhiko Shirahige,Karolinska Institutet; Quantitative BioSciences; The University of Tokyo,A5065556470,Katsuhiko Shirahige
+20.0,Columbia,Zhiguo Zhang,,A5100363356,Zhiguo Zhang
+7.98,Washington University,Peter Burgers,Washington University in St. Louis,A5071638186,Peter M. Burgers
+15.84,Iowa,Marc S. Wold,University of Iowa,A5107498994,Marc S. Wold
+7.82,Duke,L.S. Beese,Duke Medical Center,A5064929293,Lorena S. Beese
+15.72,King Abdullah,Samir M. Hamdan,Pohang University of Science and Technology; King Abdullah University of Science and Technology,A5073290089,Samir M. Hamdan
+15.74,Cornell,Marcus B. Smolka,Cornell University; Pediatrics and Genetics,A5025725461,Marcus B. Smolka
+15.51,New York University,Duncan J. Smith,New York University,A5025846831,Duncan J. Smith
+15.74,Shenzhen,Xingzhi Xu,Twitter (United States); Northwest Institute of Eco-Environment and Resources; Shenzhen University Health Science Center; Tongji Hospital; University of Chinese Academy of Sciences; Huazhong University of Science and Technology,A5066312807,Xingzhi Xu
+15.4,Wollongong,Jacob S. Lewis,University of Wollongong; The Francis Crick Institute,A5073253236,Jacob S. Lewis
+20.0,Wollongong,Lisanne M. Spenkelink,University of Wollongong,A5039468934,Lisanne Spenkelink
+20.0,MRC Laboratory of Molecular Biology,Joseph T.P. Yeeles,MRC Laboratory of Molecular Biology,A5089523004,Joseph T. P. Yeeles
+20.0,Edinburgh,Tom Deegan,Institute of Genetics and Cancer; University of Edinburgh,A5079736311,Tom Deegan
+20.0,Bayreuth,Christoph F. Kurat,Bayreuth Medical Center; University of Bayreuth; Ludwig-Maximilians-Universität München,A5022849727,Christoph F. Kurat
+20.0,Copenhagen,Niels Mailand,Novo Nordisk Foundation; Danish Cancer Society,A5063679562,Niels Mailand
+15.81,Copenhagen,Claus Storgaard Sørensen,University of Copenhagen,A5031321141,Claus Storgaard Sørensen
+16.06,Copenhagen,Ian D. Hickson,University of Copenhagen,A5085921889,Ian D. Hickson
+15.68,Hubrecht,Puck Knipscheer,Oncode Institute; Hubrecht Institute for Developmental Biology and Stem Cell Research,A5081193364,Puck Knipscheer
+7.64,Institut Curie,Sarah Lambert,"Centre National de la Recherche Scientifique; Inserm; Université Paris Sciences et Lettres; Université Paris-Saclay; Intégrité du génome, ARN et cancer; Institut Curie",A5005900340,Sarah A. E. Lambert
+15.95,IFOM,Marco Foiani,"National University of Singapore; University of Milan; National University Cancer Institute, Singapore; IFOM; Istituto di Genetica Molecolare",A5035404530,Marco Foiani
+15.74,Milan,Marco Muzi-Falconi,University of Milan,A5079441394,Marco Muzi-Falconi
+10.01,Seville,Andrés Aguilera,Centro Andaluz de Biología Molecular y Medicina Regenerativa; Universidad de Sevilla,A5043281613,Andrés Aguilera
+15.7,Montpellier,Angelos Constantinou,Centre National de la Recherche Scientifique; Université de Montpellier; Institut de Génétique Humaine,A5070804836,Angelos Constantinou
+20.0,Oxford,Wojciech Niedźwiedź,Institute of Cancer Research; Cancer Research UK; London Cancer; Institute of Cancer Research; CRUK Lung Cancer Centre of Excellence,A5007992721,Wojciech Niedzwiedz
+16.01,Crick,Simon J. Boulton,The Francis Crick Institute; Acacia Pharma (United Kingdom); Redx Pharma (United Kingdom); Universidad de Estudios Profesionales de Ciencias y Artes,A5091323966,Simon J. Boulton
+16.08,Crick,Stephen C. West,The Francis Crick Institute,A5054117046,Stephen C. West
+15.7,Cancer Research,Jessica A. Downs,Institute of Cancer Research; Cancer Research UK,A5007478113,Jessica A. Downs
+20.0,Cambridge,Stephen P. Jackson,University of Cambridge; Cancer Research UK; The Gurdon Institute; Cancer Research UK Cambridge Center,A5061795154,Steve P. Jackson
+15.96,Sussex,Keith W. Caldecott,University of Sussex,A5058322347,Keith W. Caldecott
+15.57,Oxford,Fumiko Esashi,University of Oxford,A5003311334,Fumiko Esashi
+15.65,Oxford,Matthew C. Whitby,University of Oxford,A5069254757,Matthew C. Whitby
+15.69,York,Peter McGlynn,Ollscoil na Gaillimhe – University of Galway; University of Aberdeen; University of York,A5035913037,Peter McGlynn
+15.57,Newcastle,Heath Murray,Newcastle University,A5062912249,Heath Murray
+15.64,Oxford,Stephan Uphoff,University of Oxford; Science Oxford,A5044137887,Stephan Uphoff
+15.71,Imperial,David Rueda,NIHR Imperial Biomedical Research Centre; MRC London Institute of Medical Sciences; Imperial College London,A5066163621,David Rueda
+16.0,California Davis,Stephen C. Kowalczykowski,"University of California, Davis",A5032365839,Stephen C. Kowalczykowski
+15.8,Duke,Sue Jinks-Robertson,Duke University; Duke Medical Center,A5006009524,Sue Jinks-Robertson
+15.93,Columbia,Lorraine S. Symington,Columbia University Irving Medical Center,A5056679981,Lorraine S. Symington
+16.22,Brandeis,James E. Haber,Brandeis University,A5048113506,James E. Haber
+10.14,California San Diego,Richard D. Kolodner,,A5081915207,Richard D. Kolodner
+15.93,Duke,Thomas D. Petes,Duke University,A5087254791,Thomas D. Petes
+10.14,MIT,Graham C. Walker,AbbVie (United States),A5112719442,Graham C. Walker
+15.84,Brandeis,Susan T. Lovett,Brandeis University,A5055450661,Susan T. Lovett
+15.61,Vanderbilt,Houra Merrikh,Vanderbilt University,A5035459459,Houra Merrikh
+15.71,Washington University,Alessandro Vindigni,Centre National de la Recherche Scientifique; Université de Montpellier; Washington University in St. Louis; Cancer Research Center; Institut de Génétique Humaine,A5102904208,Alessandro Vindigni
+16.11,Sloan Kettering,Maria Jasin,Memorial Sloan Kettering Cancer Center,A5089227056,Maria Jasin
+16.17,Rockefeller,Titia de Lange,Rockefeller University,A5065113600,Titia de Lange
+15.79,Sloan Kettering,Agnel Sfeir,Memorial Sloan Kettering Cancer Center; Kettering University,A5053124609,Agnel Sfeir
+15.93,Pennsylvania,Roger A. Greenberg,Penn Center for AIDS Research; University of Pennsylvania,A5076392308,Roger A. Greenberg
+15.86,Columbia,Alberto Ciccia,Columbia University Irving Medical Center; Cancer Genetics (United States); Columbia University,A5024098581,Alberto Ciccia
+16.35,Harvard,Stephen J. Elledge,Brigham and Women's Hospital; Howard Hughes Medical Institute; Harvard University; Critical Path Institute; Center for Human Genetics; Department of Virology,A5025914907,Stephen J. Elledge
+9.73,Hong Kong University of Science and Technology,Bik‐Kwoon Tye,Cornell University; Pediatrics and Genetics,A5055181732,Bik-Kwoon Tye
+15.44,Hong Kong University of Science and Technology,Yuanliang Zhai,Hong Kong University of Science and Technology; University of Hong Kong,A5088620790,Yuanliang Zhai
+20.0,Van Andel,Huilin Li,Van Andel Institute; Sun Yat-sen University; Jilin University; Henan Psychiatric Hospital; Xinxiang Central Hospital; Henan Medical University,A5100330148,Huilin Li
+7.59,Kyushu,Tatsuro Takahashi,Kyushu University,A5043664303,Tatsuro S. Takahashi
+20.0,Osaka,Akira Shinohara,Shenzhen University; Protein Research Foundation,A5114375350,Akira Shinohara
+15.71,St Vincent,Andrew J. Deans,The University of Melbourne; St Vincent's Hospital Melbourne; Melbourne Health; St Vincents Institute of Medical Research,A5062411430,Andrew J. Deans
+9.55,New South Wales,Ian Grainge,University of Newcastle Australia,A5017400423,Ian Grainge
+15.69,Molecular and Cell Biology,Uttam Surana,"Agency for Science, Technology and Research; National University of Singapore; Institute of Molecular and Cell Biology; Institute of Molecular and Cell Biology",A5035336152,Uttam Surana
+15.77,Basel,Primo Schär,University of Basel,A5008715067,Primo Schär
+20.0,Copenhagen,Thomas C. R. Miller,University of Copenhagen; Usak University,A5035239553,Thomas C. R. Miller

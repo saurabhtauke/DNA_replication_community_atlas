@@ -1,0 +1,58 @@
+name: Refresh publication updates
+
+on:
+  schedule:
+    # GitHub Actions cron uses UTC. The job checks Europe/London and runs only
+    # at 06:00 local time, including across UK daylight-saving transitions.
+    - cron: "0 5,6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publication-update
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the atlas
+        uses: actions/checkout@v4
+
+      - name: Confirm 06:00 Europe/London schedule
+        id: london_time
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(TZ=Europe/London date +%H)" != "06" ]; then
+            echo "run_update=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping the non-06:00 UTC trigger."
+          else
+            echo "run_update=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        if: steps.london_time.outputs.run_update == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild publication feed
+        if: steps.london_time.outputs.run_update == 'true'
+        run: |
+          python work/build_updates_feed.py
+          python work/validate_updates_feed.py
+          python work/build_website_data.py
+
+      - name: Commit updated publication data
+        if: steps.london_time.outputs.run_update == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add outputs/replication_publication_updates.csv outputs/replication_publication_updates.json outputs/website/data.js
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh publication updates"
+            git push
+          fi

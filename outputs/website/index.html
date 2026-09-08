@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive atlas of leading DNA replication researchers, methods, subfields, and recent collaborations.">
+  <title>DNA Replication Research Atlas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#overview" aria-label="DNA Replication Research Atlas home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i></span>
+      <span>Replication Atlas</span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <button class="nav-link is-active" data-view="overview">Overview</button>
+      <button class="nav-link" data-view="researchers">Researchers</button>
+      <button class="nav-link" data-view="network">Network</button>
+      <button class="nav-link" data-view="methods">Methods</button>
+      <button class="nav-link" data-view="updates">Updates</button>
+    </nav>
+    <button id="themeToggle" class="icon-button" type="button" aria-label="Switch color theme">◐</button>
+  </header>
+
+  <main id="main">
+    <section id="overview" class="view is-active" aria-labelledby="overviewTitle">
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Global field map · data through 8 September 2026</p>
+          <h1 id="overviewTitle">The people shaping<br><em>DNA replication</em></h1>
+          <p class="hero-deck">Explore influential labs, emerging leaders, methodological communities, and the recent collaborations that connect them.</p>
+          <div class="hero-actions">
+            <button class="primary-action" data-go="researchers">Explore researchers <span>→</span></button>
+            <button class="text-action" data-go="network">Open collaboration map</button>
+          </div>
+        </div>
+        <div class="helix-stage" aria-hidden="true">
+          <svg id="heroHelix" viewBox="0 0 520 460" role="img"></svg>
+        </div>
+      </div>
+
+      <div class="metrics-band" aria-label="Dataset summary">
+        <div><strong id="metricResearchers">53</strong><span>researchers mapped</span></div>
+        <div><strong id="metricCountries">14</strong><span>countries represented</span></div>
+        <div><strong id="metricEdges">36</strong><span>recent collaboration links</span></div>
+        <div><strong id="metricMethods">26</strong><span>method tags</span></div>
+      </div>
+
+      <div class="overview-grid section-shell">
+        <section class="panel regional-panel" aria-labelledby="regionalTitle">
+          <div class="panel-heading"><div><p class="section-kicker">Geographic reach</p><h2 id="regionalTitle">A distributed field</h2></div><button class="text-action" data-go="researchers">View all</button></div>
+          <div id="continentChart" class="continent-chart" role="img" aria-label="Researchers by continent"></div>
+        </section>
+        <section class="panel leaders-panel" aria-labelledby="leadersTitle">
+          <div class="panel-heading"><div><p class="section-kicker">Composite impact</p><h2 id="leadersTitle">Leading the ranking</h2></div><span class="micro-note">55% lifetime · 45% recent</span></div>
+          <ol id="topLeaders" class="leader-list"></ol>
+        </section>
+      </div>
+    </section>
+
+    <section id="researchers" class="view" aria-labelledby="researchersTitle">
+      <div class="page-heading section-shell">
+        <p class="eyebrow">100 ranked · 3 requested additions</p>
+        <h1 id="researchersTitle">Researcher directory</h1>
+        <p>Search the field, combine filters, and open any profile for papers, collaborators, expertise, and source links.</p>
+      </div>
+      <div class="directory-layout section-shell">
+        <aside class="filter-panel" aria-label="Researcher filters">
+          <label class="search-field"><span>Search</span><input id="researcherSearch" type="search" placeholder="Name, lab, topic…" autocomplete="off"><b aria-hidden="true">⌕</b></label>
+          <div class="filter-group"><label for="continentFilter">Region</label><select id="continentFilter"><option value="">All regions</option></select></div>
+          <div class="filter-group"><label for="careerFilter">Career group</label><select id="careerFilter"><option value="">All career groups</option></select></div>
+          <div class="filter-group"><label for="techniqueFilter">Technique category</label><select id="techniqueFilter"><option value="">All technique categories</option></select></div>
+          <div class="filter-group"><label for="subfieldFilter">Replication area</label><select id="subfieldFilter"><option value="">All replication areas</option></select></div>
+          <button id="clearFilters" class="clear-button" type="button">Clear filters</button>
+          <p class="filter-note">Scores compare researchers only within this curated roster.</p>
+        </aside>
+        <div class="directory-results">
+          <div class="results-bar"><p id="resultCount" aria-live="polite"></p><label>Sort <select id="sortResearchers"><option value="rank">Impact rank</option><option value="recent">Recent impact</option><option value="name">Name A–Z</option><option value="country">Country</option></select></label></div>
+          <div id="researcherGrid" class="researcher-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="network" class="view" aria-labelledby="networkTitle">
+      <div class="page-heading section-shell network-heading">
+        <div><p class="eyebrow">Evidence-backed coauthorship · 2021–2026</p><h1 id="networkTitle">Collaboration network</h1><p>Each line is supported by at least one shared field-relevant paper. Select a researcher or collaboration to inspect the evidence.</p></div>
+        <div class="network-controls">
+          <label>Color nodes by <select id="networkColor"><option value="career">Career group</option><option value="continent">Continent</option></select></label>
+          <label class="toggle-control"><input id="labelToggle" type="checkbox"><span>Labels</span></label>
+          <button id="resetNetwork" class="clear-button" type="button">Reset view</button>
+        </div>
+      </div>
+      <div class="network-workspace section-shell">
+        <div class="network-canvas-wrap">
+          <svg id="networkSvg" aria-label="Interactive collaboration network" role="img"></svg>
+          <div id="networkLegend" class="network-legend" aria-label="Network legend"></div>
+          <div class="zoom-hint">Scroll to zoom · drag to move · select to inspect</div>
+        </div>
+        <aside id="networkInspector" class="network-inspector" aria-live="polite">
+          <p class="section-kicker">Selection</p>
+          <h2>Explore the network</h2>
+          <p>Select a node to view a researcher, or a line to see the shared papers supporting that collaboration.</p>
+          <div class="legend-explain"><span class="edge-sample"></span><span>Line width = number of shared recent papers</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="methods" class="view" aria-labelledby="methodsTitle">
+      <div class="page-heading section-shell">
+        <p class="eyebrow">Methodological ecosystem</p>
+        <h1 id="methodsTitle">How the field works</h1>
+        <p>Technique coverage across ten harmonized categories, from biochemical reconstitution and cryo-EM to single-molecule measurements, cell biology, and genomics.</p>
+      </div>
+      <div class="methods-layout section-shell">
+        <section class="panel"><div class="panel-heading"><div><p class="section-kicker">Technique coverage</p><h2>Labs by method</h2></div><span class="micro-note">Select a bar to filter researchers</span></div><div id="methodBars" class="method-bars"></div></section>
+        <section class="panel method-detail"><p class="section-kicker">Selected community</p><h2 id="methodDetailTitle">All techniques</h2><p id="methodDetailCopy">Choose a method to see the researchers connecting it to DNA replication.</p><div id="methodPeople" class="method-people"></div></section>
+      </div>
+      <section class="section-shell impact-section" aria-labelledby="impactTitle">
+        <div class="panel-heading"><div><p class="section-kicker">Career profile</p><h2 id="impactTitle">Lifetime versus recent impact</h2></div><span class="micro-note">Select a point for details</span></div>
+        <div id="impactScatter" class="impact-scatter"></div>
+      </section>
+    </section>
+
+    <section id="updates" class="view" aria-labelledby="updatesTitle">
+      <div class="page-heading section-shell updates-heading">
+        <div>
+          <p class="eyebrow">Recent publications · network-wide</p>
+          <h1 id="updatesTitle">Updates</h1>
+          <p>New journal articles, preprints, accepted manuscripts, and related research outputs connected to researchers in this atlas.</p>
+        </div>
+        <div class="updates-snapshot" aria-label="Update snapshot">
+          <span>One-time refresh</span>
+          <strong id="updatesAsOf">8 September 2026</strong>
+          <small id="updatesWindow">OpenAlex · recent six months</small>
+        </div>
+      </div>
+      <div class="updates-layout section-shell">
+        <div class="updates-controls" aria-label="Publication update filters">
+          <label class="search-field"><span>Search updates</span><input id="updatesSearch" type="search" placeholder="Title, researcher, venue…" autocomplete="off"><b aria-hidden="true">⌕</b></label>
+          <div class="filter-group"><label for="updatesStatus">Publication status</label><select id="updatesStatus"><option value="">All statuses</option></select></div>
+          <button id="clearUpdateFilters" class="clear-button" type="button">Clear filters</button>
+        </div>
+        <div class="updates-summary" id="updatesSummary" aria-live="polite"></div>
+        <div class="update-feed" id="updateFeed"></div>
+        <p class="updates-caveat">Status is inferred from OpenAlex work type and version metadata. Preprint and accepted-manuscript coverage varies by repository, journal, and indexing delay; use DOI, PubMed, or publisher links to verify the current publication state.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <p>Research atlas · OpenAlex publication metadata · citation and affiliation caveats apply</p>
+    <a href="../README.md">Methodology &amp; data dictionary</a>
+  </footer>
+
+  <dialog id="profileDialog" class="profile-dialog">
+    <button id="closeDialog" class="dialog-close" type="button" aria-label="Close profile">×</button>
+    <div id="profileContent"></div>
+  </dialog>
+
+  <div id="tooltip" class="tooltip" role="tooltip"></div>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

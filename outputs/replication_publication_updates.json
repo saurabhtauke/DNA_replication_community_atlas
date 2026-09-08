@@ -1,0 +1,2320 @@
+{
+  "meta": {
+    "generated_at": "2026-09-08",
+    "window_start": "2026-03-02",
+    "window_end": "2026-09-08",
+    "source": "OpenAlex API",
+    "researcher_count": 103,
+    "publication_count": 77,
+    "failed_researchers": [],
+    "status_method": "OpenAlex work type plus submittedVersion, acceptedVersion, and publishedVersion location metadata"
+  },
+  "updates": [
+    {
+      "publication_date": "2026-09-03",
+      "title": "Linker Histone H1 Phosphorylation Promotes DNA Damage Repair during Replication Stress",
+      "status": "Journal article",
+      "venue": "ACS Chemical Biology",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Shixin Liu"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1021/acschembio.6c00475",
+      "pmid": "",
+      "url": "https://doi.org/10.1021/acschembio.6c00475",
+      "openalex_id": "https://openalex.org/W7207637455",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7207637455"
+      ]
+    },
+    {
+      "publication_date": "2026-09-02",
+      "title": "Dataset for: A lethal ORC ATPase mutation is suppressed by alterations in ORC subunits and RNA Pol II transcription components",
+      "status": "Dataset",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Stephen P. Bell"
+      ],
+      "senior_or_last_network_researchers": [
+        "Stephen P. Bell"
+      ],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.5281/zenodo.19625098",
+      "pmid": "",
+      "url": "https://doi.org/10.5281/zenodo.19625098",
+      "openalex_id": "https://openalex.org/W7206175518",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; exact-title OpenAlex duplicates/version records collapsed, strongest current status retained",
+      "related_statuses": [
+        "Dataset"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7206175518",
+        "https://openalex.org/W7206203713"
+      ]
+    },
+    {
+      "publication_date": "2026-08-27",
+      "title": "Response of the replisome to araA and araC suggests a mechanism for arabinosyl nucleoside tolerance",
+      "status": "Journal article",
+      "venue": "The EMBO Journal",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Joseph T. P. Yeeles"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1038/s44318-026-00901-1",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s44318-026-00901-1",
+      "openalex_id": "https://openalex.org/W7204240602",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7204240602"
+      ]
+    },
+    {
+      "publication_date": "2026-08-21",
+      "title": "From mRNA 3′ processing to genome defense: the CPSF complex in transcription-replication conflict and cancer",
+      "status": "Journal article",
+      "venue": "Genome Instability & Disease",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Xingzhi Xu"
+      ],
+      "senior_or_last_network_researchers": [
+        "Xingzhi Xu"
+      ],
+      "corresponding_network_researchers": [
+        "Xingzhi Xu"
+      ],
+      "doi": "https://doi.org/10.1007/s42764-026-00186-y",
+      "pmid": "",
+      "url": "https://doi.org/10.1007/s42764-026-00186-y",
+      "openalex_id": "https://openalex.org/W7203955420",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7203955420"
+      ]
+    },
+    {
+      "publication_date": "2026-08-17",
+      "title": "Decoding single-cell replication states from imaging data reveals locus-specific subnuclear position dependencies of replication initiation",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "David M. Gilbert"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.08.12.744402",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.08.12.744402",
+      "openalex_id": "https://openalex.org/W7203709264",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7203709264"
+      ]
+    },
+    {
+      "publication_date": "2026-08-15",
+      "title": "Replication fork plasticity is a therapeutic vulnerability in acute myeloid leukemia",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Massimo Lopes"
+      ],
+      "senior_or_last_network_researchers": [
+        "Massimo Lopes"
+      ],
+      "corresponding_network_researchers": [
+        "Massimo Lopes"
+      ],
+      "doi": "https://doi.org/10.64898/2026.08.13.744634",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.08.13.744634",
+      "openalex_id": "https://openalex.org/W7203556727",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7203556727"
+      ]
+    },
+    {
+      "publication_date": "2026-08-15",
+      "title": "Genome-wide mapping of helicase-generated ssDNA reveals Hrq1 activity at RNA polymerase III-transcribed genes",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Duncan J. Smith"
+      ],
+      "senior_or_last_network_researchers": [
+        "Duncan J. Smith"
+      ],
+      "corresponding_network_researchers": [
+        "Duncan J. Smith"
+      ],
+      "doi": "https://doi.org/10.64898/2026.08.13.744683",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.08.13.744683",
+      "openalex_id": "https://openalex.org/W7203554279",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7203554279"
+      ]
+    },
+    {
+      "publication_date": "2026-08-14",
+      "title": "Structural insights into Sld3-Sld7-dependent Cdc45 loading during replication initiation",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Christian Speck"
+      ],
+      "senior_or_last_network_researchers": [
+        "Christian Speck"
+      ],
+      "corresponding_network_researchers": [
+        "Christian Speck"
+      ],
+      "doi": "https://doi.org/10.1038/s41467-026-76309-6",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41467-026-76309-6",
+      "openalex_id": "https://openalex.org/W7203503863",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7203503863"
+      ]
+    },
+    {
+      "publication_date": "2026-08-11",
+      "title": "Mechanism of K63-linked polyubiquitin recognition and cleavage by the BRCA1-A complex",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Roger A. Greenberg"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [
+        "Roger A. Greenberg"
+      ],
+      "doi": "https://doi.org/10.1038/s41467-026-75795-y",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41467-026-75795-y",
+      "openalex_id": "https://openalex.org/W7202214792",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; exact-title OpenAlex duplicates/version records collapsed, strongest current status retained",
+      "related_statuses": [
+        "Journal article",
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7164009815",
+        "https://openalex.org/W7202214792"
+      ]
+    },
+    {
+      "publication_date": "2026-08-10",
+      "title": "Targeting epigenetic regulators induces transcription-replication conflicts to overcome ATR inhibitor resistance",
+      "status": "Journal article",
+      "venue": "Nucleic Acids Research",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Steve P. Jackson"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1093/nar/gkag811",
+      "pmid": "",
+      "url": "https://doi.org/10.1093/nar/gkag811",
+      "openalex_id": "https://openalex.org/W7203821608",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; exact-title OpenAlex duplicates/version records collapsed, strongest current status retained",
+      "related_statuses": [
+        "Article",
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7170402527",
+        "https://openalex.org/W7203821608"
+      ]
+    },
+    {
+      "publication_date": "2026-08-10",
+      "title": "Suppression of transcription-replication conflicts by sequence-coordinated actions of TRDMT1 and MutLα",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Lee Zou"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [
+        "Lee Zou"
+      ],
+      "doi": "https://doi.org/10.1038/s41467-026-76137-8",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41467-026-76137-8",
+      "openalex_id": "https://openalex.org/W7202085776",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7202085776"
+      ]
+    },
+    {
+      "publication_date": "2026-08-10",
+      "title": "Maintenance of nucleosome organization through replication and transcription counteracts aberrant coalescence of active chromatin. Frater et al., 2026",
+      "status": "Dataset",
+      "venue": "Mendeley Data",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Anja Groth"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.17632/gfndg4dyyp",
+      "pmid": "",
+      "url": "https://doi.org/10.17632/gfndg4dyyp",
+      "openalex_id": "https://openalex.org/W7154713739",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; exact-title OpenAlex duplicates/version records collapsed, strongest current status retained",
+      "related_statuses": [
+        "Dataset"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7154713739",
+        "https://openalex.org/W7202141392"
+      ]
+    },
+    {
+      "publication_date": "2026-08-07",
+      "title": "Fanconi Anaemia E3 Ligase complex activity is regulated by a druggable metabolite binding site in FANCX",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Andrew J. Deans"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.08.07.743451",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.08.07.743451",
+      "openalex_id": "https://openalex.org/W7201855985",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7201855985"
+      ]
+    },
+    {
+      "publication_date": "2026-08-05",
+      "title": "RTF2 and CLASPIN localize CHK1 to the replication fork to control S-phase progression",
+      "status": "Journal article",
+      "venue": "Science Advances",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Johannes C. Walter"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1126/sciadv.aec3174",
+      "pmid": "",
+      "url": "https://doi.org/10.1126/sciadv.aec3174",
+      "openalex_id": "https://openalex.org/W7172480894",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7172480894"
+      ]
+    },
+    {
+      "publication_date": "2026-08-01",
+      "title": "Maintenance of nucleosome organization through replication and transcription counteracts aberrant coalescence of active chromatin",
+      "status": "Journal article",
+      "venue": "Molecular Cell",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Anja Groth"
+      ],
+      "senior_or_last_network_researchers": [
+        "Anja Groth"
+      ],
+      "corresponding_network_researchers": [
+        "Anja Groth"
+      ],
+      "doi": "https://doi.org/10.1016/j.molcel.2026.07.028",
+      "pmid": "",
+      "url": "https://doi.org/10.1016/j.molcel.2026.07.028",
+      "openalex_id": "https://openalex.org/W7203632804",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7203632804"
+      ]
+    },
+    {
+      "publication_date": "2026-08-01",
+      "title": "FANCJ and RTEL1 facilitate pre-replication complex disassembly following replisome collision",
+      "status": "Journal article",
+      "venue": "Cell Reports",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Hasan Yardimci",
+        "Puck Knipscheer"
+      ],
+      "senior_or_last_network_researchers": [
+        "Hasan Yardimci"
+      ],
+      "corresponding_network_researchers": [
+        "Hasan Yardimci"
+      ],
+      "doi": "https://doi.org/10.1016/j.celrep.2026.117860",
+      "pmid": "",
+      "url": "https://doi.org/10.1016/j.celrep.2026.117860",
+      "openalex_id": "https://openalex.org/W7165904559",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; exact-title OpenAlex duplicates/version records collapsed, strongest current status retained",
+      "related_statuses": [
+        "Dataset",
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7165904559",
+        "https://openalex.org/W7165947221"
+      ]
+    },
+    {
+      "publication_date": "2026-07-23",
+      "title": "Mechanisms of MCM2–7 helicase activation and initial DNA melting at near base-pair resolution",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Christian Speck"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [
+        "Christian Speck"
+      ],
+      "doi": "https://doi.org/10.1038/s41467-026-75695-1",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41467-026-75695-1",
+      "openalex_id": "https://openalex.org/W7170131576",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7170131576"
+      ]
+    },
+    {
+      "publication_date": "2026-07-23",
+      "title": "Extra-haplotype rescue mosaicism mediates multi-lineage functional restoration in a monogenic condition",
+      "status": "Preprint",
+      "venue": "Research Square",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Andrew J. Deans"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.21203/rs.3.rs-10063641/v1",
+      "pmid": "",
+      "url": "https://doi.org/10.21203/rs.3.rs-10063641/v1",
+      "openalex_id": "https://openalex.org/W7170133915",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7170133915"
+      ]
+    },
+    {
+      "publication_date": "2026-07-22",
+      "title": "Structural basis of nick translation in human DNA replication",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Samir M. Hamdan"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.07.22.739974",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.07.22.739974",
+      "openalex_id": "https://openalex.org/W7170163419",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7170163419"
+      ]
+    },
+    {
+      "publication_date": "2026-07-22",
+      "title": "Replication-coupled search positions MutH for strand incision in DNA mismatch repair",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Stephan Uphoff"
+      ],
+      "senior_or_last_network_researchers": [
+        "Stephan Uphoff"
+      ],
+      "corresponding_network_researchers": [
+        "Stephan Uphoff"
+      ],
+      "doi": "https://doi.org/10.64898/2026.07.21.739762",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.07.21.739762",
+      "openalex_id": "https://openalex.org/W7170068261",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7170068261"
+      ]
+    },
+    {
+      "publication_date": "2026-07-21",
+      "title": "DNA Polymerase β Accelerates Cellular DNA Base Excision Repair by Suppressing Excessive PARP1 Engagement",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Keith W. Caldecott"
+      ],
+      "senior_or_last_network_researchers": [
+        "Keith W. Caldecott"
+      ],
+      "corresponding_network_researchers": [
+        "Keith W. Caldecott"
+      ],
+      "doi": "https://doi.org/10.64898/2026.07.20.739154",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.07.20.739154",
+      "openalex_id": "https://openalex.org/W7169876581",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7169876581"
+      ]
+    },
+    {
+      "publication_date": "2026-07-20",
+      "title": "ORC binding to Heterochromatin Protein 1 through intrinsically disordered regions is required for heterochromatin structure and function",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "James M. Berger"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.07.17.738698",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.07.17.738698",
+      "openalex_id": "https://openalex.org/W7169806972",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7169806972"
+      ]
+    },
+    {
+      "publication_date": "2026-07-17",
+      "title": "DNA catenation is essential for Sister Chromatid Cohesion",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Katsuhiko Shirahige"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.07.16.738924",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.07.16.738924",
+      "openalex_id": "https://openalex.org/W7169582418",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7169582418"
+      ]
+    },
+    {
+      "publication_date": "2026-07-13",
+      "title": "The Pharmacologic Profile of ART6043, a First-in-Class Clinical DNA Polymerase Theta Polymerase Domain Inhibitor Potentiating PARP Inhibitor Efficacy",
+      "status": "Journal article",
+      "venue": "Clinical Cancer Research",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Simon J. Boulton"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1158/1078-0432.ccr-26-0493",
+      "pmid": "",
+      "url": "https://doi.org/10.1158/1078-0432.ccr-26-0493",
+      "openalex_id": "https://openalex.org/W7168173868",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7168173868"
+      ]
+    },
+    {
+      "publication_date": "2026-07-10",
+      "title": "eLife Assessment: PCNA-Polκ-Polδ/USP18 axes stabilize replication fork and restart to reduce cisplatin cytotoxicity",
+      "status": "Peer Review",
+      "venue": "Repository / venue not resolved",
+      "venue_type": "",
+      "network_researchers": [
+        "Andrés Aguilera"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [
+        "Andrés Aguilera"
+      ],
+      "doi": "https://doi.org/10.7554/elife.112155.1.sa4",
+      "pmid": "",
+      "url": "https://doi.org/10.7554/elife.112155.1.sa4",
+      "openalex_id": "https://openalex.org/W7167930190",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Peer Review"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7167930190"
+      ]
+    },
+    {
+      "publication_date": "2026-07-09",
+      "title": "Inhibition of lagging strand replication by G-rich telomeric DNA and the shelterin subunit POT1",
+      "status": "Journal article",
+      "venue": "The EMBO Journal",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Tom Deegan"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1038/s44318-026-00844-7",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s44318-026-00844-7",
+      "openalex_id": "https://openalex.org/W4416347508",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; exact-title OpenAlex duplicates/version records collapsed, strongest current status retained",
+      "related_statuses": [
+        "Article",
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W4416347508",
+        "https://openalex.org/W7167812525"
+      ]
+    },
+    {
+      "publication_date": "2026-07-08",
+      "title": "Autosomal allelic inactivation at loci with variable replication timing and dosage sensitivity",
+      "status": "Journal article",
+      "venue": "eLife",
+      "venue_type": "journal",
+      "network_researchers": [
+        "David M. Gilbert"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.7554/elife.109938.4",
+      "pmid": "",
+      "url": "https://doi.org/10.7554/elife.109938.4",
+      "openalex_id": "https://openalex.org/W7167680843",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; exact-title OpenAlex duplicates/version records collapsed, strongest current status retained",
+      "related_statuses": [
+        "Journal article",
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7133208120",
+        "https://openalex.org/W7167680843"
+      ]
+    },
+    {
+      "publication_date": "2026-07-08",
+      "title": "Author response: Autosomal allelic inactivation at loci with variable replication timing and dosage sensitivity",
+      "status": "Peer Review",
+      "venue": "Repository / venue not resolved",
+      "venue_type": "",
+      "network_researchers": [
+        "David M. Gilbert"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.7554/elife.109938.4.sa2",
+      "pmid": "",
+      "url": "https://doi.org/10.7554/elife.109938.4.sa2",
+      "openalex_id": "https://openalex.org/W7167719845",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Peer Review"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7167719845"
+      ]
+    },
+    {
+      "publication_date": "2026-07-04",
+      "title": "The BRCA1-A complex restricts replication fork reversal-dependent DNA repair in ATM deficient cells",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Alessandro Vindigni",
+        "Roger A. Greenberg"
+      ],
+      "senior_or_last_network_researchers": [
+        "Roger A. Greenberg"
+      ],
+      "corresponding_network_researchers": [
+        "Roger A. Greenberg"
+      ],
+      "doi": "https://doi.org/10.1038/s41467-026-75271-7",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41467-026-75271-7",
+      "openalex_id": "https://openalex.org/W7167353077",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; exact-title OpenAlex duplicates/version records collapsed, strongest current status retained",
+      "related_statuses": [
+        "Journal article",
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7140042068",
+        "https://openalex.org/W7167353077"
+      ]
+    },
+    {
+      "publication_date": "2026-07-02",
+      "title": "TTF2 processes sites of incomplete DNA replication during mitosis via sister-chromatid exchanges",
+      "status": "Journal article",
+      "venue": "Science",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Karim Labib"
+      ],
+      "senior_or_last_network_researchers": [
+        "Karim Labib"
+      ],
+      "corresponding_network_researchers": [
+        "Karim Labib"
+      ],
+      "doi": "https://doi.org/10.1126/science.aeh2300",
+      "pmid": "",
+      "url": "https://doi.org/10.1126/science.aeh2300",
+      "openalex_id": "https://openalex.org/W7167061906",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7167061906"
+      ]
+    },
+    {
+      "publication_date": "2026-07-02",
+      "title": "A CDK1 phospho-switch reprograms TRAIP to unload replisomes in mitosis",
+      "status": "Journal article",
+      "venue": "Science",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Johannes C. Walter"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1126/science.aeh1834",
+      "pmid": "",
+      "url": "https://doi.org/10.1126/science.aeh1834",
+      "openalex_id": "https://openalex.org/W7167098178",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7167098178"
+      ]
+    },
+    {
+      "publication_date": "2026-06-30",
+      "title": "FET proteins and PARylation-dependent condensates promote replication fork reversal and genome stability",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Alessandro Vindigni",
+        "David Cortez"
+      ],
+      "senior_or_last_network_researchers": [
+        "David Cortez"
+      ],
+      "corresponding_network_researchers": [
+        "David Cortez"
+      ],
+      "doi": "https://doi.org/10.1038/s41467-026-74950-9",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41467-026-74950-9",
+      "openalex_id": "https://openalex.org/W4417116985",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W4417116985"
+      ]
+    },
+    {
+      "publication_date": "2026-06-30",
+      "title": "Distinct ATRX functions cooperate with 9-1-1 and CST complexes to safeguard replication and telomere integrity",
+      "status": "Journal article",
+      "venue": "Nature Structural & Molecular Biology",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Simon J. Boulton"
+      ],
+      "senior_or_last_network_researchers": [
+        "Simon J. Boulton"
+      ],
+      "corresponding_network_researchers": [
+        "Simon J. Boulton"
+      ],
+      "doi": "https://doi.org/10.1038/s41594-026-01827-2",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41594-026-01827-2",
+      "openalex_id": "https://openalex.org/W4414404298",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W4414404298"
+      ]
+    },
+    {
+      "publication_date": "2026-06-29",
+      "title": "Structural basis of the nucleotide incorporation cycle of bacterial DNA polymerase III",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Jacob S. Lewis"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.06.29.735100",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.06.29.735100",
+      "openalex_id": "https://openalex.org/W7166563113",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7166563113"
+      ]
+    },
+    {
+      "publication_date": "2026-06-29",
+      "title": "Cohesin-mediated replication fork tethering enables fork slowing and reversal",
+      "status": "Preprint",
+      "venue": "Research Square",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Massimo Lopes"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.21203/rs.3.rs-8403657/v1",
+      "pmid": "",
+      "url": "https://doi.org/10.21203/rs.3.rs-8403657/v1",
+      "openalex_id": "https://openalex.org/W7166469218",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7166469218"
+      ]
+    },
+    {
+      "publication_date": "2026-06-29",
+      "title": "Cellular replisomes are powered by flex-fuel motors for unwinding DNA",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "James M. Berger"
+      ],
+      "senior_or_last_network_researchers": [
+        "James M. Berger"
+      ],
+      "corresponding_network_researchers": [
+        "James M. Berger"
+      ],
+      "doi": "https://doi.org/10.1038/s41467-026-73652-6",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41467-026-73652-6",
+      "openalex_id": "https://openalex.org/W7166552117",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7166552117"
+      ]
+    },
+    {
+      "publication_date": "2026-06-26",
+      "title": "Short linear motifs direct context-specific accessory helicase recruitment to replisomes",
+      "status": "Dataset",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Thomas C. R. Miller"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.5281/zenodo.20392936",
+      "pmid": "",
+      "url": "https://doi.org/10.5281/zenodo.20392936",
+      "openalex_id": "https://openalex.org/W7166538057",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; exact-title OpenAlex duplicates/version records collapsed, strongest current status retained",
+      "related_statuses": [
+        "Dataset"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7166538057",
+        "https://openalex.org/W7166573701",
+        "https://openalex.org/W7166842000"
+      ]
+    },
+    {
+      "publication_date": "2026-06-25",
+      "title": "CREPAS: a reproducible nascent chromatin sequencing analysis pipeline for epigenome replication studies",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Anja Groth"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.06.21.732899",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.06.21.732899",
+      "openalex_id": "https://openalex.org/W7166042706",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7166042706"
+      ]
+    },
+    {
+      "publication_date": "2026-06-22",
+      "title": "Mechanism of negative supercoil relaxation by Topoisomerase IV",
+      "status": "Journal article",
+      "venue": "Nucleic Acids Research",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Kenneth J. Marians"
+      ],
+      "senior_or_last_network_researchers": [
+        "Kenneth J. Marians"
+      ],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1093/nar/gkag658",
+      "pmid": "",
+      "url": "https://doi.org/10.1093/nar/gkag658",
+      "openalex_id": "https://openalex.org/W7166344136",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7166344136"
+      ]
+    },
+    {
+      "publication_date": "2026-06-22",
+      "title": "A Thymine Dimer Stalls a High-Fidelity DNA Polymerase by Providing No Template Information in the Same Manner as an Abasic Site",
+      "status": "Journal article",
+      "venue": "Biochemistry",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Lorena S. Beese"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1021/acs.biochem.5c00781",
+      "pmid": "",
+      "url": "https://doi.org/10.1021/acs.biochem.5c00781",
+      "openalex_id": "https://openalex.org/W7165528762",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7165528762"
+      ]
+    },
+    {
+      "publication_date": "2026-06-16",
+      "title": "Processing of reversed replication forks is required for the resolution of replication-transcription conflicts",
+      "status": "Journal article",
+      "venue": "Nucleic Acids Research",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Houra Merrikh"
+      ],
+      "senior_or_last_network_researchers": [
+        "Houra Merrikh"
+      ],
+      "corresponding_network_researchers": [
+        "Houra Merrikh"
+      ],
+      "doi": "https://doi.org/10.1093/nar/gkag639",
+      "pmid": "",
+      "url": "https://doi.org/10.1093/nar/gkag639",
+      "openalex_id": "https://openalex.org/W7165673653",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; exact-title OpenAlex duplicates/version records collapsed, strongest current status retained",
+      "related_statuses": [
+        "Journal article",
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7140133330",
+        "https://openalex.org/W7165673653"
+      ]
+    },
+    {
+      "publication_date": "2026-06-16",
+      "title": "Direct visualisation of post-replication gap formation at the bacterial RRS",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Jacob S. Lewis",
+        "Lisanne Spenkelink"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.06.16.732529",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.06.16.732529",
+      "openalex_id": "https://openalex.org/W7165037367",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7165037367"
+      ]
+    },
+    {
+      "publication_date": "2026-06-15",
+      "title": "eLife Assessment: More than just a passive brick in the wall: the nucleosome facilitates DNA polymerase β activity in linker DNA and its PARP-dependent regulation in the BER pathway choice",
+      "status": "Peer Review",
+      "venue": "Repository / venue not resolved",
+      "venue_type": "",
+      "network_researchers": [
+        "Akira Shinohara"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [
+        "Akira Shinohara"
+      ],
+      "doi": "https://doi.org/10.7554/elife.111417.1.sa3",
+      "pmid": "",
+      "url": "https://doi.org/10.7554/elife.111417.1.sa3",
+      "openalex_id": "https://openalex.org/W7164829024",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Peer Review"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7164829024"
+      ]
+    },
+    {
+      "publication_date": "2026-06-10",
+      "title": "Replication protein A prevents unregulated priming and Rad51 loading on single-stranded DNA in nuclear extracts of Xenopus eggs",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Tatsuro S. Takahashi"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.06.09.731035",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.06.09.731035",
+      "openalex_id": "https://openalex.org/W7164356127",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7164356127"
+      ]
+    },
+    {
+      "publication_date": "2026-06-10",
+      "title": "Bacillus subtilis DnaB forms multiple protein–protein interactions essential for DNA replication initiation",
+      "status": "Journal article",
+      "venue": "Nucleic Acids Research",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Heath Murray"
+      ],
+      "senior_or_last_network_researchers": [
+        "Heath Murray"
+      ],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1093/nar/gkag630",
+      "pmid": "",
+      "url": "https://doi.org/10.1093/nar/gkag630",
+      "openalex_id": "https://openalex.org/W7167096614",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7167096614"
+      ]
+    },
+    {
+      "publication_date": "2026-06-04",
+      "title": "PRMT1 arginine methylation of MCM4 restricts ssDNA gap formation during DNA replication",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Grant W. Brown"
+      ],
+      "senior_or_last_network_researchers": [
+        "Grant W. Brown"
+      ],
+      "corresponding_network_researchers": [
+        "Grant W. Brown"
+      ],
+      "doi": "https://doi.org/10.64898/2026.06.03.729374",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.06.03.729374",
+      "openalex_id": "https://openalex.org/W7163514727",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7163514727"
+      ]
+    },
+    {
+      "publication_date": "2026-06-04",
+      "title": "ATP is dispensable for E. coli DNA replication and eukaryotic helicase activity",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Jacob S. Lewis",
+        "Lisanne Spenkelink"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [
+        "Jacob S. Lewis"
+      ],
+      "doi": "https://doi.org/10.1038/s41467-026-73893-5",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41467-026-73893-5",
+      "openalex_id": "https://openalex.org/W7163519211",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7163519211"
+      ]
+    },
+    {
+      "publication_date": "2026-06-03",
+      "title": "Polynucleotide Phosphorylase Stops Replication Restart by Degrading the RNA within R-loops during Replication-Transcription Conflicts",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Houra Merrikh"
+      ],
+      "senior_or_last_network_researchers": [
+        "Houra Merrikh"
+      ],
+      "corresponding_network_researchers": [
+        "Houra Merrikh"
+      ],
+      "doi": "https://doi.org/10.64898/2026.06.02.729377",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.06.02.729377",
+      "openalex_id": "https://openalex.org/W7163359425",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7163359425"
+      ]
+    },
+    {
+      "publication_date": "2026-06-03",
+      "title": "Editorial Expression of Concern: Functional proteomic identification of DNA replication proteins by induced proteolysis in vivo",
+      "status": "Editorial",
+      "venue": "Nature",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Agnieszka Gambus"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1038/s41586-026-10727-w",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41586-026-10727-w",
+      "openalex_id": "https://openalex.org/W7163398481",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Editorial"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7163398481"
+      ]
+    },
+    {
+      "publication_date": "2026-05-27",
+      "title": "Opposing regulation by Rev1 of DNA polymerase zeta activity on damaged versus undamaged DNA",
+      "status": "Journal article",
+      "venue": "Nucleic Acids Research",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Peter M. Burgers"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1093/nar/gkag568",
+      "pmid": "",
+      "url": "https://doi.org/10.1093/nar/gkag568",
+      "openalex_id": "https://openalex.org/W7164127887",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7164127887"
+      ]
+    },
+    {
+      "publication_date": "2026-05-21",
+      "title": "Landscape of reversion alterations in homologous recombination genes reveals evolutionary constraints",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Roger A. Greenberg"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.05.19.726319",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.05.19.726319",
+      "openalex_id": "https://openalex.org/W7162087313",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7162087313"
+      ]
+    },
+    {
+      "publication_date": "2026-05-21",
+      "title": "Dissecting the role of PCNA and Pif1 in replication of individual DNA molecules by DNA polymerase δ",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Peter M. Burgers"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.05.19.725978",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.05.19.725978",
+      "openalex_id": "https://openalex.org/W7162038214",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7162038214"
+      ]
+    },
+    {
+      "publication_date": "2026-05-20",
+      "title": "Multifaceted roles of PDS5B in RAD51-dependent homology-directed DNA repair and replication fork protection",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Eric C. Greene"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1038/s41467-026-73479-1",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41467-026-73479-1",
+      "openalex_id": "https://openalex.org/W7161816619",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7161816619"
+      ]
+    },
+    {
+      "publication_date": "2026-05-19",
+      "title": "Topological stress regulates replication fork dynamics in unperturbed S phase",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "David Cortez"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1038/s41467-026-73330-7",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41467-026-73330-7",
+      "openalex_id": "https://openalex.org/W7161640492",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7161640492"
+      ]
+    },
+    {
+      "publication_date": "2026-05-16",
+      "title": "Mcm10 braces converging replicative helicases to pull apart origin DNA",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Alessandro Costa"
+      ],
+      "senior_or_last_network_researchers": [
+        "Alessandro Costa"
+      ],
+      "corresponding_network_researchers": [
+        "Alessandro Costa"
+      ],
+      "doi": "https://doi.org/10.64898/2026.05.15.725099",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.05.15.725099",
+      "openalex_id": "https://openalex.org/W7161392854",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7161392854"
+      ]
+    },
+    {
+      "publication_date": "2026-05-16",
+      "title": "Canavanine-based assay for gross chromosomal rearrangements reveals genome instability hotspots and modulating genes in fission yeast",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Sarah A. E. Lambert"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.05.15.725498",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.05.15.725498",
+      "openalex_id": "https://openalex.org/W7161420498",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7161420498"
+      ]
+    },
+    {
+      "publication_date": "2026-05-15",
+      "title": "A novel ψ–χ fusion protein for unravelling the contributions of χ to DNA replication and repair",
+      "status": "Journal article",
+      "venue": "Nucleic Acids Research",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Susan T. Lovett"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1093/nar/gkag533",
+      "pmid": "",
+      "url": "https://doi.org/10.1093/nar/gkag533",
+      "openalex_id": "https://openalex.org/W4415232817",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W4415232817"
+      ]
+    },
+    {
+      "publication_date": "2026-05-14",
+      "title": "Distinct roles of MCM2-7 subunits in replication licensing in human cells",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Yuanliang Zhai"
+      ],
+      "senior_or_last_network_researchers": [
+        "Yuanliang Zhai"
+      ],
+      "corresponding_network_researchers": [
+        "Yuanliang Zhai"
+      ],
+      "doi": "https://doi.org/10.1038/s41467-026-73118-9",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41467-026-73118-9",
+      "openalex_id": "https://openalex.org/W7161595791",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7161595791"
+      ]
+    },
+    {
+      "publication_date": "2026-05-08",
+      "title": "Condensin and topoisomerases cooperate to relieve topological stress at stalled replication forks",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Alessandro Vindigni",
+        "Philippe Pasero"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1038/s41467-026-72936-1",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41467-026-72936-1",
+      "openalex_id": "https://openalex.org/W4413195255",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W4413195255"
+      ]
+    },
+    {
+      "publication_date": "2026-05-05",
+      "title": "A lethal ORC ATPase mutation is suppressed by alterations in ORC and RNA Pol II transcription components",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Stephen P. Bell"
+      ],
+      "senior_or_last_network_researchers": [
+        "Stephen P. Bell"
+      ],
+      "corresponding_network_researchers": [
+        "Stephen P. Bell"
+      ],
+      "doi": "https://doi.org/10.64898/2026.05.01.722367",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.05.01.722367",
+      "openalex_id": "https://openalex.org/W7160273482",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7160273482"
+      ]
+    },
+    {
+      "publication_date": "2026-05-01",
+      "title": "WED-255 DNA replication stress as a therapeutic target in hepatocellular carcinoma",
+      "status": "Conference Abstract",
+      "venue": "Journal of Hepatology",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Massimo Lopes"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1016/s0168-8278(26)01374-7",
+      "pmid": "",
+      "url": "https://doi.org/10.1016/s0168-8278(26)01374-7",
+      "openalex_id": "https://openalex.org/W7162553245",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Conference Abstract"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7162553245"
+      ]
+    },
+    {
+      "publication_date": "2026-04-29",
+      "title": "ATM lifts the cGAS handbrake on DNA replication",
+      "status": "Journal article",
+      "venue": "Nature Cell Biology",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Philippe Pasero"
+      ],
+      "senior_or_last_network_researchers": [
+        "Philippe Pasero"
+      ],
+      "corresponding_network_researchers": [
+        "Philippe Pasero"
+      ],
+      "doi": "https://doi.org/10.1038/s41556-026-01944-6",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41556-026-01944-6",
+      "openalex_id": "https://openalex.org/W7158637858",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7158637858"
+      ]
+    },
+    {
+      "publication_date": "2026-04-29",
+      "title": "ATM counteracts chromatin-bound cGAS during DNA replication",
+      "status": "Journal article",
+      "venue": "Nature Cell Biology",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Lee Zou"
+      ],
+      "senior_or_last_network_researchers": [
+        "Lee Zou"
+      ],
+      "corresponding_network_researchers": [
+        "Lee Zou"
+      ],
+      "doi": "https://doi.org/10.1038/s41556-026-01931-x",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41556-026-01931-x",
+      "openalex_id": "https://openalex.org/W7158529444",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7158529444"
+      ]
+    },
+    {
+      "publication_date": "2026-04-20",
+      "title": "The SMARCA4 subunit of the SWI/SNF complex prevents genome instability at G quadruplexes",
+      "status": "Journal article",
+      "venue": "Genome biology",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Jessica A. Downs"
+      ],
+      "senior_or_last_network_researchers": [
+        "Jessica A. Downs"
+      ],
+      "corresponding_network_researchers": [
+        "Jessica A. Downs"
+      ],
+      "doi": "https://doi.org/10.1186/s13059-026-04080-4",
+      "pmid": "",
+      "url": "https://doi.org/10.1186/s13059-026-04080-4",
+      "openalex_id": "https://openalex.org/W7154902371",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7154902371"
+      ]
+    },
+    {
+      "publication_date": "2026-04-17",
+      "title": "Loss of Pol32, a subunit of DNA polymerases δ and ζ, leads to different patterns of genome stability than direct impairment of these individual polymerases",
+      "status": "Journal article",
+      "venue": "mBio",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Thomas D. Petes"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1128/mbio.00531-26",
+      "pmid": "",
+      "url": "https://doi.org/10.1128/mbio.00531-26",
+      "openalex_id": "https://openalex.org/W7154775010",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7154775010"
+      ]
+    },
+    {
+      "publication_date": "2026-04-15",
+      "title": "Functional assays for BRCA1 and BRCA2 variant analysis: new tools and their applications",
+      "status": "Journal article",
+      "venue": "npj Breast Cancer",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Claus Storgaard Sørensen"
+      ],
+      "senior_or_last_network_researchers": [
+        "Claus Storgaard Sørensen"
+      ],
+      "corresponding_network_researchers": [
+        "Claus Storgaard Sørensen"
+      ],
+      "doi": "https://doi.org/10.1038/s41523-026-00949-6",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41523-026-00949-6",
+      "openalex_id": "https://openalex.org/W7154511110",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7154511110"
+      ]
+    },
+    {
+      "publication_date": "2026-04-03",
+      "title": "Abstract 1748: FORX-428: Exploiting PARG inhibition to target replication stress in cancer cells",
+      "status": "Conference Abstract",
+      "venue": "Cancer Research",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Thanos D. Halazonetis"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1158/1538-7445.am2026-1748",
+      "pmid": "",
+      "url": "https://doi.org/10.1158/1538-7445.am2026-1748",
+      "openalex_id": "https://openalex.org/W7148993881",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Conference Abstract"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7148993881"
+      ]
+    },
+    {
+      "publication_date": "2026-04-01",
+      "title": "BRCA2-dependent maturation of nascent strands during DNA replication",
+      "status": "Journal article",
+      "venue": "Molecular Cell",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Keith W. Caldecott"
+      ],
+      "senior_or_last_network_researchers": [
+        "Keith W. Caldecott"
+      ],
+      "corresponding_network_researchers": [
+        "Keith W. Caldecott"
+      ],
+      "doi": "https://doi.org/10.1016/j.molcel.2026.03.012",
+      "pmid": "",
+      "url": "https://doi.org/10.1016/j.molcel.2026.03.012",
+      "openalex_id": "https://openalex.org/W7148746119",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7148746119"
+      ]
+    },
+    {
+      "publication_date": "2026-03-30",
+      "title": "Endogenous Sources of Abasic Sites and Implications for DNA Replication: Mechanisms of Fork Stalling and Recovery",
+      "status": "Journal article",
+      "venue": "Annual Review of Biochemistry",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Alberto Ciccia"
+      ],
+      "senior_or_last_network_researchers": [
+        "Alberto Ciccia"
+      ],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1146/annurev-biochem-030222-114544",
+      "pmid": "",
+      "url": "https://doi.org/10.1146/annurev-biochem-030222-114544",
+      "openalex_id": "https://openalex.org/W7143319463",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 2,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7143319463"
+      ]
+    },
+    {
+      "publication_date": "2026-03-28",
+      "title": "Dbf4-dependent kinase finetunes Ino80 function at chromosome replication origins",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Christoph F. Kurat"
+      ],
+      "senior_or_last_network_researchers": [
+        "Christoph F. Kurat"
+      ],
+      "corresponding_network_researchers": [
+        "Christoph F. Kurat"
+      ],
+      "doi": "https://doi.org/10.1038/s41467-026-70698-4",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41467-026-70698-4",
+      "openalex_id": "https://openalex.org/W7142217132",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7142217132"
+      ]
+    },
+    {
+      "publication_date": "2026-03-24",
+      "title": "Slx4 and Fun30/SMARCAD1 coordinate S-phase checkpoint regulation and replication fork protection in response to Top1–DNA crosslinks",
+      "status": "Journal article",
+      "venue": "Nucleic Acids Research",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Philippe Pasero"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1093/nar/gkag295",
+      "pmid": "",
+      "url": "https://doi.org/10.1093/nar/gkag295",
+      "openalex_id": "https://openalex.org/W4412765053",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W4412765053"
+      ]
+    },
+    {
+      "publication_date": "2026-03-20",
+      "title": "The Dynamics of Chromatin Replication",
+      "status": "Journal article",
+      "venue": "Annual Review of Biochemistry",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Anja Groth"
+      ],
+      "senior_or_last_network_researchers": [
+        "Anja Groth"
+      ],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1146/annurev-biochem-082525-050024",
+      "pmid": "",
+      "url": "https://doi.org/10.1146/annurev-biochem-082525-050024",
+      "openalex_id": "https://openalex.org/W7139928237",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 5,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7139928237"
+      ]
+    },
+    {
+      "publication_date": "2026-03-17",
+      "title": "POLQ-driven repair scars shape the immunogenic landscape of homologous recombination-deficient pancreatic cancer",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Agnel Sfeir"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.03.15.711961",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.03.15.711961",
+      "openalex_id": "https://openalex.org/W7137815065",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 1,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7137815065"
+      ]
+    },
+    {
+      "publication_date": "2026-03-16",
+      "title": "Microhomology-mediated end joining acts directly on replication forks to repair single-ended double-strand breaks",
+      "status": "Journal article",
+      "venue": "Molecular Cell",
+      "venue_type": "journal",
+      "network_researchers": [
+        "David M. Gilbert"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1016/j.molcel.2026.02.016",
+      "pmid": "",
+      "url": "https://doi.org/10.1016/j.molcel.2026.02.016",
+      "openalex_id": "https://openalex.org/W7137093770",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 2,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7137093770"
+      ]
+    },
+    {
+      "publication_date": "2026-03-10",
+      "title": "Evolution of Origin Sequence and Recognition for Licensing of Eukaryotic DNA Replication",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Bruce Stillman"
+      ],
+      "senior_or_last_network_researchers": [
+        "Bruce Stillman"
+      ],
+      "corresponding_network_researchers": [
+        "Bruce Stillman"
+      ],
+      "doi": "https://doi.org/10.64898/2026.03.10.710760",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.03.10.710760",
+      "openalex_id": "https://openalex.org/W7134969339",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7134969339"
+      ]
+    },
+    {
+      "publication_date": "2026-03-03",
+      "title": "Correction: GAS6/AXL Inhibition Enhances Ovarian Cancer Sensitivity to Chemotherapy and PARP Inhibition through Increased DNA Damage and Enhanced Replication Stress",
+      "status": "Erratum",
+      "venue": "Molecular Cancer Research",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Alessandro Vindigni"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1158/1541-7786.mcr-26-0075",
+      "pmid": "",
+      "url": "https://doi.org/10.1158/1541-7786.mcr-26-0075",
+      "openalex_id": "https://openalex.org/W7133322614",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Erratum"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7133322614"
+      ]
+    },
+    {
+      "publication_date": "2026-03-02",
+      "title": "Autosomal Allelic Inactivation: Variable Replication and Dosage Sensitivity",
+      "status": "Preprint",
+      "venue": "eLife",
+      "venue_type": "journal",
+      "network_researchers": [
+        "David M. Gilbert"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.7554/elife.109938.1",
+      "pmid": "",
+      "url": "https://doi.org/10.7554/elife.109938.1",
+      "openalex_id": "https://openalex.org/W7133205360",
+      "open_access_status": "",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "",
+      "updated_date": "",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7133205360"
+      ]
+    }
+  ]
+}
