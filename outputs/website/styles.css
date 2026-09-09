@@ -172,6 +172,7 @@ a { color: inherit; }
 .updates-snapshot span { color: var(--accent-dark); text-transform: uppercase; letter-spacing: .11em; font-size: .68rem; font-weight: 500; }
 .updates-snapshot strong { font-family: Georgia, serif; font-size: 1.35rem; font-weight: 400; }
 .updates-snapshot small { color: var(--muted); font-size: .72rem; }
+.updates-snapshot p { margin: 7px 0 0; padding-top: 9px; border-top: 1px solid var(--line); color: var(--ink); font-size: .72rem; }
 .updates-layout { padding: 40px 0 90px; }
 .updates-controls { display: grid; grid-template-columns: minmax(260px,1fr) minmax(190px,260px) auto; gap: 18px; align-items: end; }
 .updates-controls .filter-group, .updates-controls .clear-button { margin-top: 0; }

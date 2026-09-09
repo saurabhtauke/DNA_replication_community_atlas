@@ -1,6 +1,7 @@
 {
   "meta": {
     "generated_at": "2026-09-08",
+    "last_successful_check_date": "2026-09-08",
     "window_start": "2026-03-02",
     "window_end": "2026-09-08",
     "source": "OpenAlex API",

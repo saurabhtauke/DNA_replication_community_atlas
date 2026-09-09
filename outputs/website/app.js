@@ -214,8 +214,10 @@
     $("#updatesSearch").addEventListener("input",event=>{updateState.search=event.target.value.toLowerCase().trim();renderUpdates();});
     $("#updatesStatus").addEventListener("change",event=>{updateState.status=event.target.value;renderUpdates();});
     $("#clearUpdateFilters").addEventListener("click",()=>{updateState.search="";updateState.status="";$("#updatesSearch").value="";$("#updatesStatus").value="";renderUpdates();});
-    const generated=publicationUpdateMeta.generated_at;
-    if(generated)$("#updatesAsOf").textContent=readableDate(generated);
+    const coverageEnd=publicationUpdateMeta.window_end||publicationUpdateMeta.generated_at;
+    const lastSuccessfulCheck=publicationUpdateMeta.last_successful_check_date||publicationUpdateMeta.generated_at;
+    if(coverageEnd)$("#updatesAsOf").textContent=readableDate(coverageEnd);
+    if(lastSuccessfulCheck)$("#updatesLastChecked").textContent=`Last successful check: ${readableDate(lastSuccessfulCheck)}`;
     if(publicationUpdateMeta.window_start&&publicationUpdateMeta.window_end)$("#updatesWindow").textContent=`OpenAlex · ${readableDate(publicationUpdateMeta.window_start)}–${readableDate(publicationUpdateMeta.window_end)}`;
     renderUpdates();
   }

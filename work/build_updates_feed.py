@@ -215,6 +215,11 @@ def main() -> None:
     payload = {
         "meta": {
             "generated_at": AS_OF.isoformat(),
+            # This value is intentionally emitted even when the publication
+            # rows are unchanged. It records the date of the last successful
+            # source check, gives the Updates page an explicit freshness
+            # signal, and ensures a verified daily check is publishable.
+            "last_successful_check_date": AS_OF.isoformat(),
             "window_start": SINCE.isoformat(),
             "window_end": AS_OF.isoformat(),
             "source": "OpenAlex API",
