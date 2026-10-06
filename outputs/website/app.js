@@ -185,8 +185,8 @@
 
   const publicationUpdates=DATA.publicationUpdates||[];
   const publicationUpdateMeta=DATA.publicationUpdateMeta||{};
-  const paperStatuses=new Set(["Journal article","Review","Accepted manuscript","Preprint","Article","Publication"]);
-  const updateState={search:"",status:"papers"};
+  const miscOutputStatuses=new Set(["other","dataset","software","supplementary material","supplementary materials","peer review"]);
+  const updateState={search:"",status:"",excludeMisc:true};
   function readableDate(value){
     if(!value)return "Date not resolved";
     return new Intl.DateTimeFormat("en",{day:"numeric",month:"short",year:"numeric",timeZone:"UTC"}).format(new Date(`${value}T00:00:00Z`));
@@ -202,19 +202,20 @@
   }
   function renderUpdates(){
     const q=updateState.search;
-    const rows=publicationUpdates.filter(d=>(!updateState.status||(updateState.status==="papers"?paperStatuses.has(d.status):d.status===updateState.status))&&(!q||[d.title,d.venue,...(d.network_researchers||[])].join(" ").toLowerCase().includes(q)));
+    const rows=publicationUpdates.filter(d=>(!updateState.excludeMisc||!miscOutputStatuses.has(d.status.trim().toLowerCase()))&&(!updateState.status||d.status===updateState.status)&&(!q||[d.title,d.venue,...(d.network_researchers||[])].join(" ").toLowerCase().includes(q)));
     const preprints=rows.filter(d=>d.status==="Preprint").length;
     const accepted=rows.filter(d=>d.status==="Accepted manuscript").length;
     $("#updatesSummary").innerHTML=`<div><strong>${rows.length}</strong><span>matching outputs</span></div><div><strong>${preprints}</strong><span>preprints</span></div><div><strong>${accepted}</strong><span>accepted manuscripts detected</span></div>`;
-    $("#updateFeed").innerHTML=rows.length?rows.map(updateCard).join(""):`<div class="empty-state"><strong>No matching updates</strong><p>Try removing a status filter or broadening the search.</p></div>`;
+    $("#updateFeed").innerHTML=rows.length?rows.map(updateCard).join(""):`<div class="empty-state"><strong>No matching updates</strong><p>Try removing a status filter, broadening the search, or unticking “exclude misc. output”.</p></div>`;
     $$("#updateFeed .update-person").forEach(button=>button.addEventListener("click",()=>openProfile(button.dataset.person)));
   }
   function initUpdates(){
     const statuses=unique(publicationUpdates.map(d=>d.status));
-    $("#updatesStatus").innerHTML=`<option value="papers">Papers & reviews</option><option value="">All research outputs</option>${statuses.map(status=>`<option value="${escapeHtml(status)}">${escapeHtml(status)}</option>`).join("")}`;
+    $("#updatesStatus").innerHTML=`<option value="">All statuses</option>${statuses.map(status=>`<option value="${escapeHtml(status)}">${escapeHtml(status)}</option>`).join("")}`;
     $("#updatesSearch").addEventListener("input",event=>{updateState.search=event.target.value.toLowerCase().trim();renderUpdates();});
     $("#updatesStatus").addEventListener("change",event=>{updateState.status=event.target.value;renderUpdates();});
-    $("#clearUpdateFilters").addEventListener("click",()=>{updateState.search="";updateState.status="";$("#updatesSearch").value="";$("#updatesStatus").value="";renderUpdates();});
+    $("#excludeMiscOutputs").addEventListener("change",event=>{updateState.excludeMisc=event.target.checked;renderUpdates();});
+    $("#clearUpdateFilters").addEventListener("click",()=>{updateState.search="";updateState.status="";updateState.excludeMisc=true;$("#updatesSearch").value="";$("#updatesStatus").value="";$("#excludeMiscOutputs").checked=true;renderUpdates();});
     const coverageEnd=publicationUpdateMeta.window_end||publicationUpdateMeta.generated_at;
     const lastSuccessfulCheck=publicationUpdateMeta.last_successful_check_date||publicationUpdateMeta.generated_at;
     if(coverageEnd)$("#updatesAsOf").textContent=readableDate(coverageEnd);

@@ -70,14 +70,15 @@ payload = {
 index_path = site / "index.html"
 if index_path.exists():
     html = index_path.read_text(encoding="utf-8")
-    for asset in ("data.js", "app.js"):
+    for asset in ("data.js", "app.js", "styles.css"):
+        attribute = "href" if asset.endswith(".css") else "src"
         digest = hashlib.sha256((site / asset).read_bytes()).hexdigest()[:12]
         html, replacements = re.subn(
-            rf'src="{re.escape(asset)}(?:\?[^"\s]*)?"',
-            f'src="{asset}?v={digest}"',
+            rf'{attribute}="{re.escape(asset)}(?:\?[^"\s]*)?"',
+            f'{attribute}="{asset}?v={digest}"',
             html,
         )
         if replacements != 1:
-            raise RuntimeError(f"Expected exactly one script reference for {asset}")
+            raise RuntimeError(f"Expected exactly one asset reference for {asset}")
     index_path.write_text(html, encoding="utf-8")
 print(site / "data.js")

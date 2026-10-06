@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Interactive atlas of leading DNA replication researchers, methods, subfields, and recent collaborations.">
   <title>DNA Replication Research Atlas</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=fe8ba466216d">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -140,12 +140,13 @@
       <div class="updates-layout section-shell">
         <div class="updates-controls" aria-label="Publication update filters">
           <label class="search-field"><span>Search updates</span><input id="updatesSearch" type="search" placeholder="Title, researcher, venue…" autocomplete="off"><b aria-hidden="true">⌕</b></label>
-          <div class="filter-group"><label for="updatesStatus">Publication status</label><select id="updatesStatus"><option value="papers">Papers &amp; reviews</option></select></div>
+          <div class="filter-group"><label for="updatesStatus">Publication status</label><select id="updatesStatus"><option value="">All statuses</option></select></div>
+          <label class="toggle-control"><input id="excludeMiscOutputs" type="checkbox" checked><span>exclude misc. output</span></label>
           <button id="clearUpdateFilters" class="clear-button" type="button">Clear filters</button>
         </div>
         <div class="updates-summary" id="updatesSummary" aria-live="polite"></div>
         <div class="update-feed" id="updateFeed"></div>
-        <p class="updates-caveat">Papers and reviews are shown by default; select “All research outputs” to include datasets, software, abstracts, and other records. Includes OpenAlex-indexed works matched to the atlas's author profiles within the displayed date range, without topic keyword exclusions. Author-profile coverage and indexing delays can still leave gaps. Status is inferred from work type and version metadata; use DOI, PubMed, or publisher links to verify the current publication state.</p>
+        <p class="updates-caveat">“exclude misc. output” is ticked by default and hides Other, Dataset, Software, Supplementary Materials, and Peer Review records. Untick it to include these categories; search and publication-status filters still apply. Includes OpenAlex-indexed works matched to the atlas's author profiles within the displayed date range, without topic keyword exclusions. Author-profile coverage and indexing delays can still leave gaps. Status is inferred from work type and version metadata; use DOI, PubMed, or publisher links to verify the current publication state.</p>
       </div>
     </section>
   </main>
@@ -163,6 +164,6 @@
   <div id="tooltip" class="tooltip" role="tooltip"></div>
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
   <script src="data.js?v=f0edf460ac04"></script>
-  <script src="app.js?v=a8db0445383b"></script>
+  <script src="app.js?v=30f02b2e7b16"></script>
 </body>
 </html>
