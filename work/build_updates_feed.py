@@ -30,22 +30,12 @@ SINCE = AS_OF - timedelta(days=LOOKBACK_DAYS)
 USER_AGENT = "DNAReplicationResearchAtlas/1.0 (academic field-mapping project)"
 CACHE_ONLY = "--cache-only" in sys.argv
 
-RELEVANCE = re.compile(
-    r"replicat|replisom|replication fork|origin licensing|origin firing|"
-    r"mcm\b|cmg\b|orc\b|dna polymerase|polymerase [αa-z0-9-]|pcna|rpa\b|"
-    r"helicase|okazaki|fork protection|fork restart|fork reversal|"
-    r"replication stress|replication timing|translesion|template switching|"
-    r"dna damage tolerance|telomere replication|r-loop|transcription.replication|"
-    r"topoisomerase|chromatin inheritance|histone recycling|sister chromatid|"
-    r"fanconi|brca|homologous recombination|mismatch repair|genome instability",
-    re.I,
-)
-
-
 def fetch_author_works(row: dict[str, str]) -> tuple[str, list[dict]]:
     aid = row["openalex_author_id"]
     cached = sorted(CACHE.glob(f"recent_works_{aid}*.json"))
-    if CACHE_ONLY and cached:
+    if CACHE_ONLY:
+        if not cached:
+            raise RuntimeError(f"No cached works for {row['person']}")
         return row["person"], json.loads(cached[-1].read_text(encoding="utf-8")).get("results", [])
     fields = (
         "id,doi,ids,display_name,publication_year,publication_date,type,authorships,"
@@ -53,30 +43,46 @@ def fetch_author_works(row: dict[str, str]) -> tuple[str, list[dict]]:
     )
     query = {
         "filter": (
-            f"author.id:{aid},from_publication_date:{SINCE.isoformat()},"
+            f"authorships.author.id:{aid},from_publication_date:{SINCE.isoformat()},"
             f"to_publication_date:{AS_OF.isoformat()}"
         ),
         "sort": "publication_date:desc",
-        "per-page": "100",
+        "per-page": "200",
+        "cursor": "*",
         "select": fields,
     }
-    url = "https://api.openalex.org/works?" + urllib.parse.urlencode(query, safe=",:")
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    for attempt in range(4):
-        try:
-            with urllib.request.urlopen(request, timeout=35) as response:
-                return row["person"], json.load(response).get("results", [])
-        except Exception:
-            if attempt == 3:
-                if cached:
-                    return row["person"], json.loads(cached[-1].read_text(encoding="utf-8")).get("results", [])
-                raise
-            time.sleep(1.5 * (attempt + 1))
-    return row["person"], []
-
-
-def topic_text(work: dict) -> str:
-    return " ".join(topic.get("display_name", "") for topic in work.get("topics") or [])
+    works: dict[str, dict] = {}
+    expected_count = None
+    seen_cursors: set[str] = set()
+    while query["cursor"]:
+        cursor = query["cursor"]
+        if cursor in seen_cursors:
+            raise RuntimeError(f"Repeated OpenAlex cursor for {row['person']}")
+        seen_cursors.add(cursor)
+        url = "https://api.openalex.org/works?" + urllib.parse.urlencode(query, safe=",:")
+        request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        for attempt in range(4):
+            try:
+                with urllib.request.urlopen(request, timeout=35) as response:
+                    payload = json.load(response)
+                break
+            except Exception:
+                if attempt == 3:
+                    # A live check must not silently substitute old cached data.
+                    raise
+                time.sleep(1.5 * (attempt + 1))
+        meta = payload["meta"]
+        if expected_count is None:
+            expected_count = meta["count"]
+        items = payload["results"]
+        for work in items:
+            works[work["id"]] = work
+        if not items or len(works) >= expected_count:
+            break
+        query["cursor"] = meta.get("next_cursor")
+    if len(works) != expected_count:
+        raise RuntimeError(f"Incomplete OpenAlex results for {row['person']}: {len(works)}/{expected_count}")
+    return row["person"], list(works.values())
 
 
 def location_versions(work: dict) -> set[str]:
@@ -88,6 +94,8 @@ def status_label(work: dict) -> str:
     work_type = work.get("type") or ""
     primary = work.get("primary_location") or {}
     source_type = ((primary.get("source") or {}).get("type") or "").lower()
+    if work_type not in {"article", "preprint", "review", ""}:
+        return work_type.replace("-", " ").title()
     if work_type == "preprint" or (
         "submittedVersion" in versions and "publishedVersion" not in versions
     ):
@@ -145,8 +153,17 @@ def title_key(title: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", title.lower())
 
 
+def update_key(row: dict) -> tuple[str, str]:
+    """Merge paper versions, but never infer dataset identity from its title."""
+    if row["status"] in {"Journal article", "Review", "Accepted manuscript", "Preprint", "Article", "Publication"}:
+        return "paper", title_key(str(row["title"]))
+    # Different deposits frequently have identical generic titles. A dataset,
+    # supplement, software release or peer review is not a version of a paper.
+    return "record", str(row.get("doi") or row["openalex_id"]).casefold()
+
+
 def deduplicate_updates(updates: list[dict]) -> list[dict]:
-    """Collapse exact-title duplicate records, retaining the strongest version."""
+    """Collapse paper versions and identifier duplicates, not distinct deposits."""
     strength = {
         "Journal article": 6,
         "Review": 5,
@@ -155,9 +172,9 @@ def deduplicate_updates(updates: list[dict]) -> list[dict]:
         "Dataset": 2,
         "Peer Review": 1,
     }
-    groups: dict[str, list[dict]] = {}
+    groups: dict[tuple[str, str], list[dict]] = {}
     for row in updates:
-        groups.setdefault(title_key(str(row["title"])), []).append(row)
+        groups.setdefault(update_key(row), []).append(row)
 
     merged = []
     for rows in groups.values():
@@ -173,7 +190,7 @@ def deduplicate_updates(updates: list[dict]) -> list[dict]:
                 chosen[field] = sorted({name for row in rows for name in row[field]})
             chosen["related_statuses"] = sorted({str(row["status"]) for row in rows})
             chosen["related_openalex_records"] = sorted({str(row["openalex_id"]) for row in rows})
-            chosen["source_note"] += "; exact-title OpenAlex duplicates/version records collapsed, strongest current status retained"
+            chosen["source_note"] += "; duplicate/version records collapsed by paper title or non-paper identifier, strongest current status retained"
         else:
             chosen["related_statuses"] = [str(chosen["status"])]
             chosen["related_openalex_records"] = [str(chosen["openalex_id"])]
@@ -203,7 +220,10 @@ def main() -> None:
                 if not (SINCE.isoformat() <= published <= AS_OF.isoformat()):
                     continue
                 key = work.get("id") or work.get("doi")
-                if not key or not RELEVANCE.search((work.get("display_name") or "") + " " + topic_text(work)):
+                # Author membership and dates define this community feed.
+                # Title/topic keywords omit legitimate topology and chromatin
+                # work (e.g. INO80 and TOP3α), so they do not gate inclusion.
+                if not key:
                     continue
                 works[key] = work
                 work_to_names.setdefault(key, set()).add(person)
@@ -223,7 +243,8 @@ def main() -> None:
             "window_start": SINCE.isoformat(),
             "window_end": AS_OF.isoformat(),
             "source": "OpenAlex API",
-            "retrieval_mode": "cache-only" if CACHE_ONLY else "live API with cached-record fallback",
+            "retrieval_mode": "cache-only" if CACHE_ONLY else "live API; all cursor pages; no cached fallback",
+            "inclusion_rule": "All indexed works coauthored by roster author IDs within the date window; no title/topic keyword exclusions",
             "researcher_count": len(researchers),
             "publication_count": len(updates),
             "failed_researchers": failures,
@@ -243,7 +264,7 @@ def main() -> None:
         "updated_date", "source_note",
     ]
     with (OUT / "replication_publication_updates.csv").open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         for row in updates:
             writer.writerow({

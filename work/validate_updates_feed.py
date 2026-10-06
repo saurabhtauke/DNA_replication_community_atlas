@@ -5,9 +5,10 @@ from __future__ import annotations
 
 import csv
 import json
-import re
 import sys
 from pathlib import Path
+
+from build_updates_feed import update_key
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -15,10 +16,6 @@ OUT = ROOT / "outputs"
 JSON_PATH = OUT / "replication_publication_updates.json"
 CSV_PATH = OUT / "replication_publication_updates.csv"
 REQUIRED = ("publication_date", "title", "status", "url", "openalex_id")
-
-
-def normalized_title(value: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "", value.casefold())
 
 
 def main() -> None:
@@ -42,9 +39,12 @@ def main() -> None:
         missing = [field for field in REQUIRED if not row.get(field)]
         if missing:
             problems.append(f"row {index} is missing {', '.join(missing)}")
-    titles = [normalized_title(str(row.get("title", ""))) for row in updates]
-    if len(titles) != len(set(titles)):
-        problems.append("duplicate normalized titles remain after deduplication")
+    keys = [update_key(row) for row in updates if all(row.get(field) for field in REQUIRED)]
+    if len(keys) != len(set(keys)):
+        problems.append("duplicate paper titles or non-paper identifiers remain after deduplication")
+    record_ids = [record_id for row in updates for record_id in row.get("related_openalex_records", [row.get("openalex_id")])]
+    if len(record_ids) != len(set(record_ids)):
+        problems.append("an OpenAlex record appears in multiple updates")
 
     if problems:
         print("Publication-update validation failed:", file=sys.stderr)

@@ -185,7 +185,8 @@
 
   const publicationUpdates=DATA.publicationUpdates||[];
   const publicationUpdateMeta=DATA.publicationUpdateMeta||{};
-  const updateState={search:"",status:""};
+  const paperStatuses=new Set(["Journal article","Review","Accepted manuscript","Preprint","Article","Publication"]);
+  const updateState={search:"",status:"papers"};
   function readableDate(value){
     if(!value)return "Date not resolved";
     return new Intl.DateTimeFormat("en",{day:"numeric",month:"short",year:"numeric",timeZone:"UTC"}).format(new Date(`${value}T00:00:00Z`));
@@ -201,7 +202,7 @@
   }
   function renderUpdates(){
     const q=updateState.search;
-    const rows=publicationUpdates.filter(d=>(!updateState.status||d.status===updateState.status)&&(!q||[d.title,d.venue,...(d.network_researchers||[])].join(" ").toLowerCase().includes(q)));
+    const rows=publicationUpdates.filter(d=>(!updateState.status||(updateState.status==="papers"?paperStatuses.has(d.status):d.status===updateState.status))&&(!q||[d.title,d.venue,...(d.network_researchers||[])].join(" ").toLowerCase().includes(q)));
     const preprints=rows.filter(d=>d.status==="Preprint").length;
     const accepted=rows.filter(d=>d.status==="Accepted manuscript").length;
     $("#updatesSummary").innerHTML=`<div><strong>${rows.length}</strong><span>matching outputs</span></div><div><strong>${preprints}</strong><span>preprints</span></div><div><strong>${accepted}</strong><span>accepted manuscripts detected</span></div>`;
@@ -210,7 +211,7 @@
   }
   function initUpdates(){
     const statuses=unique(publicationUpdates.map(d=>d.status));
-    fillSelect("#updatesStatus",statuses);
+    $("#updatesStatus").innerHTML=`<option value="papers">Papers & reviews</option><option value="">All research outputs</option>${statuses.map(status=>`<option value="${escapeHtml(status)}">${escapeHtml(status)}</option>`).join("")}`;
     $("#updatesSearch").addEventListener("input",event=>{updateState.search=event.target.value.toLowerCase().trim();renderUpdates();});
     $("#updatesStatus").addEventListener("change",event=>{updateState.status=event.target.value;renderUpdates();});
     $("#clearUpdateFilters").addEventListener("click",()=>{updateState.search="";updateState.status="";$("#updatesSearch").value="";$("#updatesStatus").value="";renderUpdates();});

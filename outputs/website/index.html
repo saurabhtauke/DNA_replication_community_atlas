@@ -128,24 +128,24 @@
         <div>
           <p class="eyebrow">Recent publications · network-wide</p>
           <h1 id="updatesTitle">Updates</h1>
-          <p>New journal articles, preprints, accepted manuscripts, and related research outputs connected to researchers in this atlas.</p>
+          <p>Recent journal articles, preprints, accepted manuscripts, and other research outputs coauthored by researchers in this atlas, including their work on chromatin, DNA topology, and related fields.</p>
         </div>
         <div class="updates-snapshot" aria-label="Update snapshot">
           <span>Latest publications through</span>
-          <strong id="updatesAsOf">8 September 2026</strong>
+          <strong id="updatesAsOf">Loading coverage date…</strong>
           <small id="updatesWindow">OpenAlex · recent six months</small>
-          <p id="updatesLastChecked">Last successful check: 8 September 2026</p>
+          <p id="updatesLastChecked">Loading last successful check…</p>
         </div>
       </div>
       <div class="updates-layout section-shell">
         <div class="updates-controls" aria-label="Publication update filters">
           <label class="search-field"><span>Search updates</span><input id="updatesSearch" type="search" placeholder="Title, researcher, venue…" autocomplete="off"><b aria-hidden="true">⌕</b></label>
-          <div class="filter-group"><label for="updatesStatus">Publication status</label><select id="updatesStatus"><option value="">All statuses</option></select></div>
+          <div class="filter-group"><label for="updatesStatus">Publication status</label><select id="updatesStatus"><option value="papers">Papers &amp; reviews</option></select></div>
           <button id="clearUpdateFilters" class="clear-button" type="button">Clear filters</button>
         </div>
         <div class="updates-summary" id="updatesSummary" aria-live="polite"></div>
         <div class="update-feed" id="updateFeed"></div>
-        <p class="updates-caveat">Status is inferred from OpenAlex work type and version metadata. Preprint and accepted-manuscript coverage varies by repository, journal, and indexing delay; use DOI, PubMed, or publisher links to verify the current publication state.</p>
+        <p class="updates-caveat">Papers and reviews are shown by default; select “All research outputs” to include datasets, software, abstracts, and other records. Includes OpenAlex-indexed works matched to the atlas's author profiles within the displayed date range, without topic keyword exclusions. Author-profile coverage and indexing delays can still leave gaps. Status is inferred from work type and version metadata; use DOI, PubMed, or publisher links to verify the current publication state.</p>
       </div>
     </section>
   </main>
