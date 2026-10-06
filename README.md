@@ -12,6 +12,8 @@ The daily GitHub Actions workflow refreshes the OpenAlex-backed publication feed
 
 The feed includes all OpenAlex-indexed works coauthored by the 103 roster author profiles during the rolling 190-day window, including related chromatin, DNA topology, and biophysics work. It retrieves every cursor page and applies no title/topic keyword gate. Live source failures block validation and publishing rather than silently substituting stale cached records. Preprint and accepted-manuscript status remain source-inferred and are labelled accordingly in the site; see the caveats in `outputs/README.md`.
 
+Rebuilding the website also fingerprints its data and application script links in `index.html`, so refreshed pages request matching assets instead of an older cached feed. The refresh workflow commits these updated links along with the data. This does not change the refresh schedule or GitHub Pages deployment triggers.
+
 ## Local preview
 
 Run a static HTTP server from `outputs/website/`, then open `index.html` through that server. The site is entirely static and requires no client-side API credentials.

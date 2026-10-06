@@ -2,7 +2,9 @@
 """Bundle the survey CSVs into a browser-friendly JavaScript data file."""
 
 import csv
+import hashlib
 import json
+import re
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
@@ -63,4 +65,19 @@ payload = {
     "window.REPLICATION_DATA = " + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n",
     encoding="utf-8",
 )
+# New HTML must request the matching bundle rather than a cached older feed.
+# Content hashes are stable when data is unchanged and rotate on every refresh.
+index_path = site / "index.html"
+if index_path.exists():
+    html = index_path.read_text(encoding="utf-8")
+    for asset in ("data.js", "app.js"):
+        digest = hashlib.sha256((site / asset).read_bytes()).hexdigest()[:12]
+        html, replacements = re.subn(
+            rf'src="{re.escape(asset)}(?:\?[^"\s]*)?"',
+            f'src="{asset}?v={digest}"',
+            html,
+        )
+        if replacements != 1:
+            raise RuntimeError(f"Expected exactly one script reference for {asset}")
+    index_path.write_text(html, encoding="utf-8")
 print(site / "data.js")
