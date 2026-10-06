@@ -180,6 +180,14 @@ class TrackerTests(unittest.TestCase):
             self.assertEqual(paper["authors"], [])
             self.assertEqual(paper["abstract"], "")
 
+    def test_openalex_null_coauthor_ids_are_not_an_identity(self):
+        paper = t.normalize_openalex({"id": "W1", "title": "Known paper", "authorships": [{"author": {"id": None, "display_name": "Other Person"}}, {"author": {"id": "https://openalex.org/A1", "display_name": "David Rueda"}}, {"author": None}]})
+        self.assertEqual(paper["author_ids"], ["A1"])
+        self.assertTrue(t.verified_author_match(AUTHOR, paper))
+        no_ids = t.normalize_openalex({"id": "W2", "title": "Known paper", "authorships": [{"author": {"id": None, "display_name": "Unrelated Author"}}]})
+        self.assertFalse(t.compatible_authors(no_ids, paper))
+        self.assertEqual(t.text("&lt;i&gt;Plain&lt;/i&gt; abstract"), "Plain  abstract")
+
     def test_doi_bridge_preserves_oldest_discovery(self):
         a = row(doi="", sid="W1", authors=["Other Person"])
         b = row(doi="10.1234/a", sid="W2")

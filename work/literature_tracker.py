@@ -29,7 +29,7 @@ PAPER_TYPES = {"article", "preprint", "review", "conference-paper", "editorial",
 
 
 def text(value):
-    return html.unescape(re.sub(r"<[^>]*>", " ", str(value or ""))).strip()
+    return re.sub(r"<[^>]*>", " ", html.unescape(str(value or ""))).strip()
 
 
 def normalized(value):
@@ -265,7 +265,7 @@ def normalize_openalex(work):
     kind = work.get("type") or "article"
     status = {"preprint": "Preprint", "review": "Review", "article": "Journal article"}.get(kind, kind.replace("-", " ").title())
     row = base_record(work.get("title") or work.get("display_name"), [(a.get("author") or {}).get("display_name") for a in authorships], work.get("publication_date"), source.get("display_name"), work.get("doi"), (work.get("primary_location") or {}).get("landing_page_url") or work.get("id"), "openalex", work.get("id"), status, " ".join(word for _, word in words))
-    row["author_ids"] = [(a.get("author") or {}).get("id", "").rsplit("/", 1)[-1] for a in authorships]
+    row["author_ids"] = [(a.get("author") or {})["id"].rsplit("/", 1)[-1] for a in authorships if (a.get("author") or {}).get("id")]
     row["author_orcids"] = [orcid_key((a.get("author") or {}).get("orcid")) for a in authorships if (a.get("author") or {}).get("orcid")]
     if status == "Preprint":
         row["preprint_url"] = row["url"]
