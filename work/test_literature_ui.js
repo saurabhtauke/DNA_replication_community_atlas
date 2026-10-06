@@ -1,0 +1,58 @@
+/* Test actual rendering/event code without installing a frontend framework. */
+const fs=require('fs'), vm=require('vm'), assert=require('node:assert/strict');
+const alerts=[{id:'topic',name:'DNA replication',type:'keyword',enabled:true,query:{all:['DNA replication']},publication_count:110},{id:'rare',name:'Rare author',type:'author',enabled:true,author:{name:'Rare author'},publication_count:20},{id:'pending',name:'Unknown person',type:'author',enabled:false,disabled_reason:'Needs identity review',author:{identity_status:'needs identity review'},publication_count:0}];
+const publications=Array.from({length:130},(_,i)=>({id:String(i),title:i===0?'<img src=x onerror=alert(1)>':'Paper '+i,authors:['A. Author'],venue:'Journal',abstract:'<script>unsafe</script>',doi:'10.1234/'+i,url:'https://example.org/'+i,preprint_url:'',publication_date:'2026-09-24',first_discovered_at:'2026-10-06T06:00:00Z',status:'Preprint',sources:['europe_pmc'],enrichment_sources:[],alert_ids:i<110?['topic']:['rare']}));
+const tracker={meta:{refresh_status:'partial',last_attempt_at:'2026-10-06T06:00:00Z',initial_baseline:true,new_publication_ids:[],source_health:{openalex:{source:'openalex',status:'failed',error:'quota'}},enabled_alert_count:2,disabled_alert_count:1},alerts,publications,latest_ids:publications.slice(0,100).map(r=>r.id),discovered_ids:publications.slice(0,100).reverse().map(r=>r.id),new_ids:[],by_alert:{topic:publications.slice(0,20).map(r=>r.id),rare:publications.slice(110).map(r=>r.id),pending:[]}};
+const elements={};
+function $(selector){return elements[selector]??={innerHTML:'',textContent:selector==='#updatesIntro'?'Network description':'',value:'',disabled:false,hidden:false,listeners:{},attributes:{},classList:{toggle(){}},setAttribute(k,v){this.attributes[k]=v;},closest(){return this;},addEventListener(k,f){this.listeners[k]=f;},focus(){}};}
+const document={querySelector:$,querySelectorAll:()=>[]};
+const context={window:{REPLICATION_DATA:{literatureTracker:tracker}},document,location:{hash:'#updates/literature?alert=rare'},history:{replaceState(a,b,url){context.location.hash=url;}},URLSearchParams,Intl,Date,Map,Set};
+vm.createContext(context);
+vm.runInContext(fs.readFileSync('outputs/website/literature.js','utf8'),context);
+const count=()=>($('#trackerFeed').innerHTML.match(/class="update-card tracker-card"/g)||[]).length;
+assert.equal(count(),20);
+assert($('#trackerFeed').innerHTML.includes('Paper 110'));
+assert.equal($('#trackerOrder').disabled,true);
+assert.equal($('#networkUpdatesPanel').hidden,true);
+assert.equal($('#literatureTrackerTab').attributes['aria-selected'],'true');
+$('#trackerReset').listeners.click();
+assert.equal(count(),100);
+assert.equal($('#trackerOrder').disabled,false);
+assert(!$('#trackerFeed').innerHTML.includes('<img'));
+assert($('#trackerFeed').innerHTML.includes('&lt;img'));
+assert(!$('#trackerFeed').innerHTML.includes('<script>'));
+assert($('#trackerStatus').innerHTML.includes('partial'));
+assert($('#trackerStatus').innerHTML.includes('quota'));
+$('#trackerOrder').listeners.change({target:{value:'new'}});
+assert.equal(count(),0);
+assert($('#trackerFeed').innerHTML.includes('No new discoveries'));
+$('#trackerReset').listeners.click();
+$('#trackerSearch').listeners.input({target:{value:'Paper 99'}});
+assert.equal(count(),1);
+$('#trackerAlertType').listeners.change({target:{value:'disabled'}});
+assert($('#trackerAlertList').innerHTML.includes('Unknown person'));
+assert(!$('#trackerAlertList').innerHTML.includes('DNA replication'));
+$('#networkUpdatesTab').listeners.click();
+assert.equal($('#networkUpdatesPanel').hidden,false);
+assert.equal($('#literatureTrackerPanel').hidden,true);
+assert.equal(context.location.hash,'#updates');
+$('#literatureTrackerTab').listeners.keydown({key:'Home',preventDefault(){}});
+assert.equal($('#networkUpdatesTab').attributes['aria-selected'],'true');
+
+// Verify existing checkbox/search/status behavior remains unchanged.
+const app=fs.readFileSync('outputs/website/app.js','utf8');
+const segment=app.slice(app.indexOf('  const publicationUpdates='),app.indexOf('\n  drawHero(); initOverview();'));
+const rows=['Dataset','Other','Software','Supplementary Materials','Peer Review','Journal article','Preprint','Conference Abstract'].map((status,i)=>({status,title:'Output '+i,venue:'Venue',network_researchers:[],publication_date:'2026-09-24',doi:'',pmid:'',url:'https://example.org',openalex_id:'https://openalex.org/W'+i}));
+const networkContext={DATA:{publicationUpdates:rows,publicationUpdateMeta:{}},$,$$:()=>[],unique:xs=>[...new Set(xs)],escapeHtml:String,openProfile(){},Intl,Date};
+vm.createContext(networkContext);vm.runInContext(segment+';initUpdates();',networkContext);
+const netCount=()=>Number($('#updatesSummary').innerHTML.match(/<strong>(\d+)/)[1]);
+assert.equal(netCount(),3);
+$('#excludeMiscOutputs').listeners.change({target:{checked:false}});
+assert.equal(netCount(),8);
+$('#updatesStatus').listeners.change({target:{value:'Dataset'}});
+assert.equal(netCount(),1);
+$('#clearUpdateFilters').listeners.click();
+assert.equal(netCount(),3);
+assert.equal($('#excludeMiscOutputs').checked,true);
+assert(fs.readFileSync('outputs/website/styles.css','utf8').includes('@media (max-width: 680px)'));
+console.log('Literature UI and existing Updates checkbox regression checks passed.');

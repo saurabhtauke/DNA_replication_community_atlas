@@ -23,7 +23,7 @@
   function switchView(id) {
     $$(".view").forEach(v => v.classList.toggle("is-active", v.id === id));
     $$(".nav-link").forEach(v => v.classList.toggle("is-active", v.dataset.view === id));
-    history.replaceState(null, "", `#${id}`);
+    history.replaceState(null, "", `#${id}${id==="updates"?(window.LITERATURE_TRACKER_ROUTE||""):""}`);
     window.scrollTo({top: 0, behavior: "smooth"});
     if (id === "network") requestAnimationFrame(drawNetwork);
     if (id === "methods") requestAnimationFrame(drawImpactScatter);
@@ -225,6 +225,6 @@
   }
 
   drawHero(); initOverview(); initDirectory(); initMethods(); initUpdates();
-  const initial=location.hash.slice(1); if(["overview","researchers","network","methods","updates"].includes(initial))switchView(initial);
+  const initial=location.hash.slice(1).split("/")[0]; if(["overview","researchers","network","methods","updates"].includes(initial))switchView(initial);
   let resizeTimer; window.addEventListener("resize",()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{if($("#network").classList.contains("is-active"))drawNetwork(true);if($("#methods").classList.contains("is-active"))drawImpactScatter();},180);});
 })();

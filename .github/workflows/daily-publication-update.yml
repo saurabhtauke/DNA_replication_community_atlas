@@ -2,13 +2,14 @@ name: Refresh publication updates
 
 on:
   schedule:
-    # GitHub Actions cron uses UTC. The job checks Europe/London and runs only
-    # at 06:00 local time, including across UK daylight-saving transitions.
-    - cron: "0 5,6 * * *"
+    # One trigger per day; delayed starts must not be skipped.
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: publication-update
@@ -17,42 +18,109 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 55
+    outputs:
+      publish_ready: ${{ steps.publish.outputs.ready }}
+      tracker_status: ${{ steps.publish.outputs.tracker_status }}
+      network_outcome: ${{ steps.network.outcome }}
     steps:
       - name: Check out the atlas
         uses: actions/checkout@v4
-
-      - name: Confirm 06:00 Europe/London schedule
-        id: london_time
-        shell: bash
-        run: |
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(TZ=Europe/London date +%H)" != "06" ]; then
-            echo "run_update=false" >> "$GITHUB_OUTPUT"
-            echo "Skipping the non-06:00 UTC trigger."
-          else
-            echo "run_update=true" >> "$GITHUB_OUTPUT"
-          fi
+        with:
+          ref: main
 
       - name: Set up Python
-        if: steps.london_time.outputs.run_update == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Rebuild publication feed
-        if: steps.london_time.outputs.run_update == 'true'
+      - name: Install public API client dependency
+        run: python -m pip install -r work/literature_requirements.txt
+
+      - name: Cache recent successful public API responses
+        uses: actions/cache@v4
+        with:
+          path: work/literature_cache
+          key: literature-public-api-${{ github.run_id }}
+          restore-keys: literature-public-api-
+
+      - name: Run regression tests
         run: |
-          python work/build_updates_feed.py
+          python -m unittest discover -s work -p 'test_*.py'
+          node work/test_literature_ui.js
+
+      - name: Refresh the existing network feed independently
+        id: network
+        continue-on-error: true
+        run: |
+          timeout 12m python work/build_updates_feed.py
+          python work/validate_updates_feed.py
+
+      - name: Preserve last valid network snapshot on refresh failure
+        if: steps.network.outcome == 'failure'
+        run: |
+          python - <<'PY'
+          import pathlib, subprocess
+          for name in ['outputs/replication_publication_updates.csv', 'outputs/replication_publication_updates.json']:
+              pathlib.Path(name).write_bytes(subprocess.check_output(['git', 'show', 'HEAD:' + name]))
+          PY
+          echo "::warning::Network refresh failed; keeping its previous successful snapshot and check date."
+
+      - name: Refresh credential-free literature tracker
+        run: |
+          python work/literature_tracker.py
+          python work/literature_tracker.py --validate
+
+      - name: Smoke check public APIs and Rueda preprints
+        continue-on-error: true
+        run: python work/literature_tracker.py --smoke
+
+      - name: Validate and rebuild the website bundle
+        run: |
           python work/validate_updates_feed.py
           python work/build_website_data.py
+          node --check outputs/website/app.js
+          node --check outputs/website/literature.js
+          node --check outputs/website/data.js
 
-      - name: Commit updated publication data
-        if: steps.london_time.outputs.run_update == 'true'
+      - name: Commit validated data and publish metadata
+        id: publish
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add outputs/replication_publication_updates.csv outputs/replication_publication_updates.json outputs/website/data.js outputs/website/index.html
+          git add outputs/replication_publication_updates.csv outputs/replication_publication_updates.json outputs/literature_tracker.json outputs/website/data.js outputs/website/index.html
           if ! git diff --cached --quiet; then
-            git commit -m "chore: refresh publication updates"
-            git push
+            git commit -m "chore: refresh network and credential-free literature feeds"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+          python - <<'PY'
+          import json, os
+          meta = json.load(open('outputs/literature_tracker.json'))['meta']
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as handle:
+              handle.write('ready=true\ntracker_status=' + meta['refresh_status'] + '\n')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as handle:
+              handle.write('## Literature tracker\nStatus: ' + meta['refresh_status'] + '\n\nPublications: ' + str(meta['publication_count']) + '\n\nLast complete successful check: ' + str(meta['last_successful_check_at']) + '\n')
+          PY
+
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.publish_ready == 'true'
+    uses: ./.github/workflows/deploy-pages.yml
+
+  health:
+    needs: [refresh, deploy]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report incomplete feeds after deploying visible health status
+        env:
+          TRACKER_STATUS: ${{ needs.refresh.outputs.tracker_status }}
+          NETWORK_OUTCOME: ${{ needs.refresh.outputs.network_outcome }}
+          DEPLOY_RESULT: ${{ needs.deploy.result }}
+        run: |
+          if [ "$TRACKER_STATUS" != "ok" ] || [ "$NETWORK_OUTCOME" != "success" ] || [ "$DEPLOY_RESULT" != "success" ]; then
+            echo "::error::A source refresh or deployment was incomplete. The tracker retains successful data and displays its health status."
+            exit 1
           fi

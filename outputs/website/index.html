@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Interactive atlas of leading DNA replication researchers, methods, subfields, and recent collaborations.">
   <title>DNA Replication Research Atlas</title>
-  <link rel="stylesheet" href="styles.css?v=fe8ba466216d">
+  <link rel="stylesheet" href="styles.css?v=4e992bf1c7b1">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -128,16 +128,20 @@
         <div>
           <p class="eyebrow">Recent publications · network-wide</p>
           <h1 id="updatesTitle">Updates</h1>
-          <p>Recent journal articles, preprints, accepted manuscripts, and other research outputs coauthored by researchers in this atlas, including their work on chromatin, DNA topology, and related fields.</p>
+          <p id="updatesIntro">Recent journal articles, preprints, accepted manuscripts, and other research outputs coauthored by researchers in this atlas, including their work on chromatin, DNA topology, and related fields.</p>
         </div>
-        <div class="updates-snapshot" aria-label="Update snapshot">
+        <div class="updates-snapshot" id="networkUpdatesSnapshot" aria-label="Update snapshot">
           <span>Latest publications through</span>
           <strong id="updatesAsOf">Loading coverage date…</strong>
           <small id="updatesWindow">OpenAlex · recent six months</small>
           <p id="updatesLastChecked">Loading last successful check…</p>
         </div>
       </div>
-      <div class="updates-layout section-shell">
+      <div class="updates-subtabs section-shell" role="tablist" aria-label="Update feeds">
+        <button id="networkUpdatesTab" class="is-active" type="button" role="tab" aria-selected="true" aria-controls="networkUpdatesPanel">Network publications</button>
+        <button id="literatureTrackerTab" type="button" role="tab" aria-selected="false" aria-controls="literatureTrackerPanel" tabindex="-1">Literature tracker</button>
+      </div>
+      <div class="updates-layout section-shell" id="networkUpdatesPanel" role="tabpanel" aria-labelledby="networkUpdatesTab">
         <div class="updates-controls" aria-label="Publication update filters">
           <label class="search-field"><span>Search updates</span><input id="updatesSearch" type="search" placeholder="Title, researcher, venue…" autocomplete="off"><b aria-hidden="true">⌕</b></label>
           <div class="filter-group"><label for="updatesStatus">Publication status</label><select id="updatesStatus"><option value="">All statuses</option></select></div>
@@ -147,6 +151,27 @@
         <div class="updates-summary" id="updatesSummary" aria-live="polite"></div>
         <div class="update-feed" id="updateFeed"></div>
         <p class="updates-caveat">“exclude misc. output” is ticked by default and hides Other, Dataset, Software, Supplementary Materials, and Peer Review records. Untick it to include these categories; search and publication-status filters still apply. Includes OpenAlex-indexed works matched to the atlas's author profiles within the displayed date range, without topic keyword exclusions. Author-profile coverage and indexing delays can still leave gaps. Status is inferred from work type and version metadata; use DOI, PubMed, or publisher links to verify the current publication state.</p>
+      </div>
+      <div class="updates-layout section-shell" id="literatureTrackerPanel" role="tabpanel" aria-labelledby="literatureTrackerTab" hidden>
+        <div class="tracker-status panel" id="trackerStatus" aria-live="polite"></div>
+        <div class="tracker-layout">
+          <aside class="tracker-alerts panel" aria-label="Configured literature alerts">
+            <h2>Watchlist</h2>
+            <label class="search-field"><span>Find an alert</span><input id="trackerAlertSearch" type="search" placeholder="Author or topic…" autocomplete="off"></label>
+            <div class="filter-group"><label for="trackerAlertType">Alert type</label><select id="trackerAlertType"><option value="">All alerts</option><option value="author">Authors</option><option value="keyword">Topics / fields</option><option value="disabled">Inactive / needs review</option></select></div>
+            <div id="trackerAlertList" class="tracker-alert-list"></div>
+          </aside>
+          <div class="tracker-results">
+            <div class="tracker-controls">
+              <label class="search-field"><span>Search shown results</span><input id="trackerSearch" type="search" placeholder="Title, author, venue, abstract…" autocomplete="off"></label>
+              <div class="filter-group"><label for="trackerOrder">View</label><select id="trackerOrder"><option value="latest">Latest publications</option><option value="discovery">Newly discovered</option><option value="new">New since previous refresh</option></select></div>
+              <button id="trackerReset" class="clear-button" type="button">All alerts</button>
+            </div>
+            <div class="tracker-selection" id="trackerSelection" aria-live="polite"></div>
+            <div id="trackerFeed" class="update-feed"></div>
+          </div>
+        </div>
+        <p class="updates-caveat">Public scholarly databases—not Google Scholar results. No Google account, email access, or browser-side API searches. Latest 100 overall; up to 20 latest publications per alert. Initial results establish a baseline, not a batch of newly published papers. Identity-unresolved authors and unsupported citation/recommendation alerts are explicitly inactive. Abstracts and publication-version linkage depend on source coverage.</p>
       </div>
     </section>
   </main>
@@ -163,7 +188,8 @@
 
   <div id="tooltip" class="tooltip" role="tooltip"></div>
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
-  <script src="data.js?v=f0edf460ac04"></script>
-  <script src="app.js?v=30f02b2e7b16"></script>
+  <script src="data.js?v=f640a4898f28"></script>
+  <script src="literature.js?v=a59f6658c800"></script>
+  <script src="app.js?v=63cb7660111c"></script>
 </body>
 </html>

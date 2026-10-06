@@ -7,6 +7,8 @@ import json
 import re
 from pathlib import Path
 
+from literature_tracker import validate_store, website_payload
+
 root = Path(__file__).resolve().parents[1]
 out = root / "outputs"
 site = out / "website"
@@ -19,6 +21,8 @@ with (out / "replication_network_edges.csv").open(encoding="utf-8") as f:
 
 updates_path = out / "replication_publication_updates.json"
 publication_updates = json.loads(updates_path.read_text(encoding="utf-8")) if updates_path.exists() else {"meta": {}, "updates": []}
+tracker_path = out / "literature_tracker.json"
+tracker = website_payload(validate_store(json.loads(tracker_path.read_text(encoding="utf-8")))) if tracker_path.exists() else {"meta": {}, "alerts": [], "publications": [], "latest_ids": [], "discovered_ids": [], "new_ids": [], "by_alert": {}}
 
 numeric_fields = {
     "rank": int,
@@ -59,6 +63,7 @@ payload = {
     "edges": edges,
     "publicationUpdates": publication_updates["updates"],
     "publicationUpdateMeta": publication_updates["meta"],
+    "literatureTracker": tracker,
 }
 
 (site / "data.js").write_text(
@@ -70,7 +75,7 @@ payload = {
 index_path = site / "index.html"
 if index_path.exists():
     html = index_path.read_text(encoding="utf-8")
-    for asset in ("data.js", "app.js", "styles.css"):
+    for asset in ("data.js", "app.js", "literature.js", "styles.css"):
         attribute = "href" if asset.endswith(".css") else "src"
         digest = hashlib.sha256((site / asset).read_bytes()).hexdigest()[:12]
         html, replacements = re.subn(

@@ -7,6 +7,7 @@ on:
       - "outputs/website/**"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
+  workflow_call:
 
 permissions:
   contents: read
@@ -26,6 +27,9 @@ jobs:
     steps:
       - name: Check out the atlas
         uses: actions/checkout@v4
+        with:
+          # The refresh caller has just pushed a newer generated-data commit.
+          ref: main
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

@@ -1,0 +1,3017 @@
+{
+  "schema_version": 1,
+  "lookback_days": 190,
+  "description": "Public-source watchlist seeded from supplied alert names. No Google Scholar scraping, account access, OAuth or email credentials.",
+  "alerts": [
+    {
+      "id": "author-richard-janissen",
+      "name": "Richard Janissen — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Richard Janissen",
+        "aliases": [
+          "Richard Janissen"
+        ],
+        "openalex_ids": [
+          "A5081367441"
+        ],
+        "orcid": "https://orcid.org/0000-0003-0901-3433",
+        "affiliation": "",
+        "verified_institutions": [
+          "Delft University of Technology",
+          "Universidade Estadual de Campinas (UNICAMP)"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5081367441",
+          "https://doi.org/10.1038/s41586-023-05961-5",
+          "https://doi.org/10.1021/acs.nanolett.7b01803",
+          "https://doi.org/10.1016/j.cell.2018.06.049",
+          "https://doi.org/10.1038/srep09856"
+        ]
+      }
+    },
+    {
+      "id": "author-shivprasad-patil",
+      "name": "Shivprasad Patil — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Shivprasad Patil",
+        "aliases": [
+          "Shivprasad Patil"
+        ],
+        "openalex_ids": [
+          "A5047309255"
+        ],
+        "orcid": "https://orcid.org/0000-0002-3413-4109",
+        "affiliation": "",
+        "verified_institutions": [
+          "Consejo Superior de Investigaciones Científicas",
+          "Indian Institute of Science Education and Research Pune",
+          "Institute of Micro and Nanotechnology"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5047309255",
+          "https://doi.org/10.1103/physrevlett.97.016103",
+          "https://doi.org/10.1103/physrevlett.105.106101",
+          "https://doi.org/10.1063/1.2360894",
+          "https://doi.org/10.1155/2015/562938"
+        ]
+      }
+    },
+    {
+      "id": "author-ritesh-soni",
+      "name": "Ritesh Soni — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Ritesh Soni",
+        "aliases": [
+          "Ritesh Soni"
+        ],
+        "openalex_ids": [
+          "A5003298740"
+        ],
+        "orcid": "https://orcid.org/0000-0002-3578-1092",
+        "affiliation": "",
+        "verified_institutions": [
+          "Ulsan National Institute of Science and Technology"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5003298740",
+          "https://doi.org/10.1021/acsanm.1c01082",
+          "https://doi.org/10.1016/j.ceramint.2022.04.322",
+          "https://doi.org/10.1016/j.surfin.2022.102404",
+          "https://doi.org/10.1016/j.chemosphere.2021.133197"
+        ]
+      }
+    },
+    {
+      "id": "author-steve-granick",
+      "name": "Steve Granick — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Steve Granick",
+        "aliases": [
+          "Steve Granick"
+        ],
+        "openalex_ids": [
+          "A5013223554"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4775-2202",
+        "affiliation": "",
+        "verified_institutions": [
+          "University of Illinois Urbana-Champaign"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5013223554",
+          "https://doi.org/10.1038/nature09713",
+          "https://doi.org/10.1126/science.253.5026.1374",
+          "https://doi.org/10.1002/adma.200904094",
+          "https://doi.org/10.1103/physrevlett.87.096105"
+        ]
+      }
+    },
+    {
+      "id": "author-pallav-kosuri",
+      "name": "Pallav Kosuri — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Pallav Kosuri",
+        "aliases": [
+          "Pallav Kosuri"
+        ],
+        "openalex_ids": [
+          "A5050325221"
+        ],
+        "orcid": "https://orcid.org/0000-0002-7025-3543",
+        "affiliation": "",
+        "verified_institutions": [
+          "Columbia University"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5050325221",
+          "https://doi.org/10.1016/j.molcel.2008.03.012",
+          "https://doi.org/10.1016/j.cell.2014.01.056",
+          "https://doi.org/10.1038/nsmb.2020",
+          "https://doi.org/10.1016/j.celrep.2016.01.025"
+        ]
+      }
+    },
+    {
+      "id": "author-massimo-lopes",
+      "name": "Massimo Lopes — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Massimo Lopes",
+        "aliases": [
+          "Massimo Lopes"
+        ],
+        "openalex_ids": [
+          "A5019206750"
+        ],
+        "orcid": "https://orcid.org/0000-0003-3847-8133",
+        "affiliation": "University of Zurich",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      }
+    },
+    {
+      "id": "author-allison-h-squires",
+      "name": "Allison H. Squires — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Allison H. Squires",
+        "aliases": [
+          "Allison H. Squires"
+        ],
+        "openalex_ids": [
+          "A5082921919"
+        ],
+        "orcid": "https://orcid.org/0000-0002-2417-1432",
+        "affiliation": "",
+        "verified_institutions": [
+          "Boston University",
+          "Technion – Israel Institute of Technology"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5082921919",
+          "https://doi.org/10.1038/nnano.2013.221",
+          "https://doi.org/10.1021/ja408685x",
+          "https://doi.org/10.1038/srep11643",
+          "https://doi.org/10.1021/nn505545h"
+        ]
+      }
+    },
+    {
+      "id": "author-bruce-stillman",
+      "name": "Bruce Stillman — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Bruce Stillman",
+        "aliases": [
+          "Bruce Stillman"
+        ],
+        "openalex_ids": [
+          "A5071437258"
+        ],
+        "orcid": "https://orcid.org/0000-0002-9453-4091",
+        "affiliation": "Cold Spring Harbor Laboratory",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      }
+    },
+    {
+      "id": "author-timothy-d-craggs",
+      "name": "Timothy D Craggs — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Timothy D. Craggs",
+        "aliases": [
+          "Timothy D Craggs",
+          "Timothy D. Craggs"
+        ],
+        "openalex_ids": [
+          "A5072112447"
+        ],
+        "orcid": "https://orcid.org/0000-0002-7121-0609",
+        "affiliation": "",
+        "verified_institutions": [
+          "University of Bristol",
+          "University of Oxford",
+          "University of Sheffield"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5072112447",
+          "https://doi.org/10.1016/j.molcel.2015.01.013",
+          "https://doi.org/10.1038/s41592-018-0085-0",
+          "https://doi.org/10.1038/nchem.2519",
+          "https://doi.org/10.7554/elife.60416"
+        ]
+      }
+    },
+    {
+      "id": "author-anisha-shakya",
+      "name": "Anisha Shakya — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Anisha Shakya",
+        "aliases": [
+          "Anisha Shakya"
+        ],
+        "openalex_ids": [
+          "A5076875965"
+        ],
+        "orcid": "https://orcid.org/0000-0002-8411-1458",
+        "affiliation": "",
+        "verified_institutions": [
+          "Institute for Basic Science",
+          "Ulsan National Institute of Science and Technology",
+          "University of Michigan"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5076875965",
+          "https://doi.org/10.1038/nature25487",
+          "https://doi.org/10.1016/j.bpj.2019.12.022",
+          "https://doi.org/10.1016/j.bpj.2018.09.022",
+          "https://doi.org/10.1016/j.bpj.2021.01.033"
+        ]
+      }
+    },
+    {
+      "id": "author-xiaowei-zhuang",
+      "name": "Xiaowei Zhuang — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Xiaowei Zhuang",
+        "aliases": [
+          "Xiaowei Zhuang"
+        ],
+        "openalex_ids": [
+          "A5087959577"
+        ],
+        "orcid": "https://orcid.org/0000-0002-6034-7853",
+        "affiliation": "",
+        "verified_institutions": [
+          "Harvard University",
+          "Howard Hughes Medical Institute"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5087959577",
+          "https://doi.org/10.1038/nmeth929",
+          "https://doi.org/10.1126/science.aaa6090",
+          "https://doi.org/10.1126/science.1153529",
+          "https://doi.org/10.1146/annurev.biochem.77.061906.092014"
+        ]
+      }
+    },
+    {
+      "id": "author-gilles-charvin",
+      "name": "gilles charvin — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Gilles Charvin",
+        "aliases": [
+          "gilles charvin",
+          "Gilles Charvin"
+        ],
+        "openalex_ids": [
+          "A5083225830"
+        ],
+        "orcid": "https://orcid.org/0000-0002-6852-6952",
+        "affiliation": "",
+        "verified_institutions": [
+          "Centre National de la Recherche Scientifique",
+          "Inserm",
+          "Institut de génétique et de biologie moléculaire et cellulaire",
+          "Laboratoire de Physique de l'Ecole Normale Supérieure",
+          "Université de Strasbourg",
+          "École Normale Supérieure - PSL"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5083225830",
+          "https://doi.org/10.1088/0034-4885/66/1/201",
+          "https://doi.org/10.1016/j.celrep.2014.01.032",
+          "https://doi.org/10.1073/pnas.1206810109",
+          "https://doi.org/10.1016/j.cub.2015.03.038"
+        ]
+      }
+    },
+    {
+      "id": "author-jan-lipfert",
+      "name": "Jan Lipfert — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Jan Lipfert",
+        "aliases": [
+          "Jan Lipfert"
+        ],
+        "openalex_ids": [
+          "A5010576393"
+        ],
+        "orcid": "https://orcid.org/0000-0003-3613-7896",
+        "affiliation": "",
+        "verified_institutions": [
+          "Center for NanoScience",
+          "Delft University of Technology",
+          "Ludwig-Maximilians-Universität München",
+          "Stanford Synchrotron Radiation Lightsource",
+          "Stanford University"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5010576393",
+          "https://doi.org/10.1146/annurev-biochem-060409-092720",
+          "https://doi.org/10.1016/j.cell.2020.01.030",
+          "https://doi.org/10.1038/nmeth.1520",
+          "https://doi.org/10.1146/annurev.biophys.36.040306.132655"
+        ]
+      }
+    },
+    {
+      "id": "author-john-king",
+      "name": "John King — new articles",
+      "type": "author",
+      "enabled": false,
+      "author": {
+        "name": "John King",
+        "aliases": [
+          "John King"
+        ],
+        "openalex_ids": [],
+        "orcid": "",
+        "affiliation": "",
+        "identity_status": "needs identity review",
+        "verification_notes": ""
+      },
+      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
+    },
+    {
+      "id": "author-isaac-t-s-li",
+      "name": "Isaac T. S. Li — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Isaac T. S. Li",
+        "aliases": [
+          "Isaac T. S. Li"
+        ],
+        "openalex_ids": [
+          "A5010556306"
+        ],
+        "orcid": "https://orcid.org/0000-0002-8450-5326",
+        "affiliation": "",
+        "verified_institutions": [
+          "BC Cancer Agency",
+          "University of British Columbia",
+          "University of British Columbia, Okanagan Campus",
+          "University of Toronto",
+          "Vancouver Prostate Centre"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5010556306",
+          "https://doi.org/10.1080/20013078.2018.1535750",
+          "https://doi.org/10.1063/1.5087122",
+          "https://doi.org/10.1242/jcs.206854",
+          "https://doi.org/10.1073/pnas.1105450108"
+        ]
+      }
+    },
+    {
+      "id": "author-jonas-ries",
+      "name": "Jonas Ries — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Jonas Ries",
+        "aliases": [
+          "Jonas Ries"
+        ],
+        "openalex_ids": [
+          "A5028735345"
+        ],
+        "orcid": "https://orcid.org/0000-0002-6640-9250",
+        "affiliation": "",
+        "verified_institutions": [
+          "Biotechnologisches Zentrum",
+          "ETH Zurich",
+          "European Molecular Biology Laboratory",
+          "Institute of Biochemistry",
+          "Max Planck Institute for the Physics of Complex Systems",
+          "Max Planck Institute of Molecular Cell Biology and Genetics",
+          "Saarland University",
+          "University of Konstanz"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5028735345",
+          "https://doi.org/10.1038/s41592-019-0688-0",
+          "https://doi.org/10.1038/nmeth.1991",
+          "https://doi.org/10.1126/science.1154413",
+          "https://doi.org/10.1209/epl/i2003-00504-y"
+        ]
+      }
+    },
+    {
+      "id": "author-joel-c-forster",
+      "name": "Joel C Forster — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Joel C. Forster",
+        "aliases": [
+          "Joel C Forster",
+          "Joel C. Forster"
+        ],
+        "openalex_ids": [
+          "A5084194634"
+        ],
+        "orcid": "https://orcid.org/0000-0002-9637-0684",
+        "affiliation": "",
+        "verified_institutions": [
+          "MRC Laboratory for Molecular Cell Biology",
+          "Medical Research Council",
+          "University College London"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5084194634",
+          "https://doi.org/10.1073/pnas.2112237118",
+          "https://doi.org/10.1103/physrevlett.125.228101",
+          "https://doi.org/10.1101/2020.02.27.968149"
+        ]
+      }
+    },
+    {
+      "id": "author-mamata-karmacharya",
+      "name": "Mamata Karmacharya — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Mamata Karmacharya",
+        "aliases": [
+          "Mamata Karmacharya"
+        ],
+        "openalex_ids": [
+          "A5066861518"
+        ],
+        "orcid": "https://orcid.org/0000-0002-5245-0316",
+        "affiliation": "",
+        "verified_institutions": [
+          "Institute for Basic Science",
+          "Ulsan National Institute of Science and Technology"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5066861518",
+          "https://doi.org/10.1021/acs.nanolett.0c03725",
+          "https://doi.org/10.1021/acsabm.0c01329",
+          "https://doi.org/10.1021/acsanm.1c01082",
+          "https://doi.org/10.1021/acs.nanolett.0c03639"
+        ]
+      }
+    },
+    {
+      "id": "author-nitee-kumari",
+      "name": "Nitee Kumari — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Nitee Kumari",
+        "aliases": [
+          "Nitee Kumari"
+        ],
+        "openalex_ids": [
+          "A5064092175"
+        ],
+        "orcid": "https://orcid.org/0000-0002-9968-8938",
+        "affiliation": "",
+        "verified_institutions": [
+          "Pohang University of Science and Technology",
+          "Seoul National University"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5064092175",
+          "https://doi.org/10.1021/acs.chemrev.1c00637",
+          "https://doi.org/10.1021/am302761c",
+          "https://doi.org/10.1002/anie.201916578",
+          "https://doi.org/10.1002/anie.202103827"
+        ]
+      }
+    },
+    {
+      "id": "author-amit-kumar",
+      "name": "Amit Kumar — new articles",
+      "type": "author",
+      "enabled": false,
+      "author": {
+        "name": "Amit Kumar",
+        "aliases": [
+          "Amit Kumar"
+        ],
+        "openalex_ids": [],
+        "orcid": "",
+        "affiliation": "",
+        "identity_status": "needs identity review",
+        "verification_notes": ""
+      },
+      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
+    },
+    {
+      "id": "author-madhusudhan-srinivasan",
+      "name": "Madhusudhan Srinivasan — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Madhusudhan Srinivasan",
+        "aliases": [
+          "Madhusudhan Srinivasan"
+        ],
+        "openalex_ids": [
+          "A5101824443"
+        ],
+        "orcid": "https://orcid.org/0000-0001-5676-4219",
+        "affiliation": "",
+        "verified_institutions": [
+          "Michigan State University",
+          "Stony Brook University",
+          "University of Oxford"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5101824443",
+          "https://doi.org/10.1016/j.cell.2018.04.015",
+          "https://doi.org/10.1038/emboj.2010.343",
+          "https://doi.org/10.1016/j.carbpol.2010.08.051",
+          "https://doi.org/10.1016/j.carbpol.2008.01.027"
+        ]
+      }
+    },
+    {
+      "id": "author-nynke-dekker",
+      "name": "Nynke Dekker — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Nynke H. Dekker",
+        "aliases": [
+          "Nynke Dekker",
+          "Nynke H. Dekker"
+        ],
+        "openalex_ids": [
+          "A5066937642"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4029-0973",
+        "affiliation": "Delft University of Technology",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      }
+    },
+    {
+      "id": "author-ralf-jungmann",
+      "name": "Ralf Jungmann — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Ralf Jungmann",
+        "aliases": [
+          "Ralf Jungmann"
+        ],
+        "openalex_ids": [
+          "A5052548866"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4607-3312",
+        "affiliation": "",
+        "verified_institutions": [
+          "Center for NanoScience",
+          "Harvard University",
+          "Ludwig-Maximilians-Universität München",
+          "Max Planck Institute of Biochemistry",
+          "Technical University of Munich",
+          "Wyss Institute for Biologically Inspired Engineering"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5052548866",
+          "https://doi.org/10.1038/nmeth.2835",
+          "https://doi.org/10.1038/nprot.2017.024",
+          "https://doi.org/10.1038/s43586-021-00038-x",
+          "https://doi.org/10.1021/nl103427w"
+        ]
+      }
+    },
+    {
+      "id": "author-david-dulin",
+      "name": "David Dulin — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "David Dulin",
+        "aliases": [
+          "David Dulin"
+        ],
+        "openalex_ids": [
+          "A5042298609"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4209-0377",
+        "affiliation": "",
+        "verified_institutions": [
+          "Delft University of Technology"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5042298609",
+          "https://doi.org/10.1073/pnas.1407197111",
+          "https://doi.org/10.1063/1.4898178",
+          "https://doi.org/10.1016/j.bpj.2015.10.018",
+          "https://doi.org/10.1038/nrg3316"
+        ]
+      }
+    },
+    {
+      "id": "author-yoon-kyoung-cho",
+      "name": "Yoon-Kyoung Cho — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Yoon‐Kyoung Cho",
+        "aliases": [
+          "Yoon-Kyoung Cho",
+          "Yoon‐Kyoung Cho"
+        ],
+        "openalex_ids": [
+          "A5036224865"
+        ],
+        "orcid": "https://orcid.org/0000-0001-6423-1834",
+        "affiliation": "",
+        "verified_institutions": [
+          "Institute for Basic Science",
+          "Samsung (South Korea)",
+          "Samsung Advanced Institute of Technology (South Korea)",
+          "Ulsan National Institute of Science and Technology"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5036224865",
+          "https://doi.org/10.1039/b924109d",
+          "https://doi.org/10.1021/acsnano.6b06131",
+          "https://doi.org/10.1039/b616115d",
+          "https://doi.org/10.1039/b820321k"
+        ]
+      }
+    },
+    {
+      "id": "author-johannes-walter",
+      "name": "Johannes Walter — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Johannes C. Walter",
+        "aliases": [
+          "Johannes Walter",
+          "Johannes C. Walter"
+        ],
+        "openalex_ids": [
+          "A5080203458"
+        ],
+        "orcid": "https://orcid.org/0000-0002-4186-7570",
+        "affiliation": "Harvard Medical School",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      }
+    },
+    {
+      "id": "author-suliana-manley",
+      "name": "Suliana Manley — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Suliana Manley",
+        "aliases": [
+          "Suliana Manley"
+        ],
+        "openalex_ids": [
+          "A5014389184"
+        ],
+        "orcid": "https://orcid.org/0000-0002-4755-4778",
+        "affiliation": "",
+        "verified_institutions": [
+          "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+          "National Institutes of Health",
+          "École Polytechnique Fédérale de Lausanne"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5014389184",
+          "https://doi.org/10.1038/nmeth.1176",
+          "https://doi.org/10.1038/s43586-021-00038-x",
+          "https://doi.org/10.1038/nchem.1546",
+          "https://doi.org/10.1073/pnas.0813131106"
+        ]
+      }
+    },
+    {
+      "id": "author-shatruhan-singh-rajput",
+      "name": "Shatruhan Singh Rajput — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Shatruhan Singh Rajput",
+        "aliases": [
+          "Shatruhan Singh Rajput"
+        ],
+        "openalex_ids": [
+          "A5030667507"
+        ],
+        "orcid": "https://orcid.org/0000-0002-0747-1505",
+        "affiliation": "",
+        "verified_institutions": [
+          "Indian Institute of Science Education and Research Pune"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5030667507",
+          "https://doi.org/10.1016/j.colsurfa.2018.04.028",
+          "https://doi.org/10.1021/acs.langmuir.1c00047",
+          "https://doi.org/10.1021/acssuschemeng.2c02296",
+          "https://doi.org/10.1021/acsanm.1c01788"
+        ]
+      }
+    },
+    {
+      "id": "author-christian-speck",
+      "name": "Christian Speck — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Christian Speck",
+        "aliases": [
+          "Christian Speck"
+        ],
+        "openalex_ids": [
+          "A5026134956"
+        ],
+        "orcid": "https://orcid.org/0000-0001-6646-1692",
+        "affiliation": "Imperial College London",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      }
+    },
+    {
+      "id": "author-erwin-peterman",
+      "name": "Erwin Peterman — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Erwin J.G. Peterman",
+        "aliases": [
+          "Erwin Peterman",
+          "Erwin J.G. Peterman"
+        ],
+        "openalex_ids": [
+          "A5057415114"
+        ],
+        "orcid": "https://orcid.org/0000-0003-1058-249X",
+        "affiliation": "",
+        "verified_institutions": [
+          "Vrije Universiteit Amsterdam"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5057415114",
+          "https://doi.org/10.1038/nature03503",
+          "https://doi.org/10.1016/s0006-3495(03)74946-7",
+          "https://doi.org/10.1073/pnas.0904322106",
+          "https://doi.org/10.1038/nphys2002"
+        ]
+      }
+    },
+    {
+      "id": "author-michael-schlierf",
+      "name": "Michael Schlierf — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Michael Schlierf",
+        "aliases": [
+          "Michael Schlierf"
+        ],
+        "openalex_ids": [
+          "A5077832966"
+        ],
+        "orcid": "https://orcid.org/0000-0002-6209-2364",
+        "affiliation": "",
+        "verified_institutions": [
+          "Center for Molecular Bioengineering",
+          "Columbia University",
+          "Technische Universität Dresden"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5077832966",
+          "https://doi.org/10.1038/s41592-018-0085-0",
+          "https://doi.org/10.1073/pnas.0400033101",
+          "https://doi.org/10.1021/nn301895c",
+          "https://doi.org/10.1016/j.cell.2015.01.051"
+        ]
+      }
+    },
+    {
+      "id": "author-jie-xiao",
+      "name": "Jie Xiao — new articles",
+      "type": "author",
+      "enabled": false,
+      "author": {
+        "name": "Jie Xiao",
+        "aliases": [
+          "Jie Xiao"
+        ],
+        "openalex_ids": [],
+        "orcid": "",
+        "affiliation": "",
+        "identity_status": "needs identity review",
+        "verification_notes": ""
+      },
+      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
+    },
+    {
+      "id": "author-julio-fernandez",
+      "name": "Julio Fernandez — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Julio M. Fernández",
+        "aliases": [
+          "Julio Fernandez",
+          "Julio M. Fernández"
+        ],
+        "openalex_ids": [
+          "A5105467573"
+        ],
+        "orcid": "",
+        "affiliation": "",
+        "verified_institutions": [
+          "Athena Environmental Sciences (United States)",
+          "Columbia University",
+          "European Molecular Biology Laboratory",
+          "Ludwig-Maximilians-Universität München",
+          "Mayo Clinic",
+          "National University of Singapore",
+          "University of Cambridge"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5105467573",
+          "https://doi.org/10.1126/science.276.5315.1109",
+          "https://doi.org/10.1126/science.1162912",
+          "https://doi.org/10.1073/pnas.96.7.3694",
+          "https://doi.org/10.1038/30270"
+        ]
+      }
+    },
+    {
+      "id": "author-ferdinand-greiss",
+      "name": "Ferdinand Greiss — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Ferdinand Greiss",
+        "aliases": [
+          "Ferdinand Greiss"
+        ],
+        "openalex_ids": [
+          "A5070040795"
+        ],
+        "orcid": "https://orcid.org/0000-0003-2908-4386",
+        "affiliation": "",
+        "verified_institutions": [
+          "Center for NanoScience",
+          "Ludwig-Maximilians-Universität München",
+          "Max Planck Institute of Biochemistry",
+          "Nanosystems Initiative Munich",
+          "Weizmann Institute of Science"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5070040795",
+          "https://doi.org/10.7554/elife.24350",
+          "https://doi.org/10.1016/j.bpj.2015.12.035",
+          "https://doi.org/10.1038/s41467-020-19395-4",
+          "https://doi.org/10.1103/physreve.91.062709"
+        ]
+      }
+    },
+    {
+      "id": "author-sua-myong",
+      "name": "Sua Myong — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Sua Myong",
+        "aliases": [
+          "Sua Myong"
+        ],
+        "openalex_ids": [
+          "A5070455339"
+        ],
+        "orcid": "https://orcid.org/0000-0001-9098-3423",
+        "affiliation": "",
+        "verified_institutions": [
+          "Carl R. Woese Institute for Genomic Biology",
+          "Johns Hopkins University",
+          "University of Illinois Urbana-Champaign"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5070455339",
+          "https://doi.org/10.1073/pnas.1504822112",
+          "https://doi.org/10.1038/s41586-022-04424-7",
+          "https://doi.org/10.1126/science.aab0015",
+          "https://doi.org/10.1126/science.aar7432"
+        ]
+      }
+    },
+    {
+      "id": "author-keir-c-neuman",
+      "name": "Keir C. Neuman — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Keir C. Neuman",
+        "aliases": [
+          "Keir C. Neuman"
+        ],
+        "openalex_ids": [
+          "A5044310454"
+        ],
+        "orcid": "https://orcid.org/0000-0002-0863-5671",
+        "affiliation": "",
+        "verified_institutions": [
+          "National Heart, Lung, and Blood Institute",
+          "National Institutes of Health",
+          "Princeton University",
+          "Stanford University"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5044310454",
+          "https://doi.org/10.1038/nmeth.1218",
+          "https://doi.org/10.1063/1.1785844",
+          "https://doi.org/10.1016/s0006-3495(99)77117-1",
+          "https://doi.org/10.1016/s0092-8674(03)00845-6"
+        ]
+      }
+    },
+    {
+      "id": "author-thomas-t-perkins",
+      "name": "Thomas T. Perkins — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Thomas T. Perkins",
+        "aliases": [
+          "Thomas T. Perkins"
+        ],
+        "openalex_ids": [
+          "A5007181594"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4826-9490",
+        "affiliation": "",
+        "verified_institutions": [
+          "Stanford University"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5007181594",
+          "https://doi.org/10.1126/science.276.5321.2016",
+          "https://doi.org/10.1126/science.8171336",
+          "https://doi.org/10.1126/science.7701345",
+          "https://doi.org/10.1126/science.8171335"
+        ]
+      }
+    },
+    {
+      "id": "author-john-diffley",
+      "name": "John Diffley — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "John F. X. Diffley",
+        "aliases": [
+          "John Diffley",
+          "John F. X. Diffley"
+        ],
+        "openalex_ids": [
+          "A5029333589"
+        ],
+        "orcid": "https://orcid.org/0000-0001-5184-7680",
+        "affiliation": "The Francis Crick Institute",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      }
+    },
+    {
+      "id": "author-jagadish-prasad-hazra",
+      "name": "Jagadish Prasad Hazra — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Jagadish Prasad Hazra",
+        "aliases": [
+          "Jagadish Prasad Hazra"
+        ],
+        "openalex_ids": [
+          "A5038347254"
+        ],
+        "orcid": "https://orcid.org/0000-0002-1683-6633",
+        "affiliation": "",
+        "verified_institutions": [
+          "Indian Institute of Science Education and Research Mohali",
+          "University of Oxford"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5038347254",
+          "https://doi.org/10.1016/j.bpj.2019.12.015",
+          "https://doi.org/10.1021/acscatal.8b02322",
+          "https://doi.org/10.1016/j.ab.2017.07.022",
+          "https://doi.org/10.1126/science.adv4503"
+        ]
+      }
+    },
+    {
+      "id": "author-narain-karedla",
+      "name": "Narain Karedla — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Narain Karedla",
+        "aliases": [
+          "Narain Karedla"
+        ],
+        "openalex_ids": [
+          "A5082452931"
+        ],
+        "orcid": "https://orcid.org/0000-0002-7891-3825",
+        "affiliation": "",
+        "verified_institutions": [
+          "Nanoscale Microscopy and Molecular Physiology of the Brain Cluster of Excellence 171 — DFG Research Center 103",
+          "National Academy of Sciences of Ukraine",
+          "Palladin Institute of Biochemistry",
+          "University of Göttingen",
+          "University of Oxford"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5082452931",
+          "https://doi.org/10.1021/nl502372x",
+          "https://doi.org/10.1091/mbc.e15-05-0269",
+          "https://doi.org/10.1038/s41566-019-0510-7",
+          "https://doi.org/10.1364/oe.24.009429"
+        ]
+      }
+    },
+    {
+      "id": "author-tianjin-yang",
+      "name": "Tianjin Yang — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Tianjin Yang",
+        "aliases": [
+          "Tianjin Yang"
+        ],
+        "openalex_ids": [
+          "A5031495876"
+        ],
+        "orcid": "https://orcid.org/0009-0003-2887-9803",
+        "affiliation": "",
+        "verified_institutions": [
+          "ETH Zurich",
+          "Institute for Chemical and Bioengineering",
+          "University of Zurich"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5031495876",
+          "https://doi.org/10.1038/s42254-024-00748-7",
+          "https://doi.org/10.1073/pnas.2304036120",
+          "https://doi.org/10.1021/acs.analchem.7b03526",
+          "https://doi.org/10.1016/j.jchromb.2020.121970"
+        ]
+      }
+    },
+    {
+      "id": "author-davide-michieletto",
+      "name": "Davide Michieletto — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Davide Michieletto",
+        "aliases": [
+          "Davide Michieletto"
+        ],
+        "openalex_ids": [
+          "A5066158937"
+        ],
+        "orcid": "https://orcid.org/0000-0003-2186-6869",
+        "affiliation": "",
+        "verified_institutions": [
+          "Institute of Genetics and Cancer",
+          "MRC Human Genetics Unit",
+          "University of Edinburgh"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5066158937",
+          "https://doi.org/10.1126/sciadv.abe5905",
+          "https://doi.org/10.1103/physrevlett.119.138101",
+          "https://doi.org/10.1073/pnas.1520665113",
+          "https://doi.org/10.1016/j.bpj.2017.01.025"
+        ]
+      }
+    },
+    {
+      "id": "author-prof-dr-arne-gennerich",
+      "name": "Prof. Dr. Arne Gennerich — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Arne Gennerich",
+        "aliases": [
+          "Prof. Dr. Arne Gennerich",
+          "Arne Gennerich"
+        ],
+        "openalex_ids": [
+          "A5087227678"
+        ],
+        "orcid": "https://orcid.org/0000-0002-8346-5473",
+        "affiliation": "",
+        "verified_institutions": [
+          "Albert Einstein College of Medicine",
+          "Howard Hughes Medical Institute",
+          "University of California, San Francisco"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5087227678",
+          "https://doi.org/10.1016/j.cell.2006.05.046",
+          "https://doi.org/10.1016/j.cell.2007.10.016",
+          "https://doi.org/10.1016/j.cell.2008.07.018",
+          "https://doi.org/10.1016/j.ceb.2008.12.002"
+        ]
+      }
+    },
+    {
+      "id": "author-erik-schaffer",
+      "name": "Erik Schäffer — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Erik Schäffer",
+        "aliases": [
+          "Erik Schäffer"
+        ],
+        "openalex_ids": [
+          "A5086267534"
+        ],
+        "orcid": "https://orcid.org/0000-0001-7876-085X",
+        "affiliation": "",
+        "verified_institutions": [
+          "European Molecular Biology Laboratory",
+          "Max Planck Institute of Molecular Cell Biology and Genetics",
+          "University of Konstanz",
+          "University of Tübingen"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5086267534",
+          "https://doi.org/10.1038/35002540",
+          "https://doi.org/10.1126/science.283.5401.520",
+          "https://doi.org/10.1021/acs.nanolett.5b03100",
+          "https://doi.org/10.1126/science.1086560"
+        ]
+      }
+    },
+    {
+      "id": "author-thomas-g-w-graham",
+      "name": "Thomas G.W. Graham — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Thomas G.W. Graham",
+        "aliases": [
+          "Thomas G.W. Graham"
+        ],
+        "openalex_ids": [
+          "A5029700405"
+        ],
+        "orcid": "https://orcid.org/0000-0001-5189-4313",
+        "affiliation": "",
+        "verified_institutions": [
+          "Harvard University",
+          "Rockefeller University",
+          "University of California, Berkeley"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5029700405",
+          "https://doi.org/10.1016/j.cell.2019.05.040",
+          "https://doi.org/10.1016/j.molcel.2016.02.010",
+          "https://doi.org/10.1016/j.molcel.2022.04.007",
+          "https://doi.org/10.1101/gad.242206.114"
+        ]
+      }
+    },
+    {
+      "id": "author-rahul-roy",
+      "name": "Rahul Roy — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Rahul Roy",
+        "aliases": [
+          "Rahul Roy"
+        ],
+        "openalex_ids": [
+          "A5084390984"
+        ],
+        "orcid": "https://orcid.org/0000-0003-3329-8803",
+        "affiliation": "",
+        "verified_institutions": [
+          "Harvard University",
+          "Indian Institute of Science Bangalore",
+          "McMaster University",
+          "University of California, Los Angeles",
+          "University of Cambridge",
+          "University of Illinois Urbana-Champaign"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5084390984",
+          "https://doi.org/10.1038/nmeth.1208",
+          "https://doi.org/10.1103/physrevb.79.195322",
+          "https://doi.org/10.1038/nmeth.2411",
+          "https://doi.org/10.1016/j.crhy.2013.04.003"
+        ]
+      }
+    },
+    {
+      "id": "author-dhananjay-singh",
+      "name": "Dhananjay Singh — new articles",
+      "type": "author",
+      "enabled": false,
+      "author": {
+        "name": "Dhananjay Singh",
+        "aliases": [
+          "Dhananjay Singh"
+        ],
+        "openalex_ids": [],
+        "orcid": "",
+        "affiliation": "",
+        "identity_status": "needs identity review",
+        "verification_notes": ""
+      },
+      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
+    },
+    {
+      "id": "author-abhishek-mazumder",
+      "name": "Abhishek Mazumder — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Abhishek Mazumder",
+        "aliases": [
+          "Abhishek Mazumder"
+        ],
+        "openalex_ids": [
+          "A5087215403"
+        ],
+        "orcid": "https://orcid.org/0000-0002-9339-6256",
+        "affiliation": "",
+        "verified_institutions": [
+          "Rutgers, The State University of New Jersey",
+          "University of Oxford"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5087215403",
+          "https://doi.org/10.1016/j.molcel.2018.02.026",
+          "https://doi.org/10.1016/j.jmb.2019.04.046",
+          "https://doi.org/10.1093/nar/gky482",
+          "https://doi.org/10.1073/pnas.1920427117"
+        ]
+      }
+    },
+    {
+      "id": "author-jeff-gelles",
+      "name": "Jeff Gelles — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Jeff Gelles",
+        "aliases": [
+          "Jeff Gelles"
+        ],
+        "openalex_ids": [
+          "A5035762581"
+        ],
+        "orcid": "https://orcid.org/0000-0001-7910-3421",
+        "affiliation": "",
+        "verified_institutions": [
+          "Brandeis University",
+          "Princeton University",
+          "University of Wisconsin–Madison",
+          "Washington University in St. Louis"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5035762581",
+          "https://doi.org/10.1016/s0006-3495(97)78780-0",
+          "https://doi.org/10.1126/science.282.5390.902",
+          "https://doi.org/10.1038/331450a0",
+          "https://doi.org/10.1126/science.270.5242.1653"
+        ]
+      }
+    },
+    {
+      "id": "author-philip-tinnefeld",
+      "name": "Philip Tinnefeld — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Philip Tinnefeld",
+        "aliases": [
+          "Philip Tinnefeld"
+        ],
+        "openalex_ids": [
+          "A5048312093"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4290-7770",
+        "affiliation": "",
+        "verified_institutions": [
+          "Center for NanoScience",
+          "Ludwig-Maximilians-Universität München",
+          "Technische Universität Braunschweig"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5048312093",
+          "https://doi.org/10.1002/anie.200802376",
+          "https://doi.org/10.1021/nl103427w",
+          "https://doi.org/10.1126/science.1228638",
+          "https://doi.org/10.1146/annurev-physchem-032210-103340"
+        ]
+      }
+    },
+    {
+      "id": "author-kunihiko-ishii",
+      "name": "Kunihiko Ishii — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Kunihiko Ishii",
+        "aliases": [
+          "Kunihiko Ishii"
+        ],
+        "openalex_ids": [
+          "A5007971088"
+        ],
+        "orcid": "https://orcid.org/0000-0001-5714-5997",
+        "affiliation": "",
+        "verified_institutions": [
+          "RIKEN",
+          "RIKEN Advanced Science Institute",
+          "RIKEN Center for Advanced Photonics"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5007971088",
+          "https://doi.org/10.1021/ja108645x",
+          "https://doi.org/10.1038/ncomms8685",
+          "https://doi.org/10.1021/jp406861u",
+          "https://doi.org/10.1021/jp406864e"
+        ]
+      }
+    },
+    {
+      "id": "author-petra-schwille",
+      "name": "Petra Schwille — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Petra Schwille",
+        "aliases": [
+          "Petra Schwille"
+        ],
+        "openalex_ids": [
+          "A5086296055"
+        ],
+        "orcid": "https://orcid.org/0000-0002-6106-4847",
+        "affiliation": "",
+        "verified_institutions": [
+          "Biotechnologisches Zentrum",
+          "Cornell University",
+          "Heidelberg University",
+          "Max Planck Institute for Biophysical Chemistry",
+          "Max Planck Institute of Biochemistry",
+          "Max Planck Institute of Experimental Medicine",
+          "Max Planck Society",
+          "Technische Universität Dresden",
+          "University of Göttingen"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5086296055",
+          "https://doi.org/10.1126/science.1153124",
+          "https://doi.org/10.1039/c8cs00162f",
+          "https://doi.org/10.1073/pnas.96.15.8461",
+          "https://doi.org/10.1016/s0006-3495(97)78833-7"
+        ]
+      }
+    },
+    {
+      "id": "author-enrico-skoruppa",
+      "name": "Enrico Skoruppa — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Enrico Skoruppa",
+        "aliases": [
+          "Enrico Skoruppa"
+        ],
+        "openalex_ids": [
+          "A5044289833"
+        ],
+        "orcid": "https://orcid.org/0000-0003-3568-0272",
+        "affiliation": "",
+        "verified_institutions": [
+          "Flemish Institute for Technological Research",
+          "KU Leuven"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5044289833",
+          "https://doi.org/10.1103/physrevlett.121.088101",
+          "https://doi.org/10.1063/1.4984039",
+          "https://doi.org/10.1103/physreve.99.032414",
+          "https://doi.org/10.1103/physreve.103.042408"
+        ]
+      }
+    },
+    {
+      "id": "author-eugene-kim",
+      "name": "Eugene Kim — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Eugene Kim",
+        "aliases": [
+          "Eugene Kim"
+        ],
+        "openalex_ids": [
+          "A5100341138"
+        ],
+        "orcid": "https://orcid.org/0000-0002-1759-6360",
+        "affiliation": "Max Planck Institute of Biophysics",
+        "identity_status": "verified",
+        "verification_notes": "Identified from indexed coauthorship records of optical trapping / DNA-loop extrusion publications and the authorship institution, not the first name-search result.",
+        "verification_urls": [
+          "https://openalex.org/A5100341138",
+          "https://doi.org/10.1126/science.aar7831",
+          "https://doi.org/10.1126/sciadv.abe5905"
+        ]
+      }
+    },
+    {
+      "id": "author-philipp-kukura",
+      "name": "Philipp Kukura — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Philipp Kukura",
+        "aliases": [
+          "Philipp Kukura"
+        ],
+        "openalex_ids": [
+          "A5025711177"
+        ],
+        "orcid": "https://orcid.org/0000-0003-0136-7704",
+        "affiliation": "",
+        "verified_institutions": [
+          "University of California, Berkeley",
+          "University of Oxford"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5025711177",
+          "https://doi.org/10.1038/nature09346",
+          "https://doi.org/10.1126/science.aar5839",
+          "https://doi.org/10.1126/science.1118379",
+          "https://doi.org/10.1146/annurev.physchem.58.032806.104456"
+        ]
+      }
+    },
+    {
+      "id": "author-ahmet-yildiz",
+      "name": "Ahmet Yildiz — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Ahmet Yıldız",
+        "aliases": [
+          "Ahmet Yildiz",
+          "Ahmet Yıldız"
+        ],
+        "openalex_ids": [
+          "A5100784937"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4792-174X",
+        "affiliation": "",
+        "verified_institutions": [
+          "Howard Hughes Medical Institute",
+          "University of California, Berkeley",
+          "University of California, San Francisco",
+          "University of Illinois Urbana-Champaign",
+          "University of Pennsylvania"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5100784937",
+          "https://doi.org/10.1126/science.1084398",
+          "https://doi.org/10.1038/nature24268",
+          "https://doi.org/10.1126/science.1093753",
+          "https://doi.org/10.1016/j.cell.2006.05.046"
+        ]
+      }
+    },
+    {
+      "id": "author-cees-dekker",
+      "name": "Cees Dekker — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Cees Dekker",
+        "aliases": [
+          "Cees Dekker"
+        ],
+        "openalex_ids": [
+          "A5089996499"
+        ],
+        "orcid": "https://orcid.org/0000-0001-6273-071X",
+        "affiliation": "",
+        "verified_institutions": [
+          "Delft University of Technology",
+          "University of Cambridge",
+          "University of Manchester"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5089996499",
+          "https://doi.org/10.1038/29954",
+          "https://doi.org/10.1038/34139",
+          "https://doi.org/10.1039/c4nr01600a",
+          "https://doi.org/10.1038/386474a0"
+        ]
+      }
+    },
+    {
+      "id": "author-yasemin-baris",
+      "name": "Yasemin Baris — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Yasemin Baris",
+        "aliases": [
+          "Yasemin Baris"
+        ],
+        "openalex_ids": [
+          "A5042038518"
+        ],
+        "orcid": "https://orcid.org/0000-0003-2791-5588",
+        "affiliation": "",
+        "verified_institutions": [
+          "MRC Laboratory of Molecular Biology"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5042038518",
+          "https://doi.org/10.15252/embj.2021108819",
+          "https://doi.org/10.1038/s41586-022-04759-1",
+          "https://doi.org/10.1038/s41586-021-04145-3",
+          "https://doi.org/10.1016/j.molcel.2023.06.035"
+        ]
+      }
+    },
+    {
+      "id": "author-dagmar-klostermeier",
+      "name": "Dagmar Klostermeier — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Dagmar Klostermeier",
+        "aliases": [
+          "Dagmar Klostermeier"
+        ],
+        "openalex_ids": [
+          "A5022153527"
+        ],
+        "orcid": "https://orcid.org/0000-0002-1949-646X",
+        "affiliation": "",
+        "verified_institutions": [
+          "Max Planck Institute of Molecular Physiology",
+          "Max Planck Society",
+          "Scripps Research Institute",
+          "University of Basel",
+          "University of Freiburg"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5022153527",
+          "https://doi.org/10.1073/pnas.96.10.5452",
+          "https://doi.org/10.1038/87588",
+          "https://doi.org/10.1515/bc.2009.135",
+          "https://doi.org/10.1073/pnas.0705488105"
+        ]
+      }
+    },
+    {
+      "id": "author-erin-cutts",
+      "name": "Erin Cutts — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Erin Cutts",
+        "aliases": [
+          "Erin Cutts"
+        ],
+        "openalex_ids": [
+          "A5073438297"
+        ],
+        "orcid": "https://orcid.org/0000-0003-3290-4293",
+        "affiliation": "",
+        "verified_institutions": [
+          "Institute of Cancer Research",
+          "University of Oxford"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5073438297",
+          "https://doi.org/10.1016/j.molcel.2020.04.026",
+          "https://doi.org/10.1016/j.molcel.2019.10.020",
+          "https://doi.org/10.1016/j.str.2013.08.019",
+          "https://doi.org/10.1096/fj.14-256057"
+        ]
+      }
+    },
+    {
+      "id": "author-ralf-seidel",
+      "name": "Ralf Seidel — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Ralf Seidel",
+        "aliases": [
+          "Ralf Seidel"
+        ],
+        "openalex_ids": [
+          "A5074416216"
+        ],
+        "orcid": "https://orcid.org/0000-0002-6642-053X",
+        "affiliation": "",
+        "verified_institutions": [
+          "Biotechnologisches Zentrum",
+          "Max Bergmann Zentrum für Biomaterialien",
+          "Technische Universität Dresden",
+          "University of Münster"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5074416216",
+          "https://doi.org/10.1073/pnas.1402597111",
+          "https://doi.org/10.1002/(sici)1521-4095(200004)12:7<507::aid-adma507>3.0.co;2-g",
+          "https://doi.org/10.1021/nl025612r",
+          "https://doi.org/10.1093/nar/gkq434"
+        ]
+      }
+    },
+    {
+      "id": "author-matthew-d-newton",
+      "name": "Matthew D Newton — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Matthew D. Newton",
+        "aliases": [
+          "Matthew D Newton",
+          "Matthew D. Newton"
+        ],
+        "openalex_ids": [
+          "A5008526337"
+        ],
+        "orcid": "https://orcid.org/0000-0002-9453-6791",
+        "affiliation": "",
+        "verified_institutions": [
+          "Imperial College London",
+          "MRC London Institute of Medical Sciences",
+          "Medical Research Council"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5008526337",
+          "https://doi.org/10.1002/evl3.110",
+          "https://doi.org/10.1038/s41594-019-0188-z",
+          "https://doi.org/10.1016/j.molcel.2020.12.020",
+          "https://doi.org/10.1038/s41467-017-01732-9"
+        ]
+      }
+    },
+    {
+      "id": "author-steven-f-lee",
+      "name": "Steven F. Lee — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Steven F. Lee",
+        "aliases": [
+          "Steven F. Lee"
+        ],
+        "openalex_ids": [
+          "A5061407972"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4492-5139",
+        "affiliation": "",
+        "verified_institutions": [
+          "Stanford University",
+          "University of Cambridge"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5061407972",
+          "https://doi.org/10.1038/nature21429",
+          "https://doi.org/10.1038/s41557-020-0506-4",
+          "https://doi.org/10.1038/ncb2083",
+          "https://doi.org/10.1038/ni.3392"
+        ]
+      }
+    },
+    {
+      "id": "author-sabyasachi-rakshit",
+      "name": "Sabyasachi Rakshit — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Sabyasachi Rakshit",
+        "aliases": [
+          "Sabyasachi Rakshit"
+        ],
+        "openalex_ids": [
+          "A5012560225"
+        ],
+        "orcid": "https://orcid.org/0000-0002-8083-6857",
+        "affiliation": "",
+        "verified_institutions": [
+          "Ames National Laboratory",
+          "Indian Institute of Science Education and Research Mohali",
+          "Iowa State University",
+          "United States Department of Energy"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5012560225",
+          "https://doi.org/10.1073/pnas.1208349109",
+          "https://doi.org/10.1038/ncomms4941",
+          "https://doi.org/10.1039/c3cp53963f",
+          "https://doi.org/10.1242/jcs.146316"
+        ]
+      }
+    },
+    {
+      "id": "author-jorine-eeftens",
+      "name": "Jorine Eeftens — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Jorine M. Eeftens",
+        "aliases": [
+          "Jorine Eeftens",
+          "Jorine M. Eeftens"
+        ],
+        "openalex_ids": [
+          "A5006431042"
+        ],
+        "orcid": "https://orcid.org/0000-0001-6784-9955",
+        "affiliation": "",
+        "verified_institutions": [
+          "Delft University of Technology",
+          "Princeton University"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5006431042",
+          "https://doi.org/10.1016/j.cell.2020.03.050",
+          "https://doi.org/10.1126/science.aan6516",
+          "https://doi.org/10.1016/j.molcel.2023.08.006",
+          "https://doi.org/10.1016/j.celrep.2016.01.063"
+        ]
+      }
+    },
+    {
+      "id": "author-joshua-shaevitz",
+      "name": "Joshua Shaevitz — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Joshua W. Shaevitz",
+        "aliases": [
+          "Joshua Shaevitz",
+          "Joshua W. Shaevitz"
+        ],
+        "openalex_ids": [
+          "A5067403829"
+        ],
+        "orcid": "https://orcid.org/0000-0001-8809-4723",
+        "affiliation": "",
+        "verified_institutions": [
+          "Princeton University"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5067403829",
+          "https://doi.org/10.1038/s41592-022-01426-1",
+          "https://doi.org/10.1038/nature04268",
+          "https://doi.org/10.1038/s41592-018-0234-5",
+          "https://doi.org/10.1098/rsif.2014.0672"
+        ]
+      }
+    },
+    {
+      "id": "author-geeta-narlikar",
+      "name": "Geeta Narlikar — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Geeta J. Narlikar",
+        "aliases": [
+          "Geeta Narlikar",
+          "Geeta J. Narlikar"
+        ],
+        "openalex_ids": [
+          "A5017792842"
+        ],
+        "orcid": "https://orcid.org/0000-0002-1920-0147",
+        "affiliation": "",
+        "verified_institutions": [
+          "Harvard University",
+          "Massachusetts General Hospital",
+          "University of California, San Francisco"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5017792842",
+          "https://doi.org/10.1038/nature22822",
+          "https://doi.org/10.1016/s0092-8674(02)00654-2",
+          "https://doi.org/10.1101/gad.13.18.2339",
+          "https://doi.org/10.1016/j.cell.2013.07.011"
+        ]
+      }
+    },
+    {
+      "id": "author-neha-rana",
+      "name": "Neha Rana — new articles",
+      "type": "author",
+      "enabled": false,
+      "author": {
+        "name": "Neha Rana",
+        "aliases": [
+          "Neha Rana"
+        ],
+        "openalex_ids": [],
+        "orcid": "",
+        "affiliation": "",
+        "identity_status": "needs identity review",
+        "verification_notes": ""
+      },
+      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
+    },
+    {
+      "id": "author-shixin-liu",
+      "name": "Shixin Liu — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Shixin Liu",
+        "aliases": [
+          "Shixin Liu"
+        ],
+        "openalex_ids": [
+          "A5017517029"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4238-7066",
+        "affiliation": "The Rockefeller University",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      }
+    },
+    {
+      "id": "author-gheorghe-chistol",
+      "name": "Gheorghe Chistol — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Gheorghe Chistol",
+        "aliases": [
+          "Gheorghe Chistol"
+        ],
+        "openalex_ids": [
+          "A5056925498"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4868-3667",
+        "affiliation": "",
+        "verified_institutions": [
+          "Harvard University",
+          "University of California, Berkeley"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5056925498",
+          "https://doi.org/10.1016/j.cell.2011.04.010",
+          "https://doi.org/10.1016/j.cell.2018.10.053",
+          "https://doi.org/10.1038/s41586-019-1002-0",
+          "https://doi.org/10.1016/j.cell.2014.02.034"
+        ]
+      }
+    },
+    {
+      "id": "author-morgan-jones",
+      "name": "Morgan Jones — new articles",
+      "type": "author",
+      "enabled": false,
+      "author": {
+        "name": "Morgan Jones",
+        "aliases": [
+          "Morgan Jones"
+        ],
+        "openalex_ids": [],
+        "orcid": "",
+        "affiliation": "",
+        "identity_status": "needs identity review",
+        "verification_notes": ""
+      },
+      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
+    },
+    {
+      "id": "author-karim-labib",
+      "name": "Karim Labib — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Karim Labib",
+        "aliases": [
+          "Karim Labib"
+        ],
+        "openalex_ids": [
+          "A5073735040"
+        ],
+        "orcid": "https://orcid.org/0000-0001-8861-379X",
+        "affiliation": "University of Dundee",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      }
+    },
+    {
+      "id": "author-jorg-enderlein",
+      "name": "Jörg Enderlein — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Jörg Enderlein",
+        "aliases": [
+          "Jörg Enderlein"
+        ],
+        "openalex_ids": [
+          "A5009531901"
+        ],
+        "orcid": "https://orcid.org/0000-0001-5091-7157",
+        "affiliation": "",
+        "verified_institutions": [
+          "Forschungszentrum Jülich",
+          "University of Göttingen"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5009531901",
+          "https://doi.org/10.1073/pnas.0907866106",
+          "https://doi.org/10.1103/physrevlett.104.198101",
+          "https://doi.org/10.1364/josab.20.000554",
+          "https://doi.org/10.1002/cphc.200600638"
+        ]
+      }
+    },
+    {
+      "id": "author-lisanne-m-spenkelink",
+      "name": "Lisanne M. Spenkelink — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Lisanne Spenkelink",
+        "aliases": [
+          "Lisanne M. Spenkelink",
+          "Lisanne Spenkelink"
+        ],
+        "openalex_ids": [
+          "A5039468934"
+        ],
+        "orcid": "https://orcid.org/0000-0002-5511-8757",
+        "affiliation": "University of Wollongong",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      }
+    },
+    {
+      "id": "author-fernando-moreno-herrero",
+      "name": "Fernando Moreno Herrero — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Fernando Moreno‐Herrero",
+        "aliases": [
+          "Fernando Moreno Herrero",
+          "Fernando Moreno‐Herrero"
+        ],
+        "openalex_ids": [
+          "A5018736467"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4083-1709",
+        "affiliation": "",
+        "verified_institutions": [
+          "Delft University of Technology",
+          "Universidad Autónoma de Madrid"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5018736467",
+          "https://doi.org/10.1103/physrevlett.85.4992",
+          "https://doi.org/10.1038/nnano.2006.63",
+          "https://doi.org/10.1529/biophysj.104.052811",
+          "https://doi.org/10.1038/nature03927"
+        ]
+      }
+    },
+    {
+      "id": "author-gilad-haran",
+      "name": "Gilad Haran — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Gilad Haran",
+        "aliases": [
+          "Gilad Haran"
+        ],
+        "openalex_ids": [
+          "A5003319572"
+        ],
+        "orcid": "https://orcid.org/0000-0003-1837-9779",
+        "affiliation": "",
+        "verified_institutions": [
+          "Bar-Ilan University",
+          "Florida State University",
+          "Hadassah Medical Center",
+          "Hebrew University of Jerusalem",
+          "Weizmann Institute of Science"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5003319572",
+          "https://doi.org/10.1016/0005-2736(93)90105-9",
+          "https://doi.org/10.1021/cr800373w",
+          "https://doi.org/10.1038/ncomms11823",
+          "https://doi.org/10.1073/pnas.2628068100"
+        ]
+      }
+    },
+    {
+      "id": "author-pak-hyuk-kyu",
+      "name": "Pak Hyuk Kyu — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Hyuk Kyu Pak",
+        "aliases": [
+          "Pak Hyuk Kyu",
+          "Hyuk Kyu Pak"
+        ],
+        "openalex_ids": [
+          "A5011660785"
+        ],
+        "orcid": "https://orcid.org/0000-0001-9808-0616",
+        "affiliation": "",
+        "verified_institutions": [
+          "Duke University",
+          "Pusan National University"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5011660785",
+          "https://doi.org/10.1103/physrevlett.86.71",
+          "https://doi.org/10.1103/physrevlett.74.4643",
+          "https://doi.org/10.1038/ncomms2485",
+          "https://doi.org/10.1016/j.fm.2011.08.019"
+        ]
+      }
+    },
+    {
+      "id": "author-vahid-sandoghdar",
+      "name": "Vahid Sandoghdar — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Vahid Sandoghdar",
+        "aliases": [
+          "Vahid Sandoghdar"
+        ],
+        "openalex_ids": [
+          "A5072302145"
+        ],
+        "orcid": "https://orcid.org/0000-0003-2594-4801",
+        "affiliation": "",
+        "verified_institutions": [
+          "ETH Zurich",
+          "Laboratoire Kastler Brossel",
+          "Laboratory of Physical Chemistry",
+          "Max Planck Institute for the Science of Light",
+          "École Normale Supérieure - PSL"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5072302145",
+          "https://doi.org/10.1103/physrevlett.97.017402",
+          "https://doi.org/10.1103/physrevlett.93.037401",
+          "https://doi.org/10.1103/physreva.54.r1777",
+          "https://doi.org/10.1038/ncomms1891"
+        ]
+      }
+    },
+    {
+      "id": "author-alessandro-costa",
+      "name": "Alessandro Costa — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Alessandro Costa",
+        "aliases": [
+          "Alessandro Costa"
+        ],
+        "openalex_ids": [
+          "A5082896494"
+        ],
+        "orcid": "https://orcid.org/0000-0003-1126-2498",
+        "affiliation": "The Francis Crick Institute",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      }
+    },
+    {
+      "id": "author-eric-c-greene",
+      "name": "Eric C. Greene — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Eric C. Greene",
+        "aliases": [
+          "Eric C. Greene"
+        ],
+        "openalex_ids": [
+          "A5041677019"
+        ],
+        "orcid": "https://orcid.org/0000-0002-7387-824X",
+        "affiliation": "Columbia University Irving Medical Center",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      }
+    },
+    {
+      "id": "author-carlas-sierd-smith",
+      "name": "Carlas Sierd Smith — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Carlas Smith",
+        "aliases": [
+          "Carlas Sierd Smith",
+          "Carlas Smith"
+        ],
+        "openalex_ids": [
+          "A5076210044"
+        ],
+        "orcid": "https://orcid.org/0000-0003-0591-5093",
+        "affiliation": "",
+        "verified_institutions": [
+          "Delft University of Technology",
+          "University of Oxford"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5076210044",
+          "https://doi.org/10.1038/nmeth.1449",
+          "https://doi.org/10.1016/j.cell.2018.08.021",
+          "https://doi.org/10.1038/s41592-019-0657-7",
+          "https://doi.org/10.1038/s41592-021-01167-7"
+        ]
+      }
+    },
+    {
+      "id": "author-joaquim-roca",
+      "name": "Joaquim Roca — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Joaquím Roca",
+        "aliases": [
+          "Joaquim Roca",
+          "Joaquím Roca"
+        ],
+        "openalex_ids": [
+          "A5039422646"
+        ],
+        "orcid": "https://orcid.org/0000-0003-1462-954X",
+        "affiliation": "",
+        "verified_institutions": [
+          "Consejo Superior de Investigaciones Científicas",
+          "Harvard University",
+          "Institut de Biologia Molecular de Barcelona"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5039422646",
+          "https://doi.org/10.1136/gut.2005.073817",
+          "https://doi.org/10.1073/pnas.91.5.1781",
+          "https://doi.org/10.1016/0092-8674(92)90558-t",
+          "https://doi.org/10.1016/0092-8674(94)90222-4"
+        ]
+      }
+    },
+    {
+      "id": "author-terence-strick",
+      "name": "Terence Strick — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Terence R. Strick",
+        "aliases": [
+          "Terence Strick",
+          "Terence R. Strick"
+        ],
+        "openalex_ids": [
+          "A5023204894"
+        ],
+        "orcid": "https://orcid.org/0000-0003-1744-3679",
+        "affiliation": "",
+        "verified_institutions": [
+          "Centre National de la Recherche Scientifique",
+          "Cold Spring Harbor Laboratory",
+          "Howard Hughes Medical Institute",
+          "Institut Jacques Monod",
+          "Institut Pasteur",
+          "Laboratoire de Physique de l'Ecole Normale Supérieure",
+          "Rutgers, The State University of New Jersey",
+          "Université Pierre-et-Marie-Curie",
+          "École Normale Supérieure - PSL"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5023204894",
+          "https://doi.org/10.1126/science.271.5257.1835",
+          "https://doi.org/10.1016/s0006-3495(99)77207-3",
+          "https://doi.org/10.1016/s0006-3495(98)77908-1",
+          "https://doi.org/10.1126/science.1131398"
+        ]
+      }
+    },
+    {
+      "id": "author-gijs-j-l-wuite",
+      "name": "Gijs J.L. Wuite — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Gijs J. L. Wuite",
+        "aliases": [
+          "Gijs J.L. Wuite",
+          "Gijs J. L. Wuite"
+        ],
+        "openalex_ids": [
+          "A5002177010"
+        ],
+        "orcid": "https://orcid.org/0000-0002-5706-043X",
+        "affiliation": "",
+        "verified_institutions": [
+          "University of California, Berkeley",
+          "Vrije Universiteit Amsterdam"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5002177010",
+          "https://doi.org/10.1038/s42254-018-0001-7",
+          "https://doi.org/10.1038/35003614",
+          "https://doi.org/10.1038/35040072",
+          "https://doi.org/10.1038/nature05283"
+        ]
+      }
+    },
+    {
+      "id": "author-jacob-lewis",
+      "name": "Jacob Lewis — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Jacob S. Lewis",
+        "aliases": [
+          "Jacob Lewis",
+          "Jacob S. Lewis"
+        ],
+        "openalex_ids": [
+          "A5073253236"
+        ],
+        "orcid": "https://orcid.org/0000-0002-9945-6133",
+        "affiliation": "University of Wollongong",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      }
+    },
+    {
+      "id": "author-david-s-rueda",
+      "name": "David S. Rueda — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "David Rueda",
+        "aliases": [
+          "David S. Rueda",
+          "David Rueda"
+        ],
+        "openalex_ids": [
+          "A5066163621"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4657-6323",
+        "affiliation": "Imperial College London",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      }
+    },
+    {
+      "id": "author-taekjip-ha",
+      "name": "Taekjip Ha — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Taekjip Ha",
+        "aliases": [
+          "Taekjip Ha"
+        ],
+        "openalex_ids": [
+          "A5090048523"
+        ],
+        "orcid": "https://orcid.org/0000-0003-2195-6258",
+        "affiliation": "",
+        "verified_institutions": [
+          "Howard Hughes Medical Institute",
+          "Lawrence Berkeley National Laboratory",
+          "University of Illinois Urbana-Champaign",
+          "University of Pennsylvania"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5090048523",
+          "https://doi.org/10.1038/nmeth.1208",
+          "https://doi.org/10.1126/science.1084398",
+          "https://doi.org/10.1038/nature09198",
+          "https://doi.org/10.1073/pnas.93.13.6264"
+        ]
+      }
+    },
+    {
+      "id": "author-ja-yil-lee",
+      "name": "Ja Yil LEE — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Ja Yil Lee",
+        "aliases": [
+          "Ja Yil LEE",
+          "Ja Yil Lee"
+        ],
+        "openalex_ids": [
+          "A5083238099"
+        ],
+        "orcid": "https://orcid.org/0000-0002-5726-9022",
+        "affiliation": "",
+        "verified_institutions": [
+          "Columbia University",
+          "Howard Hughes Medical Institute",
+          "Seoul National University",
+          "University of Illinois Urbana-Champaign"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5083238099",
+          "https://doi.org/10.1073/pnas.0506144102",
+          "https://doi.org/10.1016/j.cell.2015.01.029",
+          "https://doi.org/10.1126/science.aab2666",
+          "https://doi.org/10.1073/pnas.1308257110"
+        ]
+      }
+    },
+    {
+      "id": "author-govind-paneru",
+      "name": "Govind Paneru — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Govind Paneru",
+        "aliases": [
+          "Govind Paneru"
+        ],
+        "openalex_ids": [
+          "A5024483024"
+        ],
+        "orcid": "https://orcid.org/0000-0002-2830-7982",
+        "affiliation": "",
+        "verified_institutions": [
+          "Institute for Basic Science"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5024483024",
+          "https://doi.org/10.1016/j.progsurf.2016.12.002",
+          "https://doi.org/10.1103/physrevlett.120.020601",
+          "https://doi.org/10.1038/s41467-020-14823-x",
+          "https://doi.org/10.1103/physreve.98.052119"
+        ]
+      }
+    },
+    {
+      "id": "author-sumit-kumar",
+      "name": "sumit kumar — new articles",
+      "type": "author",
+      "enabled": false,
+      "author": {
+        "name": "sumit kumar",
+        "aliases": [
+          "sumit kumar"
+        ],
+        "openalex_ids": [],
+        "orcid": "",
+        "affiliation": "",
+        "identity_status": "needs identity review",
+        "verification_notes": ""
+      },
+      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
+    },
+    {
+      "id": "author-mahipal-ganji",
+      "name": "Mahipal Ganji — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Mahipal Ganji",
+        "aliases": [
+          "Mahipal Ganji"
+        ],
+        "openalex_ids": [
+          "A5001187388"
+        ],
+        "orcid": "https://orcid.org/0000-0001-8176-3322",
+        "affiliation": "",
+        "verified_institutions": [
+          "Center for NanoScience",
+          "Delft University of Technology",
+          "Indian Institute of Science Bangalore",
+          "Ludwig-Maximilians-Universität München",
+          "Max Planck Institute of Biochemistry"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5001187388",
+          "https://doi.org/10.1126/science.aar7831",
+          "https://doi.org/10.1016/j.cell.2024.02.045",
+          "https://doi.org/10.1038/s41467-018-03313-w",
+          "https://doi.org/10.1021/acs.nanolett.9b00508"
+        ]
+      }
+    },
+    {
+      "id": "author-benjamin-schuler",
+      "name": "Benjamin Schuler — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Benjamin Schuler",
+        "aliases": [
+          "Benjamin Schuler"
+        ],
+        "openalex_ids": [
+          "A5055791638"
+        ],
+        "orcid": "https://orcid.org/0000-0002-5970-4251",
+        "affiliation": "",
+        "verified_institutions": [
+          "National Institute of Diabetes and Digestive and Kidney Diseases",
+          "National Institutes of Health",
+          "University of Zurich"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5055791638",
+          "https://doi.org/10.1038/nature01060",
+          "https://doi.org/10.1016/j.sbi.2007.12.003",
+          "https://doi.org/10.1038/nature25762",
+          "https://doi.org/10.1038/s41592-018-0085-0"
+        ]
+      }
+    },
+    {
+      "id": "author-achillefs-kapanidis",
+      "name": "Achillefs Kapanidis — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Achillefs N. Kapanidis",
+        "aliases": [
+          "Achillefs Kapanidis",
+          "Achillefs N. Kapanidis"
+        ],
+        "openalex_ids": [
+          "A5042649027"
+        ],
+        "orcid": "https://orcid.org/0000-0001-6699-136X",
+        "affiliation": "",
+        "verified_institutions": [
+          "Howard Hughes Medical Institute",
+          "Rutgers, The State University of New Jersey",
+          "University of California, Los Angeles",
+          "University of Oxford"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5042649027",
+          "https://doi.org/10.1073/pnas.0401690101",
+          "https://doi.org/10.1038/s41592-018-0085-0",
+          "https://doi.org/10.1529/biophysj.104.054114",
+          "https://doi.org/10.1126/science.1131399"
+        ]
+      }
+    },
+    {
+      "id": "author-david-bensimon",
+      "name": "David Bensimon — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "David Bensimon",
+        "aliases": [
+          "David Bensimon"
+        ],
+        "openalex_ids": [
+          "A5029608507"
+        ],
+        "orcid": "https://orcid.org/0000-0003-1971-9907",
+        "affiliation": "",
+        "verified_institutions": [
+          "Centre National de la Recherche Scientifique",
+          "Laboratoire de Physique de l'Ecole Normale Supérieure",
+          "University of Chicago",
+          "Université Pierre-et-Marie-Curie",
+          "École Normale Supérieure - PSL"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5029608507",
+          "https://doi.org/10.1126/science.271.5257.1835",
+          "https://doi.org/10.1126/science.7522347",
+          "https://doi.org/10.1103/revmodphys.58.977",
+          "https://doi.org/10.1016/s0006-3495(98)77908-1"
+        ]
+      }
+    },
+    {
+      "id": "author-karl-duderstadt",
+      "name": "Karl Duderstadt — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Karl E. Duderstadt",
+        "aliases": [
+          "Karl Duderstadt",
+          "Karl E. Duderstadt"
+        ],
+        "openalex_ids": [
+          "A5036678986"
+        ],
+        "orcid": "https://orcid.org/0000-0002-1279-7841",
+        "affiliation": "Max Planck Institute of Biochemistry",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      }
+    },
+    {
+      "id": "author-franziska-bleichert",
+      "name": "Franziska Bleichert — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Franziska Bleichert",
+        "aliases": [
+          "Franziska Bleichert"
+        ],
+        "openalex_ids": [
+          "A5055566517"
+        ],
+        "orcid": "https://orcid.org/0000-0003-0014-770X",
+        "affiliation": "",
+        "verified_institutions": [
+          "Johns Hopkins Medicine",
+          "Johns Hopkins University",
+          "Yale University"
+        ],
+        "identity_status": "verified",
+        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_urls": [
+          "https://openalex.org/A5055566517",
+          "https://doi.org/10.1126/science.aah6317",
+          "https://doi.org/10.1016/j.molcel.2007.07.014",
+          "https://doi.org/10.1039/b919670f",
+          "https://doi.org/10.1038/nature14239"
+        ]
+      }
+    },
+    {
+      "id": "author-steven-m-block",
+      "name": "Steven M. Block — new articles",
+      "type": "author",
+      "enabled": true,
+      "author": {
+        "name": "Steven M. Block",
+        "aliases": [
+          "Steven M. Block"
+        ],
+        "openalex_ids": [
+          "A5103440719"
+        ],
+        "orcid": "",
+        "affiliation": "Stanford University",
+        "identity_status": "verified",
+        "verification_notes": "Identified from indexed coauthorship records of optical trapping / DNA-loop extrusion publications and the authorship institution, not the first name-search result.",
+        "verification_urls": [
+          "https://openalex.org/A5103440719",
+          "https://doi.org/10.1063/1.1785844",
+          "https://doi.org/10.1016/s0092-8674(03)00845-6"
+        ]
+      }
+    },
+    {
+      "id": "topic-dna-replication",
+      "name": "dna_replication — new results",
+      "type": "keyword",
+      "enabled": true,
+      "query": {
+        "all": [
+          "DNA replication"
+        ],
+        "title_only": false
+      }
+    },
+    {
+      "id": "topic-single-molecule-biophysics-phrase",
+      "name": "\"single-molecule-biophysics\" — new results",
+      "type": "keyword",
+      "enabled": true,
+      "query": {
+        "all": [
+          "single molecule biophysics"
+        ],
+        "title_only": false
+      }
+    },
+    {
+      "id": "topic-single-molecule-biophysics",
+      "name": "\"single molecule\" biophysics — new results",
+      "type": "keyword",
+      "enabled": true,
+      "query": {
+        "all": [
+          "single molecule",
+          "biophysics"
+        ],
+        "title_only": false
+      }
+    },
+    {
+      "id": "topic-magnetic-tweezers",
+      "name": "magnetic_tweezers — new results",
+      "type": "keyword",
+      "enabled": true,
+      "query": {
+        "all": [
+          "magnetic tweezers"
+        ],
+        "title_only": false
+      }
+    },
+    {
+      "id": "topic-donson-title",
+      "name": "allintitle: DONSON — new results",
+      "type": "keyword",
+      "enabled": true,
+      "query": {
+        "all": [
+          "DONSON"
+        ],
+        "title_only": true
+      }
+    },
+    {
+      "id": "topic-parental-histone-transfer",
+      "name": "\"parental histone transfer\" — new results",
+      "type": "keyword",
+      "enabled": true,
+      "query": {
+        "all": [
+          "parental histone transfer"
+        ],
+        "title_only": false
+      }
+    },
+    {
+      "id": "topic-nynke-dekker-query",
+      "name": "nynke dekker — new results",
+      "type": "keyword",
+      "enabled": true,
+      "query": {
+        "all": [
+          "nynke dekker"
+        ],
+        "title_only": false
+      }
+    },
+    {
+      "id": "topic-histone-chaperone",
+      "name": "\"histone chaperone\" — new results",
+      "type": "keyword",
+      "enabled": true,
+      "query": {
+        "all": [
+          "histone chaperone"
+        ],
+        "title_only": false
+      }
+    },
+    {
+      "id": "topic-chromatin-replication",
+      "name": "\"chromatin replication\" — new results",
+      "type": "keyword",
+      "enabled": true,
+      "query": {
+        "all": [
+          "chromatin replication"
+        ],
+        "title_only": false
+      }
+    },
+    {
+      "id": "topic-replication-initiation",
+      "name": "\"replication initiation\" — new results",
+      "type": "keyword",
+      "enabled": true,
+      "query": {
+        "all": [
+          "replication initiation"
+        ],
+        "title_only": false
+      }
+    },
+    {
+      "id": "legacy-john-king-citations",
+      "name": "John King — new citations",
+      "type": "author",
+      "enabled": false,
+      "author": {
+        "name": "John King",
+        "aliases": [
+          "John King"
+        ],
+        "openalex_ids": [],
+        "orcid": "",
+        "affiliation": "",
+        "identity_status": "needs identity review",
+        "verification_notes": ""
+      },
+      "disabled_reason": "Citation monitoring is not implemented in v1; this is not an author-new-paper alert.",
+      "legacy_mode": "citations"
+    },
+    {
+      "id": "legacy-nynke-dekker-citations",
+      "name": "Nynke Dekker — new citations",
+      "type": "author",
+      "enabled": false,
+      "author": {
+        "name": "Nynke H. Dekker",
+        "aliases": [
+          "Nynke Dekker",
+          "Nynke H. Dekker"
+        ],
+        "openalex_ids": [
+          "A5066937642"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4029-0973",
+        "affiliation": "Delft University of Technology",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      },
+      "legacy_mode": "citations",
+      "disabled_reason": "Citation monitoring is not implemented in v1; this is not an author-new-paper alert."
+    },
+    {
+      "id": "legacy-nynke-dekker-related",
+      "name": "Nynke Dekker — new related research",
+      "type": "author",
+      "enabled": false,
+      "author": {
+        "name": "Nynke H. Dekker",
+        "aliases": [
+          "Nynke Dekker",
+          "Nynke H. Dekker"
+        ],
+        "openalex_ids": [
+          "A5066937642"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4029-0973",
+        "affiliation": "Delft University of Technology",
+        "identity_status": "verified",
+        "verification_notes": "Pinned to existing atlas identity audit and OpenAlex/ORCID record; publications checked in the replication survey."
+      },
+      "legacy_mode": "related research",
+      "disabled_reason": "Related-research recommendations are not implemented; no Scholar access or substitution."
+    },
+    {
+      "id": "inactive-profile-1",
+      "name": "Inactive unidentified Scholar profile 1",
+      "type": "author",
+      "enabled": false,
+      "author": {
+        "name": "",
+        "aliases": [],
+        "openalex_ids": [],
+        "orcid": "",
+        "identity_status": "needs identity review",
+        "verification_notes": ""
+      },
+      "disabled_reason": "Original alert supplied no public identity; retained as an inactive definition."
+    },
+    {
+      "id": "inactive-profile-2",
+      "name": "Inactive unidentified Scholar profile 2",
+      "type": "author",
+      "enabled": false,
+      "author": {
+        "name": "",
+        "aliases": [],
+        "openalex_ids": [],
+        "orcid": "",
+        "identity_status": "needs identity review",
+        "verification_notes": ""
+      },
+      "disabled_reason": "Original alert supplied no public identity; retained as an inactive definition."
+    },
+    {
+      "id": "inactive-profile-3",
+      "name": "Inactive unidentified Scholar profile 3",
+      "type": "author",
+      "enabled": false,
+      "author": {
+        "name": "",
+        "aliases": [],
+        "openalex_ids": [],
+        "orcid": "",
+        "identity_status": "needs identity review",
+        "verification_notes": ""
+      },
+      "disabled_reason": "Original alert supplied no public identity; retained as an inactive definition."
+    }
+  ]
+}
