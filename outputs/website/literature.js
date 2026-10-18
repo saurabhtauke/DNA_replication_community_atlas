@@ -29,7 +29,7 @@
     renderAlerts();renderFeed();selectFeed(true);
   }
   function renderAlerts(){
-    const rows=data.alerts.filter(a=>(!state.alertSearch||a.name.toLowerCase().includes(state.alertSearch))&&(!state.alertType||(state.alertType==="disabled"?!a.enabled:a.type===state.alertType)));
+    const rows=data.alerts.filter(a=>(!state.alertSearch||[a.name,a.author?.name,...(a.author?.aliases||[]),...(a.requested_names||[])].filter(Boolean).join(" ").toLowerCase().includes(state.alertSearch))&&(!state.alertType||(state.alertType==="disabled"?!a.enabled:a.type===state.alertType)));
     $("#trackerAlertList").innerHTML=rows.length?rows.map(a=>`<button type="button" class="tracker-alert ${state.alert===a.id?"is-active":""}" data-alert="${esc(a.id)}" aria-pressed="${state.alert===a.id}"><span>${esc(a.name)}</span><small>${a.enabled?`${a.type==="keyword"?"Topic":"Author"} · ${a.publication_count||0} matches`:esc(a.author?.identity_status==="needs identity review"?"Needs identity review":"Inactive")}</small></button>`).join(""):'<p class="profile-caveat">No alerts match.</p>';
     $$("#trackerAlertList [data-alert]").forEach(b=>b.addEventListener("click",()=>selectAlert(b.dataset.alert)));
   }

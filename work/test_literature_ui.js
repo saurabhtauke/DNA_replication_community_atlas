@@ -2,6 +2,8 @@
 const fs=require('fs'), vm=require('vm'), assert=require('node:assert/strict');
 const alerts=[{id:'topic',name:'DNA replication',type:'keyword',enabled:true,query:{all:['DNA replication']},publication_count:110},{id:'rare',name:'Rare author',type:'author',enabled:true,author:{name:'Rare author'},publication_count:20},{id:'pending',name:'Unknown person',type:'author',enabled:false,disabled_reason:'Needs identity review',author:{identity_status:'needs identity review'},publication_count:0}];
 const publications=Array.from({length:130},(_,i)=>({id:String(i),title:i===0?'<img src=x onerror=alert(1)>':'Paper '+i,authors:['A. Author'],venue:'Journal',abstract:'<script>unsafe</script>',doi:'10.1234/'+i,url:'https://example.org/'+i,preprint_url:'',publication_date:'2026-09-24',first_discovered_at:'2026-10-06T06:00:00Z',status:'Preprint',sources:['europe_pmc'],enrichment_sources:[],alert_ids:i<110?['topic']:['rare']}));
+alerts[1].author.aliases=['Verified author alias'];
+alerts[1].requested_names=['Original misspelling'];
 const tracker={meta:{refresh_status:'partial',last_attempt_at:'2026-10-06T06:00:00Z',initial_baseline:true,new_publication_ids:[],source_health:{openalex:{source:'openalex',status:'failed',error:'quota'}},enabled_alert_count:2,disabled_alert_count:1},alerts,publications,latest_ids:publications.slice(0,100).map(r=>r.id),discovered_ids:publications.slice(0,100).reverse().map(r=>r.id),new_ids:[],by_alert:{topic:publications.slice(0,20).map(r=>r.id),rare:publications.slice(110).map(r=>r.id),pending:[]}};
 const elements={};
 function $(selector){return elements[selector]??={innerHTML:'',textContent:selector==='#updatesIntro'?'Network description':'',value:'',disabled:false,hidden:false,listeners:{},attributes:{},classList:{toggle(){}},setAttribute(k,v){this.attributes[k]=v;},closest(){return this;},addEventListener(k,f){this.listeners[k]=f;},focus(){}};}
@@ -38,6 +40,12 @@ assert.equal($('#literatureTrackerPanel').hidden,true);
 assert.equal(context.location.hash,'#updates');
 $('#literatureTrackerTab').listeners.keydown({key:'Home',preventDefault(){}});
 assert.equal($('#networkUpdatesTab').attributes['aria-selected'],'true');
+$('#trackerAlertType').listeners.change({target:{value:''}});
+for(const value of ['verified author alias','original misspelling']){
+  $('#trackerAlertSearch').listeners.input({target:{value}});
+  assert($('#trackerAlertList').innerHTML.includes('Rare author'));
+  assert(!$('#trackerAlertList').innerHTML.includes('DNA replication'));
+}
 
 // Verify existing checkbox/search/status behavior remains unchanged.
 const app=fs.readFileSync('outputs/website/app.js','utf8');
