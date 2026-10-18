@@ -60,13 +60,31 @@ class TrackerTests(unittest.TestCase):
         self.assertFalse(t.verified_author_match(AUTHOR, r))
 
     def test_openalex_pagination_and_incomplete_page(self):
-        c = Client([{"results": [{"id": "W1"}], "meta": {"count": 2, "next_cursor": "two"}}, {"results": [{"id": "W2"}], "meta": {"count": 2}}])
-        self.assertEqual(len(t.paginate_openalex(c, {})), 2)
-        self.assertEqual(c.calls[1][2]["cursor"], "two")
+        first = [{"id": f"W{n}"} for n in range(200)]
+        c = Client([{"results": first, "meta": {"count": 201}}, {"results": [{"id": "W200"}], "meta": {"count": 201}}])
+        self.assertEqual(len(t.paginate_openalex(c, {})), 201)
+        self.assertEqual(c.calls[1][2]["page"], 2)
+        self.assertTrue(all("cursor" not in params for _, _, params in c.calls))
         with self.assertRaises(RuntimeError):
             t.paginate_openalex(Client([{"results": [], "meta": {"count": 2}}]), {})
         with self.assertRaises(RuntimeError):
-            t.paginate_openalex(Client([{"results": [{"id": "W1"}], "meta": {"count": 2, "next_cursor": "*"}}]), {})
+            t.paginate_openalex(Client([{"results": first, "meta": {"count": 201}}, {"results": first, "meta": {"count": 201}}]), {})
+
+    def test_openalex_splits_large_windows_without_cursor_or_lost_days(self):
+        c = Client([{"results": [], "meta": {"count": 10001}}, {"results": [{"id": "W1"}], "meta": {"count": 1}}, {"results": [{"id": "W2"}], "meta": {"count": 1}}])
+        params = {"search": '"DNA replication"', "filter": "type:article,from_publication_date:2026-10-01,to_publication_date:2026-10-04"}
+        self.assertEqual(len(t.paginate_openalex(c, params)), 2)
+        self.assertEqual(c.calls[1][2]["filter"], "type:article,from_publication_date:2026-10-01,to_publication_date:2026-10-02")
+        self.assertEqual(c.calls[2][2]["filter"], "type:article,from_publication_date:2026-10-03,to_publication_date:2026-10-04")
+        self.assertTrue(all(p["search"] == params["search"] and "cursor" not in p for _, _, p in c.calls))
+        for filters in ["", "from_publication_date:2026-10-01,to_publication_date:2026-10-01"]:
+            with self.assertRaisesRegex(RuntimeError, "unsplittable"):
+                t.paginate_openalex(Client([{"results": [], "meta": {"count": 10001}}]), {"filter": filters})
+
+    def test_openalex_count_drift_is_not_a_complete_check(self):
+        pages = [{"results": [{"id": f"W{n}"} for n in range(200)], "meta": {"count": 201}}, {"results": [{"id": "W200"}], "meta": {"count": 202}}]
+        with self.assertRaisesRegex(RuntimeError, "count changed"):
+            t.paginate_openalex(Client(pages), {})
 
     def test_epmc_and_preprint_pagination(self):
         c = Client([{"hitCount": 2, "resultList": {"result": [{"source": "MED", "id": "1"}]}, "nextCursorMark": "two"}, {"hitCount": 2, "resultList": {"result": [{"source": "PPR", "id": "2"}]}}])

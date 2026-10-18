@@ -9,7 +9,7 @@ import build_updates_feed as feed
 
 
 class UpdatesFeedTests(unittest.TestCase):
-    def test_cursor_pagination(self):
+    def test_credential_free_numbered_pagination(self):
         pages = [
             {"meta": {"count": 201, "next_cursor": "next"}, "results": [{"id": f"W{i}"} for i in range(200)]},
             {"meta": {"count": 201, "next_cursor": None}, "results": [{"id": "W200"}]},
@@ -19,7 +19,8 @@ class UpdatesFeedTests(unittest.TestCase):
         self.assertEqual(name, "Test PI")
         self.assertEqual(len(works), 201)
         self.assertEqual(request.call_count, 2)
-        self.assertIn("cursor=next", request.call_args.args[0].full_url)
+        self.assertIn("page=2", request.call_args.args[0].full_url)
+        self.assertNotIn("cursor=", request.call_args.args[0].full_url)
 
     def test_incomplete_results_fail(self):
         page = {"meta": {"count": 2, "next_cursor": None}, "results": [{"id": "W1"}]}
@@ -31,6 +32,13 @@ class UpdatesFeedTests(unittest.TestCase):
         with patch.object(feed, "CACHE_ONLY", False), patch.object(feed.urllib.request, "urlopen", side_effect=OSError("source unavailable")), patch.object(feed.time, "sleep"):
             with self.assertRaisesRegex(OSError, "source unavailable"):
                 feed.fetch_author_works({"person": "Test PI", "openalex_author_id": "A1"})
+
+    def test_public_paging_overflow_and_repeated_page_fail_safely(self):
+        repeated = {"meta": {"count": 201}, "results": [{"id": f"W{i}"} for i in range(200)]}
+        for pages, message in [([{ "meta": {"count": 10001}, "results": []}], "paging limit"), ([repeated, repeated], "Incomplete")]:
+            with patch.object(feed, "CACHE_ONLY", False), patch.object(feed.urllib.request, "urlopen", side_effect=[io.StringIO(json.dumps(p)) for p in pages]):
+                with self.assertRaisesRegex(RuntimeError, message):
+                    feed.fetch_author_works({"person": "Test PI", "openalex_author_id": "A1"})
 
     def test_dataset_is_not_an_accepted_manuscript(self):
         work = {"type": "dataset", "locations": [{"version": "acceptedVersion"}]}

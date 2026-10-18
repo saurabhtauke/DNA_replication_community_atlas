@@ -48,17 +48,12 @@ def fetch_author_works(row: dict[str, str]) -> tuple[str, list[dict]]:
         ),
         "sort": "publication_date:desc",
         "per-page": "200",
-        "cursor": "*",
+        "page": 1,
         "select": fields,
     }
     works: dict[str, dict] = {}
     expected_count = None
-    seen_cursors: set[str] = set()
-    while query["cursor"]:
-        cursor = query["cursor"]
-        if cursor in seen_cursors:
-            raise RuntimeError(f"Repeated OpenAlex cursor for {row['person']}")
-        seen_cursors.add(cursor)
+    while True:
         url = "https://api.openalex.org/works?" + urllib.parse.urlencode(query, safe=",:")
         request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
         for attempt in range(4):
@@ -74,12 +69,17 @@ def fetch_author_works(row: dict[str, str]) -> tuple[str, list[dict]]:
         meta = payload["meta"]
         if expected_count is None:
             expected_count = meta["count"]
+            if expected_count > 10000:
+                raise RuntimeError(f"OpenAlex public paging limit exceeded for {row['person']}; previous feed must be retained")
+        elif meta["count"] != expected_count:
+            raise RuntimeError(f"OpenAlex result count changed for {row['person']}; retry required")
         items = payload["results"]
+        before = len(works)
         for work in items:
             works[work["id"]] = work
-        if not items or len(works) >= expected_count:
+        if len(works) >= expected_count or len(works) == before or len(items) < 200 or query["page"] >= 50:
             break
-        query["cursor"] = meta.get("next_cursor")
+        query["page"] += 1
     if len(works) != expected_count:
         raise RuntimeError(f"Incomplete OpenAlex results for {row['person']}: {len(works)}/{expected_count}")
     return row["person"], list(works.values())
@@ -243,7 +243,7 @@ def main() -> None:
             "window_start": SINCE.isoformat(),
             "window_end": AS_OF.isoformat(),
             "source": "OpenAlex API",
-            "retrieval_mode": "cache-only" if CACHE_ONLY else "live API; all cursor pages; no cached fallback",
+            "retrieval_mode": "cache-only" if CACHE_ONLY else "live API; all numbered pages; no cached fallback",
             "inclusion_rule": "All indexed works coauthored by roster author IDs within the date window; no title/topic keyword exclusions",
             "researcher_count": len(researchers),
             "publication_count": len(updates),

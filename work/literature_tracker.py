@@ -182,23 +182,42 @@ def query_for(alert, source, since, until):
 
 
 def paginate_openalex(client, params):
-    cursor, seen, records = "*", set(), {}
-    while cursor:
-        if cursor in seen:
-            raise RuntimeError("OpenAlex repeated cursor")
-        seen.add(cursor)
-        payload = client.get("openalex", "works", {**params, "per-page": 200, "cursor": cursor})
+    # Cursor continuation now requires a key. Public numbered pages still work
+    # up to 10,000 hits; partition larger publication windows before paging.
+    params = {k: v for k, v in params.items() if k not in {"cursor", "page", "per-page"}}
+    records, expected, page = {}, None, 1
+    while True:
+        payload = client.get("openalex", "works", {**params, "per-page": 200, "page": page})
         if "results" not in payload or "count" not in payload.get("meta", {}):
             raise RuntimeError("Malformed OpenAlex page")
+        count = int(payload["meta"]["count"])
+        if expected is None:
+            expected = count
+            if expected > 10000:
+                filters = params.get("filter", "").split(",")
+                bounds = dict(f.split(":", 1) for f in filters if f.startswith(("from_publication_date:", "to_publication_date:")))
+                start = valid_date(bounds.get("from_publication_date"))
+                end = valid_date(bounds.get("to_publication_date"))
+                if not start or not end or start >= end:
+                    raise RuntimeError("OpenAlex public paging exceeds 10,000 hits in an unsplittable date window; results incomplete")
+                start, end = date.fromisoformat(start), date.fromisoformat(end)
+                middle = start + (end - start) // 2
+                other = [f for f in filters if not f.startswith(("from_publication_date:", "to_publication_date:"))]
+                for lower, upper in [(start, middle), (middle + timedelta(days=1), end)]:
+                    partition = {**params, "filter": ",".join(other + [f"from_publication_date:{lower}", f"to_publication_date:{upper}"])}
+                    for row in paginate_openalex(client, partition):
+                        records[row["id"]] = row
+                return list(records.values())
+        elif count != expected:
+            raise RuntimeError("OpenAlex result count changed during pagination; retry required")
+        before = len(records)
         for row in payload["results"]:
             records[row["id"]] = row
-        expected = int(payload["meta"]["count"])
-        if len(records) >= expected:
-            break
-        cursor = payload["meta"].get("next_cursor")
-        if not cursor or not payload["results"]:
+        if len(records) == expected:
+            return list(records.values())
+        if len(records) > expected or len(records) == before or len(payload["results"]) < 200 or page >= 50:
             raise RuntimeError(f"Incomplete OpenAlex pagination: {len(records)}/{expected}")
-    return list(records.values())
+        page += 1
 
 
 def paginate_epmc(client, params):
