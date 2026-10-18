@@ -682,20 +682,24 @@
           "A5042298609"
         ],
         "orcid": "https://orcid.org/0000-0003-4209-0377",
-        "affiliation": "",
+        "affiliation": "Vrije Universiteit Amsterdam",
         "verified_institutions": [
           "Delft University of Technology"
         ],
         "identity_status": "verified",
-        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_notes": "Existing active tracker reverified, not duplicated. VU Amsterdam's institutional profile explicitly lists this ORCID and describes his magnetic-tweezers and genome-processing research. Verified using an institutional/lab page, representative publication authorship, and a live ORCID-to-OpenAlex author lookup on 2026-10-18. Source attribution can still contain errors.",
         "verification_urls": [
-          "https://openalex.org/A5042298609",
-          "https://doi.org/10.1073/pnas.1407197111",
-          "https://doi.org/10.1063/1.4898178",
-          "https://doi.org/10.1016/j.bpj.2015.10.018",
-          "https://doi.org/10.1038/nrg3316"
-        ]
-      }
+          "https://research.vu.nl/en/persons/david-dulin/",
+          "https://doi.org/10.1038/s41598-018-36219-0",
+          "https://doi.org/10.1021/jacs.5c18586",
+          "https://orcid.org/0000-0003-4209-0377",
+          "https://openalex.org/A5042298609"
+        ],
+        "verification_date": "2026-10-18"
+      },
+      "requested_names": [
+        "David Dulin"
+      ]
     },
     {
       "id": "author-yoon-kyoung-cho",
@@ -2058,19 +2062,34 @@
       "id": "author-morgan-jones",
       "name": "Morgan Jones — new articles",
       "type": "author",
-      "enabled": false,
+      "enabled": true,
       "author": {
-        "name": "Morgan Jones",
+        "name": "Morgan L. Jones",
         "aliases": [
-          "Morgan Jones"
+          "Morgan Jones",
+          "Morgan L. Jones",
+          "Morgan L Jones"
         ],
-        "openalex_ids": [],
-        "orcid": "",
-        "affiliation": "",
-        "identity_status": "needs identity review",
-        "verification_notes": ""
+        "openalex_ids": [
+          "A5076424245"
+        ],
+        "orcid": "https://orcid.org/0000-0003-1948-4925",
+        "affiliation": "University of Oxford",
+        "identity_status": "verified",
+        "verification_notes": "Resolved the previously ambiguous name to the Oxford DNA Replication in a Dynamic Genome lab leader, formerly in Joe Yeeles's MRC LMB group. The MRC PPU biography explicitly lists the Jones ML replication papers used to identify this OpenAlex/ORCID pair. Verified using an institutional/lab page, representative publication authorship, and a live ORCID-to-OpenAlex author lookup on 2026-10-18. Source attribution can still contain errors.",
+        "verification_date": "2026-10-18",
+        "verification_urls": [
+          "https://www.bioch.ox.ac.uk/research/jones",
+          "https://www.ppu.mrc.ac.uk/lectures/morgan-jones",
+          "https://doi.org/10.1038/s41586-021-04145-3",
+          "https://doi.org/10.15252/embj.2021108819",
+          "https://orcid.org/0000-0003-1948-4925",
+          "https://openalex.org/A5076424245"
+        ]
       },
-      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
+      "requested_names": [
+        "Morgan Jones"
+      ]
     },
     {
       "id": "author-karim-labib",
@@ -2143,12 +2162,13 @@
     },
     {
       "id": "author-fernando-moreno-herrero",
-      "name": "Fernando Moreno Herrero — new articles",
+      "name": "Fernando Moreno-Herrero — new articles",
       "type": "author",
       "enabled": true,
       "author": {
-        "name": "Fernando Moreno‐Herrero",
+        "name": "Fernando Moreno-Herrero",
         "aliases": [
+          "Fernando Moreno-Herrero",
           "Fernando Moreno Herrero",
           "Fernando Moreno‐Herrero"
         ],
@@ -2156,21 +2176,25 @@
           "A5018736467"
         ],
         "orcid": "https://orcid.org/0000-0003-4083-1709",
-        "affiliation": "",
+        "affiliation": "Centro Nacional de Biotecnología, CSIC",
         "verified_institutions": [
           "Delft University of Technology",
           "Universidad Autónoma de Madrid"
         ],
         "identity_status": "verified",
-        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_notes": "Existing active tracker reverified, not duplicated. Corrected readable surname styling to Moreno-Herrero; current affiliation corroborated at CNB-CSIC. Verified using an institutional/lab page, representative publication authorship, and a live ORCID-to-OpenAlex author lookup on 2026-10-18. Source attribution can still contain errors.",
         "verification_urls": [
-          "https://openalex.org/A5018736467",
-          "https://doi.org/10.1103/physrevlett.85.4992",
-          "https://doi.org/10.1038/nnano.2006.63",
-          "https://doi.org/10.1529/biophysj.104.052811",
-          "https://doi.org/10.1038/nature03927"
-        ]
-      }
+          "https://www.fernandomorenoherrero.com/",
+          "https://www.fernandomorenoherrero.com/pdf/CV_Moreno-Herrero_2pag_140901.pdf",
+          "https://doi.org/10.1038/s41467-026-68752-2",
+          "https://orcid.org/0000-0003-4083-1709",
+          "https://openalex.org/A5018736467"
+        ],
+        "verification_date": "2026-10-18"
+      },
+      "requested_names": [
+        "Fernando Moreno-Herrero"
+      ]
     },
     {
       "id": "author-gilad-haran",
@@ -3027,6 +3051,323 @@
         "verification_notes": ""
       },
       "disabled_reason": "Original alert supplied no public identity; retained as an inactive definition."
+    },
+    {
+      "id": "author-sarah-henrikus",
+      "name": "Sarah Henrikus — new articles",
+      "type": "author",
+      "enabled": true,
+      "requested_names": [
+        "Sarah Henrikus"
+      ],
+      "author": {
+        "name": "Sarah S. Henrikus",
+        "aliases": [
+          "Sarah Henrikus",
+          "Sarah S. Henrikus",
+          "Sarah S Henrikus"
+        ],
+        "openalex_ids": [
+          "A5091654640"
+        ],
+        "orcid": "https://orcid.org/0000-0002-4873-931X",
+        "affiliation": "St Vincent's Institute of Medical Research",
+        "identity_status": "verified",
+        "verification_date": "2026-10-18",
+        "verification_notes": "SVI profile explicitly lists her ORCID and replication-origin cryo-EM paper; former Costa lab postdoc. Verified using an institutional/lab page, representative publication authorship, and a live ORCID-to-OpenAlex author lookup on 2026-10-18. Source attribution can still contain errors.",
+        "verification_urls": [
+          "https://www.svi.edu.au/researchers/dr-sarah-henrikus/",
+          "https://doi.org/10.1038/s41594-024-01280-z",
+          "https://orcid.org/0000-0002-4873-931X",
+          "https://openalex.org/A5091654640"
+        ]
+      }
+    },
+    {
+      "id": "author-oliver-willhoft",
+      "name": "Oliver Willhoft — new articles",
+      "type": "author",
+      "enabled": true,
+      "requested_names": [
+        "Oliver Wilthoff",
+        "Oliver Willhoft"
+      ],
+      "author": {
+        "name": "Oliver Willhoft",
+        "aliases": [
+          "Oliver Willhoft",
+          "Oliver Willhöft",
+          "O. Willhoft"
+        ],
+        "openalex_ids": [
+          "A5051754885"
+        ],
+        "orcid": "https://orcid.org/0000-0003-2422-1839",
+        "affiliation": "The Francis Crick Institute",
+        "identity_status": "verified",
+        "verification_date": "2026-10-18",
+        "verification_notes": "Corrected requested spelling 'Oliver Wilthoff' to Oliver Willhoft, also indexed as Oliver Willhöft. Costa lab membership and 2024/2026 replication structures corroborate the identity. Verified using an institutional/lab page, representative publication authorship, and a live ORCID-to-OpenAlex author lookup on 2026-10-18. Source attribution can still contain errors.",
+        "verification_urls": [
+          "https://www.alecostalab.net/members",
+          "https://crossmark.crossref.org/dialog/?doi=10.1038%2Fs41586-026-10657-7",
+          "https://doi.org/10.1038/s41594-024-01280-z",
+          "https://doi.org/10.1038/s41586-026-10657-7",
+          "https://orcid.org/0000-0003-2422-1839",
+          "https://openalex.org/A5051754885"
+        ]
+      }
+    },
+    {
+      "id": "author-agnieszka-gambus",
+      "name": "Agnieszka (Aga) Gambus — new articles",
+      "type": "author",
+      "enabled": true,
+      "requested_names": [
+        "Aga Gambus"
+      ],
+      "author": {
+        "name": "Agnieszka Gambus",
+        "aliases": [
+          "Agnieszka Gambus",
+          "Aga Gambus"
+        ],
+        "openalex_ids": [
+          "A5063537122"
+        ],
+        "orcid": "https://orcid.org/0000-0002-4648-0332",
+        "affiliation": "University of Birmingham",
+        "identity_status": "verified",
+        "verification_date": "2026-10-18",
+        "verification_notes": "Aga is the familiar name used on the Birmingham Professor of DNA Metabolism profile; publications and ORCID use Agnieszka Gambus. Verified using an institutional/lab page, representative publication authorship, and a live ORCID-to-OpenAlex author lookup on 2026-10-18. Source attribution can still contain errors.",
+        "verification_urls": [
+          "https://www.birmingham.ac.uk/staff/profiles/cancer-genomic/gambus-aga",
+          "https://doi.org/10.1038/s41467-023-43873-0",
+          "https://doi.org/10.1093/nar/gkaf530",
+          "https://orcid.org/0000-0002-4648-0332",
+          "https://openalex.org/A5063537122"
+        ]
+      }
+    },
+    {
+      "id": "author-johannes-stigler",
+      "name": "Johannes Stigler — new articles",
+      "type": "author",
+      "enabled": true,
+      "requested_names": [
+        "Johannes Stigler"
+      ],
+      "author": {
+        "name": "Johannes Stigler",
+        "aliases": [
+          "Johannes Stigler"
+        ],
+        "openalex_ids": [
+          "A5015815448"
+        ],
+        "orcid": "https://orcid.org/0000-0003-2472-5332",
+        "affiliation": "Ludwig-Maximilians-Universität München",
+        "identity_status": "verified",
+        "verification_date": "2026-10-18",
+        "verification_notes": "Matched the LMU Gene Center single-molecule biophysicist, not the similarly named humanities researcher. LMU publication repository explicitly supplies this ORCID. Verified using an institutional/lab page, representative publication authorship, and a live ORCID-to-OpenAlex author lookup on 2026-10-18. Source attribution can still contain errors.",
+        "verification_urls": [
+          "https://www.genzentrum.uni-muenchen.de/research-groups/stigler/group-members/johannes-stigler/index.html",
+          "https://epub.ub.uni-muenchen.de/view/autoren/Stigler%3D3AJohannes%3D3A%3D3A.date.html",
+          "https://doi.org/10.1021/acsnano.1c09162",
+          "https://orcid.org/0000-0003-2472-5332",
+          "https://openalex.org/A5015815448"
+        ]
+      }
+    },
+    {
+      "id": "author-scott-blanchard",
+      "name": "Scott Blanchard — new articles",
+      "type": "author",
+      "enabled": true,
+      "requested_names": [
+        "Scott Blanchard"
+      ],
+      "author": {
+        "name": "Scott C. Blanchard",
+        "aliases": [
+          "Scott Blanchard",
+          "Scott C. Blanchard",
+          "Scott C Blanchard"
+        ],
+        "openalex_ids": [
+          "A5021553016"
+        ],
+        "orcid": "https://orcid.org/0000-0003-2717-9365",
+        "affiliation": "St. Jude Children's Research Hospital",
+        "identity_status": "verified",
+        "verification_date": "2026-10-18",
+        "verification_notes": "Matched the St. Jude single-molecule imaging researcher. Publisher and OpenAlex both associate the 2026 imaging-platform paper with this ORCID. Verified using an institutional/lab page, representative publication authorship, and a live ORCID-to-OpenAlex author lookup on 2026-10-18. Source attribution can still contain errors.",
+        "verification_urls": [
+          "https://www.stjude.org/research/labs/blanchard-lab.html",
+          "https://doi.org/10.1038/s41592-026-03265-w",
+          "https://orcid.org/0000-0003-2717-9365",
+          "https://openalex.org/A5021553016"
+        ]
+      }
+    },
+    {
+      "id": "author-ian-hickson",
+      "name": "Ian Hickson — new articles",
+      "type": "author",
+      "enabled": true,
+      "requested_names": [
+        "Ian Hickson"
+      ],
+      "author": {
+        "name": "Ian D. Hickson",
+        "aliases": [
+          "Ian Hickson",
+          "Ian D. Hickson",
+          "Ian D Hickson",
+          "Ian David Hickson"
+        ],
+        "openalex_ids": [
+          "A5085921889"
+        ],
+        "orcid": "https://orcid.org/0000-0002-0583-566X",
+        "affiliation": "University of Copenhagen",
+        "identity_status": "verified",
+        "verification_date": "2026-10-18",
+        "verification_notes": "Matched the Copenhagen chromosome-stability and replication-stress researcher; representative Molecular Cell paper associates his full name and this ORCID. Verified using an institutional/lab page, representative publication authorship, and a live ORCID-to-OpenAlex author lookup on 2026-10-18. Source attribution can still contain errors.",
+        "verification_urls": [
+          "https://icmm.ku.dk/english/research-groups/hickson-group/",
+          "https://researchprofiles.ku.dk/en/persons/ian-david-hickson/",
+          "https://doi.org/10.1016/j.molcel.2023.08.023",
+          "https://orcid.org/0000-0002-0583-566X",
+          "https://openalex.org/A5085921889"
+        ]
+      }
+    },
+    {
+      "id": "author-luis-aragon",
+      "name": "Luis Aragón — new articles",
+      "type": "author",
+      "enabled": true,
+      "requested_names": [
+        "Louis Aragon",
+        "Luis Aragon"
+      ],
+      "author": {
+        "name": "Luis Aragón",
+        "aliases": [
+          "Luis Aragon",
+          "Luis Aragón",
+          "Luís Aragón"
+        ],
+        "openalex_ids": [
+          "A5026968805"
+        ],
+        "orcid": "https://orcid.org/0000-0003-0634-6742",
+        "affiliation": "MRC Laboratory of Medical Sciences",
+        "identity_status": "verified",
+        "verification_date": "2026-10-18",
+        "verification_notes": "Corrected requested 'Louis Aragon' to Luis Aragon / Luis Aragón, the LMS DNA Motors group leader. The 2025 cohesin/TOP2 paper with Rueda provides author-specific ORCID corroboration. Verified using an institutional/lab page, representative publication authorship, and a live ORCID-to-OpenAlex author lookup on 2026-10-18. Source attribution can still contain errors.",
+        "verification_urls": [
+          "https://lms.mrc.ac.uk/team/luis-aragon-2/",
+          "https://doi.org/10.1038/s41467-025-62505-3",
+          "https://orcid.org/0000-0003-0634-6742",
+          "https://openalex.org/A5026968805"
+        ]
+      }
+    },
+    {
+      "id": "author-rahul-bhowmick",
+      "name": "Rahul Bhowmick — new articles",
+      "type": "author",
+      "enabled": true,
+      "requested_names": [
+        "Rahul Bhowmik",
+        "Rahul Bhowmick"
+      ],
+      "author": {
+        "name": "Rahul Bhowmick",
+        "aliases": [
+          "Rahul Bhowmick"
+        ],
+        "openalex_ids": [
+          "A5048597160"
+        ],
+        "orcid": "https://orcid.org/0000-0002-5412-1209",
+        "affiliation": "Vanderbilt University",
+        "identity_status": "verified",
+        "verification_date": "2026-10-18",
+        "verification_notes": "Corrected requested 'Rahul Bhowmik' to Rahul Bhowmick, the Vanderbilt replication-stress researcher formerly at Copenhagen with Ian Hickson. Do not conflate with Rahul Bhowmik in materials/data science. Verified using an institutional/lab page, representative publication authorship, and a live ORCID-to-OpenAlex author lookup on 2026-10-18. Source attribution can still contain errors.",
+        "verification_urls": [
+          "https://medschool.vanderbilt.edu/biochemistry/person/rahul-bhowmick-2/",
+          "https://doi.org/10.1016/j.molcel.2023.08.023",
+          "https://orcid.org/0000-0002-5412-1209",
+          "https://openalex.org/A5048597160"
+        ]
+      }
+    },
+    {
+      "id": "author-thomas-miller",
+      "name": "Thomas Miller — new articles",
+      "type": "author",
+      "enabled": true,
+      "requested_names": [
+        "Thomas Miller"
+      ],
+      "author": {
+        "name": "Thomas C. R. Miller",
+        "aliases": [
+          "Thomas Miller",
+          "Thomas C. R. Miller",
+          "Thomas C R Miller",
+          "Tom Miller"
+        ],
+        "openalex_ids": [
+          "A5035239553"
+        ],
+        "orcid": "https://orcid.org/0000-0002-9749-1656",
+        "affiliation": "University of Copenhagen",
+        "identity_status": "verified",
+        "verification_date": "2026-10-18",
+        "verification_notes": "Resolved the common name to Thomas C. R. Miller, the Copenhagen genome-stability/cryo-EM researcher formerly at the Crick, not unrelated Thomas Miller profiles. Verified using an institutional/lab page, representative publication authorship, and a live ORCID-to-OpenAlex author lookup on 2026-10-18. Source attribution can still contain errors.",
+        "verification_urls": [
+          "https://researchprofiles.ku.dk/en/persons/thomas-miller/",
+          "https://doi.org/10.1038/s41594-021-00698-z",
+          "https://orcid.org/0000-0002-9749-1656",
+          "https://openalex.org/A5035239553"
+        ]
+      }
+    },
+    {
+      "id": "author-tom-deegan",
+      "name": "Tom Deegan — new articles",
+      "type": "author",
+      "enabled": true,
+      "requested_names": [
+        "Tom Deegan"
+      ],
+      "author": {
+        "name": "Tom D. Deegan",
+        "aliases": [
+          "Tom Deegan",
+          "Tom D. Deegan",
+          "Tom D Deegan"
+        ],
+        "openalex_ids": [
+          "A5079736311"
+        ],
+        "orcid": "https://orcid.org/0000-0001-9639-7636",
+        "affiliation": "University of Edinburgh",
+        "identity_status": "verified",
+        "verification_date": "2026-10-18",
+        "verification_notes": "Matched the Edinburgh MRC Human Genetics Unit chromosome-replication programme leader. Institutional profile and representative replisome papers corroborate the ORCID. Verified using an institutional/lab page, representative publication authorship, and a live ORCID-to-OpenAlex author lookup on 2026-10-18. Source attribution can still contain errors.",
+        "verification_urls": [
+          "https://institute-genetics-cancer.ed.ac.uk/research/research-groups-a-z/deegan-group",
+          "https://www.research.ed.ac.uk/en/persons/tom-deegan/",
+          "https://doi.org/10.1038/s41586-021-04145-3",
+          "https://doi.org/10.1038/s44318-024-00168-4",
+          "https://orcid.org/0000-0001-9639-7636",
+          "https://openalex.org/A5079736311"
+        ]
+      }
     }
   ]
 }
