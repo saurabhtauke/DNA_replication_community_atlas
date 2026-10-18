@@ -6,9 +6,9 @@
     "refresh_status": "partial",
     "window_start": "2026-04-10",
     "window_end": "2026-10-17",
-    "publication_count": 1705,
-    "enabled_alert_count": 100,
-    "disabled_alert_count": 13,
+    "publication_count": 1681,
+    "enabled_alert_count": 85,
+    "disabled_alert_count": 28,
     "initial_baseline": false,
     "new_publication_ids": [
       "paper-04a5be488b06129c5b62",
@@ -88,27 +88,6 @@
         "record_count": 0,
         "checked_at": "2026-10-17T09:54:05Z"
       },
-      "openalex:author-ritesh-soni": {
-        "source": "openalex",
-        "alert_id": "author-ritesh-soni",
-        "status": "ok",
-        "record_count": 0,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "openalex:author-steve-granick": {
-        "source": "openalex",
-        "alert_id": "author-steve-granick",
-        "status": "ok",
-        "record_count": 6,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "openalex:author-shivprasad-patil": {
-        "source": "openalex",
-        "alert_id": "author-shivprasad-patil",
-        "status": "ok",
-        "record_count": 4,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
       "openalex:author-pallav-kosuri": {
         "source": "openalex",
         "alert_id": "author-pallav-kosuri",
@@ -135,13 +114,6 @@
         "alert_id": "author-bruce-stillman",
         "status": "ok",
         "record_count": 2,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "openalex:author-anisha-shakya": {
-        "source": "openalex",
-        "alert_id": "author-anisha-shakya",
-        "status": "ok",
-        "record_count": 0,
         "checked_at": "2026-10-17T09:54:05Z"
       },
       "openalex:author-xiaowei-zhuang": {
@@ -172,20 +144,6 @@
         "record_count": 7,
         "checked_at": "2026-10-17T09:54:05Z"
       },
-      "openalex:author-mamata-karmacharya": {
-        "source": "openalex",
-        "alert_id": "author-mamata-karmacharya",
-        "status": "ok",
-        "record_count": 2,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "openalex:author-nitee-kumari": {
-        "source": "openalex",
-        "alert_id": "author-nitee-kumari",
-        "status": "ok",
-        "record_count": 1,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
       "openalex:author-madhusudhan-srinivasan": {
         "source": "openalex",
         "alert_id": "author-madhusudhan-srinivasan",
@@ -198,13 +156,6 @@
         "alert_id": "author-jan-lipfert",
         "status": "ok",
         "record_count": 3,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "openalex:author-joel-c-forster": {
-        "source": "openalex",
-        "alert_id": "author-joel-c-forster",
-        "status": "ok",
-        "record_count": 0,
         "checked_at": "2026-10-17T09:54:05Z"
       },
       "openalex:author-jonas-ries": {
@@ -221,25 +172,11 @@
         "record_count": 6,
         "checked_at": "2026-10-17T09:54:05Z"
       },
-      "openalex:author-yoon-kyoung-cho": {
-        "source": "openalex",
-        "alert_id": "author-yoon-kyoung-cho",
-        "status": "ok",
-        "record_count": 5,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
       "openalex:author-david-dulin": {
         "source": "openalex",
         "alert_id": "author-david-dulin",
         "status": "ok",
         "record_count": 10,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "openalex:author-shatruhan-singh-rajput": {
-        "source": "openalex",
-        "alert_id": "author-shatruhan-singh-rajput",
-        "status": "ok",
-        "record_count": 0,
         "checked_at": "2026-10-17T09:54:05Z"
       },
       "openalex:author-johannes-walter": {
@@ -310,13 +247,6 @@
         "alert_id": "author-sua-myong",
         "status": "ok",
         "record_count": 3,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "openalex:author-jagadish-prasad-hazra": {
-        "source": "openalex",
-        "alert_id": "author-jagadish-prasad-hazra",
-        "status": "ok",
-        "record_count": 1,
         "checked_at": "2026-10-17T09:54:05Z"
       },
       "openalex:author-john-diffley": {
@@ -396,13 +326,6 @@
         "record_count": 2,
         "checked_at": "2026-10-17T09:54:05Z"
       },
-      "openalex:author-abhishek-mazumder": {
-        "source": "openalex",
-        "alert_id": "author-abhishek-mazumder",
-        "status": "ok",
-        "record_count": 2,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
       "openalex:author-philip-tinnefeld": {
         "source": "openalex",
         "alert_id": "author-philip-tinnefeld",
@@ -436,13 +359,6 @@
         "alert_id": "author-philipp-kukura",
         "status": "ok",
         "record_count": 4,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "openalex:author-ahmet-yildiz": {
-        "source": "openalex",
-        "alert_id": "author-ahmet-yildiz",
-        "status": "ok",
-        "record_count": 2,
         "checked_at": "2026-10-17T09:54:05Z"
       },
       "openalex:author-cees-dekker": {
@@ -550,13 +466,6 @@
         "record_count": 1,
         "checked_at": "2026-10-17T09:54:05Z"
       },
-      "openalex:author-pak-hyuk-kyu": {
-        "source": "openalex",
-        "alert_id": "author-pak-hyuk-kyu",
-        "status": "ok",
-        "record_count": 1,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
       "openalex:author-geeta-narlikar": {
         "source": "openalex",
         "alert_id": "author-geeta-narlikar",
@@ -576,13 +485,6 @@
         "alert_id": "author-eric-c-greene",
         "status": "ok",
         "record_count": 2,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "openalex:author-carlas-sierd-smith": {
-        "source": "openalex",
-        "alert_id": "author-carlas-sierd-smith",
-        "status": "ok",
-        "record_count": 3,
         "checked_at": "2026-10-17T09:54:05Z"
       },
       "openalex:author-joaquim-roca": {
@@ -632,13 +534,6 @@
         "alert_id": "author-ja-yil-lee",
         "status": "ok",
         "record_count": 2,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "openalex:author-govind-paneru": {
-        "source": "openalex",
-        "alert_id": "author-govind-paneru",
-        "status": "ok",
-        "record_count": 1,
         "checked_at": "2026-10-17T09:54:05Z"
       },
       "openalex:author-mahipal-ganji": {
@@ -792,20 +687,6 @@
         "record_count": 0,
         "checked_at": "2026-10-17T09:54:05Z"
       },
-      "europe_pmc:author-shivprasad-patil": {
-        "source": "europe_pmc",
-        "alert_id": "author-shivprasad-patil",
-        "status": "ok",
-        "record_count": 1,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "europe_pmc:author-steve-granick": {
-        "source": "europe_pmc",
-        "alert_id": "author-steve-granick",
-        "status": "ok",
-        "record_count": 2,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
       "europe_pmc:author-allison-h-squires": {
         "source": "europe_pmc",
         "alert_id": "author-allison-h-squires",
@@ -841,13 +722,6 @@
         "record_count": 1,
         "checked_at": "2026-10-17T09:54:05Z"
       },
-      "europe_pmc:author-ritesh-soni": {
-        "source": "europe_pmc",
-        "alert_id": "author-ritesh-soni",
-        "status": "ok",
-        "record_count": 0,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
       "europe_pmc:author-gilles-charvin": {
         "source": "europe_pmc",
         "alert_id": "author-gilles-charvin",
@@ -869,30 +743,9 @@
         "record_count": 0,
         "checked_at": "2026-10-17T09:54:05Z"
       },
-      "europe_pmc:author-anisha-shakya": {
-        "source": "europe_pmc",
-        "alert_id": "author-anisha-shakya",
-        "status": "ok",
-        "record_count": 0,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "europe_pmc:author-joel-c-forster": {
-        "source": "europe_pmc",
-        "alert_id": "author-joel-c-forster",
-        "status": "ok",
-        "record_count": 0,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
       "europe_pmc:author-jonas-ries": {
         "source": "europe_pmc",
         "alert_id": "author-jonas-ries",
-        "status": "ok",
-        "record_count": 0,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "europe_pmc:author-mamata-karmacharya": {
-        "source": "europe_pmc",
-        "alert_id": "author-mamata-karmacharya",
         "status": "ok",
         "record_count": 0,
         "checked_at": "2026-10-17T09:54:05Z"
@@ -925,25 +778,11 @@
         "record_count": 4,
         "checked_at": "2026-10-17T09:54:05Z"
       },
-      "europe_pmc:author-yoon-kyoung-cho": {
-        "source": "europe_pmc",
-        "alert_id": "author-yoon-kyoung-cho",
-        "status": "ok",
-        "record_count": 3,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
       "europe_pmc:author-david-dulin": {
         "source": "europe_pmc",
         "alert_id": "author-david-dulin",
         "status": "ok",
         "record_count": 6,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "europe_pmc:author-nitee-kumari": {
-        "source": "europe_pmc",
-        "alert_id": "author-nitee-kumari",
-        "status": "ok",
-        "record_count": 0,
         "checked_at": "2026-10-17T09:54:05Z"
       },
       "europe_pmc:author-suliana-manley": {
@@ -958,13 +797,6 @@
         "alert_id": "author-johannes-walter",
         "status": "ok",
         "record_count": 3,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "europe_pmc:author-shatruhan-singh-rajput": {
-        "source": "europe_pmc",
-        "alert_id": "author-shatruhan-singh-rajput",
-        "status": "ok",
-        "record_count": 0,
         "checked_at": "2026-10-17T09:54:05Z"
       },
       "europe_pmc:author-julio-fernandez": {
@@ -1031,13 +863,6 @@
         "record_count": 2,
         "checked_at": "2026-10-17T09:54:05Z"
       },
-      "europe_pmc:author-jagadish-prasad-hazra": {
-        "source": "europe_pmc",
-        "alert_id": "author-jagadish-prasad-hazra",
-        "status": "ok",
-        "record_count": 1,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
       "europe_pmc:author-narain-karedla": {
         "source": "europe_pmc",
         "alert_id": "author-narain-karedla",
@@ -1087,13 +912,6 @@
         "record_count": 1,
         "checked_at": "2026-10-17T09:54:05Z"
       },
-      "europe_pmc:author-abhishek-mazumder": {
-        "source": "europe_pmc",
-        "alert_id": "author-abhishek-mazumder",
-        "status": "ok",
-        "record_count": 0,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
       "europe_pmc:author-philip-tinnefeld": {
         "source": "europe_pmc",
         "alert_id": "author-philip-tinnefeld",
@@ -1141,13 +959,6 @@
         "alert_id": "author-yasemin-baris",
         "status": "ok",
         "record_count": 0,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "europe_pmc:author-ahmet-yildiz": {
-        "source": "europe_pmc",
-        "alert_id": "author-ahmet-yildiz",
-        "status": "ok",
-        "record_count": 2,
         "checked_at": "2026-10-17T09:54:05Z"
       },
       "europe_pmc:author-philipp-kukura": {
@@ -1276,13 +1087,6 @@
         "record_count": 1,
         "checked_at": "2026-10-17T09:54:05Z"
       },
-      "europe_pmc:author-pak-hyuk-kyu": {
-        "source": "europe_pmc",
-        "alert_id": "author-pak-hyuk-kyu",
-        "status": "ok",
-        "record_count": 0,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
       "europe_pmc:author-vahid-sandoghdar": {
         "source": "europe_pmc",
         "alert_id": "author-vahid-sandoghdar",
@@ -1293,13 +1097,6 @@
       "europe_pmc:author-alessandro-costa": {
         "source": "europe_pmc",
         "alert_id": "author-alessandro-costa",
-        "status": "ok",
-        "record_count": 2,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "europe_pmc:author-carlas-sierd-smith": {
-        "source": "europe_pmc",
-        "alert_id": "author-carlas-sierd-smith",
         "status": "ok",
         "record_count": 2,
         "checked_at": "2026-10-17T09:54:05Z"
@@ -1344,13 +1141,6 @@
         "alert_id": "author-jacob-lewis",
         "status": "ok",
         "record_count": 3,
-        "checked_at": "2026-10-17T09:54:05Z"
-      },
-      "europe_pmc:author-govind-paneru": {
-        "source": "europe_pmc",
-        "alert_id": "author-govind-paneru",
-        "status": "ok",
-        "record_count": 1,
         "checked_at": "2026-10-17T09:54:05Z"
       },
       "europe_pmc:author-mahipal-ganji": {
@@ -1830,7 +1620,28 @@
       }
     },
     "schedule": "Daily at 06:00 UTC; GitHub Actions may start later",
-    "coverage_note": "Public databases, not Google Scholar. 190-day default; direct preprint bootstrap 30 days, then seven-day overlap. Identity-unresolved alerts are disabled. Abstracts and author coverage vary by source."
+    "coverage_note": "Public databases, not Google Scholar. 190-day default; direct preprint bootstrap 30 days, then seven-day overlap. Identity-unresolved alerts are disabled. Abstracts and author coverage vary by source.",
+    "configuration_updated_at": "2026-10-18T06:33:09Z",
+    "configuration_change": {
+      "disabled_alert_ids": [
+        "author-abhishek-mazumder",
+        "author-ahmet-yildiz",
+        "author-anisha-shakya",
+        "author-carlas-sierd-smith",
+        "author-govind-paneru",
+        "author-jagadish-prasad-hazra",
+        "author-joel-c-forster",
+        "author-mamata-karmacharya",
+        "author-nitee-kumari",
+        "author-pak-hyuk-kyu",
+        "author-ritesh-soni",
+        "author-shatruhan-singh-rajput",
+        "author-shivprasad-patil",
+        "author-steve-granick",
+        "author-yoon-kyoung-cho"
+      ],
+      "note": "User-selected watchlist update only; publication-source check timestamps unchanged."
+    }
   },
   "alerts": [
     {
@@ -1867,7 +1678,7 @@
       "id": "author-shivprasad-patil",
       "name": "Shivprasad Patil — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Shivprasad Patil",
         "aliases": [
@@ -1892,13 +1703,14 @@
           "https://doi.org/10.1063/1.2360894",
           "https://doi.org/10.1155/2015/562938"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-ritesh-soni",
       "name": "Ritesh Soni — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Ritesh Soni",
         "aliases": [
@@ -1921,13 +1733,14 @@
           "https://doi.org/10.1016/j.surfin.2022.102404",
           "https://doi.org/10.1016/j.chemosphere.2021.133197"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-steve-granick",
       "name": "Steve Granick — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Steve Granick",
         "aliases": [
@@ -1950,7 +1763,8 @@
           "https://doi.org/10.1002/adma.200904094",
           "https://doi.org/10.1103/physrevlett.87.096105"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-pallav-kosuri",
@@ -2085,7 +1899,7 @@
       "id": "author-anisha-shakya",
       "name": "Anisha Shakya — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Anisha Shakya",
         "aliases": [
@@ -2110,7 +1924,8 @@
           "https://doi.org/10.1016/j.bpj.2018.09.022",
           "https://doi.org/10.1016/j.bpj.2021.01.033"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-xiaowei-zhuang",
@@ -2301,7 +2116,7 @@
       "id": "author-joel-c-forster",
       "name": "Joel C Forster — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Joel C. Forster",
         "aliases": [
@@ -2326,13 +2141,14 @@
           "https://doi.org/10.1103/physrevlett.125.228101",
           "https://doi.org/10.1101/2020.02.27.968149"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-mamata-karmacharya",
       "name": "Mamata Karmacharya — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Mamata Karmacharya",
         "aliases": [
@@ -2356,13 +2172,14 @@
           "https://doi.org/10.1021/acsanm.1c01082",
           "https://doi.org/10.1021/acs.nanolett.0c03639"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-nitee-kumari",
       "name": "Nitee Kumari — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Nitee Kumari",
         "aliases": [
@@ -2386,7 +2203,8 @@
           "https://doi.org/10.1002/anie.201916578",
           "https://doi.org/10.1002/anie.202103827"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-amit-kumar",
@@ -2524,7 +2342,7 @@
       "id": "author-yoon-kyoung-cho",
       "name": "Yoon-Kyoung Cho — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Yoon‐Kyoung Cho",
         "aliases": [
@@ -2551,7 +2369,8 @@
           "https://doi.org/10.1039/b616115d",
           "https://doi.org/10.1039/b820321k"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-johannes-walter",
@@ -2608,7 +2427,7 @@
       "id": "author-shatruhan-singh-rajput",
       "name": "Shatruhan Singh Rajput — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Shatruhan Singh Rajput",
         "aliases": [
@@ -2631,7 +2450,8 @@
           "https://doi.org/10.1021/acssuschemeng.2c02296",
           "https://doi.org/10.1021/acsanm.1c01788"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-christian-speck",
@@ -2916,7 +2736,7 @@
       "id": "author-jagadish-prasad-hazra",
       "name": "Jagadish Prasad Hazra — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Jagadish Prasad Hazra",
         "aliases": [
@@ -2940,7 +2760,8 @@
           "https://doi.org/10.1016/j.ab.2017.07.022",
           "https://doi.org/10.1126/science.adv4503"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-narain-karedla",
@@ -3188,7 +3009,7 @@
       "id": "author-abhishek-mazumder",
       "name": "Abhishek Mazumder — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Abhishek Mazumder",
         "aliases": [
@@ -3212,7 +3033,8 @@
           "https://doi.org/10.1093/nar/gky482",
           "https://doi.org/10.1073/pnas.1920427117"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-jeff-gelles",
@@ -3433,7 +3255,7 @@
       "id": "author-ahmet-yildiz",
       "name": "Ahmet Yildiz — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Ahmet Yıldız",
         "aliases": [
@@ -3461,7 +3283,8 @@
           "https://doi.org/10.1126/science.1093753",
           "https://doi.org/10.1016/j.cell.2006.05.046"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-cees-dekker",
@@ -4027,7 +3850,7 @@
       "id": "author-pak-hyuk-kyu",
       "name": "Pak Hyuk Kyu — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Hyuk Kyu Pak",
         "aliases": [
@@ -4052,7 +3875,8 @@
           "https://doi.org/10.1038/ncomms2485",
           "https://doi.org/10.1016/j.fm.2011.08.019"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-vahid-sandoghdar",
@@ -4129,7 +3953,7 @@
       "id": "author-carlas-sierd-smith",
       "name": "Carlas Sierd Smith — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Carlas Smith",
         "aliases": [
@@ -4154,7 +3978,8 @@
           "https://doi.org/10.1038/s41592-019-0657-7",
           "https://doi.org/10.1038/s41592-021-01167-7"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-joaquim-roca",
@@ -4366,7 +4191,7 @@
       "id": "author-govind-paneru",
       "name": "Govind Paneru — new articles",
       "type": "author",
-      "enabled": true,
+      "enabled": false,
       "author": {
         "name": "Govind Paneru",
         "aliases": [
@@ -4389,7 +4214,8 @@
           "https://doi.org/10.1038/s41467-020-14823-x",
           "https://doi.org/10.1103/physreve.98.052119"
         ]
-      }
+      },
+      "disabled_reason": "Disabled by user on 2026-10-18; definition retained for possible reactivation."
     },
     {
       "id": "author-sumit-kumar",
@@ -17706,183 +17532,6 @@
       "last_seen_at": "2026-10-17T09:54:05Z"
     },
     {
-      "title": "Thermal Migratory Alloying in Vacuum‐Stabilized Porous Silica Nanoreactor",
-      "authors": [
-        "Jeong Hun Choi",
-        "Nitee Kumari",
-        "Ankur Maji",
-        "Yunjung So",
-        "Sampathkumar Jeevanandham",
-        "Amit Kumar",
-        "Byeong Su Gu",
-        "Changwon Choi",
-        "Si‐Young Choi",
-        "Young Joo Lee",
-        "Junhyeok No",
-        "Hee Cheul Choi",
-        "Dongmin Lee",
-        "Yongju Yun",
-        "In Su Lee"
-      ],
-      "publication_date": "2026-09-29",
-      "venue": "Small",
-      "doi": "10.1002/smll.76004",
-      "abstract": "ABSTRACT High‐temperature nanocrystal (NC) transformations in porous silica ( p SiO 2 ) are typically limited by densification, pore collapse, and sintering. We show that HVA‐enabled opens a distinct thermal window at 1000°Cwhere unusually preserved p SiO 2 confines metal species to gain sufficient mobility for NC‐alloying. Continuous removal of volatile SiO x and condensates suppresses viscous flow, enabling nanoscopic migratory solid‐state reactions inside intact p SiO 2 . Migration pathways are metal‐dependent: noble metals (Rh, Pd, Pt, Ru) diffuse inward to form concentric alloy NC, whereas non‐noble metals such as Fe, Co, and Ni proceed through transient silicide formation that drives outward NC migration, yielding an eccentric configuration via a melt–migrate–freeze mechanism. The resulting nanoreactors are compositionally tunable, thermally robust, and solution‐dispersible. Confinement‐programmed architectures generate catalytic microenvironments that tune activity and chemoselectivity across multiple hydrogenation reactions. HVA strategy converts migration from a high‐temperature failure mode into a controllable synthetic handle for designing functional confined alloys.",
-      "url": "https://doi.org/10.1002/smll.76004",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "openalex"
-      ],
-      "enrichment_sources": [
-        "crossref"
-      ],
-      "source_records": [
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7214986419"
-        }
-      ],
-      "alert_ids": [
-        "author-nitee-kumari"
-      ],
-      "author_ids": [
-        "A5011182924",
-        "A5022054837",
-        "A5039716625",
-        "A5046753852",
-        "A5050368068",
-        "A5054363305",
-        "A5064092175",
-        "A5078298260",
-        "A5082496536",
-        "A5100698635",
-        "A5113148056",
-        "A5113837102",
-        "A5123568018",
-        "A5134956246",
-        "A5153631731"
-      ],
-      "author_orcids": [
-        "0000-0001-6497-4128",
-        "0000-0001-7260-3044",
-        "0000-0002-2588-1444",
-        "0000-0002-5060-9768",
-        "0000-0002-5782-6431",
-        "0000-0002-7896-0146",
-        "0000-0002-9968-8938",
-        "0000-0003-1002-1262",
-        "0000-0003-1648-142X",
-        "0000-0003-3620-7460",
-        "0009-0008-6974-2746"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-61849b64354b7e9b2bab",
-      "first_discovered_at": "2026-10-06T20:12:50Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
-      "title": "Mechanical Signature of a Chemically Driven Bath",
-      "authors": [
-        "Tian Huang",
-        "Jintae Park",
-        "Hyuk Kyu Pak",
-        "Steve Granick"
-      ],
-      "publication_date": "2026-09-29",
-      "venue": "arXiv (Cornell University)",
-      "doi": "10.48550/arxiv.2609.36591",
-      "abstract": "Using optical tweezers, we demonstrate that the CuAAC click reaction increases the positional fluctuations of a trapped 2 micrometer colloid by at least 20% without altering the trap's corner frequency. This excess variance relaxes to the thermal baseline as reagents are depleted. The additional noise is Gaussian, with a flat power spectrum extending past the corner frequency up to 7 kHz. Notably, the noise amplitude decouples from the macroscale reaction rate, and independent molecular force dipoles are orders of magnitude too small to generate the observed variance. Although the chemical free energy released locally exceeds the energy absorbed by the bead by five orders of magnitude, this energy couples inefficiently. The mechanical action of the reacting bath cannot be represented as a sum of independent molecular events.",
-      "url": "https://doi.org/10.48550/arxiv.2609.36591",
-      "preprint_url": "https://arxiv.org/abs/2609.36591",
-      "status": "Preprint",
-      "sources": [
-        "openalex"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7214984732"
-        }
-      ],
-      "alert_ids": [
-        "author-pak-hyuk-kyu",
-        "author-steve-granick"
-      ],
-      "author_ids": [
-        "A5011660785",
-        "A5013223554",
-        "A5101944714",
-        "A5143939009",
-        "A5153628937"
-      ],
-      "author_orcids": [
-        "0000-0001-9808-0616",
-        "0000-0001-9860-7895",
-        "0000-0003-4775-2202"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-251a0131d387ff4897f2",
-      "first_discovered_at": "2026-10-06T20:12:50Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
-      "title": "Light-Addressable Biohybrid Nano-Organelles for Programmable Multiscale Bioenergetics.",
-      "authors": [
-        "Kumar S",
-        "Karmacharya M",
-        "Kumar A",
-        "Lee IS",
-        "Cho YK"
-      ],
-      "publication_date": "2026-09-29",
-      "venue": "Advanced materials (Deerfield Beach, Fla.)",
-      "doi": "10.1002/adma.75111",
-      "abstract": "ABSTRACT A defining feature of living cells is their ability to harvest environmental energy and convert it into spatially regulated biochemical work. Reconstituting such programmable bioenergetics across length scales remains a major challenge in biohybrid materials. Here, we report light‐addressable biohybrid nano‐organelles that couple plasmonic nanochemistry with biological energy transduction to enable programmable bioenergetics from nanoscale to tissue scale. A hollow Au–Pt plasmonic catalytic shell is hierarchically integrated with bacterial membranes bearing F 0 F 1 ‐ATP synthase, yielding nano‐organelles that convert near‐infrared excitation (785 nm) into a transmembrane proton gradient (ΔpH) and light‐gated ATP generation. Microfluidic encapsulation within giant unilamellar vesicles produces structurally uniform, energy‐autonomous protocells. Upon optical activation, plasmon‐enhanced glucose oxidation establishes ΔpH‐driven ATP synthesis that powers spatiotemporally regulated actin polymerization, resulting in reversible, light‐programmable morphogenesis at the single vesicle level. When embedded in alginate‐based prototissues, these nano‐organelles provide remotely addressable metabolic support, enhancing ATP levels and matrix stiffness under oxidative stress. This work establishes a modular multiscale biohybrid platform for optically programmable bioenergetics and advances the design of energy‐active synthetic cell and tissue‐like systems.",
-      "url": "https://doi.org/10.1002/adma.75111",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "europe_pmc",
-        "openalex"
-      ],
-      "enrichment_sources": [
-        "crossref"
-      ],
-      "source_records": [
-        {
-          "source": "europe_pmc",
-          "id": "MED:42808526"
-        },
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7214787595"
-        }
-      ],
-      "alert_ids": [
-        "author-mamata-karmacharya",
-        "author-yoon-kyoung-cho"
-      ],
-      "author_ids": [
-        "A5036224865",
-        "A5046753852",
-        "A5066861518",
-        "A5082496536",
-        "A5153548266"
-      ],
-      "author_orcids": [
-        "0000-0001-6423-1834",
-        "0000-0001-7260-3044",
-        "0000-0002-2588-1444",
-        "0000-0002-5245-0316"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-8cc7d9ae04ebcbb67fec",
-      "first_discovered_at": "2026-10-06T19:59:16Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
       "title": "Detecting replication-associated single-stranded DNA.",
       "authors": [
         "Fernández-Casañas M",
@@ -23068,51 +22717,6 @@
       "last_seen_at": "2026-10-14T10:51:25Z"
     },
     {
-      "title": "Mechanical coupling narrows an epithelial colony before it reaches a bottleneck",
-      "authors": [
-        "Sun-Min Yu",
-        "Yoon‐Kyoung Cho",
-        "Steve Granick"
-      ],
-      "publication_date": "2026-09-18",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "doi": "10.64898/2026.09.12.751083",
-      "abstract": "Abstract A colony migrating into a passage narrower than itself but wider than individuals must adapt its density distribution to pass. Powders, colloids and crowds driven through such an opening jam, since contact interactions provide no pathway for constituents to respond to the constriction before reaching it. Exploring whether a cohesive living tissue can reorganize in advance, we image MDCK epithelial monolayers migrating through microchannels in which a wide channel narrows, and locate response at the taper mouth, a transition zone in which we identify upstream responses. At locations where the local channel width is still unchanged, the monolayer detaches from the side walls and reduces its lateral extent. Particle image velocimetry shows that this is not passive compression; the axial velocity alternates aperiodically in sign, velocity divergence is positive in the transition zone, and tracking the positions of cell nuclei confirms that cells leave the crowded inlet region in both directions. Fluorescence imaging shows a belt of co-enriched E-cadherin, F-actin, and myosin-II at the edges that detach before the inlet, which laser ablation shows to be under elevated tension but dissolves once the tissue passes into the narrow inlet; β-catenin is not co-enriched, indicating that junctions differ in composition in the core and at the edge of colony. This advance proceeds over hours, far more slowly than the viscoelastic reorganization reported for MDCK monolayers, and switches in sign repeatedly, which a linear viscoelastic sheet under sustained constraint cannot do. E-cadherin knockdown abolishes narrowing, flow reversal, density redistribution, and belt assembly. Significance Statement Cell collectives squeeze through narrow passages during development, wound repair, and cancer invasion, often meeting gaps wider than one cell but narrower than the group. Powders and crowds of people jam at such openings because no constituent learns of the obstruction before arriving. Here we show that epithelial cell colonies do not. When the leading edge enters a narrowing channel, cells far behind it redistribute themselves and pull the sheet off the side walls, so the group is already narrower on arrival. Removing the adhesion protein linking neighboring cells removes this response. Mechanical coupling therefore carries information backward through a tissue, letting followers reshape the colony before it reaches the geometrical constraint.",
-      "url": "https://doi.org/10.64898/2026.09.12.751083",
-      "preprint_url": "https://doi.org/10.64898/2026.09.12.751083",
-      "status": "Preprint",
-      "sources": [
-        "openalex"
-      ],
-      "enrichment_sources": [
-        "crossref"
-      ],
-      "source_records": [
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7213590756"
-        }
-      ],
-      "alert_ids": [
-        "author-steve-granick",
-        "author-yoon-kyoung-cho"
-      ],
-      "author_ids": [
-        "A5009436434",
-        "A5013223554",
-        "A5036224865"
-      ],
-      "author_orcids": [
-        "0000-0001-6423-1834",
-        "0000-0002-9239-1584",
-        "0000-0003-4775-2202"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-f3dca336f054d8ec7523",
-      "first_discovered_at": "2026-10-06T20:12:50Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
       "title": "TOPBP1-Dependent DNA Damage Processing Promotes Centromere Loss in an Inviable Xenopus Hybrid",
       "authors": [
         "Cordell J. Clark",
@@ -27209,72 +26813,6 @@
       ],
       "related_publication_dois": [],
       "id": "paper-690a97e2a1dc76fe3406",
-      "first_discovered_at": "2026-10-06T19:59:16Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
-      "title": "Robots and Minimal, Physics-Informed Features: A Hybrid Framework for Enzyme Catalysis.",
-      "authors": [
-        "Onishchenko N",
-        "Larsen ES",
-        "Paneru G",
-        "Lee K",
-        "Kolygina DV",
-        "Jia Y",
-        "Clarissa EM",
-        "Wong WS",
-        "Grzybowski BA"
-      ],
-      "publication_date": "2026-09-11",
-      "venue": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
-      "doi": "10.1002/advs.77474",
-      "abstract": "The utility of enzymes in organic synthesis is constrained by the limited ability to predict the scope of small-molecule substrates that a given enzyme can act upon. The problem has proven challenging to both classical computational-chemistry approaches and to modern Machine Learning (ML) methods, the latter suffering from the combination of data scarcity (including all-important negative examples) and the inaccuracy of chemoinformatic vectorization schemes. The current work addresses both problems, deploying affordable chemical robotics to curate a structurally diverse set of both active and inactive substrates, and then using this data to develop a physics-grounded ML model for substrate scope prediction. This model uses only a handful of features to learn the proper balance between steric and electronic factors even from small datasets. It maintains useful predictive power on external enzyme families and shows improved out-of-distribution performance compared with descriptor-heavy state-of-the-art ML algorithms.",
-      "url": "https://doi.org/10.1002/advs.77474",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "europe_pmc",
-        "openalex"
-      ],
-      "enrichment_sources": [
-        "crossref"
-      ],
-      "source_records": [
-        {
-          "source": "europe_pmc",
-          "id": "MED:42725784"
-        },
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7212265245"
-        }
-      ],
-      "alert_ids": [
-        "author-govind-paneru"
-      ],
-      "author_ids": [
-        "A5003490003",
-        "A5007059347",
-        "A5011471020",
-        "A5021563731",
-        "A5024483024",
-        "A5039729456",
-        "A5040587488",
-        "A5087895403",
-        "A5126543333"
-      ],
-      "author_orcids": [
-        "0000-0001-6613-4261",
-        "0000-0002-2830-7982",
-        "0000-0002-8705-9392",
-        "0000-0003-0586-3473",
-        "0000-0003-1123-1667",
-        "0000-0003-2664-6072",
-        "0000-0003-4191-2084",
-        "0009-0004-1202-8526"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-1cacba4451ee0da86e21",
       "first_discovered_at": "2026-10-06T19:59:16Z",
       "last_seen_at": "2026-10-17T09:54:05Z"
     },
@@ -32024,61 +31562,6 @@
       "last_seen_at": "2026-10-14T10:51:25Z"
     },
     {
-      "title": "Quantifying the spatio-temporal image degradation under motion blur in fluorescence microscopy",
-      "authors": [
-        "Serafim Korovin",
-        "Kutay Uğurlu",
-        "Dylan Kalisvaart",
-        "Manon Kok",
-        "Rainer Heintzmann",
-        "Kirti Prakash",
-        "Carlas Smith"
-      ],
-      "publication_date": "2026-09-01",
-      "venue": "Biophysical Reports",
-      "doi": "10.1016/j.bpr.2026.100290",
-      "abstract": "The spatial resolution of optical imaging systems is fundamentally restricted by the diffraction limit. However, in widefield live-cell microscopy, the achievable resolution is further constrained by the specimen motion, which indicates the existence of a fundamental spatio-temporal resolution trade-off between signal accumulation during the full frame integration and the resulting motion blur. To improve the fidelity with which moving objects can be imaged, a quantitative understanding of this spatio-temporal trade-off is necessary. Here, we present a systematic analysis of motion-induced resolution dynamics measured with spectral signal-to-noise ratio (SSNR). We developed a simulation framework which models the image formation of objects undergoing arbitrary motion, to evaluate the degradation of the spatial resolution under translational, diffusive, and rotational dynamics. Our results demonstrate that for translating objects, the spatial resolution is anisotropically reduced as a function of the orientation of the object relative to the motion vector, leading to the spectral signal-to-noise ratio degrading by up to 50% and the resolution by up to 40% for a 90° change in the motion direction. This motion-blur-induced spectral degradation was further observed on simulated points under Brownian motion and dynamic Drosophila data. Moreover, we show that for rotational motion, conventional radially averaged metrics such as the Fourier Ring Correlation cannot quantify the effects of angular blur, which SSNR quantifies accurately. These findings underscore the necessity of an object-oriented imaging approach, in which acquisition parameters such as exposure time are tuned to specific biological spatio-temporal characteristics to optimize the trade-off between motion blur and spatial fidelity.",
-      "url": "https://doi.org/10.1016/j.bpr.2026.100290",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "openalex"
-      ],
-      "enrichment_sources": [
-        "crossref"
-      ],
-      "source_records": [
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7214120484"
-        }
-      ],
-      "alert_ids": [
-        "author-carlas-sierd-smith"
-      ],
-      "author_ids": [
-        "A5013316072",
-        "A5017416513",
-        "A5066534609",
-        "A5076210044",
-        "A5087062695",
-        "A5113347710",
-        "A5152516972"
-      ],
-      "author_orcids": [
-        "0000-0001-7041-7870",
-        "0000-0001-8086-2548",
-        "0000-0002-0325-9988",
-        "0000-0002-2441-2240",
-        "0000-0003-0591-5093",
-        "0009-0006-3332-8864"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-12bd7acd6538126a9075",
-      "first_discovered_at": "2026-10-06T20:19:28Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
       "title": "DeepHeal: An Interpretable Framework for Phenotype-Based Antineoplastic Drug Discovery Using Drug-Perturbation Proteomics",
       "authors": [
         "Disheng Feng",
@@ -34653,9 +34136,7 @@
         }
       ],
       "alert_ids": [
-        "author-abhishek-mazumder",
-        "author-achillefs-kapanidis",
-        "author-jagadish-prasad-hazra"
+        "author-achillefs-kapanidis"
       ],
       "author_ids": [
         "A5023906150",
@@ -35242,7 +34723,6 @@
       ],
       "alert_ids": [
         "author-fernando-moreno-herrero",
-        "author-shivprasad-patil",
         "author-thomas-t-perkins"
       ],
       "author_ids": [
@@ -36564,73 +36044,6 @@
       ],
       "related_publication_dois": [],
       "id": "paper-76acb54df6c49112a975",
-      "first_discovered_at": "2026-10-06T19:59:16Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
-      "title": "Characterizing dynamics of productive dynein stepping by MINFLUX.",
-      "authors": [
-        "Slivka J",
-        "Gleave-Hanford ES",
-        "Golcuk M",
-        "Wijewardena DP",
-        "Canty JT",
-        "Selvin PR",
-        "Gur M",
-        "Carter AP",
-        "Yildiz A"
-      ],
-      "publication_date": "2026-08-26",
-      "venue": "Nature structural & molecular biology",
-      "doi": "10.1038/s41594-026-01873-w",
-      "abstract": "Cytoplasmic dynein drives minus-end-directed motility along microtubules by converting ATP hydrolysis into coordinated structural changes but how this process produces directional stepping remains unresolved. The dynamics of dynein stepping have previously been characterized by tracking flexible regions of the motor with limited resolution. Here we site-specifically labeled the microtubule-binding domain of yeast dynein using a cysteine-light mutant and tracked stepping with submillisecond, nanometer precision at physiological ATP using minimal fluorescence photon flux (MINFLUX). We show that dynein hydrolyzes one ATP per step and moves in multiples of 8 nm. Steps are preceded by a transient plus-end-directed displacement ('dip'), corresponding to microtubule release upon ATP binding and diffusion of the stepping head around its partner. A slow ATP-hydrolyzing mutant shows more frequent dips, supporting a model in which ATP hydrolysis produces net forward movement. These results clarify the sequence of mechanochemical events underlying productive dynein stepping.",
-      "url": "https://doi.org/10.1038/s41594-026-01873-w",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "europe_pmc",
-        "openalex"
-      ],
-      "enrichment_sources": [
-        "crossref"
-      ],
-      "source_records": [
-        {
-          "source": "europe_pmc",
-          "id": "MED:42649428"
-        },
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7204234951"
-        }
-      ],
-      "alert_ids": [
-        "author-ahmet-yildiz"
-      ],
-      "author_ids": [
-        "A5003152391",
-        "A5012194078",
-        "A5020898124",
-        "A5029674545",
-        "A5059994884",
-        "A5064697139",
-        "A5080658763",
-        "A5083001000",
-        "A5100784937",
-        "A5104801254"
-      ],
-      "author_orcids": [
-        "0000-0001-5476-8160",
-        "0000-0001-7292-5430",
-        "0000-0002-3658-4218",
-        "0000-0002-7012-6368",
-        "0000-0002-7917-7719",
-        "0000-0003-0983-4397",
-        "0000-0003-2119-7124",
-        "0000-0003-4792-174X"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-6b82f7ba389945e633f2",
       "first_discovered_at": "2026-10-06T19:59:16Z",
       "last_seen_at": "2026-10-17T09:54:05Z"
     },
@@ -45123,70 +44536,6 @@
       "last_seen_at": "2026-10-14T10:51:25Z"
     },
     {
-      "title": "Interfacial Raft‐Like Structures From Bottlebrush Polymers",
-      "authors": [
-        "Dupyo Jeon",
-        "Qi Pan",
-        "Sai Zhao",
-        "Hong‐Gyu Seong",
-        "Kyoungwon Lee",
-        "Xuchen Gan",
-        "Carla G. Steppan",
-        "Steve Granick",
-        "Todd S. Emrick",
-        "Thomas P. Russell"
-      ],
-      "publication_date": "2026-08-06",
-      "venue": "Angewandte Chemie",
-      "doi": "10.1002/ange.7096050",
-      "abstract": "ABSTRACT We investigated the interfacial behavior of amphiphilic random copolymer‐grafted bottlebrush polymers (RC‐BBPs) synthesized by copper‐catalyzed azide–alkyne cycloaddition in a grafting‐to approach. RC‐BBPs stabilize the fluid–fluid interface by forming laterally confined, “raft‐like” structures that anchor the side‐chains parallel to the interface. These envisaged raft‐like structures, when adsorbed to a fluid–fluid interface, are inferred to leave bare interfacial regions that are inaccessible to adsorption of additional rafts. As such, RC‐BBPs prohibit dense interfacial packing and yield higher interfacial tensions and lower interfacial areal densities than compositionally uniform bottlebrush statistical copolymers (BSCPs). This interfacial assembly of bottlebrush polymer (BBP) rafts offers distinct advantages, since inter‐raft gaps reflect a lack of close‐packing that offers routes to mass transport, seen in this work as a >6‐fold higher interfacial ion flux across RC‐BBP‐stabilized droplets relative to their BSCP counterparts. These results show that controlling the spatial distribution of BBPs via sequence randomness within the side‐chains—a previously overlooked structural parameter—produces a distinct, sparsely packed assembly of BBPs that preserves bare interfacial area to yield regulated, patchy, selective, or adaptive liquid–liquid interfaces.",
-      "url": "https://doi.org/10.1002/ange.7096050",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "openalex"
-      ],
-      "enrichment_sources": [
-        "crossref"
-      ],
-      "source_records": [
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7196991664"
-        }
-      ],
-      "alert_ids": [
-        "author-steve-granick"
-      ],
-      "author_ids": [
-        "A5006313525",
-        "A5013223554",
-        "A5029685348",
-        "A5030195131",
-        "A5059612550",
-        "A5076969986",
-        "A5088268419",
-        "A5098997666",
-        "A5113562053",
-        "A5145130962"
-      ],
-      "author_orcids": [
-        "0000-0001-6384-5826",
-        "0000-0001-9362-6835",
-        "0000-0002-6079-0281",
-        "0000-0002-7163-4479",
-        "0000-0002-8755-3905",
-        "0000-0003-0460-1797",
-        "0000-0003-4775-2202",
-        "0009-0006-5684-6250",
-        "0009-0009-3420-2827"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-cf4641f08da99e8b6519",
-      "first_discovered_at": "2026-10-06T20:19:28Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
       "title": "GOLM1 silencing compromises mitochondrial function, proliferation, and invasion in lung cancer cells",
       "authors": [
         "Muhammad Yasir Asghar",
@@ -45680,75 +45029,6 @@
       ],
       "related_publication_dois": [],
       "id": "paper-3fdeb8a4122d98c6a700",
-      "first_discovered_at": "2026-10-06T19:59:16Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
-      "title": "Interfacial Raft-Like Structures From Bottlebrush Polymers.",
-      "authors": [
-        "Jeon D",
-        "Pan Q",
-        "Zhao S",
-        "Seong HG",
-        "Lee K",
-        "Gan X",
-        "Steppan C",
-        "Granick S",
-        "Emrick T",
-        "Russell TP"
-      ],
-      "publication_date": "2026-08-06",
-      "venue": "Angewandte Chemie (International ed. in English)",
-      "doi": "10.1002/anie.7096050",
-      "abstract": "We investigated the interfacial behavior of amphiphilic random copolymer-grafted bottlebrush polymers (RC-BBPs) synthesized by copper-catalyzed azide-alkyne cycloaddition in a grafting-to approach. RC-BBPs stabilize the fluid-fluid interface by forming laterally confined, \"raft-like\" structures that anchor the side-chains parallel to the interface. These envisaged raft-like structures, when adsorbed to a fluid-fluid interface, are inferred to leave bare interfacial regions that are inaccessible to adsorption of additional rafts. As such, RC-BBPs prohibit dense interfacial packing and yield higher interfacial tensions and lower interfacial areal densities than compositionally uniform bottlebrush statistical copolymers (BSCPs). This interfacial assembly of bottlebrush polymer (BBP) rafts offers distinct advantages, since inter-raft gaps reflect a lack of close-packing that offers routes to mass transport, seen in this work as a >6-fold higher interfacial ion flux across RC-BBP-stabilized droplets relative to their BSCP counterparts. These results show that controlling the spatial distribution of BBPs via sequence randomness within the side-chains-a previously overlooked structural parameter-produces a distinct, sparsely packed assembly of BBPs that preserves bare interfacial area to yield regulated, patchy, selective, or adaptive liquid-liquid interfaces.",
-      "url": "https://doi.org/10.1002/anie.7096050",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "europe_pmc",
-        "openalex"
-      ],
-      "enrichment_sources": [
-        "crossref"
-      ],
-      "source_records": [
-        {
-          "source": "europe_pmc",
-          "id": "MED:42559928"
-        },
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7196996324"
-        }
-      ],
-      "alert_ids": [
-        "author-steve-granick"
-      ],
-      "author_ids": [
-        "A5006313525",
-        "A5013223554",
-        "A5029685348",
-        "A5030195131",
-        "A5059612550",
-        "A5076969986",
-        "A5088268419",
-        "A5098997666",
-        "A5113562053",
-        "A5145130962"
-      ],
-      "author_orcids": [
-        "0000-0001-6384-5826",
-        "0000-0001-9362-6835",
-        "0000-0002-6079-0281",
-        "0000-0002-7163-4479",
-        "0000-0002-8755-3905",
-        "0000-0003-0460-1797",
-        "0000-0003-4775-2202",
-        "0009-0006-5684-6250",
-        "0009-0009-3420-2827"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-178914483b615be9966a",
       "first_discovered_at": "2026-10-06T19:59:16Z",
       "last_seen_at": "2026-10-17T09:54:05Z"
     },
@@ -46687,62 +45967,6 @@
       "id": "paper-6ef1008f04317e04e0f3",
       "first_discovered_at": "2026-10-06T20:19:28Z",
       "last_seen_at": "2026-10-14T10:51:25Z"
-    },
-    {
-      "title": "Microtubule Lattice Spacing Governs MAP-Motor Regulation",
-      "authors": [
-        "Jonathan Fernandes",
-        "Joseph Slivka",
-        "Aryan Taheri",
-        "Qikai Zhang",
-        "Viola Zhao",
-        "Chuzida Chen",
-        "Parnika Kant",
-        "Ahmet Yıldız"
-      ],
-      "publication_date": "2026-08-04",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "doi": "10.64898/2026.08.03.742653",
-      "abstract": "Abstract Microtubules (MTs) serve as intracellular tracks that enable molecular motors to transport cargos to specific cellular destinations. It has been proposed that the signals directing motor-driven transport are encoded on MTs through different isotypes, lattice conformations, and post- translational modifications (PTMs) of tubulin, or MT-associated proteins (MAPs) that decorate the MT surface. However, molecular predictions of these models have not been rigorously tested in vitro. Using isotypically pure recombinant tubulin and biochemical reconstitution, we examined how tubulin PTMs and MT lattice spacing influence MAP binding and kinesin-1 motility. We found that kinesin-1 is largely insensitive to tubulin PTMs but is strongly regulated by MT lattice spacing. Likewise, the MAPs tau, MAP7, MAP4, DCX, and MAP9 exhibit little sensitivity to tubulin PTMs, whereas the MT-binding affinities of tau, DCX, and MAP7 depend on lattice spacing. In the presence of activating (MAP7) and inhibitory (tau) MAPs, lattice spacing determines MAP occupancy and thereby controls kinesin-1 motility. These findings support a two-layer transport code in which MT lattice spacing directs MAP binding, and MAPs determine which motors can move along individual MT tracks.",
-      "url": "https://doi.org/10.64898/2026.08.03.742653",
-      "preprint_url": "https://doi.org/10.64898/2026.08.03.742653",
-      "status": "Preprint",
-      "sources": [
-        "openalex"
-      ],
-      "enrichment_sources": [
-        "crossref"
-      ],
-      "source_records": [
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7172446611"
-        }
-      ],
-      "alert_ids": [
-        "author-ahmet-yildiz"
-      ],
-      "author_ids": [
-        "A5021598158",
-        "A5064697139",
-        "A5074133827",
-        "A5080113213",
-        "A5100784937",
-        "A5104801254",
-        "A5125581315",
-        "A5126386536",
-        "A5126429732"
-      ],
-      "author_orcids": [
-        "0000-0001-8050-8709",
-        "0000-0002-3422-1763",
-        "0000-0002-7012-6368",
-        "0000-0003-4792-174X"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-394ff2ef7b904cc2141e",
-      "first_discovered_at": "2026-10-06T20:12:50Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
     },
     {
       "title": "Pediatric sarcomas: challenges and opportunities.",
@@ -54995,44 +54219,6 @@
       "last_seen_at": "2026-10-17T09:54:05Z"
     },
     {
-      "title": "Enhanced processivity and collective force production of kinesin-1 at low radial forces.",
-      "authors": [
-        "Hensley AM",
-        "Yildiz A"
-      ],
-      "publication_date": "2026-07-20",
-      "venue": "eLife",
-      "doi": "10.7554/elife.109012",
-      "abstract": "Kinesin-1 is a robust motor that carries intracellular cargos toward the plus ends of microtubules. However, optical trapping studies reported that kinesin-1 is a slippery motor that quickly detaches from the microtubule, and multiple kinesins are incapable of teaming up to generate large collective forces. This may be due to the vertical (z) forces that the motor experiences in a single bead trapping assay, accelerating the detachment of the motor from a microtubule. Here, we substantially lowered the z-force by using a long DNA handle between the motor and the trapped bead and characterized the motility and force generation of single and multiple human kinesin-1 motors in vitro. Contrary to previous views, we show that kinesin-1 is a robust motor that resists microtubule detachment before it reaches high hindering forces, but it quickly detaches under assisting forces even at low z-forces. We also demonstrate highly efficient collective force generation by multiple kinesin-1 motors. These results provide an explanation for how multiple kinesins team up to perform cellular functions that require higher forces than a single motor can bear.",
-      "url": "https://doi.org/10.7554/elife.109012",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "europe_pmc"
-      ],
-      "enrichment_sources": [
-        "crossref"
-      ],
-      "source_records": [
-        {
-          "source": "europe_pmc",
-          "id": "MED:42474454"
-        }
-      ],
-      "alert_ids": [
-        "author-ahmet-yildiz"
-      ],
-      "author_ids": [],
-      "author_orcids": [
-        "0000-0003-4792-174X",
-        "0009-0005-5834-9007"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-7c4fe57218adf1c40216",
-      "first_discovered_at": "2026-10-06T19:59:16Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
       "title": "A family of lanthipeptides with anti-phage function.",
       "authors": [
         "Shomar H",
@@ -56807,82 +55993,6 @@
       "author_orcids": [],
       "related_publication_dois": [],
       "id": "paper-63962711aed1a5de399b",
-      "first_discovered_at": "2026-10-06T19:59:16Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
-      "title": "Multistage microrobots with pH-responsive release of platelet membrane-coated nanoparticles.",
-      "authors": [
-        "Sun R",
-        "Kim J",
-        "Leng Y",
-        "Zuo Y",
-        "Kim J",
-        "Xie R",
-        "Yang T",
-        "Ma L",
-        "Song X",
-        "Ma J",
-        "Joo J",
-        "Cho YK",
-        "Stevens MM"
-      ],
-      "publication_date": "2026-07-15",
-      "venue": "Science advances",
-      "doi": "10.1126/sciadv.aee6534",
-      "abstract": "Targeted drug delivery in the gastrointestinal tract remains challenging because therapeutics must overcome multiple hierarchical barriers before reaching diseased tissue. Here, we present a multistage delivery platform that integrates magnetic microrobots, a pH-responsive protective coating, and platelet membrane-coated nanoparticles (PNPs) in one platform. A fillable design enables the formation of an internal magnetic layer for microrobot actuation, while the pH-responsive coating protects the cargo during transit and selectively degrades upon pH change, releasing cancer cell-targeting PNPs. In an in vitro colon cancer model that reproduces key gastrointestinal features, including flow, pH variation, and villi-like structures, this strategy increased nanoparticle retention and enhanced cancer cell cytotoxicity compared to nanoparticles administered alone. Ex vivo studies in porcine stomach and intestine further demonstrated robust locomotion on compliant and folded tissue surfaces. These results establish an environment-responsive hierarchical delivery strategy for more precise oral delivery in complex gastrointestinal settings.",
-      "url": "https://doi.org/10.1126/sciadv.aee6534",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "europe_pmc",
-        "openalex"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "europe_pmc",
-          "id": "MED:42455890"
-        },
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7168357490"
-        }
-      ],
-      "alert_ids": [
-        "author-yoon-kyoung-cho"
-      ],
-      "author_ids": [
-        "A5016134580",
-        "A5019646818",
-        "A5023745125",
-        "A5026491315",
-        "A5036224865",
-        "A5044430674",
-        "A5089841502",
-        "A5100383376",
-        "A5137019935",
-        "A5137035283",
-        "A5140758172",
-        "A5140881862",
-        "A5140883716",
-        "A5140927239"
-      ],
-      "author_orcids": [
-        "0000-0001-6136-7277",
-        "0000-0001-6423-1834",
-        "0000-0002-1944-7780",
-        "0000-0002-3574-6908",
-        "0000-0002-5860-7636",
-        "0000-0002-7335-266X",
-        "0000-0003-1574-9842",
-        "0000-0003-4017-9685",
-        "0009-0000-1000-8960",
-        "0009-0005-5299-0485",
-        "0009-0008-4709-0265"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-3f9c407d10b1a36de7ad",
       "first_discovered_at": "2026-10-06T19:59:16Z",
       "last_seen_at": "2026-10-17T09:54:05Z"
     },
@@ -64849,52 +63959,6 @@
       "last_seen_at": "2026-10-17T09:54:05Z"
     },
     {
-      "title": "Publisher Correction: CLEAR-IT, a framework for contrastive learning to capture the immune composition of tumor microenvironments.",
-      "authors": [
-        "Spengler D",
-        "Korovin S",
-        "Prakash K",
-        "Bankhead P",
-        "Debets R",
-        "Balcioglu HE",
-        "Smith C"
-      ],
-      "publication_date": "2026-07-01",
-      "venue": "Communications biology",
-      "doi": "10.1038/s42003-026-10582-5",
-      "abstract": "",
-      "url": "https://doi.org/10.1038/s42003-026-10582-5",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "europe_pmc"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "europe_pmc",
-          "id": "MED:42386891"
-        }
-      ],
-      "alert_ids": [
-        "author-carlas-sierd-smith"
-      ],
-      "author_ids": [],
-      "author_orcids": [
-        "0000-0002-0225-0180",
-        "0000-0002-0325-9988",
-        "0000-0002-3649-807X",
-        "0000-0003-0591-5093",
-        "0000-0003-4851-8813",
-        "0009-0004-4118-7761",
-        "0009-0006-3332-8864"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-2b98499b1e981dc8866d",
-      "first_discovered_at": "2026-10-06T19:59:16Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
       "title": "Clinical Characteristics and Possible Pathophysiology of Chronic Multi-symptom Illnesses in 40 U.S. Veterans",
       "authors": [
         "Chiu NH",
@@ -66541,61 +65605,6 @@
       "last_seen_at": "2026-10-14T10:51:25Z"
     },
     {
-      "title": "System Identification and Control for Optogenetics in Mammalian Nucleocytoplasmic Transport",
-      "authors": [
-        "Menno T. P. van Laarhoven",
-        "Alfredo Rates",
-        "Josiah B. Passmore",
-        "Shengling Shi",
-        "Ihor Smal",
-        "Lukas C. Kapitein",
-        "Carlas Smith"
-      ],
-      "publication_date": "2026-06-27",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "doi": "10.64898/2026.06.26.734178",
-      "abstract": "ABSTRACT Optogenetics enables experiments in out-of-equilibrium conditions to clarify biological mechanisms and quantify biophysical parameters. However, modelling and control techniques to study mammalian cell biology under optogenetic perturbation remain underutilised. Here, we benchmark these methods within mammalian cells by steering nucleocytoplasmic transport via the optogenetic LEXY protein in outcome-driven microscopy. First, we employ system identification to obtain models that predict transport dynamics by minimising the prediction error. We quantify this prediction accuracy for one biophysical model and two black-box models. Second, we evaluate closed-loop control efficacy by steering transport along a predefined trajectory using model-free Proportional Integral (PI) control, model-based Linear Quadratic Regulation (LQR) and Model Predictive Control (MPC). Both the predictive models and the applied control techniques demonstrate robust performance against cell-to-cell variation. This biological variation is quantified by the parameter distributions obtained from model identification with single-cell trajectories. While we show that model-free techniques such as PI and gain-scheduled PI achieve steering without explict model knowledge, predictive architectures offer better performance under this cell-to-cell variation and time-varying setpoints. Moreover, black-box predictive accuracy suggests that this model-based control is possible, even when explicit mechanistic understanding is missing. Ultimately, we demonstrate that predictive modelling and optogenetics enable quantitative characterisation and precise manipulation of mammalian cells, while offering practical guidelines for the implementation of these techniques. SIGNIFICANCE Optogenetics provides the unique ability to steer cellular processes with light. Variable and localised light inputs allow us to extract more data and guide living cells to specific states. Despite this potential, application of predictive modelling and control techniques with optogenetics remain underutilised in mammalian cell biology. Here, we benchmark these techniques within mammalian cells to steer nucleocytoplasmic transport. Benchmarking these techniques demonstrates their direct applicability to mammalian systems, enabling the extraction of new biological insight in outcome-driven microscopy.",
-      "url": "https://doi.org/10.64898/2026.06.26.734178",
-      "preprint_url": "https://doi.org/10.64898/2026.06.26.734178",
-      "status": "Preprint",
-      "sources": [
-        "openalex"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7166472473"
-        }
-      ],
-      "alert_ids": [
-        "author-carlas-sierd-smith"
-      ],
-      "author_ids": [
-        "A5001388691",
-        "A5014268468",
-        "A5021138997",
-        "A5025164063",
-        "A5026507016",
-        "A5076210044",
-        "A5115566742",
-        "A5133884608"
-      ],
-      "author_orcids": [
-        "0000-0001-6154-873X",
-        "0000-0001-7576-7028",
-        "0000-0001-7791-3439",
-        "0000-0001-9418-6739",
-        "0000-0002-9331-5006",
-        "0000-0003-0591-5093",
-        "0009-0009-7188-9752"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-dc45ffa50ef5803dff6b",
-      "first_discovered_at": "2026-10-06T20:19:28Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
       "title": "Cell cycle checkpoint activity in the malaria parasite Plasmodium falciparum.",
       "authors": [
         "Monique K. Johnson",
@@ -68066,61 +67075,6 @@
       "id": "paper-386ee230294c8ba2876a",
       "first_discovered_at": "2026-10-06T20:19:28Z",
       "last_seen_at": "2026-10-14T10:51:25Z"
-    },
-    {
-      "title": "Emulsion-Derived Production of Drug-Loaded Microgranules as an Alternative to Spray Drying.",
-      "authors": [
-        "Chatterjee S",
-        "Kabir A",
-        "Goankar V",
-        "Sudhakar S",
-        "Patil S",
-        "Basavaraj MG"
-      ],
-      "publication_date": "2026-06-23",
-      "venue": "Langmuir : the ACS journal of surfaces and colloids",
-      "doi": "10.1021/acs.langmuir.6c00426",
-      "abstract": "Microgranules are a class of synthetic functional materials designed for the delivery of active compounds in diverse sectors, including pharmaceuticals, agriculture, food, and cosmetics. In this work, we present a scalable emulsion-based method for fabricating microgranules with robust mechanical and structural properties. We successfully encapsulate an antidiabetic drug within these microgranules and analyze drug loading using microscopy, spectroscopy, and thermal techniques. In vitro drug release profiles are obtained and modeled to understand the underlying release mechanism. Biocompatibility assessments using the MTT assay confirm the excellent cytocompatibility of drug-loaded microgranules. Overall, the emulsion-based approach offers a versatile and scalable platform for the encapsulation and controlled release of therapeutic agents and other functional molecules.",
-      "url": "https://doi.org/10.1021/acs.langmuir.6c00426",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "europe_pmc",
-        "openalex"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "europe_pmc",
-          "id": "MED:42333647"
-        },
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7165635944"
-        }
-      ],
-      "alert_ids": [
-        "author-shivprasad-patil"
-      ],
-      "author_ids": [
-        "A5001904652",
-        "A5037769314",
-        "A5047309255",
-        "A5068109994",
-        "A5085655371",
-        "A5139129704"
-      ],
-      "author_orcids": [
-        "0000-0002-3413-4109",
-        "0000-0002-8275-5671",
-        "0000-0003-2046-1018",
-        "0009-0000-9043-5996",
-        "0009-0003-0591-8486"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-ea50ef3c9c0d1656ed27",
-      "first_discovered_at": "2026-10-06T19:59:16Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
     },
     {
       "title": "iTRAQ-based proteomic identification of cyclophilin as a candidate mediator for cyclosporin A-mediated immunomodulation in pearl oysters Pinctada fucata martensii.",
@@ -71284,73 +70238,6 @@
       "last_seen_at": "2026-10-17T09:54:05Z"
     },
     {
-      "title": "Electron microscopy identifies protein conformational substates in liquid environment",
-      "authors": [
-        "Xiaozhe Dong",
-        "Hong Zhang",
-        "Zhi Qu",
-        "Sicheng Zhao",
-        "Li J",
-        "Yihao Niu",
-        "Xiaoyun Pang",
-        "Qian Huang",
-        "Y R Kim",
-        "Oh‐Hoon Kwon",
-        "Fei Sun",
-        "Bin Xia",
-        "Gao Y",
-        "Steve Granick",
-        "Huan Wang"
-      ],
-      "publication_date": "2026-06-16",
-      "venue": "ChemRxiv",
-      "doi": "10.26434/chemrxiv.15004813/v1",
-      "abstract": "Protein functions are closely linked to their dynamic behaviors, particularly involving low-abundance transient states. Quantifying these interconversions remains experimentally challenging, especially for proteins containing intrinsically disordered regions (IDRs). In this study, we utilize low-dose electron microscopy using graphene liquid cells (GLCs) to image and quantify interconversions between protein conformational states under optimized electron beam conditions and confinement effects. Applied to four proteins in solution: CRISPR-associated protein (Cas9), DNA binding protein (GapR), restriction enzyme (EcoR1), and an RNA binding protein with IDRs (FUS), we visualized low abundance transient structures distinct from crystalline forms, and elucidated transition pathways which are validated by cryo-electron microscopy (cryo-EM), revealing differences in their energy landscapes through single molecule imaging. We analyzed domain motions at nanometer resolution, cross-validated against independent computational and experimental methods. Shifts in state equilibria and conformational adaptations were observed when proteins are mutated or during biomolecular interactions, such as target searching, binding, and cleavage with nucleic acids. Notably, changes in the energy landscape were observed when proteins with IDRs and RNA were within close proximity but not in apparent contact, suggesting that conformational redistribution may precede complete binding. This study shows how to characterize protein conformations and their time-dependent changes using instrumentation that is widely available at research universities but not yet used for these purposes.",
-      "url": "https://doi.org/10.26434/chemrxiv.15004813/v1",
-      "preprint_url": "https://doi.org/10.26434/chemrxiv.15004813/v1",
-      "status": "Preprint",
-      "sources": [
-        "openalex"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7164929281"
-        }
-      ],
-      "alert_ids": [
-        "author-steve-granick"
-      ],
-      "author_ids": [
-        "A5007419752",
-        "A5013223554",
-        "A5036130468",
-        "A5038403149",
-        "A5045239657",
-        "A5100402577",
-        "A5101788579",
-        "A5103137279",
-        "A5138693883",
-        "A5138697206",
-        "A5138701406",
-        "A5138703596",
-        "A5139319576"
-      ],
-      "author_orcids": [
-        "0000-0001-7114-8617",
-        "0000-0001-9026-8817",
-        "0000-0002-6679-5227",
-        "0000-0002-8476-3771",
-        "0000-0003-2059-3168",
-        "0000-0003-4775-2202"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-62d31c9e18e736166dbd",
-      "first_discovered_at": "2026-10-06T20:19:28Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
       "title": "Targeting Herpesvirus Recombination Proteins for Antiviral Therapy.",
       "authors": [
         "Wright DL",
@@ -71391,50 +70278,6 @@
       ],
       "related_publication_dois": [],
       "id": "paper-f8c5bf478b5bdc5b3ddc",
-      "first_discovered_at": "2026-10-06T19:59:16Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
-      "title": "Epithelial cells fire voltage spikes.",
-      "authors": [
-        "Yu SM",
-        "Granick S"
-      ],
-      "publication_date": "2026-06-16",
-      "venue": "Proceedings of the National Academy of Sciences of the United States of America",
-      "doi": "10.1073/pnas.2601750123",
-      "abstract": "Bioelectric signaling is well characterized in neurons and cardiomyocytes but remains largely unexplored in epithelia. Using multielectrode arrays, we demonstrate that localized laser injury to epithelial monolayers (primary human keratinocytes and MDCK cells) triggers voltage spikes in the range of 4 to 12 per min for over 60 min postinjury. These spikes exhibit depolarization, repolarization, and hyperpolarization phases lasting 1 to 2 s, a timescale three orders of magnitude slower than neuronal action potentials. Spike amplitudes and frequencies detected at 740 μm from the injury site (the maximum distance measured) are comparable to those at 140 μm and exhibit a nonmonotonic spatial profile, arguing against simple radial propagation from the wound. Calcium chelation with ethylenediaminetetraacetic acid abolishes spiking entirely, and inhibition of myosin II with blebbistatin produces equivalent suppression, indicating that calcium influx and actomyosin contractility are both required. The mechanosensitive channel modifier GsMTx4 partially suppresses spiking, implicating the role of stretch-activated ion channels. Most strikingly, pharmacological activation of the mechanosensitive channel TRPV4 and Piezo1 generates high-amplitude spikes (1 to 10 mV) even in the absence of injury, demonstrating that mechanosensitive channel activation is sufficient to drive epithelial electrical excitability. These findings reveal that epithelia, long thought to lack action-potential-like dynamics, possess intrinsic bioelectric excitability gated by mechanical stress, challenging the classical distinction that electrical signaling is exclusive to specialized tissues like neurons and muscles and suggesting a signaling modality for coordinating collective cellular responses across tissue-scale distances.",
-      "url": "https://doi.org/10.1073/pnas.2601750123",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "europe_pmc",
-        "openalex"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "europe_pmc",
-          "id": "MED:42301785"
-        },
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7164939638"
-        }
-      ],
-      "alert_ids": [
-        "author-steve-granick"
-      ],
-      "author_ids": [
-        "A5009436434",
-        "A5013223554"
-      ],
-      "author_orcids": [
-        "0000-0002-9239-1584",
-        "0000-0003-4775-2202"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-f34a2f49556548249064",
       "first_discovered_at": "2026-10-06T19:59:16Z",
       "last_seen_at": "2026-10-17T09:54:05Z"
     },
@@ -73930,67 +72773,6 @@
       "last_seen_at": "2026-10-14T10:51:25Z"
     },
     {
-      "title": "Cell Mechanics Regulate Membrane Tubulation-Driven Trogocytosis in Adherent Cells",
-      "authors": [
-        "Tanishka Agrawal",
-        "Binayak Banerjee",
-        "Shubham Padhi",
-        "Kishal Roy",
-        "Neha Paddillaya",
-        "Adhisha Roy",
-        "Santanu Talukder",
-        "Namrata Gundiah",
-        "Shivprasad Patil",
-        "Saroj Kumar Nandi",
-        "Sunando Datta"
-      ],
-      "publication_date": "2026-06-10",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "doi": "10.64898/2026.06.07.730655",
-      "abstract": "Abstract Trogocytosis is a widespread and physiologically important process in which one cell ingests fragments of another. It has been observed in diverse biological contexts, such as in Entamoeba histolytica , a human enteric parasite that nibbles host intestinal cells via trogocytosis, thereby invading the tissue and leading to lethal extra-intestinal disease, and in macrophages on interaction with adherent tumor monolayers. Despite its physiological relevance, knowledge of trogocytosis with adherent cells remains elusive. Here, we established a monolayer-based trogocytosis assay and uncovered a distinct membrane-tube-mediated trogocytic mechanism operative in adherent cells. We characterized it into four sequential events: contact, membrane tubulation, stretching, and scission. By targeting the proteic constituents of target cell stiffness, we show that trogocytic output exhibits a non-monotonic dependence on the viscoelastic properties of the target cell, with maximal uptake occurring in an intermediate mechanical regime. Further, we integrated live-cell trogocytosis observations with a viscoelastic model-based theoretical framework to propose a tube-breaking mechanism across distinct mechanical subtypes. Finally, using micropatterning, we demonstrated that target cell shape influences trogocytosis kinetics. This work suggests that trogocytosis is sensitive to the mechanical state of the target cell.",
-      "url": "https://doi.org/10.64898/2026.06.07.730655",
-      "preprint_url": "https://doi.org/10.64898/2026.06.07.730655",
-      "status": "Preprint",
-      "sources": [
-        "openalex"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7164130849"
-        }
-      ],
-      "alert_ids": [
-        "author-shivprasad-patil"
-      ],
-      "author_ids": [
-        "A5020535432",
-        "A5037330812",
-        "A5044621314",
-        "A5047309255",
-        "A5069535693",
-        "A5070882005",
-        "A5088703955",
-        "A5138336128",
-        "A5138336586",
-        "A5138371808",
-        "A5138385374"
-      ],
-      "author_orcids": [
-        "0000-0001-7097-6250",
-        "0000-0002-1417-0276",
-        "0000-0002-3413-4109",
-        "0000-0002-9882-5232",
-        "0000-0003-0977-1947",
-        "0000-0003-4230-5788"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-01a0459edcb61914b651",
-      "first_discovered_at": "2026-10-06T20:19:28Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
       "title": "An anoikis-based risk model predicts outcomes and is associated with the immune microenvironment in adrenocortical carcinoma.",
       "authors": [
         "Cao J",
@@ -74975,68 +73757,6 @@
       "id": "paper-0f2d80e60e11849267b8",
       "first_discovered_at": "2026-10-06T20:19:28Z",
       "last_seen_at": "2026-10-14T10:51:25Z"
-    },
-    {
-      "title": "Prevascularized grafts with spatially organized MSC spheroids to accelerate therapeutic angiogenesis in ischemic disease",
-      "authors": [
-        "Jeonghyun Son",
-        "Aruzhan Naren",
-        "Hanan Jamal Mohamed",
-        "Minjun Ahn",
-        "Won Ha",
-        "Min Kyeong Kim",
-        "Seunggyu Jeon",
-        "Byoung Soo Kim",
-        "Yoon‐Kyoung Cho",
-        "Shoji Takeuchi",
-        "Hyun-Wook Kang"
-      ],
-      "publication_date": "2026-06-09",
-      "venue": "Angiogenesis",
-      "doi": "10.1007/s10456-026-10059-3",
-      "abstract": "OBJECTIVE: Ischemic diseases, characterized by impaired blood flow and progressive tissue necrosis, remain a major challenge in regenerative medicine. Surgical revascularization remains the gold standard for restoring blood flow in major vessels, but still shows limited effects on microvascular regeneration. To address this unmet need, various strategies in therapeutic angiogenesis have been explored to induce microvascular formation, including delivery of bioactive molecules, stem cells, or pre-vascularized grafts. However, injection-based approaches often suffer from off-target effects, and conventional implantable grafts lack sufficient angiogenic secretory activity. To address these limitations, we aimed to develop a dual-function prevascularized graft that accelerates neovascularization and promotes vascular integration to restore tissue perfusion in ischemic conditions. METHODS AND RESULTS: The graft was engineered by combining a microvascular pattern (µVP) with spatially organized mesenchymal stem cell (MSC) spheroids, fabricated via high-precision coprinting of endothelial cells and MSCs. Optimization of spheroid density and spatial arrangement enhanced VEGF secretion and increased host capillary infiltration nearly two-fold. In a murine critical limb ischemia model, implantation of these engineered grafts achieved a 60% limb salvage rate and reduced limb loss by ~ 15%, representing a 4.5-fold improvement over conventional grafts. Histological and morphometric analyses confirmed reduced muscle degeneration, enhanced neovascularization, and seamless anastomosis between engineered and host vessels. CONCLUSIONS: These findings demonstrate a dual-functional graft that couples paracrine stimulation with structural vascular support, providing a promising regenerative strategy to promote therapeutic angiogenesis and ischemia therapy, while indicating its potential for preclinical and future clinical applications in ischemic disease.",
-      "url": "https://doi.org/10.1007/s10456-026-10059-3",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "openalex"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7163990886"
-        }
-      ],
-      "alert_ids": [
-        "author-yoon-kyoung-cho"
-      ],
-      "author_ids": [
-        "A5025759532",
-        "A5030062995",
-        "A5036224865",
-        "A5042224658",
-        "A5056412116",
-        "A5056416973",
-        "A5090290866",
-        "A5101874071",
-        "A5136388490",
-        "A5138201353",
-        "A5138208624",
-        "A5138218025"
-      ],
-      "author_orcids": [
-        "0000-0001-6423-1834",
-        "0000-0001-6946-0409",
-        "0000-0001-7588-9762",
-        "0000-0003-0353-2443",
-        "0000-0003-0373-7131",
-        "0009-0007-0300-1331"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-32b3f3700f157463d703",
-      "first_discovered_at": "2026-10-06T20:12:50Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
     },
     {
       "title": "QSAR Modeling of Camptothecin Derivatives Targeting Topoisomerase I: Structural Insights for Anticancer Drug Design.",
@@ -77936,55 +76656,6 @@
       "id": "paper-9e052b3e4b51e75d82fa",
       "first_discovered_at": "2026-10-06T20:19:28Z",
       "last_seen_at": "2026-10-14T10:51:25Z"
-    },
-    {
-      "title": "Miniature work-to-work converter engine powered by motor protein",
-      "authors": [
-        "Suraj Deshmukh",
-        "Sougata Guha",
-        "Basudha Roy",
-        "Shivprasad Patil",
-        "Arnab Saha",
-        "Sudipto Muhuri"
-      ],
-      "publication_date": "2026-06-02",
-      "venue": "Physical review. E",
-      "doi": "10.1103/2fl6-1j71",
-      "abstract": "",
-      "url": "https://doi.org/10.1103/2fl6-1j71",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "openalex"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7163156467"
-        }
-      ],
-      "alert_ids": [
-        "author-shivprasad-patil"
-      ],
-      "author_ids": [
-        "A5026283403",
-        "A5027826957",
-        "A5047309255",
-        "A5069518384",
-        "A5146724271",
-        "A5146867745"
-      ],
-      "author_orcids": [
-        "0000-0001-6352-6489",
-        "0000-0002-1029-2911",
-        "0000-0002-3413-4109",
-        "0000-0003-4376-0731"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-9db568958431957bae8c",
-      "first_discovered_at": "2026-10-06T20:19:28Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
     },
     {
       "title": "Explainable deep learning for multi-cancer classification using RNA-seq data: Integrating CNN models with SHAP-based interpretability",
@@ -90648,60 +89319,6 @@
       "last_seen_at": "2026-10-14T10:51:25Z"
     },
     {
-      "title": "Quantifying the spatio-temporal image degradation under motion blur in fluorescence microscopy",
-      "authors": [
-        "Serafim Korovin",
-        "Kutay Uğurlu",
-        "Dylan Kalisvaart",
-        "Manon Kok",
-        "Rainer Heintzmann",
-        "Kirti Prakash",
-        "Carlas Smith"
-      ],
-      "publication_date": "2026-05-08",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "doi": "10.64898/2026.05.06.723301",
-      "abstract": "Abstract The spatial resolution of optical imaging systems is fundamentally restricted by the diffraction limit. However, in widefield live-cell microscopy, the achievable resolution is further constrained by the specimen motion, which indicates the existence of a fundamental spatio-temporal resolution trade-off between signal accumulation during the full frame integration and the resulting motion blur. To improve the fidelity with which moving objects can be imaged, a quantitative understanding of this spatio-temporal trade-off is necessary. Here, we present a systematic analysis of motion-induced resolution dynamics measured with spectral signal-to-noise ratio (SSNR). We developed a simulation framework which models the image formation of objects undergoing arbitrary motion, to evaluate the degradation of the spatial resolution under translational and rotational dynamics. Our results demonstrate that for translating objects, the spatial resolution is anisotropically reduced as a function of the orientation of the object relative to the motion vector, leading to the spectral signal-to-noise ratio degrading by up to 50% and the resolution by up to 40% for a 90° change in the motion direction. Furthermore, we show that for rotational motion, conventional radially averaged metrics such as the Fourier Ring Correlation are not able to quantify the effects of angular blur. On the other hand, the SSNR is able to accurately quantify this degradation. These findings underscore the necessity of an object-oriented imaging approach, in which acquisition parameters such as exposure time are tuned to specific biological spatio-temporal characteristics to optimize the trade-off between motion blur and spatial fidelity.",
-      "url": "https://doi.org/10.64898/2026.05.06.723301",
-      "preprint_url": "https://doi.org/10.64898/2026.05.06.723301",
-      "status": "Preprint",
-      "sources": [
-        "openalex"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7160612029"
-        }
-      ],
-      "alert_ids": [
-        "author-carlas-sierd-smith"
-      ],
-      "author_ids": [
-        "A5013316072",
-        "A5017416513",
-        "A5065166255",
-        "A5066534609",
-        "A5076210044",
-        "A5087062695",
-        "A5113347710"
-      ],
-      "author_orcids": [
-        "0000-0001-7041-7870",
-        "0000-0001-8086-2548",
-        "0000-0002-0325-9988",
-        "0000-0002-2441-2240",
-        "0000-0002-4950-1936",
-        "0000-0003-0591-5093",
-        "0009-0006-3332-8864"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-01e780c40ba2231dc0e4",
-      "first_discovered_at": "2026-10-06T20:19:28Z",
-      "last_seen_at": "2026-10-12T13:53:17Z"
-    },
-    {
       "title": "PD-1 signaling and PD-1 blockade-mediated tumor control are established at microvillar T cell contacts.",
       "authors": [
         "Edward M. Jenkins",
@@ -99398,54 +98015,6 @@
       "last_seen_at": "2026-10-17T09:54:05Z"
     },
     {
-      "title": "Protoporphyrin IX Attenuates Liquid–Liquid Phase Separation of α-Synuclein by Inducing Its Compaction",
-      "authors": [
-        "Souradip Paul",
-        "Satadru Chatterjee",
-        "Tathagata Acharya",
-        "Abhishek Mazumder",
-        "Krishnananda Chattopadhyay"
-      ],
-      "publication_date": "2026-04-21",
-      "venue": "The Journal of Physical Chemistry Letters",
-      "doi": "10.1021/acs.jpclett.6c00339",
-      "abstract": "α-Synuclein (αS), a neuronal intrinsically disordered protein, forms pathogenic amyloid fibrils, a hallmark of Parkinson's disease. Recent work shows that formation of liquid-like αS condensates can accelerate the generation of fibrils, and therefore, targeting the liquid-like phase separation process can provide a novel route to disrupt αS amyloid formation. Here, we report that endogenous small molecule protoporphyrin IX (PPIX) prevents αS droplet formation by shutting down early events in this process. Using ensemble and single-molecule fluorescence techniques, we show that binding of PPIX to αS results in a collapsed conformation. Live-cell imaging and single-cell point fluorescence correlation spectroscopy revealed PPIX mitigates αS condensate formation in cells. In addition, density functional theory calculations indicate the high dipole character of PPIX, highlighting a critical role of additional weak electrostatic interactions in αS binding. Our work provides the mechanistic underpinnings of PPIX-mediated suppression of αS LLPS and establishes PPIX's therapeutic potential for αS-related synucleinopathies.",
-      "url": "https://doi.org/10.1021/acs.jpclett.6c00339",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "openalex"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7155082245"
-        }
-      ],
-      "alert_ids": [
-        "author-abhishek-mazumder"
-      ],
-      "author_ids": [
-        "A5030758158",
-        "A5052537544",
-        "A5052663403",
-        "A5058498535",
-        "A5087215403"
-      ],
-      "author_orcids": [
-        "0000-0002-0822-2893",
-        "0000-0002-1449-8909",
-        "0000-0002-1557-5558",
-        "0000-0002-9339-6256",
-        "0009-0007-1703-8282"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-5abe8e7825f6e327444c",
-      "first_discovered_at": "2026-10-06T20:19:28Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
       "title": "A stable cryogenic fluorescence microscope for correlative super-resolution light and electron microscopy",
       "authors": [
         "Soheil Mojiri",
@@ -99617,72 +98186,6 @@
       ],
       "related_publication_dois": [],
       "id": "paper-afb7e9a026a61c8e6a21",
-      "first_discovered_at": "2026-10-06T19:59:16Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
-    },
-    {
-      "title": "Wash-Free Digital Detection of Tumor Extracellular Vesicles via Plasmonic Droplet Microfluidics.",
-      "authors": [
-        "Jung NK",
-        "Karmacharya M",
-        "Choi H",
-        "Ha HK",
-        "Oh IJ",
-        "Kim MH",
-        "Ryu JS",
-        "Lim CT",
-        "Kumar S",
-        "Cho YK"
-      ],
-      "publication_date": "2026-04-21",
-      "venue": "ACS sensors",
-      "doi": "10.1021/acssensors.5c03705",
-      "abstract": "Early detection of tumor-derived extracellular vesicles (EVs) enables noninvasive cancer diagnostics, but current assays often require wash steps and suffer from limited sensitivity. Here, we developed PlasDroplex, a wash-free digital plasmonic assay that detects tumor-derived extracellular vesicles via droplet-confined binding between EVs and antibody-functionalized gold nanoparticles (Ab-AuNPs), eliminating washing and multistep labeling processes. Plasma (10 μL) is coencapsulated with Ab-AuNPs targeting CD9, EpCAM, PSA, PSMA, and PD-L1 in picoliter droplets. Target binding induces AuNP clustering into plasmonic networks that generate bright \"On\" droplets, while \"Off\" droplets remain dark, enabling a wash-free optical readout within 1 h. Limits of detection were 2500-6700 EVs/mL with high reproducibility (CV < 3%). In 63 clinical samples, PSA- and PSMA-positive EVs yielded AUCs of 0.926 and 0.932 for prostate cancer, respectively, while PD-L1 EVs achieved an AUC of 0.998 for lung cancer. PlasDroplex enables rapid, marker-specific, digital droplet-based EV profiling from minimal plasma volumes.",
-      "url": "https://doi.org/10.1021/acssensors.5c03705",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "europe_pmc",
-        "openalex"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "europe_pmc",
-          "id": "MED:42011810"
-        },
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7155088841"
-        }
-      ],
-      "alert_ids": [
-        "author-mamata-karmacharya",
-        "author-yoon-kyoung-cho"
-      ],
-      "author_ids": [
-        "A5031498697",
-        "A5036224865",
-        "A5066079868",
-        "A5066861518",
-        "A5076637904",
-        "A5076834367",
-        "A5100653598",
-        "A5111760774",
-        "A5134114425",
-        "A5134184928"
-      ],
-      "author_orcids": [
-        "0000-0001-6423-1834",
-        "0000-0002-4979-7677",
-        "0000-0002-5245-0316",
-        "0000-0002-8240-7765",
-        "0000-0003-2947-8369",
-        "0000-0003-4019-9782",
-        "0000-0003-4837-1321"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-89bc54134cb948cc9474",
       "first_discovered_at": "2026-10-06T19:59:16Z",
       "last_seen_at": "2026-10-17T09:54:05Z"
     },
@@ -101487,64 +99990,6 @@
       "id": "paper-de37676b26d6c8a187f8",
       "first_discovered_at": "2026-10-06T19:59:16Z",
       "last_seen_at": "2026-10-14T10:51:25Z"
-    },
-    {
-      "title": "CLEAR-IT, a framework for contrastive learning to capture the immune composition of tumor microenvironments.",
-      "authors": [
-        "Spengler D",
-        "Korovin S",
-        "Prakash K",
-        "Bankhead P",
-        "Debets R",
-        "Balcioglu HE",
-        "Smith C"
-      ],
-      "publication_date": "2026-04-16",
-      "venue": "Communications biology",
-      "doi": "10.1038/s42003-026-09984-2",
-      "abstract": "Accurate phenotyping of cells in the tumor microenvironment is essential for understanding cancer biology but typically requires precise cell segmentation, limiting scalability. Here, we introduce Contrastive Learning Enabled Accurate Registration of Immune and Tumor cells (CLEAR-IT), a self-supervised framework that learns cell-level features from multiplexed images using only cell locations. CLEAR-IT encoders achieve strong linear evaluation performance, improve substantially with hyperparameter optimization, and maintain high accuracy across imaging modalities and with up to 90% fewer labels. When substituted for handcrafted features in a state-of-the-art classifier, CLEAR-IT features yield higher performance, and their combination enables comparable accuracy with less than half of the labeled data otherwise required. The learned representations also support prognostic modeling: using annotations from a single patient, CLEAR-IT-based phenotyping identifies survival-associated tissue features that generalize across two cohorts and modalities. CLEAR-IT provides a segmentation-light, label-efficient approach for scalable cell phenotyping and enhances existing workflows in digital pathology and tumor microenvironment analysis.",
-      "url": "https://doi.org/10.1038/s42003-026-09984-2",
-      "preprint_url": "",
-      "status": "Journal article",
-      "sources": [
-        "europe_pmc",
-        "openalex"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "europe_pmc",
-          "id": "MED:41991989"
-        },
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7154585178"
-        }
-      ],
-      "alert_ids": [
-        "author-carlas-sierd-smith"
-      ],
-      "author_ids": [
-        "A5013316072",
-        "A5055039884",
-        "A5069775632",
-        "A5076210044",
-        "A5082499429",
-        "A5113347710"
-      ],
-      "author_orcids": [
-        "0000-0002-0225-0180",
-        "0000-0002-0325-9988",
-        "0000-0002-3649-807X",
-        "0000-0003-0591-5093",
-        "0000-0003-4851-8813",
-        "0009-0004-4118-7761",
-        "0009-0006-3332-8864"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-b888ce286d4ae54cb21d",
-      "first_discovered_at": "2026-10-06T19:59:16Z",
-      "last_seen_at": "2026-10-17T09:54:05Z"
     },
     {
       "title": "Multiplexed P21/MCM-2 Detection Predicts Relapse and May Identify Tyrosine Kinase Inhibitor-Resistant Patients in Clear Cell Renal Cell Carcinoma.",
