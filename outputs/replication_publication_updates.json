@@ -1,18 +1,132 @@
 {
   "meta": {
-    "generated_at": "2026-10-18",
-    "last_successful_check_date": "2026-10-18",
-    "window_start": "2026-04-11",
-    "window_end": "2026-10-18",
+    "generated_at": "2026-10-19",
+    "last_successful_check_date": "2026-10-19",
+    "window_start": "2026-04-12",
+    "window_end": "2026-10-19",
     "source": "OpenAlex API",
     "retrieval_mode": "live API; all numbered pages; no cached fallback",
     "inclusion_rule": "All indexed works coauthored by roster author IDs within the date window; no title/topic keyword exclusions",
     "researcher_count": 103,
-    "publication_count": 1230,
+    "publication_count": 1234,
     "failed_researchers": [],
     "status_method": "OpenAlex work type plus submittedVersion, acceptedVersion, and publishedVersion location metadata"
   },
   "updates": [
+    {
+      "publication_date": "2026-10-18",
+      "title": "Determinants of cysteine coverage by chemoproteomics",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Simon J. Boulton"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.10.12.758458",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.10.12.758458",
+      "openalex_id": "https://openalex.org/W7222891947",
+      "open_access_status": "green",
+      "indexed_versions": [
+        "acceptedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-19T00:00:00",
+      "updated_date": "2026-10-19T09:35:57.686232",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7222891947"
+      ]
+    },
+    {
+      "publication_date": "2026-10-18",
+      "title": "Data for EMSL Project 50414 from June 2019",
+      "status": "Dataset",
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Maria Spies"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.25582/data.2019-06.1791414/17336463",
+      "pmid": "",
+      "url": "https://doi.org/10.25582/data.2019-06.1791414/17336463",
+      "openalex_id": "https://openalex.org/W7222889944",
+      "open_access_status": "green",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "2026-10-19T00:00:00",
+      "updated_date": "2026-10-19T09:35:57.686232",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Dataset"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7222889944"
+      ]
+    },
+    {
+      "publication_date": "2026-10-18",
+      "title": "Data for EMSL Project 50414 from June 2019",
+      "status": "Dataset",
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Maria Spies"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.25582/data.2019-06.1791442/17336464",
+      "pmid": "",
+      "url": "https://doi.org/10.25582/data.2019-06.1791442/17336464",
+      "openalex_id": "https://openalex.org/W7222890860",
+      "open_access_status": "green",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "2026-10-19T00:00:00",
+      "updated_date": "2026-10-19T09:35:57.686232",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Dataset"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7222890860"
+      ]
+    },
+    {
+      "publication_date": "2026-10-17",
+      "title": "Data for EMSL Project 50414 from July 2019",
+      "status": "Dataset",
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Maria Spies"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.25582/data.2019-07.1808108/17322642",
+      "pmid": "",
+      "url": "https://doi.org/10.25582/data.2019-07.1808108/17322642",
+      "openalex_id": "https://openalex.org/W7222807482",
+      "open_access_status": "green",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "2026-10-18T00:00:00",
+      "updated_date": "2026-10-18T09:31:52.927876",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Dataset"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7222807482"
+      ]
+    },
     {
       "publication_date": "2026-10-16",
       "title": "eLife Assessment: Separable downmodulation of meiotic axis protein deposition and DNA break induction at chromosome ends",
@@ -36,7 +150,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-10-17T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-18T09:31:52.927876",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Peer Review"
@@ -460,7 +574,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-10-16T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-18T09:31:52.927876",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -4449,7 +4563,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-10-06T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-18T09:31:52.927876",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -7107,6 +7221,37 @@
     },
     {
       "publication_date": "2026-09-28",
+      "title": "Germline homologous recombination deficiency influences TP53-mutant clonal hematopoiesis fitness during platinum and PARP inhibitor treatment",
+      "status": "Journal article",
+      "venue": "Nature Genetics",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Alessandro Vindigni"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1038/s41588-026-02752-2",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42806144",
+      "url": "https://doi.org/10.1038/s41588-026-02752-2",
+      "openalex_id": "https://openalex.org/W7214621868",
+      "open_access_status": "hybrid",
+      "indexed_versions": [
+        "publishedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-09-29T00:00:00",
+      "updated_date": "2026-10-19T09:35:57.686232",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7214621868"
+      ]
+    },
+    {
+      "publication_date": "2026-09-28",
       "title": "MCM10 and SLD-2/RECQL4 jointly activate the CMG helicase during metazoan DNA replication initiation",
       "status": "Journal article",
       "venue": "The EMBO Journal",
@@ -7498,37 +7643,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7214624374"
-      ]
-    },
-    {
-      "publication_date": "2026-09-28",
-      "title": "Germline homologous recombination deficiency influences TP53-mutant clonal hematopoiesis fitness during platinum and PARP inhibitor treatment",
-      "status": "Journal article",
-      "venue": "Nature Genetics",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Alessandro Vindigni"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1038/s41588-026-02752-2",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42806144",
-      "url": "https://doi.org/10.1038/s41588-026-02752-2",
-      "openalex_id": "https://openalex.org/W7214621868",
-      "open_access_status": "hybrid",
-      "indexed_versions": [
-        "publishedVersion",
-        "submittedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-09-29T00:00:00",
-      "updated_date": "2026-10-16T09:59:22.235173",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7214621868"
       ]
     },
     {
@@ -8184,6 +8298,36 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7214371291"
+      ]
+    },
+    {
+      "publication_date": "2026-09-24",
+      "title": "Negative supercoiling facilitates human TOP3α-mediated decatenation of DNA braids via catenation junction melting",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "David Rueda"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.09.23.753725",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.09.23.753725",
+      "openalex_id": "https://openalex.org/W7214191300",
+      "open_access_status": "green",
+      "indexed_versions": [
+        "acceptedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-09-25T00:00:00",
+      "updated_date": "2026-10-19T09:35:57.686232",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7214191300"
       ]
     },
     {
@@ -9308,36 +9452,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7214156358"
-      ]
-    },
-    {
-      "publication_date": "2026-09-24",
-      "title": "Negative supercoiling facilitates human TOP3α-mediated decatenation of DNA braids via catenation junction melting",
-      "status": "Preprint",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "venue_type": "repository",
-      "network_researchers": [
-        "David Rueda"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.64898/2026.09.23.753725",
-      "pmid": "",
-      "url": "https://doi.org/10.64898/2026.09.23.753725",
-      "openalex_id": "https://openalex.org/W7214191300",
-      "open_access_status": "green",
-      "indexed_versions": [
-        "acceptedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-09-25T00:00:00",
-      "updated_date": "2026-10-14T16:39:01.820549",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Preprint"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7214191300"
       ]
     },
     {
@@ -13790,11 +13904,12 @@
       "openalex_id": "https://openalex.org/W7213369658",
       "open_access_status": "gold",
       "indexed_versions": [
-        "publishedVersion"
+        "publishedVersion",
+        "submittedVersion"
       ],
       "openalex_citations": 0,
       "created_date": "2026-09-16T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-19T09:35:57.686232",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -15553,7 +15668,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-09-13T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-18T09:31:52.927876",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -28215,11 +28330,12 @@
       "openalex_id": "https://openalex.org/W7204240602",
       "open_access_status": "gold",
       "indexed_versions": [
-        "publishedVersion"
+        "publishedVersion",
+        "submittedVersion"
       ],
       "openalex_citations": 0,
       "created_date": "2026-08-27T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-19T09:35:57.686232",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -28341,11 +28457,12 @@
       "openalex_id": "https://openalex.org/W7204206855",
       "open_access_status": "gold",
       "indexed_versions": [
-        "publishedVersion"
+        "publishedVersion",
+        "submittedVersion"
       ],
       "openalex_citations": 0,
       "created_date": "2026-08-26T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-19T09:35:57.686232",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -28376,7 +28493,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-08-26T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-18T09:31:52.927876",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Retraction"
@@ -28938,6 +29055,36 @@
     },
     {
       "publication_date": "2026-08-14",
+      "title": "Publisher Correction: Targeting cancer-specific mutations with RNA-triggered chromatin shredding",
+      "status": "Erratum",
+      "venue": "Nature",
+      "venue_type": "journal",
+      "network_researchers": [
+        "John F. X. Diffley"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1038/s41586-026-11022-4",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42601480",
+      "url": "https://doi.org/10.1038/s41586-026-11022-4",
+      "openalex_id": "https://openalex.org/W7203488068",
+      "open_access_status": "bronze",
+      "indexed_versions": [
+        "publishedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-08-15T00:00:00",
+      "updated_date": "2026-10-18T09:31:52.927876",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Erratum"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7203488068"
+      ]
+    },
+    {
+      "publication_date": "2026-08-14",
       "title": "Redesign of energetically frustrated regions rescues function in defective T4 clamp loaders",
       "status": "Journal article",
       "venue": "Molecular Biology and Evolution",
@@ -28966,36 +29113,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7160878792"
-      ]
-    },
-    {
-      "publication_date": "2026-08-14",
-      "title": "Publisher Correction: Targeting cancer-specific mutations with RNA-triggered chromatin shredding",
-      "status": "Erratum",
-      "venue": "Nature",
-      "venue_type": "journal",
-      "network_researchers": [
-        "John F. X. Diffley"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1038/s41586-026-11022-4",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42601480",
-      "url": "https://doi.org/10.1038/s41586-026-11022-4",
-      "openalex_id": "https://openalex.org/W7203488068",
-      "open_access_status": "bronze",
-      "indexed_versions": [
-        "publishedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-08-15T00:00:00",
-      "updated_date": "2026-10-16T09:59:22.235173",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Erratum"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7203488068"
       ]
     },
     {
@@ -30914,7 +31031,7 @@
       ],
       "openalex_citations": 3,
       "created_date": "2026-07-10T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-19T09:35:57.686232",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -31657,7 +31774,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-06-28T00:00:00",
-      "updated_date": "2026-10-12T09:40:04.860316",
+      "updated_date": "2026-10-19T09:35:57.686232",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -31779,7 +31896,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-06-26T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-18T09:31:52.927876",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -31999,7 +32116,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2025-10-10T00:00:00",
-      "updated_date": "2026-10-16T09:59:22.235173",
+      "updated_date": "2026-10-19T09:35:57.686232",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -32962,7 +33079,7 @@
       ],
       "openalex_citations": 6,
       "created_date": "2026-06-09T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-19T09:35:57.686232",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -32998,7 +33115,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-06-09T00:00:00",
-      "updated_date": "2026-10-14T16:39:01.820549",
+      "updated_date": "2026-10-19T09:35:57.686232",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Preprint"
@@ -33865,7 +33982,7 @@
       ],
       "openalex_citations": 6,
       "created_date": "2026-05-23T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-19T09:35:57.686232",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -34048,7 +34165,7 @@
       ],
       "openalex_citations": 1,
       "created_date": "2026-05-21T00:00:00",
-      "updated_date": "2026-10-16T09:59:22.235173",
+      "updated_date": "2026-10-18T09:31:52.927876",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -34460,7 +34577,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-05-15T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-19T09:35:57.686232",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -34491,7 +34608,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-05-15T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-19T09:35:57.686232",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -34686,7 +34803,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-05-10T00:00:00",
-      "updated_date": "2026-10-16T09:59:22.235173",
+      "updated_date": "2026-10-18T09:31:52.927876",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Preprint"
@@ -35164,7 +35281,7 @@
       ],
       "openalex_citations": 11,
       "created_date": "2026-04-24T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-19T09:35:57.686232",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -35226,7 +35343,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-04-22T00:00:00",
-      "updated_date": "2026-10-18T09:31:52.927876",
+      "updated_date": "2026-10-19T09:35:57.686232",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -35569,7 +35686,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-04-16T00:00:00",
-      "updated_date": "2026-10-14T16:39:01.820549",
+      "updated_date": "2026-10-18T09:31:52.927876",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
