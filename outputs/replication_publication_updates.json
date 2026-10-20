@@ -1,18 +1,52 @@
 {
   "meta": {
-    "generated_at": "2026-10-19",
-    "last_successful_check_date": "2026-10-19",
-    "window_start": "2026-04-12",
-    "window_end": "2026-10-19",
+    "generated_at": "2026-10-20",
+    "last_successful_check_date": "2026-10-20",
+    "window_start": "2026-04-13",
+    "window_end": "2026-10-20",
     "source": "OpenAlex API",
     "retrieval_mode": "live API; all numbered pages; no cached fallback",
     "inclusion_rule": "All indexed works coauthored by roster author IDs within the date window; no title/topic keyword exclusions",
     "researcher_count": 103,
-    "publication_count": 1234,
+    "publication_count": 1237,
     "failed_researchers": [],
     "status_method": "OpenAlex work type plus submittedVersion, acceptedVersion, and publishedVersion location metadata"
   },
   "updates": [
+    {
+      "publication_date": "2026-10-19",
+      "title": "ALYREF binds to poly-ADP-ribose at double strand breaks impairing repair in tumoral cells",
+      "status": "Journal article",
+      "venue": "EMBO Reports",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Andrés Aguilera"
+      ],
+      "senior_or_last_network_researchers": [
+        "Andrés Aguilera"
+      ],
+      "corresponding_network_researchers": [
+        "Andrés Aguilera"
+      ],
+      "doi": "https://doi.org/10.1038/s44319-026-00963-6",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s44319-026-00963-6",
+      "openalex_id": "https://openalex.org/W7222957923",
+      "open_access_status": "gold",
+      "indexed_versions": [
+        "publishedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-20T00:00:00",
+      "updated_date": "2026-10-20T09:52:01.089006",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7222957923"
+      ]
+    },
     {
       "publication_date": "2026-10-18",
       "title": "Determinants of cysteine coverage by chemoproteomics",
@@ -34,7 +68,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-10-19T00:00:00",
-      "updated_date": "2026-10-19T09:35:57.686232",
+      "updated_date": "2026-10-20T09:52:01.089006",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Preprint"
@@ -553,6 +587,36 @@
     },
     {
       "publication_date": "2026-10-15",
+      "title": "Mechanical characterization of human centromeres",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Ian D. Hickson"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.10.14.759046",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.10.14.759046",
+      "openalex_id": "https://openalex.org/W7222225541",
+      "open_access_status": "green",
+      "indexed_versions": [
+        "acceptedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-16T00:00:00",
+      "updated_date": "2026-10-20T09:52:01.089006",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7222225541"
+      ]
+    },
+    {
+      "publication_date": "2026-10-15",
       "title": "TREX1 limits anti-tumor immunity by degrading short cytosolic DNA molecules",
       "status": "Journal article",
       "venue": "EMBO Reports",
@@ -581,36 +645,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7221999457"
-      ]
-    },
-    {
-      "publication_date": "2026-10-15",
-      "title": "Mechanical characterization of human centromeres",
-      "status": "Preprint",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "venue_type": "repository",
-      "network_researchers": [
-        "Ian D. Hickson"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.64898/2026.10.14.759046",
-      "pmid": "",
-      "url": "https://doi.org/10.64898/2026.10.14.759046",
-      "openalex_id": "https://openalex.org/W7222225541",
-      "open_access_status": "green",
-      "indexed_versions": [
-        "acceptedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-10-16T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Preprint"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7222225541"
       ]
     },
     {
@@ -5546,6 +5580,36 @@
     },
     {
       "publication_date": "2026-10-01",
+      "title": "H017 Hunting for drugs: repurposing for AMPK targeting in Huntington’s disease",
+      "status": "Conference Abstract",
+      "venue": "Repository / venue not resolved",
+      "venue_type": "",
+      "network_researchers": [
+        "Oscar Fernandez-Capetillo"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1136/jnnp-2026-ehdn.329",
+      "pmid": "",
+      "url": "https://doi.org/10.1136/jnnp-2026-ehdn.329",
+      "openalex_id": "https://openalex.org/W7222965507",
+      "open_access_status": "closed",
+      "indexed_versions": [
+        "publishedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-20T00:00:00",
+      "updated_date": "2026-10-20T09:52:01.089006",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Conference Abstract"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7222965507"
+      ]
+    },
+    {
+      "publication_date": "2026-10-01",
       "title": "Data for EMSL Project 50414 from May 2021",
       "status": "Dataset",
       "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
@@ -5884,7 +5948,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-10-01T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-20T09:52:01.089006",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Preprint"
@@ -7221,37 +7285,6 @@
     },
     {
       "publication_date": "2026-09-28",
-      "title": "Germline homologous recombination deficiency influences TP53-mutant clonal hematopoiesis fitness during platinum and PARP inhibitor treatment",
-      "status": "Journal article",
-      "venue": "Nature Genetics",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Alessandro Vindigni"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1038/s41588-026-02752-2",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42806144",
-      "url": "https://doi.org/10.1038/s41588-026-02752-2",
-      "openalex_id": "https://openalex.org/W7214621868",
-      "open_access_status": "hybrid",
-      "indexed_versions": [
-        "publishedVersion",
-        "submittedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-09-29T00:00:00",
-      "updated_date": "2026-10-19T09:35:57.686232",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7214621868"
-      ]
-    },
-    {
-      "publication_date": "2026-09-28",
       "title": "MCM10 and SLD-2/RECQL4 jointly activate the CMG helicase during metazoan DNA replication initiation",
       "status": "Journal article",
       "venue": "The EMBO Journal",
@@ -7272,13 +7305,44 @@
       ],
       "openalex_citations": 1,
       "created_date": "2026-09-29T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
+      "updated_date": "2026-10-20T09:52:01.089006",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
       ],
       "related_openalex_records": [
         "https://openalex.org/W7214641264"
+      ]
+    },
+    {
+      "publication_date": "2026-09-28",
+      "title": "Germline homologous recombination deficiency influences TP53-mutant clonal hematopoiesis fitness during platinum and PARP inhibitor treatment",
+      "status": "Journal article",
+      "venue": "Nature Genetics",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Alessandro Vindigni"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1038/s41588-026-02752-2",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42806144",
+      "url": "https://doi.org/10.1038/s41588-026-02752-2",
+      "openalex_id": "https://openalex.org/W7214621868",
+      "open_access_status": "hybrid",
+      "indexed_versions": [
+        "publishedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-09-29T00:00:00",
+      "updated_date": "2026-10-20T09:52:01.089006",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7214621868"
       ]
     },
     {
@@ -8321,7 +8385,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-09-25T00:00:00",
-      "updated_date": "2026-10-19T09:35:57.686232",
+      "updated_date": "2026-10-20T09:52:01.089006",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Preprint"
@@ -13617,6 +13681,36 @@
     },
     {
       "publication_date": "2026-09-18",
+      "title": "Frontal plane pelvic motion is associated with functional impairment in patients with axial spondyloarthritis",
+      "status": "Journal article",
+      "venue": "Gait & Posture",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Hasan Yardimci"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1016/j.gaitpost.2026.110563",
+      "pmid": "",
+      "url": "https://doi.org/10.1016/j.gaitpost.2026.110563",
+      "openalex_id": "https://openalex.org/W7213606778",
+      "open_access_status": "hybrid",
+      "indexed_versions": [
+        "publishedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-09-19T00:00:00",
+      "updated_date": "2026-10-20T09:52:01.089006",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7213606778"
+      ]
+    },
+    {
+      "publication_date": "2026-09-18",
       "title": "Data for EMSL Project 50414 from September 2025",
       "status": "Dataset",
       "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
@@ -13909,7 +14003,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-09-16T00:00:00",
-      "updated_date": "2026-10-19T09:35:57.686232",
+      "updated_date": "2026-10-20T09:52:01.089006",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -28335,7 +28429,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-08-27T00:00:00",
-      "updated_date": "2026-10-19T09:35:57.686232",
+      "updated_date": "2026-10-20T09:52:01.089006",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -28442,6 +28536,37 @@
     },
     {
       "publication_date": "2026-08-25",
+      "title": "Retraction Note: Functional kinomics establishes a critical node of volume-sensitive cation-Cl– cotransporter regulation in the mammalian brain",
+      "status": "Retraction",
+      "venue": "Scientific Reports",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Stephen J. Elledge"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1038/s41598-026-66445-w",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42642456",
+      "url": "https://doi.org/10.1038/s41598-026-66445-w",
+      "openalex_id": "https://openalex.org/W7204173106",
+      "open_access_status": "gold",
+      "indexed_versions": [
+        "publishedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-08-26T00:00:00",
+      "updated_date": "2026-10-20T09:52:01.089006",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Retraction"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7204173106"
+      ]
+    },
+    {
+      "publication_date": "2026-08-25",
       "title": "RhoA WT allele loss unleashes the cancer driver function of RhoA E40Q",
       "status": "Journal article",
       "venue": "Journal of Clinical Investigation",
@@ -28469,37 +28594,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7204206855"
-      ]
-    },
-    {
-      "publication_date": "2026-08-25",
-      "title": "Retraction Note: Functional kinomics establishes a critical node of volume-sensitive cation-Cl– cotransporter regulation in the mammalian brain",
-      "status": "Retraction",
-      "venue": "Scientific Reports",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Stephen J. Elledge"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1038/s41598-026-66445-w",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42642456",
-      "url": "https://doi.org/10.1038/s41598-026-66445-w",
-      "openalex_id": "https://openalex.org/W7204173106",
-      "open_access_status": "gold",
-      "indexed_versions": [
-        "publishedVersion",
-        "submittedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-08-26T00:00:00",
-      "updated_date": "2026-10-18T09:31:52.927876",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Retraction"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7204173106"
       ]
     },
     {
@@ -31031,7 +31125,7 @@
       ],
       "openalex_citations": 3,
       "created_date": "2026-07-10T00:00:00",
-      "updated_date": "2026-10-19T09:35:57.686232",
+      "updated_date": "2026-10-20T09:52:01.089006",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -31299,6 +31393,37 @@
     },
     {
       "publication_date": "2026-07-02",
+      "title": "TTF2 processes sites of incomplete DNA replication during mitosis via sister-chromatid exchanges",
+      "status": "Journal article",
+      "venue": "Science",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Karim Labib"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1126/science.aeh2300",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42391325",
+      "url": "https://doi.org/10.1126/science.aeh2300",
+      "openalex_id": "https://openalex.org/W7167061906",
+      "open_access_status": "green",
+      "indexed_versions": [
+        "acceptedVersion",
+        "publishedVersion"
+      ],
+      "openalex_citations": 2,
+      "created_date": "2026-07-03T00:00:00",
+      "updated_date": "2026-10-20T09:52:01.089006",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7167061906"
+      ]
+    },
+    {
+      "publication_date": "2026-07-02",
       "title": "CDK2 Inhibition Exerts RB-Independent Antitumor Activity in CDK4/6 Inhibitor–Resistant HR+/HER2− Breast Cancer",
       "status": "Journal article",
       "venue": "Cancer Research",
@@ -31326,37 +31451,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7167090281"
-      ]
-    },
-    {
-      "publication_date": "2026-07-02",
-      "title": "TTF2 processes sites of incomplete DNA replication during mitosis via sister-chromatid exchanges",
-      "status": "Journal article",
-      "venue": "Science",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Karim Labib"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1126/science.aeh2300",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42391325",
-      "url": "https://doi.org/10.1126/science.aeh2300",
-      "openalex_id": "https://openalex.org/W7167061906",
-      "open_access_status": "green",
-      "indexed_versions": [
-        "acceptedVersion",
-        "publishedVersion"
-      ],
-      "openalex_citations": 2,
-      "created_date": "2026-07-03T00:00:00",
-      "updated_date": "2026-10-16T09:59:22.235173",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7167061906"
       ]
     },
     {
@@ -33982,7 +34076,7 @@
       ],
       "openalex_citations": 6,
       "created_date": "2026-05-23T00:00:00",
-      "updated_date": "2026-10-19T09:35:57.686232",
+      "updated_date": "2026-10-20T09:52:01.089006",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -34165,7 +34259,7 @@
       ],
       "openalex_citations": 1,
       "created_date": "2026-05-21T00:00:00",
-      "updated_date": "2026-10-18T09:31:52.927876",
+      "updated_date": "2026-10-20T09:52:01.089006",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -34577,7 +34671,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-05-15T00:00:00",
-      "updated_date": "2026-10-19T09:35:57.686232",
+      "updated_date": "2026-10-20T09:52:01.089006",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -34608,7 +34702,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-05-15T00:00:00",
-      "updated_date": "2026-10-19T09:35:57.686232",
+      "updated_date": "2026-10-20T09:52:01.089006",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -34771,7 +34865,7 @@
       ],
       "openalex_citations": 1,
       "created_date": "2026-05-12T00:00:00",
-      "updated_date": "2026-10-11T09:32:39.932853",
+      "updated_date": "2026-10-20T09:52:01.089006",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -35343,7 +35437,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-04-22T00:00:00",
-      "updated_date": "2026-10-19T09:35:57.686232",
+      "updated_date": "2026-10-20T09:52:01.089006",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
