@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-20",
-    "last_successful_check_date": "2026-10-20",
-    "window_start": "2026-04-13",
-    "window_end": "2026-10-20",
+    "generated_at": "2026-10-21",
+    "last_successful_check_date": "2026-10-21",
+    "window_start": "2026-04-14",
+    "window_end": "2026-10-21",
     "source": "OpenAlex API",
     "retrieval_mode": "live API; all numbered pages; no cached fallback",
     "inclusion_rule": "All indexed works coauthored by roster author IDs within the date window; no title/topic keyword exclusions",
-    "researcher_count": 103,
-    "publication_count": 1237,
+    "researcher_count": 104,
+    "publication_count": 1241,
     "failed_researchers": [],
     "status_method": "OpenAlex work type plus submittedVersion, acceptedVersion, and publishedVersion location metadata"
   },
@@ -8365,6 +8365,34 @@
       ]
     },
     {
+      "publication_date": "2026-09-25",
+      "title": "The Molecular Basis of Replication Fork Restart via Repriming by PRIMPOL",
+      "status": "Dataset",
+      "venue": "Stanford Digital Repository",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Gheorghe Chistol"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.25740/hy921dn6469",
+      "pmid": "",
+      "url": "https://doi.org/10.25740/hy921dn6469",
+      "openalex_id": "https://openalex.org/W7214344402",
+      "open_access_status": "green",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "2026-09-26T00:00:00",
+      "updated_date": "2026-10-01T08:54:57.152042",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Dataset"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7214344402"
+      ]
+    },
+    {
       "publication_date": "2026-09-24",
       "title": "Negative supercoiling facilitates human TOP3α-mediated decatenation of DNA braids via catenation junction melting",
       "status": "Preprint",
@@ -13847,6 +13875,38 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7213604813"
+      ]
+    },
+    {
+      "publication_date": "2026-09-18",
+      "title": "TOPBP1-Dependent DNA Damage Processing Promotes Centromere Loss in an Inviable Xenopus Hybrid",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Gheorghe Chistol"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.09.16.752195",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42780076",
+      "url": "https://doi.org/10.64898/2026.09.16.752195",
+      "openalex_id": "https://openalex.org/W7213538818",
+      "open_access_status": "green",
+      "indexed_versions": [
+        "acceptedVersion",
+        "publishedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-09-18T00:00:00",
+      "updated_date": "2026-10-15T10:00:46.086208",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7213538818"
       ]
     },
     {
@@ -27578,6 +27638,34 @@
       ]
     },
     {
+      "publication_date": "2026-09-07",
+      "title": "Source Data for DUE-B Is Dispensable for Early Development and DNA Replication in Vertebrates",
+      "status": "Dataset",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Gheorghe Chistol"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.5281/zenodo.21889714",
+      "pmid": "",
+      "url": "https://doi.org/10.5281/zenodo.21889714",
+      "openalex_id": "https://openalex.org/W7211944182",
+      "open_access_status": "green",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "2026-09-09T00:00:00",
+      "updated_date": "2026-10-08T09:06:37.294493",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Dataset"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7211944182"
+      ]
+    },
+    {
       "publication_date": "2026-09-06",
       "title": "Data for EMSL Project 50414 from June 2025",
       "status": "Dataset",
@@ -30280,6 +30368,34 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7170131576"
+      ]
+    },
+    {
+      "publication_date": "2026-07-22",
+      "title": "Regulation of Xenopus laevis centromere maintenance",
+      "status": "Dissertation",
+      "venue": "Stanford Digital Repository",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Gheorghe Chistol"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.25740/sm985bq1482",
+      "pmid": "",
+      "url": "https://doi.org/10.25740/sm985bq1482",
+      "openalex_id": "https://openalex.org/W7170070066",
+      "open_access_status": "green",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "2026-07-23T00:00:00",
+      "updated_date": "2026-10-12T09:40:04.860316",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Dissertation"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7170070066"
       ]
     },
     {
@@ -35004,6 +35120,34 @@
       ]
     },
     {
+      "publication_date": "2026-05-06",
+      "title": "Metazoan Lagging Strand DNA Synthesis is Distributive",
+      "status": "Other",
+      "venue": "Stanford Digital Repository",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Gheorghe Chistol"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.25740/sq803bx0564",
+      "pmid": "",
+      "url": "https://doi.org/10.25740/sq803bx0564",
+      "openalex_id": "https://openalex.org/W7160400045",
+      "open_access_status": "green",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "2026-05-07T00:00:00",
+      "updated_date": "2026-09-02T07:38:04.252551",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Other"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7160400045"
+      ]
+    },
+    {
       "publication_date": "2026-05-02",
       "title": "Source data for figures",
       "status": "Dataset",
@@ -35787,40 +35931,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7154511110"
-      ]
-    },
-    {
-      "publication_date": "2026-04-13",
-      "title": "CENP-B binds hairpin motifs in chromosome arms influencing gene expression",
-      "status": "Preprint",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "venue_type": "repository",
-      "network_researchers": [
-        "Jessica A. Downs"
-      ],
-      "senior_or_last_network_researchers": [
-        "Jessica A. Downs"
-      ],
-      "corresponding_network_researchers": [
-        "Jessica A. Downs"
-      ],
-      "doi": "https://doi.org/10.64898/2026.04.10.717743",
-      "pmid": "",
-      "url": "https://doi.org/10.64898/2026.04.10.717743",
-      "openalex_id": "https://openalex.org/W7153975118",
-      "open_access_status": "green",
-      "indexed_versions": [
-        "acceptedVersion"
-      ],
-      "openalex_citations": 2,
-      "created_date": "2026-04-14T00:00:00",
-      "updated_date": "2026-09-27T08:07:27.782135",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Preprint"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7153975118"
       ]
     }
   ]

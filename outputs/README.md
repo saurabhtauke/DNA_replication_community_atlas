@@ -1,9 +1,12 @@
 # DNA Replication Researchers Survey
 
-Data snapshot: **8 September 2026**  
+Original data snapshot: **8 September 2026**; roster extended **21 October 2026**
+
 Recent window: **1 January 2021–8 September 2026**
 
-This release contains a curated, globally distributed survey of **100 ranking-eligible active researchers/PIs** in DNA replication and closely coupled fork-stress/repair biology, plus **3 explicitly unranked requested researchers** (Jacob S. Lewis, Lisanne Spenkelink, and Thomas C. R. Miller). Joseph Yeeles, Tom Deegan, and Christoph Kurat are included in the ranked roster; all previously requested names remain present.
+This release contains a curated, globally distributed survey of **101 ranking-eligible active researchers/PIs** in DNA replication and closely coupled fork-stress/repair biology, plus **3 explicitly unranked requested researchers** (Jacob S. Lewis, Lisanne Spenkelink, and Thomas C. R. Miller). Gheorghe Chistol (Stanford) was added as a ranked rising/recent leader on 21 October 2026; nobody was removed. Joseph Yeeles, Tom Deegan, and Christoph Kurat remain ranked; all previously requested names remain present.
+
+Chistol's identity, Stanford affiliation and ORCID were checked against his [faculty profile](https://profiles.stanford.edu/gheorghe-chistol), [lab publications](https://chistol.stanford.edu/publications/) and [lab team](https://chistol.stanford.edu/people/). His publications use the same 8 September cutoff, but his citation metadata was retrieved on 21 October; the other researchers' evidence remains the original September snapshot. Percentiles were recomputed across all 101 eligible PIs using the unchanged formula. This is a provisional mixed-retrieval-date comparison, not a new full-field assessment. His existing literature alert was retained and its Stanford identity evidence updated, not duplicated.
 
 The list is intended for field mapping and hypothesis generation—not as a definitive or purely objective league table. Coverage spans initiation/licensing, replisome mechanism, replication timing, chromatin inheritance, replication stress and repair, bacterial replication, structural biology, single-molecule biophysics, cell biology, genomics, and proteomics.
 
@@ -15,7 +18,7 @@ The list is intended for field mapping and hypothesis generation—not as a defi
 - `replication_community_network.graphml` — ready-to-import undirected GraphML network.
 - `replication_community_network.json` — the same network in portable node/edge JSON.
 - `author_resolution_audit.csv` — author-name matching audit, expected affiliations, selected OpenAlex IDs, and match confidence.
-- `replication_publication_updates.csv` and `replication_publication_updates.json` — one-time 8 September 2026 recent-publication snapshot used by the website's Updates tab.
+- `replication_publication_updates.csv` and `replication_publication_updates.json` — rolling recent-publication feed used by the website's Updates tab; see its metadata for the latest successful check.
 - `website/index.html` — static interactive research atlas; open directly in a browser. Its bundled `data.js` is regenerated from the CSVs by `work/build_website_data.py`.
 
 ## Selection and ranking
@@ -29,6 +32,8 @@ Only rows with `ranking_status=ranked` receive a rank. Scores are percentile-bas
 - **Combined score:** 55% lifetime impact + 45% 2021–2026 impact.
 
 Percentiles reduce domination by a few extreme citation outliers. Citation counts are OpenAlex counts at retrieval time and will drift. Ranking should be interpreted in bands rather than as meaningful one-place differences.
+
+The lifetime-weighted metric can substantially underrate newer independent labs with influential recent mechanistic work. The recent-impact score and rising/recent-leader label provide complementary context. Chistol's lab reports 2026 in-press Cell and Nature Communications papers; unverified acceptance dates and unindexed journal versions are not inserted into the September-cutoff citation calculation. See his profile's sources for the distinction between current lab information and ranking evidence.
 
 `career_impact_category` is an expert-curated contextual label:
 
@@ -57,7 +62,7 @@ OpenAlex's first “last known institution” can be a secondary affiliation, fu
 
 ## Publication updates feed
 
-The website's **Updates** tab is a community publication feed for the rolling 190-day date window displayed on the page. It uses OpenAlex author IDs for all 103 people. All indexed works coauthored by those profiles are eligible, including related chromatin, DNA topology, and biophysics work. As of 6 October 2026, the feed no longer excludes records based on title/topic keywords: that earlier filter incorrectly omitted Rueda's INO80 and TOP3α negative-supercoiling preprints. Every API numbered page is retrieved; no first-page limit is applied. Numbered paging avoids OpenAlex's API-key requirement for cursor continuation; any incomplete retrieval retains the previous snapshot. The builder deduplicates works coauthored by more than one roster member and records linked people, venue, DOI/PMID/OpenAlex links, open-access status, and location-version metadata. Indexing delays, incomplete author profiles, and the date-window boundary still limit coverage; this is not a guarantee of every publication from every lab.
+The website's **Updates** tab is a community publication feed for the rolling 190-day date window displayed on the page. It uses OpenAlex author IDs for all 104 people. All indexed works coauthored by those profiles are eligible, including related chromatin, DNA topology, and biophysics work. As of 6 October 2026, the feed no longer excludes records based on title/topic keywords: that earlier filter incorrectly omitted Rueda's INO80 and TOP3α negative-supercoiling preprints. Every API numbered page is retrieved; no first-page limit is applied. Numbered paging avoids OpenAlex's API-key requirement for cursor continuation; any incomplete retrieval retains the previous snapshot. The builder deduplicates works coauthored by more than one roster member and records linked people, venue, DOI/PMID/OpenAlex links, open-access status, and location-version metadata. Indexing delays, incomplete author profiles, and the date-window boundary still limit coverage; this is not a guarantee of every publication from every lab.
 
 Status is inferred as follows for articles/preprints/reviews: `Preprint` from the OpenAlex work type or a submitted version without a published version; `Accepted manuscript` from an accepted version without a published version; `Journal article` from an article whose primary source is a journal. Datasets, peer reviews, editorials, abstracts, and corrections retain their work-type labels even when repository metadata contains an accepted version. Exact-title paper duplicate/version records are collapsed, retaining the strongest current status. Non-paper outputs are deduplicated by DOI or OpenAlex ID, not title, so distinct datasets sharing a generic title are preserved and are never merged into articles. Paper versions with different titles can remain separate; title-based paper merging is a heuristic, not verified version linkage. Current dates, counts, and retrieval mode are recorded in the JSON `meta` object, including `inclusion_rule` and `last_successful_check_date`.
 

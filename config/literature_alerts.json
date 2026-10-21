@@ -2036,20 +2036,26 @@
       "author": {
         "name": "Gheorghe Chistol",
         "aliases": [
-          "Gheorghe Chistol"
+          "Gheorghe Chistol",
+          "Georghe Chistol"
         ],
         "openalex_ids": [
           "A5056925498"
         ],
         "orcid": "https://orcid.org/0000-0003-4868-3667",
-        "affiliation": "",
+        "affiliation": "Stanford University School of Medicine",
         "verified_institutions": [
+          "Stanford University",
+          "Stanford Medicine",
           "Harvard University",
           "University of California, Berkeley"
         ],
         "identity_status": "verified",
-        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
+        "verification_notes": "Reverified 2026-10-21 against Stanford faculty/lab pages and matching ORCID: independent Stanford Chemical and Systems Biology PI, formerly Harvard and Berkeley. Existing alert retained without duplication; database attribution remains source-inferred.",
+        "verified_on": "2026-10-21",
         "verification_urls": [
+          "https://profiles.stanford.edu/gheorghe-chistol",
+          "https://chistol.stanford.edu/",
           "https://openalex.org/A5056925498",
           "https://doi.org/10.1016/j.cell.2011.04.010",
           "https://doi.org/10.1016/j.cell.2018.10.053",

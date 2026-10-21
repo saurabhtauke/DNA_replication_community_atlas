@@ -22,6 +22,10 @@ RAW.mkdir(parents=True, exist_ok=True)
 AS_OF = "2026-09-08"
 RECENT_START = "2021-01-01"
 
+# Later additions retain the original publication cutoff. Record their actual
+# retrieval date separately; cached September evidence for other PIs is intact.
+ADDITION_RETRIEVAL_DATES = {"Gheorghe Chistol": "2026-10-21"}
+
 # Curated for breadth across replication initiation, replisomes, fork stress/repair,
 # genome-wide replication, chromatin inheritance, and single-molecule mechanisms.
 # The first 50 are ranking-eligible. Two requested early-career researchers are
@@ -149,8 +153,14 @@ ALIASES = {
     "Jacob S. Lewis": ["Jacob Lewis"],
 }
 
+# Later verified PI addition; retain all previously requested researchers.
+ROSTER.append(("Gheorghe Chistol", "Stanford", "rising/recent leader",
+               "single-molecule; fluorescence imaging; bulk biochemistry; Xenopus extracts",
+               "replication initiation; CMG helicase; replisome dynamics; replication stress; DNA repair; lagging-strand synthesis; polymerases", 1))
+
 # Known ambiguous/split profiles pinned after manual inspection of titles and affiliations.
 MANUAL_AUTHOR_IDS = {
+    "Gheorghe Chistol": "A5056925498",
     "Michael O'Donnell": "A5051770888",
     "Kenneth J. Marians": "A5068066930",
     "Zhiguo Zhang": "A5100363356",
@@ -183,6 +193,7 @@ CONTINENT = {"US":"North America", "CA":"North America", "GB":"Europe", "DE":"Eu
 # affiliation, consortium address, funder (HHMI), or an obvious metadata collision.
 # Each correction includes an institutional page/domain for human rechecking.
 CURATED_AFFILIATIONS = {
+ "Gheorghe Chistol": ("Stanford University School of Medicine, Chemical and Systems Biology", "Stanford", "United States", "North America", "https://profiles.stanford.edu/gheorghe-chistol"),
  "Lee Zou": ("Massachusetts General Hospital / Harvard Medical School", "Boston", "United States", "North America", "https://www.massgeneral.org/"),
  "Johannes C. Walter": ("Harvard Medical School", "Boston", "United States", "North America", "https://hms.harvard.edu/"),
  "Daniel Durocher": ("Lunenfeld-Tanenbaum Research Institute", "Toronto", "Canada", "North America", "https://www.lunenfeld.ca/"),
@@ -262,6 +273,7 @@ CURATED_AFFILIATIONS = {
 }
 
 LAB_URL_OVERRIDES = {
+ "Gheorghe Chistol": "https://chistol.stanford.edu/",
  "John F. X. Diffley": "https://www.crick.ac.uk/research/labs/john-diffley",
  "Stephen P. Bell": "https://bell-lab.mit.edu/",
  "Joseph T. P. Yeeles": "https://www2.mrc-lmb.cam.ac.uk/group-leaders/t-to-z/joseph-yeeles/",
@@ -345,7 +357,9 @@ def resolve_author(name, expected):
 
 def fetch_works(author_id):
     aid = author_id.rsplit("/", 1)[-1]
+    cutoff = f",to_publication_date:{AS_OF}" if aid in {MANUAL_AUTHOR_IDS[n] for n in ADDITION_RETRIEVAL_DATES} else ""
     url = ("https://api.openalex.org/works?filter=author.id:" + aid +
+           cutoff +
            "&sort=cited_by_count:desc&per-page=200&select=id,doi,display_name,publication_year,publication_date,cited_by_count,authorships,topics,primary_location,type")
     return get_json(url, f"works_{aid}.json").get("results", [])
 
@@ -481,6 +495,23 @@ def main():
             "recent_distinct_collaborators":len(collab), "resolution_confidence_score":round(score,2),
         }
         records.append(rec)
+        if name in ADDITION_RETRIEVAL_DATES:
+            rec["source_notes"] = (
+                f"Added and identity verified {ADDITION_RETRIEVAL_DATES[name]}; OpenAlex metadata/citations retrieved on that date, "
+                f"restricted to works published through {AS_OF} to preserve the survey cutoff. Other researchers retain their original citation snapshots. "
+                f"Rank recalculated across {sum(bool(row[5]) for row in ROSTER)} eligible PIs using the unchanged 55% lifetime / 45% recent formula; provisional mixed-retrieval-date comparison, not a field-wide rank. "
+                "Independent Stanford PI verified at https://profiles.stanford.edu/gheorghe-chistol ; "
+                "research/publication evidence https://chistol.stanford.edu/publications/ ; "
+                "2026 in-press Cell lagging-strand and Nature Communications Mcm10/RecQL4 papers are reported by the lab; acceptance dates are not verified and unindexed journal versions are not added to citation scoring."
+            )
+            rec["top_5_trainees_or_future_leaders"] = " || ".join([
+                "Riki Terui (lab alumnus; first author of 2024 Cell initiation paper and Mcm10/RecQL4 preprint)",
+                "Scott Berger (lab member documented in official lab photos; first author of single-molecule replication methods work)",
+                "Luke D. Lynch (lab member documented in official lab photos; first author of lagging-strand synthesis preprint)",
+                "Larissa Sambel (Stanford PhD advisee; coauthor of initiation work)",
+                "Jinho Park (Stanford postdoctoral fellow; coauthor of lagging-strand and helicase-activation work)",
+            ])
+            rec["trainee_evidence_type"] = "Lab membership/mentorship verified on official lab people/alumni page and Stanford profile, checked 2026-10-21; selection prioritizes first authors and key replication coauthors, not an objective trainee ranking. Sources: https://chistol.stanford.edu/people/ ; https://profiles.stanford.edu/gheorghe-chistol ; https://chistol.stanford.edu/publications/"
         works_by_id[aid] = recent
         author_name_to_roster[norm(author.get("display_name"))] = name
         author_name_to_roster[norm(name)] = name
@@ -542,7 +573,7 @@ def main():
         w=csv.DictWriter(f,fieldnames=nodes[0].keys()); w.writeheader(); w.writerows(nodes)
     with (OUT/"replication_network_edges.csv").open("w",newline="",encoding="utf-8") as f:
         w=csv.DictWriter(f,fieldnames=edges[0].keys() if edges else ["source","target","weight_recent_shared_papers"]); w.writeheader(); w.writerows(edges)
-    (OUT/"replication_community_network.json").write_text(json.dumps({"metadata":{"as_of":AS_OF,"edge_window":f"2021-01-01 through {AS_OF}","node_count":len(nodes),"edge_count":len(edges)},"nodes":[{"id":n["person"],**n} for n in nodes],"edges":edges},indent=2,ensure_ascii=False))
+    (OUT/"replication_community_network.json").write_text(json.dumps({"metadata":{"as_of":AS_OF,"edge_window":f"2021-01-01 through {AS_OF}","node_count":len(nodes),"edge_count":len(edges),"later_addition_retrieval_dates":ADDITION_RETRIEVAL_DATES,"citation_snapshot_note":"Original roster retains September snapshots; later additions use the same publication cutoff but their separately recorded citation retrieval dates."},"nodes":[{"id":n["person"],**n} for n in nodes],"edges":edges},indent=2,ensure_ascii=False))
 
     # Dependency-free GraphML export.
     import xml.etree.ElementTree as ET

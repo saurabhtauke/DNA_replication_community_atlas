@@ -10,7 +10,7 @@ The public site is deployed from `outputs/website/`. Its researcher database, ne
 
 The daily GitHub Actions workflow refreshes the network feed and credential-free literature tracker at **06:00 UTC** (07:00 London during BST, 06:00 during GMT). Delayed starts are not skipped. It validates the feeds, rebuilds the browser bundle, commits changed data/check timestamps, and explicitly invokes the reusable Pages deployment. Manual dispatch is also available under **Actions → Refresh publication updates → Run workflow**.
 
-The network feed includes all OpenAlex-indexed works coauthored by the 103 roster profiles during the rolling 190-day window, including related chromatin, topology, and biophysics work. It retrieves every numbered page and applies no topic gate. If that refresh fails, the previous valid snapshot and check date are retained while the independent tracker can still update. Preprint and accepted-manuscript labels remain source-inferred; see `outputs/README.md`.
+The network feed includes all OpenAlex-indexed works coauthored by the 104 roster profiles during the rolling 190-day window, including related chromatin, topology, and biophysics work. It retrieves every numbered page and applies no topic gate. If that refresh fails, the previous valid snapshot and check date are retained while the independent tracker can still update. Preprint and accepted-manuscript labels remain source-inferred; see `outputs/README.md`.
 
 Rebuilding fingerprints data, application, tracker script, and stylesheet links, so refreshed pages request matching assets. A partial refresh is deployed with visible warnings, then the workflow reports failure so incomplete sources are not mistaken for a complete check.
 

@@ -54,6 +54,8 @@ payload = {
     "meta": {
         "title": "DNA Replication Research Atlas",
         "asOf": "8 September 2026",
+        "rosterUpdatedAt": "21 October 2026",
+        "rankingSnapshotNote": "Publication cutoff 8 September 2026. Gheorghe Chistol added with metadata/citations retrieved 21 October; other researchers retain September evidence. Percentile ranks recomputed across 101 eligible PIs.",
         "recentWindow": "2021–2026",
         "researcherCount": len(researchers),
         "rankedCount": sum(x["ranking_status"] == "ranked" for x in researchers),
