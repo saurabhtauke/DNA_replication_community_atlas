@@ -261,24 +261,6 @@
       }
     },
     {
-      "id": "author-john-king",
-      "name": "John King — new articles",
-      "type": "author",
-      "enabled": false,
-      "author": {
-        "name": "John King",
-        "aliases": [
-          "John King"
-        ],
-        "openalex_ids": [],
-        "orcid": "",
-        "affiliation": "",
-        "identity_status": "needs identity review",
-        "verification_notes": ""
-      },
-      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
-    },
-    {
       "id": "author-isaac-t-s-li",
       "name": "Isaac T. S. Li — new articles",
       "type": "author",
@@ -346,24 +328,6 @@
           "https://doi.org/10.1209/epl/i2003-00504-y"
         ]
       }
-    },
-    {
-      "id": "author-amit-kumar",
-      "name": "Amit Kumar — new articles",
-      "type": "author",
-      "enabled": false,
-      "author": {
-        "name": "Amit Kumar",
-        "aliases": [
-          "Amit Kumar"
-        ],
-        "openalex_ids": [],
-        "orcid": "",
-        "affiliation": "",
-        "identity_status": "needs identity review",
-        "verification_notes": ""
-      },
-      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
     },
     {
       "id": "author-madhusudhan-srinivasan",
@@ -1038,24 +1002,6 @@
       }
     },
     {
-      "id": "author-dhananjay-singh",
-      "name": "Dhananjay Singh — new articles",
-      "type": "author",
-      "enabled": false,
-      "author": {
-        "name": "Dhananjay Singh",
-        "aliases": [
-          "Dhananjay Singh"
-        ],
-        "openalex_ids": [],
-        "orcid": "",
-        "affiliation": "",
-        "identity_status": "needs identity review",
-        "verification_notes": ""
-      },
-      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
-    },
-    {
       "id": "author-jeff-gelles",
       "name": "Jeff Gelles — new articles",
       "type": "author",
@@ -1488,38 +1434,6 @@
       }
     },
     {
-      "id": "author-sabyasachi-rakshit",
-      "name": "Sabyasachi Rakshit — new articles",
-      "type": "author",
-      "enabled": true,
-      "author": {
-        "name": "Sabyasachi Rakshit",
-        "aliases": [
-          "Sabyasachi Rakshit"
-        ],
-        "openalex_ids": [
-          "A5012560225"
-        ],
-        "orcid": "https://orcid.org/0000-0002-8083-6857",
-        "affiliation": "",
-        "verified_institutions": [
-          "Ames National Laboratory",
-          "Indian Institute of Science Education and Research Mohali",
-          "Iowa State University",
-          "United States Department of Energy"
-        ],
-        "identity_status": "verified",
-        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
-        "verification_urls": [
-          "https://openalex.org/A5012560225",
-          "https://doi.org/10.1073/pnas.1208349109",
-          "https://doi.org/10.1038/ncomms4941",
-          "https://doi.org/10.1039/c3cp53963f",
-          "https://doi.org/10.1242/jcs.146316"
-        ]
-      }
-    },
-    {
       "id": "author-jorine-eeftens",
       "name": "Jorine Eeftens — new articles",
       "type": "author",
@@ -1611,24 +1525,6 @@
           "https://doi.org/10.1016/j.cell.2013.07.011"
         ]
       }
-    },
-    {
-      "id": "author-neha-rana",
-      "name": "Neha Rana — new articles",
-      "type": "author",
-      "enabled": false,
-      "author": {
-        "name": "Neha Rana",
-        "aliases": [
-          "Neha Rana"
-        ],
-        "openalex_ids": [],
-        "orcid": "",
-        "affiliation": "",
-        "identity_status": "needs identity review",
-        "verification_notes": ""
-      },
-      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
     },
     {
       "id": "author-shixin-liu",
@@ -2134,24 +2030,6 @@
       }
     },
     {
-      "id": "author-sumit-kumar",
-      "name": "sumit kumar — new articles",
-      "type": "author",
-      "enabled": false,
-      "author": {
-        "name": "sumit kumar",
-        "aliases": [
-          "sumit kumar"
-        ],
-        "openalex_ids": [],
-        "orcid": "",
-        "affiliation": "",
-        "identity_status": "needs identity review",
-        "verification_notes": ""
-      },
-      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
-    },
-    {
       "id": "author-mahipal-ganji",
       "name": "Mahipal Ganji — new articles",
       "type": "author",
@@ -2476,25 +2354,6 @@
         ],
         "title_only": false
       }
-    },
-    {
-      "id": "legacy-john-king-citations",
-      "name": "John King — new citations",
-      "type": "author",
-      "enabled": false,
-      "author": {
-        "name": "John King",
-        "aliases": [
-          "John King"
-        ],
-        "openalex_ids": [],
-        "orcid": "",
-        "affiliation": "",
-        "identity_status": "needs identity review",
-        "verification_notes": ""
-      },
-      "disabled_reason": "Citation monitoring is not implemented in v1; this is not an author-new-paper alert.",
-      "legacy_mode": "citations"
     },
     {
       "id": "legacy-nynke-dekker-citations",

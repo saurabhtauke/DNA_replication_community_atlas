@@ -6,9 +6,9 @@
     "refresh_status": "ok",
     "window_start": "2026-04-13",
     "window_end": "2026-10-20",
-    "publication_count": 1730,
-    "enabled_alert_count": 96,
-    "disabled_alert_count": 9,
+    "publication_count": 1729,
+    "enabled_alert_count": 95,
+    "disabled_alert_count": 3,
     "initial_baseline": false,
     "new_publication_ids": [
       "paper-0642429b5538a0c8d28b",
@@ -448,13 +448,6 @@
         "alert_id": "author-jorg-enderlein",
         "status": "ok",
         "record_count": 9,
-        "checked_at": "2026-10-20T10:39:02Z"
-      },
-      "openalex:author-sabyasachi-rakshit": {
-        "source": "openalex",
-        "alert_id": "author-sabyasachi-rakshit",
-        "status": "ok",
-        "record_count": 2,
         "checked_at": "2026-10-20T10:39:02Z"
       },
       "openalex:author-steven-f-lee": {
@@ -1072,13 +1065,6 @@
         "alert_id": "author-matthew-d-newton",
         "status": "ok",
         "record_count": 0,
-        "checked_at": "2026-10-20T10:39:02Z"
-      },
-      "europe_pmc:author-sabyasachi-rakshit": {
-        "source": "europe_pmc",
-        "alert_id": "author-sabyasachi-rakshit",
-        "status": "ok",
-        "record_count": 2,
         "checked_at": "2026-10-20T10:39:02Z"
       },
       "europe_pmc:author-steven-f-lee": {
@@ -2049,24 +2035,6 @@
       }
     },
     {
-      "id": "author-john-king",
-      "name": "John King — new articles",
-      "type": "author",
-      "enabled": false,
-      "author": {
-        "name": "John King",
-        "aliases": [
-          "John King"
-        ],
-        "openalex_ids": [],
-        "orcid": "",
-        "affiliation": "",
-        "identity_status": "needs identity review",
-        "verification_notes": ""
-      },
-      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
-    },
-    {
       "id": "author-isaac-t-s-li",
       "name": "Isaac T. S. Li — new articles",
       "type": "author",
@@ -2134,24 +2102,6 @@
           "https://doi.org/10.1209/epl/i2003-00504-y"
         ]
       }
-    },
-    {
-      "id": "author-amit-kumar",
-      "name": "Amit Kumar — new articles",
-      "type": "author",
-      "enabled": false,
-      "author": {
-        "name": "Amit Kumar",
-        "aliases": [
-          "Amit Kumar"
-        ],
-        "openalex_ids": [],
-        "orcid": "",
-        "affiliation": "",
-        "identity_status": "needs identity review",
-        "verification_notes": ""
-      },
-      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
     },
     {
       "id": "author-madhusudhan-srinivasan",
@@ -2826,24 +2776,6 @@
       }
     },
     {
-      "id": "author-dhananjay-singh",
-      "name": "Dhananjay Singh — new articles",
-      "type": "author",
-      "enabled": false,
-      "author": {
-        "name": "Dhananjay Singh",
-        "aliases": [
-          "Dhananjay Singh"
-        ],
-        "openalex_ids": [],
-        "orcid": "",
-        "affiliation": "",
-        "identity_status": "needs identity review",
-        "verification_notes": ""
-      },
-      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
-    },
-    {
       "id": "author-jeff-gelles",
       "name": "Jeff Gelles — new articles",
       "type": "author",
@@ -3276,38 +3208,6 @@
       }
     },
     {
-      "id": "author-sabyasachi-rakshit",
-      "name": "Sabyasachi Rakshit — new articles",
-      "type": "author",
-      "enabled": true,
-      "author": {
-        "name": "Sabyasachi Rakshit",
-        "aliases": [
-          "Sabyasachi Rakshit"
-        ],
-        "openalex_ids": [
-          "A5012560225"
-        ],
-        "orcid": "https://orcid.org/0000-0002-8083-6857",
-        "affiliation": "",
-        "verified_institutions": [
-          "Ames National Laboratory",
-          "Indian Institute of Science Education and Research Mohali",
-          "Iowa State University",
-          "United States Department of Energy"
-        ],
-        "identity_status": "verified",
-        "verification_notes": "Reviewed public OpenAlex ID, ORCID where supplied, authorship institutions and representative publications; database attribution remains source-inferred.",
-        "verification_urls": [
-          "https://openalex.org/A5012560225",
-          "https://doi.org/10.1073/pnas.1208349109",
-          "https://doi.org/10.1038/ncomms4941",
-          "https://doi.org/10.1039/c3cp53963f",
-          "https://doi.org/10.1242/jcs.146316"
-        ]
-      }
-    },
-    {
       "id": "author-jorine-eeftens",
       "name": "Jorine Eeftens — new articles",
       "type": "author",
@@ -3399,24 +3299,6 @@
           "https://doi.org/10.1016/j.cell.2013.07.011"
         ]
       }
-    },
-    {
-      "id": "author-neha-rana",
-      "name": "Neha Rana — new articles",
-      "type": "author",
-      "enabled": false,
-      "author": {
-        "name": "Neha Rana",
-        "aliases": [
-          "Neha Rana"
-        ],
-        "openalex_ids": [],
-        "orcid": "",
-        "affiliation": "",
-        "identity_status": "needs identity review",
-        "verification_notes": ""
-      },
-      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
     },
     {
       "id": "author-shixin-liu",
@@ -3916,24 +3798,6 @@
       }
     },
     {
-      "id": "author-sumit-kumar",
-      "name": "sumit kumar — new articles",
-      "type": "author",
-      "enabled": false,
-      "author": {
-        "name": "sumit kumar",
-        "aliases": [
-          "sumit kumar"
-        ],
-        "openalex_ids": [],
-        "orcid": "",
-        "affiliation": "",
-        "identity_status": "needs identity review",
-        "verification_notes": ""
-      },
-      "disabled_reason": "Needs identity review: name alone is not a reliable author identifier."
-    },
-    {
       "id": "author-mahipal-ganji",
       "name": "Mahipal Ganji — new articles",
       "type": "author",
@@ -4258,25 +4122,6 @@
         ],
         "title_only": false
       }
-    },
-    {
-      "id": "legacy-john-king-citations",
-      "name": "John King — new citations",
-      "type": "author",
-      "enabled": false,
-      "author": {
-        "name": "John King",
-        "aliases": [
-          "John King"
-        ],
-        "openalex_ids": [],
-        "orcid": "",
-        "affiliation": "",
-        "identity_status": "needs identity review",
-        "verification_notes": ""
-      },
-      "disabled_reason": "Citation monitoring is not implemented in v1; this is not an author-new-paper alert.",
-      "legacy_mode": "citations"
     },
     {
       "id": "legacy-nynke-dekker-citations",
@@ -4688,7 +4533,6 @@
     "europe_pmc:author-matthew-d-newton": "2026-10-20T10:39:02Z",
     "europe_pmc:author-ralf-seidel": "2026-10-20T10:39:02Z",
     "europe_pmc:author-erin-cutts": "2026-10-20T10:39:02Z",
-    "europe_pmc:author-sabyasachi-rakshit": "2026-10-20T10:39:02Z",
     "europe_pmc:author-jorine-eeftens": "2026-10-20T10:39:02Z",
     "europe_pmc:author-steven-f-lee": "2026-10-20T10:39:02Z",
     "europe_pmc:author-geeta-narlikar": "2026-10-20T10:39:02Z",
@@ -4792,7 +4636,6 @@
     "openalex:author-philip-tinnefeld": "2026-10-20T10:39:02Z",
     "openalex:author-erin-cutts": "2026-10-20T10:39:02Z",
     "openalex:author-ralf-seidel": "2026-10-20T10:39:02Z",
-    "openalex:author-sabyasachi-rakshit": "2026-10-20T10:39:02Z",
     "openalex:author-jorine-eeftens": "2026-10-20T10:39:02Z",
     "openalex:author-shixin-liu": "2026-10-20T10:39:02Z",
     "openalex:author-geeta-narlikar": "2026-10-20T10:39:02Z",
@@ -5085,9 +4928,6 @@
     "id:paper-22ba435ab02180449b69": "2026-10-06T19:59:16Z",
     "doi:10.1002/pro.70663": "2026-10-06T19:59:16Z",
     "source:europe_pmc:MED:42226344": "2026-10-06T19:59:16Z",
-    "id:paper-a9bda50f0044ca1dcc26": "2026-10-06T19:59:16Z",
-    "doi:10.64898/2026.05.06.723198": "2026-10-06T19:59:16Z",
-    "source:europe_pmc:PPR:PPR1211100": "2026-10-06T19:59:16Z",
     "id:paper-742e1a8d65c7c8635b0c": "2026-10-06T19:59:16Z",
     "doi:10.1038/s44319-026-00894-2": "2026-10-06T19:59:16Z",
     "source:europe_pmc:MED:42686850": "2026-10-06T19:59:16Z",
@@ -9203,7 +9043,6 @@
     "source:openalex:https://openalex.org/W7160926344": "2026-10-06T19:59:16Z",
     "source:openalex:https://openalex.org/W7160834450": "2026-10-06T19:59:16Z",
     "source:openalex:https://openalex.org/W7160707344": "2026-10-06T19:59:16Z",
-    "source:openalex:https://openalex.org/W7160758793": "2026-10-06T19:59:16Z",
     "source:openalex:https://openalex.org/W7160718177": "2026-10-06T19:59:16Z",
     "source:openalex:https://openalex.org/W7160704222": "2026-10-06T19:59:16Z",
     "source:openalex:https://openalex.org/W7160633288": "2026-10-06T19:59:16Z",
@@ -83772,7 +83611,6 @@
         }
       ],
       "alert_ids": [
-        "author-sabyasachi-rakshit",
         "topic-magnetic-tweezers"
       ],
       "author_ids": [
@@ -93522,60 +93360,6 @@
       ],
       "related_publication_dois": [],
       "id": "paper-cc1a5a28a44f58ed4286",
-      "first_discovered_at": "2026-10-06T19:59:16Z",
-      "last_seen_at": "2026-10-20T10:39:02Z"
-    },
-    {
-      "title": "CRTAC1-A reprograms extracellular matrix viscoelasticity to constrain glioma progression",
-      "authors": [
-        "Singh V",
-        "Swadia D",
-        "Saha P",
-        "Nath D",
-        "Deokate N",
-        "Rakshit S"
-      ],
-      "publication_date": "2026-05-09",
-      "venue": "Preprint",
-      "doi": "10.64898/2026.05.06.723198",
-      "abstract": "Abstract Mechanical remodeling of the extracellular matrix (ECM) influences glioma progression, yet the molecular regulators that control tumor matrix mechanics remain poorly understood. By comparing low-grade gliomas (LGGs), associated with improved patient survival, with glioblastomas (GBMs), which carry a poor prognosis, we identified the cartilage-derived ECM protein CRTAC1-A as enriched in LGGs and significantly reduced in GBMs, with elevated expression correlating with improved patient survival. Restoration of CRTAC1-A suppressed glioma cell proliferation and invasion and enhanced temozolomide efficacy in three-dimensional tumor spheroid models. Mechanistically, CRTAC1-A directly interacts with collagen I and reorganizes collagen networks across multiple length scales, generating a mechanically compliant yet structurally resilient ECM with reduced stiffness, enhanced elastic recovery, and resistance to persistent remodeling. This viscoelastic normalization limits invasive remodeling while preserving matrix permeability and drug penetration. Together, these findings identify CRTAC1-A as a reversible regulator of tumor ECM mechanics that suppresses glioma malignancy.",
-      "url": "https://doi.org/10.64898/2026.05.06.723198",
-      "preprint_url": "https://doi.org/10.64898/2026.05.06.723198",
-      "status": "Preprint",
-      "sources": [
-        "europe_pmc",
-        "openalex"
-      ],
-      "enrichment_sources": [],
-      "source_records": [
-        {
-          "source": "europe_pmc",
-          "id": "PPR:PPR1211100"
-        },
-        {
-          "source": "openalex",
-          "id": "https://openalex.org/W7160758793"
-        }
-      ],
-      "alert_ids": [
-        "author-sabyasachi-rakshit"
-      ],
-      "author_ids": [
-        "A5012560225",
-        "A5055252873",
-        "A5085007131",
-        "A5098163013",
-        "A5103222589",
-        "A5135804280"
-      ],
-      "author_orcids": [
-        "0000-0002-5935-4183",
-        "0000-0002-8083-6857",
-        "0009-0002-2834-4676",
-        "0009-0009-5065-1972"
-      ],
-      "related_publication_dois": [],
-      "id": "paper-a9bda50f0044ca1dcc26",
       "first_discovered_at": "2026-10-06T19:59:16Z",
       "last_seen_at": "2026-10-20T10:39:02Z"
     },
