@@ -1,12 +1,12 @@
 # DNA Replication Researchers Survey
 
-Original data snapshot: **8 September 2026**; roster extended **21 October 2026**
+Ranking evidence refreshed: **21 October 2026**; roster extended **21 October 2026**
 
-Recent window: **1 January 2021–8 September 2026**
+Recent window: **1 January 2021–21 October 2026**
 
 This release contains a curated, globally distributed survey of **101 ranking-eligible active researchers/PIs** in DNA replication and closely coupled fork-stress/repair biology, plus **3 explicitly unranked requested researchers** (Jacob S. Lewis, Lisanne Spenkelink, and Thomas C. R. Miller). Gheorghe Chistol (Stanford) was added as a ranked rising/recent leader on 21 October 2026; nobody was removed. Joseph Yeeles, Tom Deegan, and Christoph Kurat remain ranked; all previously requested names remain present.
 
-Chistol's identity, Stanford affiliation and ORCID were checked against his [faculty profile](https://profiles.stanford.edu/gheorghe-chistol), [lab publications](https://chistol.stanford.edu/publications/) and [lab team](https://chistol.stanford.edu/people/). His publications use the same 8 September cutoff, but his citation metadata was retrieved on 21 October; the other researchers' evidence remains the original September snapshot. Percentiles were recomputed across all 101 eligible PIs using the unchanged formula. This is a provisional mixed-retrieval-date comparison, not a new full-field assessment. His existing literature alert was retained and its Stanford identity evidence updated, not duplicated.
+Chistol's identity, Stanford affiliation and ORCID were checked against his [faculty profile](https://profiles.stanford.edu/gheorghe-chistol), [lab publications](https://chistol.stanford.edu/publications/) and [lab team](https://chistol.stanford.edu/people/). The historical baseline used a September publication cutoff with October citation retrieval for Chistol. Once a complete monthly refresh succeeds, all profiles use the new retrieval date and publication cutoff recorded in `ranking_refresh.json`. Percentiles retain the same formula and curated roster. His existing literature alert was retained and its Stanford identity evidence updated, not duplicated.
 
 The list is intended for field mapping and hypothesis generation—not as a definitive or purely objective league table. Coverage spans initiation/licensing, replisome mechanism, replication timing, chromatin inheritance, replication stress and repair, bacterial replication, structural biology, single-molecule biophysics, cell biology, genomics, and proteomics.
 
@@ -33,7 +33,7 @@ Only rows with `ranking_status=ranked` receive a rank. Scores are percentile-bas
 
 Percentiles reduce domination by a few extreme citation outliers. Citation counts are OpenAlex counts at retrieval time and will drift. Ranking should be interpreted in bands rather than as meaningful one-place differences.
 
-The lifetime-weighted metric can substantially underrate newer independent labs with influential recent mechanistic work. The recent-impact score and rising/recent-leader label provide complementary context. Chistol's lab reports 2026 in-press Cell and Nature Communications papers; unverified acceptance dates and unindexed journal versions are not inserted into the September-cutoff citation calculation. See his profile's sources for the distinction between current lab information and ranking evidence.
+The lifetime-weighted metric can substantially underrate newer independent labs with influential recent mechanistic work. The recent-impact score and rising/recent-leader label provide complementary context. Chistol's lab reports 2026 in-press Cell and Nature Communications papers; unverified acceptance dates and unindexed journal versions are not inserted into citation scoring. See his profile's sources for the distinction between current lab information and ranking evidence.
 
 `career_impact_category` is an expert-curated contextual label:
 
@@ -160,3 +160,9 @@ For detailed filtering and plotting, read the two CSVs with pandas, split semico
 - OpenAlex can merge or split identities and normalize titles imperfectly. Consult `author_resolution_audit.csv` and the linked records.
 - Normalized technique/area categories are many-to-many curated summaries, not exhaustive inventories. Granular descriptions are retained in the detail columns.
 - Do not use this dataset alone for hiring, awards, or other high-stakes individual evaluation.
+
+## Monthly ranking refresh
+
+See the repository README for the monthly GitHub Actions schedule and failure recovery. `ranking_refresh.json` records the last complete successful evidence retrieval and publication cutoff; `ranking_history/` preserves dated researcher CSVs and metadata plus the original pre-automation baseline. The original baseline is a mixed September/October snapshot. The automated refresh keeps the same curated roster, pinned identities, eligibility and scoring weights. It does not discover or approve new PIs or reverify curated affiliations, techniques or manually verified mentorship.
+
+Ranking evidence retains the original sampling method: up to the 200 most-cited works per author in each of the lifetime and recent windows, followed by topic filtering. Thus work/citation/collaborator counts and the five recent lab-paper lists are limited to that sample, not exhaustive outputs. The recent window starts on 1 January 2021 and ends at each refresh cutoff. Legacy CSV column names containing `2021_2026` remain stable; consult the metadata for the actual end date. Future-year site labels follow the metadata.

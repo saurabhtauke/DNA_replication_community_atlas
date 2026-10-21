@@ -74,11 +74,11 @@ const chistol=survey.researchers.find(r=>r.person==='Gheorghe Chistol');
 assert(chistol && chistol.rank && chistol.career_impact_category==='rising/recent leader');
 assert.equal(survey.meta.rankedCount,101);
 assert.equal(survey.researchers.length,104);
-const profileContext={$,byName:new Map(survey.researchers.map(r=>[r.person,r])),escapeHtml:v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))};
+const profileContext={DATA:survey,$,byName:new Map(survey.researchers.map(r=>[r.person,r])),escapeHtml:v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))};
 $('#profileDialog').showModal=()=>{};
 vm.createContext(profileContext);
 vm.runInContext(app.slice(app.indexOf('  function cardTemplate'),app.indexOf('\n  let networkSimulation'))+';openProfile("Gheorghe Chistol");',profileContext);
-for(const expected of ['Gheorghe Chistol',`#${chistol.rank}`,'Stanford','https://chistol.stanford.edu/','mixed-retrieval-date','Riki Terui','10.1016/j.cell.2024.05.024']){
+for(const expected of ['Gheorghe Chistol',`#${chistol.rank}`,'Stanford','https://chistol.stanford.edu/',(survey.meta.rankingLastSuccessfulCheckAt?'freshly retrieved':'mixed-retrieval-date'),'Riki Terui','10.1016/j.cell.2024.05.024']){
   assert($('#profileContent').innerHTML.includes(expected),`Profile missing ${expected}`);
 }
 console.log('Chistol researcher profile and generated roster checks passed.');

@@ -28,7 +28,7 @@
     <section id="overview" class="view is-active" aria-labelledby="overviewTitle">
       <div class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Global field map · publication cutoff 8 September 2026 · roster updated 21 October 2026</p>
+          <p class="eyebrow" id="rankingDates">Global field map · publication cutoff 21 October 2026 · roster updated 21 October 2026</p>
           <h1 id="overviewTitle">The people shaping<br><em>DNA replication</em></h1>
           <p class="hero-deck">Explore influential labs, emerging leaders, methodological communities, and the recent collaborations that connect them.</p>
           <div class="hero-actions">
@@ -62,10 +62,10 @@
 
     <section id="researchers" class="view" aria-labelledby="researchersTitle">
       <div class="page-heading section-shell">
-        <p class="eyebrow">101 ranked · 3 requested additions</p>
+        <p class="eyebrow" id="directoryCounts">101 ranked · 3 requested additions</p>
         <h1 id="researchersTitle">Researcher directory</h1>
         <p>Search the field, combine filters, and open any profile for papers, collaborators, expertise, and source links.</p>
-        <p class="micro-note">Chistol added 21 October 2026. Ranking retains the 8 September publication cutoff; his October citation retrieval is compared with the original September snapshots. See his profile for evidence and limitations.</p>
+        <p class="micro-note" id="rankingSnapshotNote">All 104 roster profiles refreshed from OpenAlex 2026-10-21; publication cutoff 2026-10-21. Recent window starts 1 January 2021. Curated affiliations, methods and verified trainee evidence retain their original review dates. Last successful ranking check: 21 October 2026 at 09:20 UTC. Up to 200 most-cited works per author per window before topic filtering; not exhaustive lifetime output or a field-wide ranking.</p>
       </div>
       <div class="directory-layout section-shell">
         <aside class="filter-panel" aria-label="Researcher filters">
@@ -86,7 +86,7 @@
 
     <section id="network" class="view" aria-labelledby="networkTitle">
       <div class="page-heading section-shell network-heading">
-        <div><p class="eyebrow">Evidence-backed coauthorship · 2021–2026</p><h1 id="networkTitle">Collaboration network</h1><p>Each line is supported by at least one shared field-relevant paper. Select a researcher or collaboration to inspect the evidence.</p></div>
+        <div><p class="eyebrow" id="networkWindow">Evidence-backed coauthorship · 2021–2026</p><h1 id="networkTitle">Collaboration network</h1><p>Each line is supported by at least one shared field-relevant paper. Select a researcher or collaboration to inspect the evidence.</p></div>
         <div class="network-controls">
           <label>Color nodes by <select id="networkColor"><option value="career">Career group</option><option value="continent">Continent</option></select></label>
           <label class="toggle-control"><input id="labelToggle" type="checkbox"><span>Labels</span></label>
@@ -189,8 +189,8 @@
 
   <div id="tooltip" class="tooltip" role="tooltip"></div>
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
-  <script src="data.js?v=0f2694cfe1f0"></script>
+  <script src="data.js?v=b4b7d530271f"></script>
   <script src="literature.js?v=7eae5b1165b4"></script>
-  <script src="app.js?v=63cb7660111c"></script>
+  <script src="app.js?v=c13ac976aeec"></script>
 </body>
 </html>

@@ -5,6 +5,8 @@ import csv
 import hashlib
 import json
 import re
+from datetime import date, datetime, timezone
+from html import escape
 from pathlib import Path
 
 from literature_tracker import validate_store, website_payload
@@ -50,13 +52,26 @@ for edge in edges:
     edge["shared_citation_sum"] = int(edge["shared_citation_sum"])
     edge["supporting_papers_list"] = [x.strip() for x in edge["supporting_papers"].split(" || ") if x.strip()]
 
+ranking_path = out / "ranking_refresh.json"
+ranking = json.loads(ranking_path.read_text()) if ranking_path.exists() else {}
+def display_date(value):
+    return date.fromisoformat(value).strftime("%d %B %Y").lstrip("0")
+
+cutoff = display_date(ranking.get("publication_cutoff", "2026-09-08"))
+recent_window = "2021–" + ranking.get("recent_end", "2026-09-08")[:4]
+snapshot_note = ranking.get("snapshot_note", "Publication cutoff 8 September 2026. Gheorghe Chistol added with metadata/citations retrieved 21 October; other researchers retain September evidence. Percentile ranks recomputed across 101 eligible PIs.")
+if ranking:
+    checked = datetime.fromisoformat(ranking["last_successful_check_at"]).astimezone(timezone.utc)
+    snapshot_note += " Last successful ranking check: " + checked.strftime("%d %B %Y at %H:%M UTC").lstrip("0") + ". " + ranking["sampling"]
+
 payload = {
     "meta": {
         "title": "DNA Replication Research Atlas",
-        "asOf": "8 September 2026",
-        "rosterUpdatedAt": "21 October 2026",
-        "rankingSnapshotNote": "Publication cutoff 8 September 2026. Gheorghe Chistol added with metadata/citations retrieved 21 October; other researchers retain September evidence. Percentile ranks recomputed across 101 eligible PIs.",
-        "recentWindow": "2021–2026",
+        "asOf": cutoff,
+        "rosterUpdatedAt": display_date(ranking.get("roster_updated_at", "2026-10-21")),
+        "rankingSnapshotNote": snapshot_note,
+        "rankingLastSuccessfulCheckAt": ranking.get("last_successful_check_at"),
+        "recentWindow": recent_window,
         "researcherCount": len(researchers),
         "rankedCount": sum(x["ranking_status"] == "ranked" for x in researchers),
         "edgeCount": len(edges),
@@ -77,6 +92,16 @@ payload = {
 index_path = site / "index.html"
 if index_path.exists():
     html = index_path.read_text(encoding="utf-8")
+    for element_id, value in {
+        "rankingDates": f"Global field map · publication cutoff {cutoff} · roster updated {payload['meta']['rosterUpdatedAt']}",
+        "rankingSnapshotNote": snapshot_note,
+        "directoryCounts": f"{payload['meta']['rankedCount']} ranked · {len(researchers) - payload['meta']['rankedCount']} requested additions",
+        "networkWindow": f"Evidence-backed coauthorship · {recent_window}",
+    }.items():
+        html, count = re.subn(rf'(<p\b[^>]*\bid="{element_id}"[^>]*>).*?(</p>)',
+                              lambda m: m[1] + escape(value) + m[2], html)
+        if count != 1:
+            raise RuntimeError(f"Expected one metadata element: {element_id}")
     for asset in ("data.js", "app.js", "literature.js", "styles.css"):
         attribute = "href" if asset.endswith(".css") else "src"
         digest = hashlib.sha256((site / asset).read_bytes()).hexdigest()[:12]
@@ -88,4 +113,11 @@ if index_path.exists():
         if replacements != 1:
             raise RuntimeError(f"Expected exactly one asset reference for {asset}")
     index_path.write_text(html, encoding="utf-8")
+if ranking:
+    readme_path = out / "README.md"
+    readme = readme_path.read_text()
+    readme = re.sub(r"^(?:Original data snapshot:|Ranking evidence refreshed:).*?$",
+                    f"Ranking evidence refreshed: **{cutoff}**; roster extended **21 October 2026**", readme, flags=re.M)
+    readme = re.sub(r"^Recent window:.*?$", f"Recent window: **1 January 2021–{cutoff}**", readme, flags=re.M)
+    readme_path.write_text(readme)
 print(site / "data.js")

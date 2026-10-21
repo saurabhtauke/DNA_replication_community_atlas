@@ -38,7 +38,7 @@ class SurveyTests(unittest.TestCase):
         chistol = next(r for r in rows if r["person"] == "Gheorghe Chistol")
         self.assertEqual(chistol["orcid"], "https://orcid.org/0000-0003-4868-3667")
         self.assertEqual(chistol["lab_website_url"], "https://chistol.stanford.edu/")
-        self.assertIn("mixed-retrieval-date", chistol["source_notes"])
+        self.assertIn("freshly retrieved" if (survey.OUT / "ranking_refresh.json").exists() else "mixed-retrieval-date", chistol["source_notes"])
         self.assertEqual(len(chistol["top_5_trainees_or_future_leaders"].split(" || ")), 5)
 
     def test_network_formats_agree_and_keep_the_added_pi(self):

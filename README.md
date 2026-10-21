@@ -6,6 +6,16 @@ An interactive, data-driven survey of active DNA-replication researchers, their 
 
 The public site is deployed from `outputs/website/`. Its researcher database, network exports, publication-update feed, methods, evidence caveats, and data dictionary are documented in [outputs/README.md](outputs/README.md).
 
+## Monthly ranking refresh
+
+**GitHub Actions is the authoritative scheduler and publisher.** The monthly workflow runs at **04:23 UTC on the 1st**, with catch-up attempts at the same time on the 2nd and 3rd. This is 04:23 London in GMT and 05:23 in BST. GitHub schedules are best-effort and may start late. A successful evidence retrieval in the current UTC month skips repeat retrieval; catch-up runs still redeploy the last validated snapshot in case deployment previously failed. Editing the workflow on main also triggers a run, and **Actions → Refresh monthly rankings → Run workflow** provides manual recovery.
+
+Each refresh retrieves live OpenAlex evidence for every existing pinned researcher identity, advances the publication cutoff, retains the 1 January 2021 recent-window start and the existing 55% lifetime / 45% recent formula, and preserves the 101 ranked / 3 unranked distinction. It uses a new temporary API cache per run, never a previous month's responses. The original top-200-per-window sampling stays unchanged and is disclosed on the site. This refresh updates the current roster; adding/removing people and rechecking curated lab/affiliation/method/mentorship information requires curation.
+
+Retrieval is staged away from published files. Identity/ORCID changes, missing profiles, loss of all previous relevant evidence, invalid scores or inconsistent network exports stop publication. A complete validated snapshot is committed with `outputs/ranking_refresh.json` and dated CSV/metadata under `outputs/ranking_history/`, then the reusable Pages deployment is called explicitly. The site displays the last successful ranking check independently of daily publication-feed checks. Failed retrieval or validation leaves the published snapshot and successful-check date unchanged; GitHub Actions records the failure. Failed deployments retain the prior live site and are retried by the catch-up runs. Workflow run summaries report the successful cutoff and sampling limits. GitHub's normal Actions failure notifications apply according to your account settings.
+
+The monthly and daily workflows share a concurrency group so data writers cannot overlap. No OpenAlex secret or paid model is required; anonymous provider limits/outages can cause a visible failed run, which can be retried manually. Local execution: `python work/refresh_rankings.py`, then the normal validation and website build commands below.
+
 ## Publication updates
 
 The daily GitHub Actions workflow refreshes the network feed and credential-free literature tracker at **06:00 UTC** (07:00 London during BST, 06:00 during GMT). Delayed starts are not skipped. It validates the feeds, rebuilds the browser bundle, commits changed data/check timestamps, and explicitly invokes the reusable Pages deployment. Manual dispatch is also available under **Actions → Refresh publication updates → Run workflow**.

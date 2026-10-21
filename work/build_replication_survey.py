@@ -21,6 +21,7 @@ OUT.mkdir(exist_ok=True)
 RAW.mkdir(parents=True, exist_ok=True)
 AS_OF = "2026-09-08"
 RECENT_START = "2021-01-01"
+FRESH_REFRESH = False
 
 # Later additions retain the original publication cutoff. Record their actual
 # retrieval date separately; cached September evidence for other PIs is intact.
@@ -317,12 +318,14 @@ def get_json(url: str, cache_name: str):
     p = RAW / cache_name
     if p.exists():
         return json.loads(p.read_text())
-    req = urllib.request.Request(url, headers={"User-Agent":"replication-survey/1.0 (academic data curation; mailto:research@example.org)"})
+    req = urllib.request.Request(url, headers={"User-Agent":"DNAReplicationResearchAtlas/1.0 (academic field-mapping project)"})
     last_error = None
     for attempt in range(6):
         try:
             with urllib.request.urlopen(req, timeout=90) as f:
                 data = json.load(f)
+            if not isinstance(data, dict) or data.get("error"):
+                raise RuntimeError("Invalid OpenAlex response")
             break
         except Exception as exc:
             last_error = exc
@@ -339,6 +342,8 @@ def resolve_author(name, expected):
     if name in MANUAL_AUTHOR_IDS:
         aid = MANUAL_AUTHOR_IDS[name]
         a = get_json(f"https://api.openalex.org/authors/{aid}", f"author_{aid}.json")
+        if (a.get("id") or "").rsplit("/", 1)[-1] != aid:
+            raise RuntimeError(f"Pinned author identity changed for {name}; review required")
         return a, 20.0
     q = urllib.parse.quote(name)
     data = get_json(f"https://api.openalex.org/authors?search={q}&per-page=10", f"author_search_{norm(name)}.json")
@@ -357,18 +362,24 @@ def resolve_author(name, expected):
 
 def fetch_works(author_id):
     aid = author_id.rsplit("/", 1)[-1]
-    cutoff = f",to_publication_date:{AS_OF}" if aid in {MANUAL_AUTHOR_IDS[n] for n in ADDITION_RETRIEVAL_DATES} else ""
+    cutoff = f",to_publication_date:{AS_OF}" if FRESH_REFRESH or aid in {MANUAL_AUTHOR_IDS[n] for n in ADDITION_RETRIEVAL_DATES} else ""
     url = ("https://api.openalex.org/works?filter=author.id:" + aid +
            cutoff +
            "&sort=cited_by_count:desc&per-page=200&select=id,doi,display_name,publication_year,publication_date,cited_by_count,authorships,topics,primary_location,type")
-    return get_json(url, f"works_{aid}.json").get("results", [])
+    data = get_json(url, f"works_{aid}.json")
+    if not isinstance(data.get("results"), list):
+        raise RuntimeError(f"Missing works for {aid}")
+    return data["results"]
 
 def fetch_recent_works(author_id):
     aid = author_id.rsplit("/", 1)[-1]
     url = ("https://api.openalex.org/works?filter=author.id:" + aid +
            f",from_publication_date:{RECENT_START},to_publication_date:{AS_OF}" +
            "&sort=cited_by_count:desc&per-page=200&select=id,doi,display_name,publication_year,publication_date,cited_by_count,authorships,topics,primary_location,type")
-    return get_json(url, f"recent_works_{aid}_{AS_OF}.json").get("results", [])
+    data = get_json(url, f"recent_works_{aid}_{AS_OF}.json")
+    if not isinstance(data.get("results"), list):
+        raise RuntimeError(f"Missing recent works for {aid}")
+    return data["results"]
 
 def topic_text(w):
     return " ".join(t.get("display_name", "") for t in w.get("topics", []))
@@ -402,8 +413,8 @@ def main():
     for idx, (name, expected, stage, techniques, subfields, eligible) in enumerate(ROSTER, 1):
         author, score = resolve_author(name, expected)
         if not author:
-            resolution.append({"person":name,"status":"UNRESOLVED"})
-            continue
+            raise RuntimeError(f"Unresolved roster member: {name}")
+        print(f"[{idx}/{len(ROSTER)}] {name}", flush=True)
         aid = author["id"].rsplit("/", 1)[-1]
         works = fetch_works(author["id"])
         recent_works = fetch_recent_works(author["id"])
@@ -512,6 +523,13 @@ def main():
                 "Jinho Park (Stanford postdoctoral fellow; coauthor of lagging-strand and helicase-activation work)",
             ])
             rec["trainee_evidence_type"] = "Lab membership/mentorship verified on official lab people/alumni page and Stanford profile, checked 2026-10-21; selection prioritizes first authors and key replication coauthors, not an objective trainee ranking. Sources: https://chistol.stanford.edu/people/ ; https://profiles.stanford.edu/gheorghe-chistol ; https://chistol.stanford.edu/publications/"
+        if FRESH_REFRESH:
+            rec["source_notes"] = (
+                f"OpenAlex metadata/citations freshly retrieved {AS_OF}; publication cutoff {AS_OF}. "
+                "Unchanged 55% lifetime / 45% recent within-roster formula; recent window starts 2021-01-01. "
+                "Each window samples at most the 200 most-cited works before topic filtering; counts are sampled, not exhaustive. "
+                "Pinned author identity retained; curated affiliations, methods and manually verified trainee evidence are not reverified by this automated refresh."
+            )
         works_by_id[aid] = recent
         author_name_to_roster[norm(author.get("display_name"))] = name
         author_name_to_roster[norm(name)] = name
@@ -545,9 +563,9 @@ def main():
         "lifetime_relevant_works","lifetime_relevant_citations","recent_relevant_works","recent_relevant_citations","recent_distinct_collaborators","openalex_author_id","orcid","author_source_url","affiliation_source_url","lab_website_url","lab_website_link_type","google_scholar_url","google_scholar_link_type","works_source_url","source_notes","resolution_confidence_score"
     ]
     with (OUT/"dna_replication_researchers.csv").open("w",newline="",encoding="utf-8") as f:
-        w=csv.DictWriter(f,fieldnames=fields); w.writeheader(); w.writerows(records)
+        w=csv.DictWriter(f,lineterminator="\n",fieldnames=fields); w.writeheader(); w.writerows(records)
     with (OUT/"author_resolution_audit.csv").open("w",newline="",encoding="utf-8") as f:
-        keys=sorted(set().union(*(x.keys() for x in resolution))); w=csv.DictWriter(f,fieldnames=keys); w.writeheader(); w.writerows(resolution)
+        keys=sorted(set().union(*(x.keys() for x in resolution))); w=csv.DictWriter(f,lineterminator="\n",fieldnames=keys); w.writeheader(); w.writerows(resolution)
 
     # Researcher nodes and recent coauthorship edges among roster members.
     nodes=[]
@@ -570,9 +588,9 @@ def main():
         edges.append({"source":by_aid[a]["person"],"target":by_aid[b]["person"],"weight_recent_shared_papers":len(ps),"shared_citation_sum":sum(w.get("cited_by_count",0) for w in ps),"supporting_papers":" || ".join(paper_string(w) for w in ps),"years":";".join(str(w.get("publication_year")) for w in ps),"evidence_source":"OpenAlex coauthorship metadata"})
     edges.sort(key=lambda e:(e["weight_recent_shared_papers"],e["shared_citation_sum"]),reverse=True)
     with (OUT/"replication_network_nodes.csv").open("w",newline="",encoding="utf-8") as f:
-        w=csv.DictWriter(f,fieldnames=nodes[0].keys()); w.writeheader(); w.writerows(nodes)
+        w=csv.DictWriter(f,lineterminator="\n",fieldnames=nodes[0].keys()); w.writeheader(); w.writerows(nodes)
     with (OUT/"replication_network_edges.csv").open("w",newline="",encoding="utf-8") as f:
-        w=csv.DictWriter(f,fieldnames=edges[0].keys() if edges else ["source","target","weight_recent_shared_papers"]); w.writeheader(); w.writerows(edges)
+        w=csv.DictWriter(f,lineterminator="\n",fieldnames=edges[0].keys() if edges else ["source","target","weight_recent_shared_papers"]); w.writeheader(); w.writerows(edges)
     (OUT/"replication_community_network.json").write_text(json.dumps({"metadata":{"as_of":AS_OF,"edge_window":f"2021-01-01 through {AS_OF}","node_count":len(nodes),"edge_count":len(edges),"later_addition_retrieval_dates":ADDITION_RETRIEVAL_DATES,"citation_snapshot_note":"Original roster retains September snapshots; later additions use the same publication cutoff but their separately recorded citation retrieval dates."},"nodes":[{"id":n["person"],**n} for n in nodes],"edges":edges},indent=2,ensure_ascii=False))
 
     # Dependency-free GraphML export.
