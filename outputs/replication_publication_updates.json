@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-23",
-    "last_successful_check_date": "2026-10-23",
-    "window_start": "2026-04-16",
-    "window_end": "2026-10-23",
+    "generated_at": "2026-10-24",
+    "last_successful_check_date": "2026-10-24",
+    "window_start": "2026-04-17",
+    "window_end": "2026-10-24",
     "source": "OpenAlex API",
     "retrieval_mode": "live API; all numbered pages; no cached fallback",
     "inclusion_rule": "All indexed works coauthored by roster author IDs within the date window; no title/topic keyword exclusions",
     "researcher_count": 104,
-    "publication_count": 1250,
+    "publication_count": 1249,
     "failed_researchers": [],
     "status_method": "OpenAlex work type plus submittedVersion, acceptedVersion, and publishedVersion location metadata"
   },
@@ -36186,36 +36186,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7154775010"
-      ]
-    },
-    {
-      "publication_date": "2026-04-16",
-      "title": "Cryo-electron tomography of cryo-FIB milled ∆ponB Escherichia coli division site",
-      "status": "Dataset",
-      "venue": "EMPIAR dataset",
-      "venue_type": "repository",
-      "network_researchers": [
-        "Johannes C. Walter"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.6019/empiar-13502",
-      "pmid": "",
-      "url": "https://doi.org/10.6019/empiar-13502",
-      "openalex_id": "https://openalex.org/W7166433694",
-      "open_access_status": "green",
-      "indexed_versions": [
-        "publishedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-06-29T00:00:00",
-      "updated_date": "2026-10-14T16:39:01.820549",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Dataset"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7166433694"
       ]
     }
   ]
