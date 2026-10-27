@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
-    "last_successful_check_date": "2026-10-26",
-    "window_start": "2026-04-19",
-    "window_end": "2026-10-26",
+    "generated_at": "2026-10-27",
+    "last_successful_check_date": "2026-10-27",
+    "window_start": "2026-04-20",
+    "window_end": "2026-10-27",
     "source": "OpenAlex API",
     "retrieval_mode": "live API; all numbered pages; no cached fallback",
     "inclusion_rule": "All indexed works coauthored by roster author IDs within the date window; no title/topic keyword exclusions",
     "researcher_count": 104,
-    "publication_count": 1250,
+    "publication_count": 1249,
     "failed_researchers": [],
     "status_method": "OpenAlex work type plus submittedVersion, acceptedVersion, and publishedVersion location metadata"
   },
@@ -38,7 +38,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-10-24T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Preprint"
@@ -77,6 +77,38 @@
     },
     {
       "publication_date": "2026-10-22",
+      "title": "The rapid delivery of RNase H variants reveals distinct classes of RNA:DNA hybrids",
+      "status": "Journal article",
+      "venue": "The EMBO Journal",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Philippe Pasero"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1038/s44318-026-00949-z",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42907606",
+      "url": "https://doi.org/10.1038/s44318-026-00949-z",
+      "openalex_id": "https://openalex.org/W7223099450",
+      "open_access_status": "gold",
+      "indexed_versions": [
+        "publishedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-22T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; duplicate/version records collapsed by paper title or non-paper identifier, strongest current status retained",
+      "related_statuses": [
+        "Journal article",
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7214210194",
+        "https://openalex.org/W7223099450"
+      ]
+    },
+    {
+      "publication_date": "2026-10-22",
       "title": "RIF1 coordinates the stepwise post-replicative H3K9me3 recovery",
       "status": "Journal article",
       "venue": "Cell Reports",
@@ -92,11 +124,12 @@
       "openalex_id": "https://openalex.org/W7223175607",
       "open_access_status": "gold",
       "indexed_versions": [
-        "publishedVersion"
+        "publishedVersion",
+        "submittedVersion"
       ],
       "openalex_citations": 0,
       "created_date": "2026-10-22T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -119,7 +152,7 @@
         "Thomas D. Petes"
       ],
       "doi": "https://doi.org/10.1016/j.dnarep.2026.103971",
-      "pmid": "",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42925614",
       "url": "https://doi.org/10.1016/j.dnarep.2026.103971",
       "openalex_id": "https://openalex.org/W7223228893",
       "open_access_status": "closed",
@@ -128,7 +161,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-10-23T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -168,35 +201,35 @@
       ]
     },
     {
-      "publication_date": "2026-10-22",
-      "title": "The rapid delivery of RNase H variants reveals distinct classes of RNA:DNA hybrids",
+      "publication_date": "2026-10-21",
+      "title": "Underreporting of sacroiliac joint structural abnormalities on routine abdominal CT in axial spondyloarthritis: a longitudinal workflow analysis",
       "status": "Journal article",
-      "venue": "The EMBO Journal",
+      "venue": "Skeletal Radiology",
       "venue_type": "journal",
       "network_researchers": [
-        "Philippe Pasero"
+        "Hasan Yardimci"
       ],
       "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1038/s44318-026-00949-z",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42907606",
-      "url": "https://doi.org/10.1038/s44318-026-00949-z",
-      "openalex_id": "https://openalex.org/W7223099450",
-      "open_access_status": "gold",
+      "corresponding_network_researchers": [
+        "Hasan Yardimci"
+      ],
+      "doi": "https://doi.org/10.1007/s00256-026-05405-x",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42905150",
+      "url": "https://doi.org/10.1007/s00256-026-05405-x",
+      "openalex_id": "https://openalex.org/W7223092481",
+      "open_access_status": "closed",
       "indexed_versions": [
         "publishedVersion"
       ],
       "openalex_citations": 0,
       "created_date": "2026-10-22T00:00:00",
-      "updated_date": "2026-10-24T09:50:30.924529",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; duplicate/version records collapsed by paper title or non-paper identifier, strongest current status retained",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
-        "Journal article",
-        "Preprint"
+        "Journal article"
       ],
       "related_openalex_records": [
-        "https://openalex.org/W7214210194",
-        "https://openalex.org/W7223099450"
+        "https://openalex.org/W7223092481"
       ]
     },
     {
@@ -224,45 +257,13 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-10-22T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Preprint"
       ],
       "related_openalex_records": [
         "https://openalex.org/W7223081742"
-      ]
-    },
-    {
-      "publication_date": "2026-10-21",
-      "title": "Underreporting of sacroiliac joint structural abnormalities on routine abdominal CT in axial spondyloarthritis: a longitudinal workflow analysis",
-      "status": "Journal article",
-      "venue": "Skeletal Radiology",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Hasan Yardimci"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [
-        "Hasan Yardimci"
-      ],
-      "doi": "https://doi.org/10.1007/s00256-026-05405-x",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42905150",
-      "url": "https://doi.org/10.1007/s00256-026-05405-x",
-      "openalex_id": "https://openalex.org/W7223092481",
-      "open_access_status": "closed",
-      "indexed_versions": [
-        "publishedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-10-22T00:00:00",
-      "updated_date": "2026-10-24T09:50:30.924529",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7223092481"
       ]
     },
     {
@@ -286,13 +287,47 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-10-21T00:00:00",
-      "updated_date": "2026-10-24T09:50:30.924529",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Preprint"
       ],
       "related_openalex_records": [
         "https://openalex.org/W7223056154"
+      ]
+    },
+    {
+      "publication_date": "2026-10-19",
+      "title": "ALYREF binds to poly-ADP-ribose at double strand breaks impairing repair in tumoral cells",
+      "status": "Journal article",
+      "venue": "EMBO Reports",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Andrés Aguilera"
+      ],
+      "senior_or_last_network_researchers": [
+        "Andrés Aguilera"
+      ],
+      "corresponding_network_researchers": [
+        "Andrés Aguilera"
+      ],
+      "doi": "https://doi.org/10.1038/s44319-026-00963-6",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42897308",
+      "url": "https://doi.org/10.1038/s44319-026-00963-6",
+      "openalex_id": "https://openalex.org/W7222957923",
+      "open_access_status": "gold",
+      "indexed_versions": [
+        "publishedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-20T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7222957923"
       ]
     },
     {
@@ -326,37 +361,33 @@
       ]
     },
     {
-      "publication_date": "2026-10-19",
-      "title": "ALYREF binds to poly-ADP-ribose at double strand breaks impairing repair in tumoral cells",
-      "status": "Journal article",
-      "venue": "EMBO Reports",
-      "venue_type": "journal",
+      "publication_date": "2026-10-18",
+      "title": "Determinants of cysteine coverage by chemoproteomics",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
       "network_researchers": [
-        "Andrés Aguilera"
+        "Simon J. Boulton"
       ],
-      "senior_or_last_network_researchers": [
-        "Andrés Aguilera"
-      ],
-      "corresponding_network_researchers": [
-        "Andrés Aguilera"
-      ],
-      "doi": "https://doi.org/10.1038/s44319-026-00963-6",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42897308",
-      "url": "https://doi.org/10.1038/s44319-026-00963-6",
-      "openalex_id": "https://openalex.org/W7222957923",
-      "open_access_status": "gold",
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.10.12.758458",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.10.12.758458",
+      "openalex_id": "https://openalex.org/W7222891947",
+      "open_access_status": "green",
       "indexed_versions": [
-        "publishedVersion"
+        "acceptedVersion"
       ],
       "openalex_citations": 0,
-      "created_date": "2026-10-20T00:00:00",
-      "updated_date": "2026-10-22T09:42:04.148104",
+      "created_date": "2026-10-19T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
-        "Journal article"
+        "Preprint"
       ],
       "related_openalex_records": [
-        "https://openalex.org/W7222957923"
+        "https://openalex.org/W7222891947"
       ]
     },
     {
@@ -413,36 +444,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7222890860"
-      ]
-    },
-    {
-      "publication_date": "2026-10-18",
-      "title": "Determinants of cysteine coverage by chemoproteomics",
-      "status": "Preprint",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "venue_type": "repository",
-      "network_researchers": [
-        "Simon J. Boulton"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.64898/2026.10.12.758458",
-      "pmid": "",
-      "url": "https://doi.org/10.64898/2026.10.12.758458",
-      "openalex_id": "https://openalex.org/W7222891947",
-      "open_access_status": "green",
-      "indexed_versions": [
-        "acceptedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-10-19T00:00:00",
-      "updated_date": "2026-10-23T09:35:12.469056",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Preprint"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7222891947"
       ]
     },
     {
@@ -921,13 +922,43 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-10-16T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
       ],
       "related_openalex_records": [
         "https://openalex.org/W7221999457"
+      ]
+    },
+    {
+      "publication_date": "2026-10-15",
+      "title": "Mechanical characterization of human centromeres",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Ian D. Hickson"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.10.14.759046",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.10.14.759046",
+      "openalex_id": "https://openalex.org/W7222225541",
+      "open_access_status": "green",
+      "indexed_versions": [
+        "acceptedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-16T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7222225541"
       ]
     },
     {
@@ -1407,36 +1438,6 @@
       ]
     },
     {
-      "publication_date": "2026-10-15",
-      "title": "Mechanical characterization of human centromeres",
-      "status": "Preprint",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "venue_type": "repository",
-      "network_researchers": [
-        "Ian D. Hickson"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.64898/2026.10.14.759046",
-      "pmid": "",
-      "url": "https://doi.org/10.64898/2026.10.14.759046",
-      "openalex_id": "https://openalex.org/W7222225541",
-      "open_access_status": "green",
-      "indexed_versions": [
-        "acceptedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-10-16T00:00:00",
-      "updated_date": "2026-10-20T09:52:01.089006",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Preprint"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7222225541"
-      ]
-    },
-    {
       "publication_date": "2026-10-14",
       "title": "Data for EMSL Project 50414 from October 2019",
       "status": "Dataset",
@@ -1518,6 +1519,41 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7221815650"
+      ]
+    },
+    {
+      "publication_date": "2026-10-13",
+      "title": "A role for CIZ1, a Nuclear Matrix Protein Overexpressed in Cancer Cells, in Controlling the Initiation of DNA Replication",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Bruce Stillman"
+      ],
+      "senior_or_last_network_researchers": [
+        "Bruce Stillman"
+      ],
+      "corresponding_network_researchers": [
+        "Bruce Stillman"
+      ],
+      "doi": "https://doi.org/10.64898/2026.10.10.758243",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.10.10.758243",
+      "openalex_id": "https://openalex.org/W7221659539",
+      "open_access_status": "green",
+      "indexed_versions": [
+        "acceptedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-14T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7221659539"
       ]
     },
     {
@@ -1798,41 +1834,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7221728399"
-      ]
-    },
-    {
-      "publication_date": "2026-10-13",
-      "title": "A role for CIZ1, a Nuclear Matrix Protein Overexpressed in Cancer Cells, in Controlling the Initiation of DNA Replication",
-      "status": "Preprint",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "venue_type": "repository",
-      "network_researchers": [
-        "Bruce Stillman"
-      ],
-      "senior_or_last_network_researchers": [
-        "Bruce Stillman"
-      ],
-      "corresponding_network_researchers": [
-        "Bruce Stillman"
-      ],
-      "doi": "https://doi.org/10.64898/2026.10.10.758243",
-      "pmid": "",
-      "url": "https://doi.org/10.64898/2026.10.10.758243",
-      "openalex_id": "https://openalex.org/W7221659539",
-      "open_access_status": "green",
-      "indexed_versions": [
-        "acceptedVersion",
-        "submittedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-10-14T00:00:00",
-      "updated_date": "2026-10-24T09:50:30.924529",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Preprint"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7221659539"
       ]
     },
     {
@@ -3109,6 +3110,68 @@
     },
     {
       "publication_date": "2026-10-09",
+      "title": "The replication checkpoint couples fork progression to the release of transcribed genes from nuclear pores",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Philippe Pasero"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.10.07.757421",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.10.07.757421",
+      "openalex_id": "https://openalex.org/W7221068442",
+      "open_access_status": "green",
+      "indexed_versions": [
+        "acceptedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-10T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7221068442"
+      ]
+    },
+    {
+      "publication_date": "2026-10-09",
+      "title": "Random mtDNA mutagenesis maps genotype-phenotype associations across metabolic contexts and lineages",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Agnel Sfeir"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.10.08.757705",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42926536",
+      "url": "https://doi.org/10.64898/2026.10.08.757705",
+      "openalex_id": "https://openalex.org/W7221176195",
+      "open_access_status": "green",
+      "indexed_versions": [
+        "acceptedVersion",
+        "publishedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-10T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7221176195"
+      ]
+    },
+    {
+      "publication_date": "2026-10-09",
       "title": "Data for EMSL Project 50414 from May 2020",
       "status": "Dataset",
       "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
@@ -3133,36 +3196,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7221140448"
-      ]
-    },
-    {
-      "publication_date": "2026-10-09",
-      "title": "Random mtDNA mutagenesis maps genotype-phenotype associations across metabolic contexts and lineages",
-      "status": "Preprint",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "venue_type": "repository",
-      "network_researchers": [
-        "Agnel Sfeir"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.64898/2026.10.08.757705",
-      "pmid": "",
-      "url": "https://doi.org/10.64898/2026.10.08.757705",
-      "openalex_id": "https://openalex.org/W7221176195",
-      "open_access_status": "green",
-      "indexed_versions": [
-        "acceptedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-10-10T00:00:00",
-      "updated_date": "2026-10-24T09:50:30.924529",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Preprint"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7221176195"
       ]
     },
     {
@@ -3196,33 +3229,33 @@
       ]
     },
     {
-      "publication_date": "2026-10-09",
-      "title": "The replication checkpoint couples fork progression to the release of transcribed genes from nuclear pores",
-      "status": "Preprint",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "venue_type": "repository",
+      "publication_date": "2026-10-08",
+      "title": "Reflections on the early days of the DNA damage response pathway in eukaryotes",
+      "status": "Journal article",
+      "venue": "Genetics",
+      "venue_type": "journal",
       "network_researchers": [
-        "Philippe Pasero"
+        "Stephen J. Elledge"
       ],
       "senior_or_last_network_researchers": [],
       "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.64898/2026.10.07.757421",
-      "pmid": "",
-      "url": "https://doi.org/10.64898/2026.10.07.757421",
-      "openalex_id": "https://openalex.org/W7221068442",
-      "open_access_status": "green",
+      "doi": "https://doi.org/10.1093/genetics/iyag202",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42848853",
+      "url": "https://doi.org/10.1093/genetics/iyag202",
+      "openalex_id": "https://openalex.org/W7221043958",
+      "open_access_status": "hybrid",
       "indexed_versions": [
-        "acceptedVersion"
+        "publishedVersion"
       ],
       "openalex_citations": 0,
-      "created_date": "2026-10-10T00:00:00",
-      "updated_date": "2026-10-15T10:00:46.086208",
+      "created_date": "2026-10-09T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
-        "Preprint"
+        "Journal article"
       ],
       "related_openalex_records": [
-        "https://openalex.org/W7221068442"
+        "https://openalex.org/W7221043958"
       ]
     },
     {
@@ -3247,13 +3280,45 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-07-24T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
       ],
       "related_openalex_records": [
         "https://openalex.org/W7170184841"
+      ]
+    },
+    {
+      "publication_date": "2026-10-08",
+      "title": "ATRX deficiency drives aberrant type I interferon signalling through cGAS-dependent transcriptional dysregulation",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Tom Deegan"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1038/s41467-026-78094-8",
+      "pmid": "",
+      "url": "https://doi.org/10.1038/s41467-026-78094-8",
+      "openalex_id": "https://openalex.org/W7220973690",
+      "open_access_status": "gold",
+      "indexed_versions": [
+        "acceptedVersion",
+        "publishedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 2,
+      "created_date": "2026-10-09T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7220973690"
       ]
     },
     {
@@ -3422,68 +3487,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7220907012"
-      ]
-    },
-    {
-      "publication_date": "2026-10-08",
-      "title": "ATRX deficiency drives aberrant type I interferon signalling through cGAS-dependent transcriptional dysregulation",
-      "status": "Journal article",
-      "venue": "Nature Communications",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Tom Deegan"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1038/s41467-026-78094-8",
-      "pmid": "",
-      "url": "https://doi.org/10.1038/s41467-026-78094-8",
-      "openalex_id": "https://openalex.org/W7220973690",
-      "open_access_status": "gold",
-      "indexed_versions": [
-        "acceptedVersion",
-        "publishedVersion",
-        "submittedVersion"
-      ],
-      "openalex_citations": 2,
-      "created_date": "2026-10-09T00:00:00",
-      "updated_date": "2026-10-23T09:35:12.469056",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7220973690"
-      ]
-    },
-    {
-      "publication_date": "2026-10-08",
-      "title": "Reflections on the early days of the DNA damage response pathway in eukaryotes",
-      "status": "Journal article",
-      "venue": "Genetics",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Stephen J. Elledge"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1093/genetics/iyag202",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42848853",
-      "url": "https://doi.org/10.1093/genetics/iyag202",
-      "openalex_id": "https://openalex.org/W7221043958",
-      "open_access_status": "hybrid",
-      "indexed_versions": [
-        "publishedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-10-09T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7221043958"
       ]
     },
     {
@@ -3880,6 +3883,38 @@
     },
     {
       "publication_date": "2026-10-06",
+      "title": "SLC25A28 is a synthetic lethal vulnerability in nucleotide excision repair-deficient cancers",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Daniel Durocher"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.10.05.756638",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42926615",
+      "url": "https://doi.org/10.64898/2026.10.05.756638",
+      "openalex_id": "https://openalex.org/W7220671839",
+      "open_access_status": "green",
+      "indexed_versions": [
+        "acceptedVersion",
+        "publishedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-07T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7220671839"
+      ]
+    },
+    {
+      "publication_date": "2026-10-06",
       "title": "Data for EMSL Project 50414 from October 2020",
       "status": "Dataset",
       "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
@@ -3988,36 +4023,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7220745113"
-      ]
-    },
-    {
-      "publication_date": "2026-10-06",
-      "title": "SLC25A28 is a synthetic lethal vulnerability in nucleotide excision repair-deficient cancers",
-      "status": "Preprint",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "venue_type": "repository",
-      "network_researchers": [
-        "Daniel Durocher"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.64898/2026.10.05.756638",
-      "pmid": "",
-      "url": "https://doi.org/10.64898/2026.10.05.756638",
-      "openalex_id": "https://openalex.org/W7220671839",
-      "open_access_status": "green",
-      "indexed_versions": [
-        "acceptedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-10-07T00:00:00",
-      "updated_date": "2026-10-10T09:11:00.788812",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Preprint"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7220671839"
       ]
     },
     {
@@ -5896,6 +5901,38 @@
     },
     {
       "publication_date": "2026-10-01",
+      "title": "Proteome-wide C-degron activity profiling connects conditional regulation of the CTLH E3 ligase complex to ribosome biogenesis",
+      "status": "Journal article",
+      "venue": "Molecular Cell",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Stephen J. Elledge"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1016/j.molcel.2026.09.036",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42901160",
+      "url": "https://doi.org/10.1016/j.molcel.2026.09.036",
+      "openalex_id": "https://openalex.org/W7223031700",
+      "open_access_status": "hybrid",
+      "indexed_versions": [
+        "publishedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-21T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; duplicate/version records collapsed by paper title or non-paper identifier, strongest current status retained",
+      "related_statuses": [
+        "Journal article",
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7221044771",
+        "https://openalex.org/W7223031700"
+      ]
+    },
+    {
+      "publication_date": "2026-10-01",
       "title": "Metazoan lagging-strand DNA synthesis is distributive",
       "status": "Journal article",
       "venue": "Cell",
@@ -5919,13 +5956,73 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-10-23T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
       ],
       "related_openalex_records": [
         "https://openalex.org/W7223200448"
+      ]
+    },
+    {
+      "publication_date": "2026-10-01",
+      "title": "H017 Hunting for drugs: repurposing for AMPK targeting in Huntington’s disease",
+      "status": "Conference Abstract",
+      "venue": "Repository / venue not resolved",
+      "venue_type": "",
+      "network_researchers": [
+        "Oscar Fernandez-Capetillo"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1136/jnnp-2026-ehdn.329",
+      "pmid": "",
+      "url": "https://doi.org/10.1136/jnnp-2026-ehdn.329",
+      "openalex_id": "https://openalex.org/W7222965507",
+      "open_access_status": "gold",
+      "indexed_versions": [
+        "publishedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-20T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Conference Abstract"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7222965507"
+      ]
+    },
+    {
+      "publication_date": "2026-10-01",
+      "title": "A genome-scale adaptation map identifies the FANCM-RMI1/2 complex as an opposing modulator of cell fitness upon BRCA1 or BRCA2 loss",
+      "status": "Journal article",
+      "venue": "Molecular Cell",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Massimo Lopes"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1016/j.molcel.2026.09.017",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42838053",
+      "url": "https://doi.org/10.1016/j.molcel.2026.09.017",
+      "openalex_id": "https://openalex.org/W7220704655",
+      "open_access_status": "hybrid",
+      "indexed_versions": [
+        "publishedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-07T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7220704655"
       ]
     },
     {
@@ -6126,98 +6223,6 @@
     },
     {
       "publication_date": "2026-10-01",
-      "title": "Proteome-wide C-degron activity profiling connects conditional regulation of the CTLH E3 ligase complex to ribosome biogenesis",
-      "status": "Journal article",
-      "venue": "Molecular Cell",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Stephen J. Elledge"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1016/j.molcel.2026.09.036",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42901160",
-      "url": "https://doi.org/10.1016/j.molcel.2026.09.036",
-      "openalex_id": "https://openalex.org/W7223031700",
-      "open_access_status": "hybrid",
-      "indexed_versions": [
-        "publishedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-10-21T00:00:00",
-      "updated_date": "2026-10-23T09:35:12.469056",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; duplicate/version records collapsed by paper title or non-paper identifier, strongest current status retained",
-      "related_statuses": [
-        "Journal article",
-        "Preprint"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7221044771",
-        "https://openalex.org/W7223031700"
-      ]
-    },
-    {
-      "publication_date": "2026-10-01",
-      "title": "A genome-scale adaptation map identifies the FANCM-RMI1/2 complex as an opposing modulator of cell fitness upon BRCA1 or BRCA2 loss",
-      "status": "Journal article",
-      "venue": "Molecular Cell",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Massimo Lopes"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1016/j.molcel.2026.09.017",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42838053",
-      "url": "https://doi.org/10.1016/j.molcel.2026.09.017",
-      "openalex_id": "https://openalex.org/W7220704655",
-      "open_access_status": "hybrid",
-      "indexed_versions": [
-        "publishedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-10-07T00:00:00",
-      "updated_date": "2026-10-22T18:32:59.640997",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7220704655"
-      ]
-    },
-    {
-      "publication_date": "2026-10-01",
-      "title": "H017 Hunting for drugs: repurposing for AMPK targeting in Huntington’s disease",
-      "status": "Conference Abstract",
-      "venue": "Repository / venue not resolved",
-      "venue_type": "",
-      "network_researchers": [
-        "Oscar Fernandez-Capetillo"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1136/jnnp-2026-ehdn.329",
-      "pmid": "",
-      "url": "https://doi.org/10.1136/jnnp-2026-ehdn.329",
-      "openalex_id": "https://openalex.org/W7222965507",
-      "open_access_status": "gold",
-      "indexed_versions": [
-        "publishedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-10-20T00:00:00",
-      "updated_date": "2026-10-22T09:42:04.148104",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Conference Abstract"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7222965507"
-      ]
-    },
-    {
-      "publication_date": "2026-10-01",
       "title": "Mechanistic insights into chromatin modulation by the “orphan” remodeler ATRX",
       "status": "Journal article",
       "venue": "Molecular Cell",
@@ -6309,6 +6314,69 @@
     },
     {
       "publication_date": "2026-09-30",
+      "title": "Safety of combining radiation therapy and antibody-drug conjugates in patients with breast cancer: a systematic review and meta-analysis",
+      "status": "Review",
+      "venue": "Radiotherapy and Oncology",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Steve P. Jackson"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1016/j.radonc.2026.111800",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42815776",
+      "url": "https://doi.org/10.1016/j.radonc.2026.111800",
+      "openalex_id": "https://openalex.org/W7214984718",
+      "open_access_status": "hybrid",
+      "indexed_versions": [
+        "publishedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-01T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Review"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7214984718"
+      ]
+    },
+    {
+      "publication_date": "2026-09-30",
+      "title": "Proteasomal surveillance of exposed cysteines",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Stephen J. Elledge"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.09.29.755535",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42856651",
+      "url": "https://doi.org/10.64898/2026.09.29.755535",
+      "openalex_id": "https://openalex.org/W7214963021",
+      "open_access_status": "green",
+      "indexed_versions": [
+        "acceptedVersion",
+        "publishedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-10-01T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7214963021"
+      ]
+    },
+    {
+      "publication_date": "2026-09-30",
       "title": "EXO1 inhibition selectively kills replication repair-deficient cancer cells",
       "status": "Journal article",
       "venue": "NAR Cancer",
@@ -6333,7 +6401,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-10-22T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -6452,69 +6520,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7214976229"
-      ]
-    },
-    {
-      "publication_date": "2026-09-30",
-      "title": "Safety of combining radiation therapy and antibody-drug conjugates in patients with breast cancer: a systematic review and meta-analysis",
-      "status": "Review",
-      "venue": "Radiotherapy and Oncology",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Steve P. Jackson"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1016/j.radonc.2026.111800",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42815776",
-      "url": "https://doi.org/10.1016/j.radonc.2026.111800",
-      "openalex_id": "https://openalex.org/W7214984718",
-      "open_access_status": "hybrid",
-      "indexed_versions": [
-        "publishedVersion",
-        "submittedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-10-01T00:00:00",
-      "updated_date": "2026-10-23T09:35:12.469056",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Review"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7214984718"
-      ]
-    },
-    {
-      "publication_date": "2026-09-30",
-      "title": "Proteasomal surveillance of exposed cysteines",
-      "status": "Preprint",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "venue_type": "repository",
-      "network_researchers": [
-        "Stephen J. Elledge"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.64898/2026.09.29.755535",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42856651",
-      "url": "https://doi.org/10.64898/2026.09.29.755535",
-      "openalex_id": "https://openalex.org/W7214963021",
-      "open_access_status": "green",
-      "indexed_versions": [
-        "acceptedVersion",
-        "publishedVersion",
-        "submittedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-10-01T00:00:00",
-      "updated_date": "2026-10-23T09:35:12.469056",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Preprint"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7214963021"
       ]
     },
     {
@@ -10391,11 +10396,12 @@
       "openalex_id": "https://openalex.org/W7214004310",
       "open_access_status": "gold",
       "indexed_versions": [
-        "publishedVersion"
+        "publishedVersion",
+        "submittedVersion"
       ],
       "openalex_citations": 0,
       "created_date": "2026-09-23T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -14445,11 +14451,12 @@
       "openalex_id": "https://openalex.org/W7213433360",
       "open_access_status": "hybrid",
       "indexed_versions": [
-        "publishedVersion"
+        "publishedVersion",
+        "submittedVersion"
       ],
       "openalex_citations": 0,
       "created_date": "2026-09-17T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -16181,6 +16188,41 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7212453246"
+      ]
+    },
+    {
+      "publication_date": "2026-09-12",
+      "title": "TET2 loss triggers ssDNA gap accumulation and heightened PARP inhibitor sensitivity",
+      "status": "Journal article",
+      "venue": "Nature Communications",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Alessandro Vindigni"
+      ],
+      "senior_or_last_network_researchers": [
+        "Alessandro Vindigni"
+      ],
+      "corresponding_network_researchers": [
+        "Alessandro Vindigni"
+      ],
+      "doi": "https://doi.org/10.1038/s41467-026-77587-w",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42869907",
+      "url": "https://doi.org/10.1038/s41467-026-77587-w",
+      "openalex_id": "https://openalex.org/W7212362448",
+      "open_access_status": "gold",
+      "indexed_versions": [
+        "publishedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-09-13T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7212362448"
       ]
     },
     {
@@ -21585,41 +21627,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7212405612"
-      ]
-    },
-    {
-      "publication_date": "2026-09-12",
-      "title": "TET2 loss triggers ssDNA gap accumulation and heightened PARP inhibitor sensitivity",
-      "status": "Journal article",
-      "venue": "Nature Communications",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Alessandro Vindigni"
-      ],
-      "senior_or_last_network_researchers": [
-        "Alessandro Vindigni"
-      ],
-      "corresponding_network_researchers": [
-        "Alessandro Vindigni"
-      ],
-      "doi": "https://doi.org/10.1038/s41467-026-77587-w",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42869907",
-      "url": "https://doi.org/10.1038/s41467-026-77587-w",
-      "openalex_id": "https://openalex.org/W7212362448",
-      "open_access_status": "gold",
-      "indexed_versions": [
-        "publishedVersion",
-        "submittedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-09-13T00:00:00",
-      "updated_date": "2026-10-21T09:56:26.102985",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7212362448"
       ]
     },
     {
@@ -28474,6 +28481,38 @@
     },
     {
       "publication_date": "2026-09-02",
+      "title": "Changes in the transcriptome and synthetic lethal dependencies following KRAS mutant expression reveal profound tissue specificity",
+      "status": "Journal article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Stephen J. Elledge"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1073/pnas.2614664123",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42685085",
+      "url": "https://doi.org/10.1073/pnas.2614664123",
+      "openalex_id": "https://openalex.org/W7206201164",
+      "open_access_status": "hybrid",
+      "indexed_versions": [
+        "acceptedVersion",
+        "publishedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 1,
+      "created_date": "2026-09-03T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7206201164"
+      ]
+    },
+    {
+      "publication_date": "2026-09-02",
       "title": "Linker Histone H1 Phosphorylation Promotes DNA Damage Repair during Replication Stress",
       "status": "Journal article",
       "venue": "ACS Chemical Biology",
@@ -28505,38 +28544,6 @@
     },
     {
       "publication_date": "2026-09-02",
-      "title": "Changes in the transcriptome and synthetic lethal dependencies following KRAS mutant expression reveal profound tissue specificity",
-      "status": "Journal article",
-      "venue": "Proceedings of the National Academy of Sciences",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Stephen J. Elledge"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1073/pnas.2614664123",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42685085",
-      "url": "https://doi.org/10.1073/pnas.2614664123",
-      "openalex_id": "https://openalex.org/W7206201164",
-      "open_access_status": "hybrid",
-      "indexed_versions": [
-        "acceptedVersion",
-        "publishedVersion",
-        "submittedVersion"
-      ],
-      "openalex_citations": 1,
-      "created_date": "2026-09-03T00:00:00",
-      "updated_date": "2026-10-17T09:40:24.721904",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7206201164"
-      ]
-    },
-    {
-      "publication_date": "2026-09-02",
       "title": "Dataset for: A lethal ORC ATPase mutation is suppressed by alterations in ORC subunits and RNA Pol II transcription components",
       "status": "Dataset",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
@@ -28563,6 +28570,38 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7206203713"
+      ]
+    },
+    {
+      "publication_date": "2026-09-01",
+      "title": "How to grow a filament: Lessons from the RAD51 paralogs toolbox",
+      "status": "Journal article",
+      "venue": "Molecular Cell",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Luca Pellegrini"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [
+        "Luca Pellegrini"
+      ],
+      "doi": "https://doi.org/10.1016/j.molcel.2026.07.037",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42753702",
+      "url": "https://doi.org/10.1016/j.molcel.2026.07.037",
+      "openalex_id": "https://openalex.org/W7213441166",
+      "open_access_status": "closed",
+      "indexed_versions": [
+        "publishedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-09-17T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7213441166"
       ]
     },
     {
@@ -28851,38 +28890,6 @@
       ]
     },
     {
-      "publication_date": "2026-09-01",
-      "title": "How to grow a filament: Lessons from the RAD51 paralogs toolbox",
-      "status": "Journal article",
-      "venue": "Molecular Cell",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Luca Pellegrini"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [
-        "Luca Pellegrini"
-      ],
-      "doi": "https://doi.org/10.1016/j.molcel.2026.07.037",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42753702",
-      "url": "https://doi.org/10.1016/j.molcel.2026.07.037",
-      "openalex_id": "https://openalex.org/W7213441166",
-      "open_access_status": "closed",
-      "indexed_versions": [
-        "publishedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-09-17T00:00:00",
-      "updated_date": "2026-09-23T05:00:35.095934",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7213441166"
-      ]
-    },
-    {
       "publication_date": "2026-08-27",
       "title": "Response of the replisome to araA and araC suggests a mechanism for arabinosyl nucleoside tolerance",
       "status": "Journal article",
@@ -28946,6 +28953,41 @@
     },
     {
       "publication_date": "2026-08-26",
+      "title": "Detection of “hidden” mitotic crossovers by long-read DNA sequencing",
+      "status": "Journal article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Thomas D. Petes"
+      ],
+      "senior_or_last_network_researchers": [
+        "Thomas D. Petes"
+      ],
+      "corresponding_network_researchers": [
+        "Thomas D. Petes"
+      ],
+      "doi": "https://doi.org/10.1073/pnas.2615875123",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42647135",
+      "url": "https://doi.org/10.1073/pnas.2615875123",
+      "openalex_id": "https://openalex.org/W7204245038",
+      "open_access_status": "hybrid",
+      "indexed_versions": [
+        "publishedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 1,
+      "created_date": "2026-08-27T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7204245038"
+      ]
+    },
+    {
+      "publication_date": "2026-08-26",
       "title": "Triptolide sensitizes cancer cells to nucleoside DNA methyltransferase inhibitors through inhibition of DCTPP1-mediated cell-intrinsic resistance",
       "status": "Journal article",
       "venue": "Nature Communications",
@@ -28974,39 +29016,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W4398173759"
-      ]
-    },
-    {
-      "publication_date": "2026-08-26",
-      "title": "Detection of “hidden” mitotic crossovers by long-read DNA sequencing",
-      "status": "Journal article",
-      "venue": "Proceedings of the National Academy of Sciences",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Thomas D. Petes"
-      ],
-      "senior_or_last_network_researchers": [
-        "Thomas D. Petes"
-      ],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1073/pnas.2615875123",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42647135",
-      "url": "https://doi.org/10.1073/pnas.2615875123",
-      "openalex_id": "https://openalex.org/W7204245038",
-      "open_access_status": "hybrid",
-      "indexed_versions": [
-        "publishedVersion",
-        "submittedVersion"
-      ],
-      "openalex_citations": 1,
-      "created_date": "2026-08-27T00:00:00",
-      "updated_date": "2026-10-16T09:59:22.235173",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7204245038"
       ]
     },
     {
@@ -30471,6 +30480,38 @@
     },
     {
       "publication_date": "2026-07-29",
+      "title": "Direct single-molecule visualization of Hsp90-mediated relief of an Hsp70-folding block",
+      "status": "Journal article",
+      "venue": "Science Advances",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Antoine M. van Oijen"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1126/sciadv.aeg5464",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42525750",
+      "url": "https://doi.org/10.1126/sciadv.aeg5464",
+      "openalex_id": "https://openalex.org/W4413824194",
+      "open_access_status": "gold",
+      "indexed_versions": [
+        "acceptedVersion",
+        "publishedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 1,
+      "created_date": "2025-10-10T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W4413824194"
+      ]
+    },
+    {
+      "publication_date": "2026-07-29",
       "title": "TopBP1 condensates orchestrate nuclear actin assembly to ensure genome stability",
       "status": "Preprint",
       "venue": "Research Square",
@@ -30562,38 +30603,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7202382145"
-      ]
-    },
-    {
-      "publication_date": "2026-07-29",
-      "title": "Direct single-molecule visualization of Hsp90-mediated relief of an Hsp70-folding block",
-      "status": "Journal article",
-      "venue": "Science Advances",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Antoine M. van Oijen"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1126/sciadv.aeg5464",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42525750",
-      "url": "https://doi.org/10.1126/sciadv.aeg5464",
-      "openalex_id": "https://openalex.org/W4413824194",
-      "open_access_status": "gold",
-      "indexed_versions": [
-        "acceptedVersion",
-        "publishedVersion",
-        "submittedVersion"
-      ],
-      "openalex_citations": 1,
-      "created_date": "2025-10-10T00:00:00",
-      "updated_date": "2026-09-24T07:57:37.273135",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W4413824194"
       ]
     },
     {
@@ -31628,7 +31637,7 @@
       ],
       "openalex_citations": 3,
       "created_date": "2026-07-10T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -31916,7 +31925,7 @@
       ],
       "openalex_citations": 3,
       "created_date": "2026-07-03T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -32714,7 +32723,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2025-10-10T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -33593,6 +33602,39 @@
     },
     {
       "publication_date": "2026-06-10",
+      "title": "Bacillus subtilis DnaB forms multiple protein–protein interactions essential for DNA replication initiation",
+      "status": "Journal article",
+      "venue": "Nucleic Acids Research",
+      "venue_type": "journal",
+      "network_researchers": [
+        "Heath Murray"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.1093/nar/gkag630",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42391047",
+      "url": "https://doi.org/10.1093/nar/gkag630",
+      "openalex_id": "https://openalex.org/W7167096614",
+      "open_access_status": "gold",
+      "indexed_versions": [
+        "publishedVersion",
+        "submittedVersion"
+      ],
+      "openalex_citations": 1,
+      "created_date": "2026-07-03T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; duplicate/version records collapsed by paper title or non-paper identifier, strongest current status retained",
+      "related_statuses": [
+        "Article",
+        "Journal article"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7167096614",
+        "https://openalex.org/W7221918455"
+      ]
+    },
+    {
+      "publication_date": "2026-06-10",
       "title": "A modular framework for automated segmentation and analysis of AFM imaging of chromatin organization",
       "status": "Journal article",
       "venue": "Nucleic Acids Research",
@@ -33623,39 +33665,6 @@
       ]
     },
     {
-      "publication_date": "2026-06-10",
-      "title": "Bacillus subtilis DnaB forms multiple protein–protein interactions essential for DNA replication initiation",
-      "status": "Journal article",
-      "venue": "Nucleic Acids Research",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Heath Murray"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1093/nar/gkag630",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42391047",
-      "url": "https://doi.org/10.1093/nar/gkag630",
-      "openalex_id": "https://openalex.org/W7167096614",
-      "open_access_status": "gold",
-      "indexed_versions": [
-        "publishedVersion",
-        "submittedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-07-03T00:00:00",
-      "updated_date": "2026-09-24T07:57:37.273135",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions; duplicate/version records collapsed by paper title or non-paper identifier, strongest current status retained",
-      "related_statuses": [
-        "Article",
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7167096614",
-        "https://openalex.org/W7221918455"
-      ]
-    },
-    {
       "publication_date": "2026-06-08",
       "title": "Targeting cancer-specific mutations with RNA-triggered chromatin shredding",
       "status": "Journal article",
@@ -33677,7 +33686,7 @@
       ],
       "openalex_citations": 7,
       "created_date": "2026-06-09T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -34270,6 +34279,38 @@
     },
     {
       "publication_date": "2026-05-29",
+      "title": "CryoEM raw movies of human nucleosome core particle in nuclear extract",
+      "status": "Dataset",
+      "venue": "EMPIAR dataset",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Luca Pellegrini"
+      ],
+      "senior_or_last_network_researchers": [
+        "Luca Pellegrini"
+      ],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.6019/empiar-13614",
+      "pmid": "",
+      "url": "https://doi.org/10.6019/empiar-13614",
+      "openalex_id": "https://openalex.org/W7166682346",
+      "open_access_status": "green",
+      "indexed_versions": [
+        "publishedVersion"
+      ],
+      "openalex_citations": 0,
+      "created_date": "2026-07-01T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Dataset"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7166682346"
+      ]
+    },
+    {
+      "publication_date": "2026-05-29",
       "title": "DeepDiffusion: a Physics-Informed Neural Network for Heterogeneous Facilitated 1D Diffusion",
       "status": "Preprint",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
@@ -34300,38 +34341,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7162853309"
-      ]
-    },
-    {
-      "publication_date": "2026-05-29",
-      "title": "CryoEM raw movies of human nucleosome core particle in nuclear extract",
-      "status": "Dataset",
-      "venue": "EMPIAR dataset",
-      "venue_type": "repository",
-      "network_researchers": [
-        "Luca Pellegrini"
-      ],
-      "senior_or_last_network_researchers": [
-        "Luca Pellegrini"
-      ],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.6019/empiar-13614",
-      "pmid": "",
-      "url": "https://doi.org/10.6019/empiar-13614",
-      "openalex_id": "https://openalex.org/W7166682346",
-      "open_access_status": "green",
-      "indexed_versions": [
-        "publishedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-07-01T00:00:00",
-      "updated_date": "2026-07-01T06:29:00.853634",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Dataset"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7166682346"
       ]
     },
     {
@@ -34580,7 +34589,7 @@
       ],
       "openalex_citations": 7,
       "created_date": "2026-05-23T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -34793,7 +34802,7 @@
       ],
       "openalex_citations": 1,
       "created_date": "2026-05-21T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -34872,6 +34881,36 @@
     },
     {
       "publication_date": "2026-05-19",
+      "title": "The accumulation of orphan ribosomal proteins is a hallmark of ALS",
+      "status": "Preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Oscar Fernandez-Capetillo"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.64898/2026.05.18.725994",
+      "pmid": "",
+      "url": "https://doi.org/10.64898/2026.05.18.725994",
+      "openalex_id": "https://openalex.org/W7161731581",
+      "open_access_status": "green",
+      "indexed_versions": [
+        "acceptedVersion"
+      ],
+      "openalex_citations": 1,
+      "created_date": "2026-05-20T00:00:00",
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Preprint"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7161731581"
+      ]
+    },
+    {
+      "publication_date": "2026-05-19",
       "title": "Topological stress regulates replication fork dynamics in unperturbed S phase",
       "status": "Journal article",
       "venue": "Nature Communications",
@@ -34930,36 +34969,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7161626594"
-      ]
-    },
-    {
-      "publication_date": "2026-05-19",
-      "title": "The accumulation of orphan ribosomal proteins is a hallmark of ALS",
-      "status": "Preprint",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "venue_type": "repository",
-      "network_researchers": [
-        "Oscar Fernandez-Capetillo"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.64898/2026.05.18.725994",
-      "pmid": "",
-      "url": "https://doi.org/10.64898/2026.05.18.725994",
-      "openalex_id": "https://openalex.org/W7161731581",
-      "open_access_status": "green",
-      "indexed_versions": [
-        "acceptedVersion"
-      ],
-      "openalex_citations": 1,
-      "created_date": "2026-05-20T00:00:00",
-      "updated_date": "2026-10-13T10:08:12.033832",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Preprint"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7161731581"
       ]
     },
     {
@@ -35207,7 +35216,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-05-15T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -35238,7 +35247,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-05-15T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -35335,9 +35344,9 @@
         "publishedVersion",
         "submittedVersion"
       ],
-      "openalex_citations": 1,
+      "openalex_citations": 2,
       "created_date": "2026-05-14T00:00:00",
-      "updated_date": "2026-10-24T09:50:30.924529",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -35939,7 +35948,7 @@
       ],
       "openalex_citations": 11,
       "created_date": "2026-04-24T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -36001,7 +36010,7 @@
       ],
       "openalex_citations": 0,
       "created_date": "2026-04-22T00:00:00",
-      "updated_date": "2026-10-25T09:29:13.331239",
+      "updated_date": "2026-10-26T11:51:55.731654",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -36195,36 +36204,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7213755011"
-      ]
-    },
-    {
-      "publication_date": "2026-04-19",
-      "title": "Unraveling Bloom Helicase role downstream of Nucleotide Excision Repair for ssDNA formation and DNA Damage Checkpoint activation",
-      "status": "Conference Paper",
-      "venue": "Archivio Istituzionale della Ricerca (Universita Degli Studi Di Milano)",
-      "venue_type": "repository",
-      "network_researchers": [
-        "Marco Muzi-Falconi"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "",
-      "pmid": "",
-      "url": "https://www.stevejacksonlab.org/conferences/2026/4/19/12th-quinquennial-conference-on-dna-repair-responses-to-dna-damage-egmond-aan-zee-netherlands",
-      "openalex_id": "https://openalex.org/W7161099347",
-      "open_access_status": "green",
-      "indexed_versions": [
-        "submittedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-05-14T00:00:00",
-      "updated_date": "2026-10-12T09:40:04.860316",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Conference Paper"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7161099347"
       ]
     }
   ]
