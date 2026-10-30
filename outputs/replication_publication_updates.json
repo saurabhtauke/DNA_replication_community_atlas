@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-29",
-    "last_successful_check_date": "2026-10-29",
-    "window_start": "2026-04-22",
-    "window_end": "2026-10-29",
+    "generated_at": "2026-10-30",
+    "last_successful_check_date": "2026-10-30",
+    "window_start": "2026-04-23",
+    "window_end": "2026-10-30",
     "source": "OpenAlex API",
     "retrieval_mode": "live API; all numbered pages; no cached fallback",
     "inclusion_rule": "All indexed works coauthored by roster author IDs within the date window; no title/topic keyword exclusions",
     "researcher_count": 104,
-    "publication_count": 1255,
+    "publication_count": 1252,
     "failed_researchers": [],
     "status_method": "OpenAlex work type plus submittedVersion, acceptedVersion, and publishedVersion location metadata"
   },
@@ -36231,97 +36231,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W4408279937"
-      ]
-    },
-    {
-      "publication_date": "2026-04-22",
-      "title": "Structural insight into how RAD51 paralog exchange regulates RAD51 filament formation",
-      "status": "Journal article",
-      "venue": "Nature Structural & Molecular Biology",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Eric C. Greene",
-        "Maria Jasin"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1038/s41594-026-01796-6",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42020761",
-      "url": "https://doi.org/10.1038/s41594-026-01796-6",
-      "openalex_id": "https://openalex.org/W7155219142",
-      "open_access_status": "hybrid",
-      "indexed_versions": [
-        "publishedVersion"
-      ],
-      "openalex_citations": 6,
-      "created_date": "2026-04-23T00:00:00",
-      "updated_date": "2026-10-29T09:56:32.521200",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7155219142"
-      ]
-    },
-    {
-      "publication_date": "2026-04-22",
-      "title": "High growth rates can promote persister cell formation in Pseudomonas aeruginosa",
-      "status": "Journal article",
-      "venue": "Proceedings of the Royal Society B Biological Sciences",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Stephan Uphoff"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1098/rspb.2025.3285",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42014073",
-      "url": "https://doi.org/10.1098/rspb.2025.3285",
-      "openalex_id": "https://openalex.org/W7155086395",
-      "open_access_status": "hybrid",
-      "indexed_versions": [
-        "publishedVersion"
-      ],
-      "openalex_citations": 0,
-      "created_date": "2026-04-22T00:00:00",
-      "updated_date": "2026-10-27T15:51:10.671819",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7155086395"
-      ]
-    },
-    {
-      "publication_date": "2026-04-22",
-      "title": "Clock-like mutational signatures: Linking ageing to endogenous cancer risk",
-      "status": "Review",
-      "venue": "Ageing Research Reviews",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Wojciech Niedzwiedz"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1016/j.arr.2026.103147",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42031320",
-      "url": "https://doi.org/10.1016/j.arr.2026.103147",
-      "openalex_id": "https://openalex.org/W7155207362",
-      "open_access_status": "closed",
-      "indexed_versions": [
-        "publishedVersion"
-      ],
-      "openalex_citations": 1,
-      "created_date": "2026-04-23T00:00:00",
-      "updated_date": "2026-10-14T16:39:01.820549",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Review"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7155207362"
       ]
     }
   ]
