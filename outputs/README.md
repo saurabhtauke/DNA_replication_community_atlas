@@ -1,8 +1,8 @@
 # DNA Replication Researchers Survey
 
-Ranking evidence refreshed: **21 October 2026**; roster extended **21 October 2026**
+Ranking evidence refreshed: **1 November 2026**; roster extended **21 October 2026**
 
-Recent window: **1 January 2021–21 October 2026**
+Recent window: **1 January 2021–1 November 2026**
 
 This release contains a curated, globally distributed survey of **101 ranking-eligible active researchers/PIs** in DNA replication and closely coupled fork-stress/repair biology, plus **3 explicitly unranked requested researchers** (Jacob S. Lewis, Lisanne Spenkelink, and Thomas C. R. Miller). Gheorghe Chistol (Stanford) was added as a ranked rising/recent leader on 21 October 2026; nobody was removed. Joseph Yeeles, Tom Deegan, and Christoph Kurat remain ranked; all previously requested names remain present.
 
