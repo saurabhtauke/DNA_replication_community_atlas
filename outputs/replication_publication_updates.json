@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-11-06",
-    "last_successful_check_date": "2026-11-06",
-    "window_start": "2026-04-30",
-    "window_end": "2026-11-06",
+    "generated_at": "2026-11-07",
+    "last_successful_check_date": "2026-11-07",
+    "window_start": "2026-05-01",
+    "window_end": "2026-11-07",
     "source": "OpenAlex API",
     "retrieval_mode": "live API; all numbered pages; no cached fallback",
     "inclusion_rule": "All indexed works coauthored by roster author IDs within the date window; no title/topic keyword exclusions",
