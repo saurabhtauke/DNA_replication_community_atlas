@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-12",
-    "last_successful_check_date": "2026-11-12",
-    "window_start": "2026-05-06",
-    "window_end": "2026-11-12",
+    "generated_at": "2026-11-13",
+    "last_successful_check_date": "2026-11-13",
+    "window_start": "2026-05-07",
+    "window_end": "2026-11-13",
     "source": "OpenAlex API",
     "retrieval_mode": "live API; all numbered pages; no cached fallback",
     "inclusion_rule": "All indexed works coauthored by roster author IDs within the date window; no title/topic keyword exclusions",
     "researcher_count": 104,
-    "publication_count": 333,
+    "publication_count": 332,
     "failed_researchers": [],
     "status_method": "OpenAlex work type plus submittedVersion, acceptedVersion, and publishedVersion location metadata"
   },
@@ -10445,34 +10445,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7160491290"
-      ]
-    },
-    {
-      "publication_date": "2026-05-06",
-      "title": "Metazoan Lagging Strand DNA Synthesis is Distributive",
-      "status": "Other",
-      "venue": "Stanford Digital Repository",
-      "venue_type": "repository",
-      "network_researchers": [
-        "Gheorghe Chistol"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.25740/sq803bx0564",
-      "pmid": "",
-      "url": "https://doi.org/10.25740/sq803bx0564",
-      "openalex_id": "https://openalex.org/W7160400045",
-      "open_access_status": "green",
-      "indexed_versions": [],
-      "openalex_citations": 0,
-      "created_date": "2026-05-07T00:00:00",
-      "updated_date": "2026-10-28T10:33:24.094632",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Other"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7160400045"
       ]
     }
   ]
