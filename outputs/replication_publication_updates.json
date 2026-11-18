@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-17",
-    "last_successful_check_date": "2026-11-17",
-    "window_start": "2026-05-11",
-    "window_end": "2026-11-17",
+    "generated_at": "2026-11-18",
+    "last_successful_check_date": "2026-11-18",
+    "window_start": "2026-05-12",
+    "window_end": "2026-11-18",
     "source": "OpenAlex API",
     "retrieval_mode": "live API; all numbered pages; no cached fallback",
     "inclusion_rule": "All indexed works coauthored by roster author IDs within the date window; no title/topic keyword exclusions",
     "researcher_count": 104,
-    "publication_count": 346,
+    "publication_count": 345,
     "failed_researchers": [],
     "status_method": "OpenAlex work type plus submittedVersion, acceptedVersion, and publishedVersion location metadata"
   },
@@ -60,11 +60,12 @@
       "openalex_id": "https://openalex.org/W7225999960",
       "open_access_status": "gold",
       "indexed_versions": [
-        "publishedVersion"
+        "publishedVersion",
+        "submittedVersion"
       ],
       "openalex_citations": 0,
       "created_date": "2026-11-14T00:00:00",
-      "updated_date": "2026-11-17T12:49:18.490984",
+      "updated_date": "2026-11-18T13:11:19.462570",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -3724,7 +3725,7 @@
       ],
       "openalex_citations": 1,
       "created_date": "2026-09-06T00:00:00",
-      "updated_date": "2026-11-17T12:49:18.490984",
+      "updated_date": "2026-11-18T13:11:19.462570",
       "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
       "related_statuses": [
         "Journal article"
@@ -8233,6 +8234,34 @@
     },
     {
       "publication_date": "2026-06-21",
+      "title": "CREPAS: a reproducible nascent chromatin sequencing analysis pipeline for epigenome replication studies.",
+      "status": "Software",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "venue_type": "repository",
+      "network_researchers": [
+        "Anja Groth"
+      ],
+      "senior_or_last_network_researchers": [],
+      "corresponding_network_researchers": [],
+      "doi": "https://doi.org/10.5281/zenodo.20788108",
+      "pmid": "",
+      "url": "https://doi.org/10.5281/zenodo.20788108",
+      "openalex_id": "https://openalex.org/W7165475366",
+      "open_access_status": "green",
+      "indexed_versions": [],
+      "openalex_citations": 0,
+      "created_date": "2026-06-22T00:00:00",
+      "updated_date": "2026-11-18T13:11:19.462570",
+      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
+      "related_statuses": [
+        "Software"
+      ],
+      "related_openalex_records": [
+        "https://openalex.org/W7165475366"
+      ]
+    },
+    {
+      "publication_date": "2026-06-21",
       "title": "smDeepFLUOR: single-molecule deep learning fluorescence classification",
       "status": "Journal article",
       "venue": "Nature Communications",
@@ -8260,34 +8289,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W4412396896"
-      ]
-    },
-    {
-      "publication_date": "2026-06-21",
-      "title": "CREPAS: a reproducible nascent chromatin sequencing analysis pipeline for epigenome replication studies.",
-      "status": "Software",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "venue_type": "repository",
-      "network_researchers": [
-        "Anja Groth"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.5281/zenodo.20788108",
-      "pmid": "",
-      "url": "https://doi.org/10.5281/zenodo.20788108",
-      "openalex_id": "https://openalex.org/W7165475366",
-      "open_access_status": "green",
-      "indexed_versions": [],
-      "openalex_citations": 0,
-      "created_date": "2026-06-22T00:00:00",
-      "updated_date": "2026-11-14T11:04:58.165337",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Software"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7165475366"
       ]
     },
     {
@@ -10841,37 +10842,6 @@
       ],
       "related_openalex_records": [
         "https://openalex.org/W7160994278"
-      ]
-    },
-    {
-      "publication_date": "2026-05-11",
-      "title": "Condensin I but not Condensin II is crucial for mitotic chromosome mechanics",
-      "status": "Journal article",
-      "venue": "Nature Communications",
-      "venue_type": "journal",
-      "network_researchers": [
-        "Ian D. Hickson"
-      ],
-      "senior_or_last_network_researchers": [],
-      "corresponding_network_researchers": [],
-      "doi": "https://doi.org/10.1038/s41467-026-72825-7",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42115596",
-      "url": "https://doi.org/10.1038/s41467-026-72825-7",
-      "openalex_id": "https://openalex.org/W7160820180",
-      "open_access_status": "gold",
-      "indexed_versions": [
-        "publishedVersion",
-        "submittedVersion"
-      ],
-      "openalex_citations": 3,
-      "created_date": "2026-05-12T00:00:00",
-      "updated_date": "2026-11-17T12:49:18.490984",
-      "source_note": "OpenAlex author-ID match; version/status inferred from OpenAlex work type and location versions",
-      "related_statuses": [
-        "Journal article"
-      ],
-      "related_openalex_records": [
-        "https://openalex.org/W7160820180"
       ]
     }
   ]
